@@ -1,0 +1,11 @@
+digraph RuleEdge_SCC__view__view_animation__view_inputmethod_pdg { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+2[ label="android.view.animation(24)"];
+1[ label="android.view.inputmethod(14)"];
+0[ label="android.view(77)"];
+0->2[color="black", arrowhead="vee", label = "7:0:5"];
+0->1[color="black", arrowhead="vee", label = "2:0:2"];
+1->0[color="black", arrowhead="vee", label = "7:0:3"];
+2->0[color="black", arrowhead="vee", label = "2:0:1"]
+}

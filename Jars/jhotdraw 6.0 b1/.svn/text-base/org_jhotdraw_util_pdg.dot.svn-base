@@ -1,0 +1,12 @@
+digraph org_jhotdraw_util_pdg { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+2[ label="org.jhotdraw.standard:1(103)"];
+1[ label="org.jhotdraw.framework:1(26)"];
+0[ label="org.jhotdraw.util:3(49)\n.(43),collections.jdk11(5),collections.jdk12(1)"];
+0->2[color="red",  arrowhead="odot", style="dotted", label = "10:3:8"];
+0->1[color="red",  arrowhead="odot", style="dotted", label = "39:5:16"];
+1->0[color="black", arrowhead="vee", label = "7:0:3"];
+2->1[color="red",  arrowhead="odot", style="dotted", label = "384:63:25"];
+2->0[color="red",  arrowhead="odot", style="dotted", label = "119:43:19"]
+}

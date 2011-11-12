@@ -1,0 +1,14 @@
+package experiments
+import projects._
+
+class FindbugsStudy  extends PackageCycleAnalysis {
+	override def  getViolationMap: Map[String, List[String]]  =  Map[String, List[String]]()
+	
+}
+
+object FindbugsStudy {
+	def main(args : Array[String]) : Unit = {
+		Project.proj = new FindbugsCase
+		(new FindbugsStudy).run
+	}
+}

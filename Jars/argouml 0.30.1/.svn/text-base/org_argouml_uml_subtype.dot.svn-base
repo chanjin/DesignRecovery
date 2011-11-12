@@ -1,0 +1,58 @@
+digraph org_argouml_uml_subtype { 
+fontname=Skia; 
+ fontsize=16; 
+edge [fontname=Skia, fontsize = 10];subgraph cluster4	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.ui:2(120)";
+style=filled;
+17[ label="UndoableAction"];
+}
+ subgraph cluster3	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.uml:0(29)";
+style=filled;
+7[ label="SettingsTypes$BooleanSelection"];
+1[ label="SettingsTypes$UniqueSelection"];
+21[ label="ImportSettings"];
+5[ label="SettingsTypes$Setting"];
+3[ label="SettingsTypes$Setting2"];
+15[ label="SettingsTypes$PathSelection"];
+19[ label="ImportSettingsInternal"];
+23[ label="SettingsTypes$PathListSelection"];
+}
+ subgraph cluster2	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.uml:1(17)";
+style=filled;
+14[ label="Setting$PathSelection"];
+6[ label="Setting$BooleanSelection"];
+4[ label="Setting"];
+22[ label="Setting$PathListSelection"];
+0[ label="Setting$UniqueSelection"];
+}
+ subgraph cluster1	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.uml:2(6)";
+style=filled;
+20[ label="ImportCommon"];
+}
+ subgraph cluster0	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.uml:3(12)";
+style=filled;
+16[ label="ActionAddStereotype"];
+12[ label="Import"];
+}
+0->1[color="red",  arrowhead="odot", style="dotted", label = "O: "];
+4->3[color="red",  arrowhead="odot", style="dotted", label = "O: "];
+4->5[color="red",  arrowhead="odot", style="dotted", label = "O: "];
+6->7[color="red",  arrowhead="odot", style="dotted", label = "O: "];
+12->20[color="red",  arrowhead="odot", style="dotted", label = "I,O: "];
+12->19[color="red",  arrowhead="odot", style="dotted", label = "O: "];
+12->21[color="red",  arrowhead="odot", style="dotted", label = "O: "];
+14->15[color="red",  arrowhead="odot", style="dotted", label = "O: "];
+16->17[color="red",  arrowhead="odot", style="dotted", label = "I,O: "];
+20->19[color="red",  arrowhead="odot", style="dotted", label = "O: "];
+20->21[color="red",  arrowhead="odot", style="dotted", label = "O: "];
+22->23[color="red",  arrowhead="odot", style="dotted", label = "O: "]
+}

@@ -1,0 +1,91 @@
+package constructor
+import module._
+import org.apache.bcel.util.Repository
+
+object GraphConstructor {
+	
+	def constructTypeStructure(path: String): (TypeStructure, PackageStructure)  = {
+		var tdg = new TypeStructure
+		var pdg = new PackageStructure(tdg)
+		
+		
+		import kr.ac.snu.selab.sepa.bcel.TypeAnalyzer
+		import org.apache.bcel.classfile._
+		import java.io.File
+		import bcel._
+		
+		
+		def isFromJar(path: String): Boolean = path.endsWith(".jar")
+		val analyzer = new TypeAnalyzer
+		val types: List[JavaClass] =
+			( if (!isFromJar(path)) analyzer.getJavaClasses(new File(path)).toList.map(_.asInstanceOf[JavaClass])
+					else {
+						if (projects.Project.get.additionalJars.length > 0 ) {
+							val jars: Array[String] = ( path :: projects.Project.get.additionalJars ).toArray
+							println(jars(0) + ", " + jars(1))
+							analyzer.getJavaClassesFromJar(jars).toList.map(_.asInstanceOf[JavaClass])
+						}
+						else
+							analyzer.getJavaClassesFromJar(path).toList.map(_.asInstanceOf[JavaClass])
+					})
+					
+		
+		// println("--------")
+		
+		val repository = analyzer.getRepository 
+		
+		for (clazz <- types ) {
+			tdg.addNode(clazz.getClassName)
+			val pkg = pdg.addNode(clazz.getPackageName)
+			pdg.addTypeNode(pkg, clazz.getClassName)
+		}
+	
+		
+		val nodes2analyze =  types.map(_.getClassName)
+		
+		ClassInformation.setRepo(repository)
+		
+		import TypeDepKind._
+		for (clazz <- types ) {
+			val structuraldeps = ClassInformation.getStructuralDependents(clazz)
+			val parent = ClassInformation.getSuperClass(clazz)
+			if ( parent != null && nodes2analyze.contains(parent.getClassName) ) {
+				val e = tdg.addSimpleEdge(clazz.getClassName, parent.getClassName, TypeDepKind.ParentDep)
+			}
+			val parentInterfaces = ClassInformation.getInterfaces(clazz).toList.filter(cls => tdg.getNode(cls.getClassName) != null )
+			parentInterfaces.foreach(itf => tdg.addSimpleEdge(clazz.getClassName, itf.getClassName, TypeDepKind.ParentDep))
+			
+			
+			val dependents = ClassInformation.getDependentClasses(clazz).filter(nodes2analyze.contains(_))
+			val ancestors =ClassInformation.getAncestors(clazz).filter(ancestor => nodes2analyze.contains(ancestor.getClassName))
+			val overridings = ancestors.map( a => (a.getClassName, ClassInformation.getOverridingMethods(clazz, a))).filter(ov => ov._2.length > 0 )
+			val overridingAncestors = overridings.map(_._1)
+			
+			(structuraldeps ::: dependents).removeDuplicates.filter(t => nodes2analyze.contains(t) && !overridingAncestors.contains(t)).foreach(dep => 
+				tdg.addSimpleEdge(clazz.getClassName, dep,  TypeDepKind.SimpleDep) )
+			
+			overridings.foreach(ov => tdg.addSubtypeEdge(clazz.getClassName, ov._1, ov._2))
+		}
+		pdg.liftEdges()
+		
+		(tdg, pdg)
+	}
+	
+	def toDot(node2id: scala.collection.mutable.Map[String, Int], edges: List[DepEdge], dotname: String): String = {
+		val nodeshape = "node [shape=plaintext, fontname=Skia, fontsize=20];"
+		val edgestyle = "edge [fontname=Skia, fontsize = 10, labelfontname=Skia];"
+		def edgeSimple(e: DepEdge) =  "[color=\"black\", arrowhead=\"vee\", label=\"" + 
+			 ( e.asInstanceOf[SimpleEdge].getDepCode ) + "\"]"
+		def edgeSubtype(e: DepEdge) = "[color=\"red\",  arrowhead=\"odot\", style=\"dotted\", label = \"" +
+			(e.asInstanceOf[SubtypeEdge].getMethods.mkString(",")) + "\"]" 
+		
+		def edgeString(e: DepEdge) : String = (node2id(e.getSource.toString) + "->" + node2id(e.getTarget.toString)) + 
+	 			( if (e.isSubtypeEdge )  edgeSubtype(e)  else edgeSimple(e) ) 
+	 			
+		def edgeStr(edges: List[DepEdge]) = edges.foldLeft(Nil: List[String]) ( (r, e) => edgeString(e) :: r )
+		
+		("digraph " + dotname + " { \n" + nodeshape +  "\n" + edgestyle + "\n"
+	                   + (node2id.foldLeft(Nil: List[String]) ((s, n2id) => ((n2id._2 + " [label = \"" + n2id._1 + "\"")  :: s))).mkString(";\n") + ";\n"
+	                   + edgeStr(edges).mkString(";\n") + "\n}")
+	}
+}

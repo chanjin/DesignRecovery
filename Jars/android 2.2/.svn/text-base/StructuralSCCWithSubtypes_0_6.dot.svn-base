@@ -1,0 +1,20 @@
+digraph StructuralSCCWithSubtypes_0_6 { 
+node [shape=plaintext, fontname=Skia, fontsize=20];
+edge [fontname=Skia, fontsize = 10];
+5[ label=".preference.PreferenceManager"];
+4[ label=".preference.Preference$OnPreferenceChangeListener"];
+3[ label=".preference.Preference$OnPreferenceClickListener"];
+2[ label=".preference.Preference"];
+1[ label=".preference.PreferenceGroup"];
+0[ label=".preference.PreferenceScreen"];
+3->2[color="black", arrowhead="vee", label = ""];
+4->2[color="black", arrowhead="vee", label = ""];
+2->5[color="black", arrowhead="vee", label = ""];
+2->4[color="black", arrowhead="vee", label = ""];
+2->3[color="black", arrowhead="vee", label = ""];
+5->0[color="black", arrowhead="vee", label = ""];
+5->2[color="black", arrowhead="vee", label = ""];
+0->2[color="red",  arrowhead="odot", style="dotted", label = ""];
+0->1[color="red",  arrowhead="odot", style="dotted", label = ""];
+1->2[color="red",  arrowhead="odot", style="dotted", label = ""]
+}

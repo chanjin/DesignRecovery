@@ -1,0 +1,15 @@
+digraph classfile_2_generic_tdg { 
+node [shape=plaintext, fontname=Skia, fontsize=20];
+edge [fontname=Skia, fontsize = 10];
+5[ label="generic.Type(1)"];
+4[ label="classfile.Method(1)"];
+5[ label="generic.Type(1)"];
+2[ label="classfile.JavaClass(1)"];
+5[ label="generic.Type(1)"];
+0[ label="classfile.Field(1)"];
+4->5[color="black", arrowhead="vee", label = "S,C"];
+0->5[color="black", arrowhead="vee", label = "S,C"];
+2->4[color="black", arrowhead="vee", label = "S,C"];
+2->0[color="black", arrowhead="vee", label = "S,C"];
+2->5[color="black", arrowhead="vee", label = "C"]
+}

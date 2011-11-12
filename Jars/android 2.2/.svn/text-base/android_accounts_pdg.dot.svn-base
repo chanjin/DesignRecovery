@@ -1,0 +1,8 @@
+digraph android_accounts_pdg { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+1[ label="android.accounts:1(13)"];
+0[ label="android.content:2(76)\n.(54),pm(22)"];
+0->1[color="black", arrowhead="vee", label = "4:0:1"];
+1->0[color="black", arrowhead="vee", label = "2:0:1"]
+}

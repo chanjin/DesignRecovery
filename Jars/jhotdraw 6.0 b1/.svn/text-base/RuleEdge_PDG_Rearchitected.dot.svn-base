@@ -1,0 +1,57 @@
+digraph RuleEdge_PDG_Rearchitected { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+11[ label="org.jhotdraw.samples.javadraw:1(17)"];
+10[ label="org.jhotdraw.samples.pert:1(5)"];
+9[ label="org.jhotdraw.standard:1(103)"];
+8[ label="org.jhotdraw.samples.nothing:1(2)"];
+7[ label="org.jhotdraw.samples.minimap:1(2)"];
+6[ label="org.jhotdraw.framework:1(26)"];
+5[ label="org.jhotdraw.application:1(12)"];
+4[ label="org.jhotdraw.util:3(49)\n.(43),collections.jdk11(5),collections.jdk12(1)"];
+3[ label="org.jhotdraw.applet:1(4)"];
+2[ label="org.jhotdraw.contrib:4(130)\n.(69),dnd(10),html(38),zoom(13)"];
+1[ label="org.jhotdraw.samples.net:1(2)"];
+0[ label="org.jhotdraw.figures:1(46)"];
+0->9[color="red",  arrowhead="odot", style="dotted", label = "93:36:27"];
+0->6[color="red",  arrowhead="odot", style="dotted", label = "149:30:15"];
+0->4[color="red",  arrowhead="odot", style="dotted", label = "92:33:11"];
+1->5[color="red",  arrowhead="odot", style="dotted", label = "1:1:1"];
+1->6[color="red",  arrowhead="odot", style="dotted", label = "9:1:7"];
+1->9[color="red",  arrowhead="odot", style="dotted", label = "10:2:10"];
+1->0[color="red",  arrowhead="odot", style="dotted", label = "5:2:4"];
+2->4[color="red",  arrowhead="odot", style="dotted", label = "98:34:12"];
+2->6[color="red",  arrowhead="odot", style="dotted", label = "195:30:21"];
+2->9[color="red",  arrowhead="odot", style="dotted", label = "74:41:25"];
+2->0[color="red",  arrowhead="odot", style="dotted", label = "19:8:9"];
+3->4[color="red",  arrowhead="odot", style="dotted", label = "16:2:16"];
+3->6[color="red",  arrowhead="odot", style="dotted", label = "10:2:10"];
+3->9[color="black", arrowhead="vee", label = "9:0:9"];
+4->6[color="red",  arrowhead="odot", style="dotted", label = "39:5:16"];
+5->9[color="red",  arrowhead="odot", style="dotted", label = "27:8:20"];
+5->4[color="red",  arrowhead="odot", style="dotted", label = "28:10:19"];
+5->6[color="red",  arrowhead="odot", style="dotted", label = "22:2:8"];
+5->2[color="red",  arrowhead="odot", style="dotted", label = "6:1:4"];
+7->2[color="red",  arrowhead="odot", style="dotted", label = "4:2:4"];
+7->5[color="red",  arrowhead="odot", style="dotted", label = "1:1:1"];
+8->5[color="red",  arrowhead="odot", style="dotted", label = "1:1:1"];
+8->9[color="black", arrowhead="vee", label = "6:0:3"];
+8->0[color="black", arrowhead="vee", label = "16:0:8"];
+8->6[color="black", arrowhead="vee", label = "8:0:4"];
+8->3[color="red",  arrowhead="odot", style="dotted", label = "1:1:1"];
+9->6[color="red",  arrowhead="odot", style="dotted", label = "384:63:25"];
+9->4[color="red",  arrowhead="odot", style="dotted", label = "119:43:19"];
+10->5[color="red",  arrowhead="odot", style="dotted", label = "1:1:1"];
+10->9[color="red",  arrowhead="odot", style="dotted", label = "16:4:9"];
+10->0[color="red",  arrowhead="odot", style="dotted", label = "12:2:8"];
+10->6[color="red",  arrowhead="odot", style="dotted", label = "22:4:10"];
+10->4[color="red",  arrowhead="odot", style="dotted", label = "4:1:4"];
+10->3[color="red",  arrowhead="odot", style="dotted", label = "1:1:1"];
+11->9[color="red",  arrowhead="odot", style="dotted", label = "21:13:11"];
+11->6[color="red",  arrowhead="odot", style="dotted", label = "51:8:12"];
+11->4[color="red",  arrowhead="odot", style="dotted", label = "21:8:10"];
+11->2[color="red",  arrowhead="odot", style="dotted", label = "20:1:17"];
+11->5[color="red",  arrowhead="odot", style="dotted", label = "1:1:1"];
+11->0[color="black", arrowhead="vee", label = "24:0:13"];
+11->3[color="red",  arrowhead="odot", style="dotted", label = "1:1:1"]
+}

@@ -1,0 +1,68 @@
+digraph android_net_layered { 
+fontname=Skia; 
+ fontsize=16; 
+edge [fontname=Skia, fontsize = 10];
+node [shape=plaintext, fontname=Skia, fontsize=18];
+subgraph cluster3	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.content:2(76)\n.(54),pm(22)";
+34[ label="Entity$NamedContentValues"];
+32[ label="ContentProviderOperation"];
+30[ label="IntentFilter"];
+28[ label="SearchRecentSuggestionsProvider"];
+26[ label="Intent"];
+24[ label="AsyncQueryHandler"];
+22[ label="UriMatcher"];
+20[ label="ContextWrapper"];
+18[ label="ContentProviderClient"];
+41[ label="Context"];
+14[ label="ContentProviderResult"];
+12[ label="AsyncQueryHandler$WorkerArgs"];
+10[ label="IntentFilter$AuthorityEntry"];
+8[ label="ContentUris"];
+43[ label="ContentResolver"];
+2[ label="Entity"];
+0[ label="ContentProvider"];
+}
+ subgraph cluster2	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.net:0(17)";
+7[ label="Uri$Builder"];
+35[ label="Uri"];
+}
+ subgraph cluster1	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.net:1(18)";
+;
+}
+ subgraph cluster0	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.net:2(4)";
+42[ label="AndroidHttpClient"];
+38[ label="SSLSessionCache"];
+36[ label="Proxy"];
+}
+;
+0->35[color="black", arrowhead="vee", label = ""];
+2->35[color="black", arrowhead="vee", label = ""];
+43->35[color="black", arrowhead="vee", label = ""];
+8->7[color="black", arrowhead="vee", label = ""];
+8->35[color="black", arrowhead="vee", label = ""];
+10->35[color="black", arrowhead="vee", label = ""];
+12->35[color="black", arrowhead="vee", label = ""];
+14->35[color="black", arrowhead="vee", label = ""];
+41->35[color="black", arrowhead="vee", label = ""];
+18->35[color="black", arrowhead="vee", label = ""];
+20->35[color="black", arrowhead="vee", label = ""];
+22->35[color="black", arrowhead="vee", label = ""];
+24->35[color="black", arrowhead="vee", label = ""];
+26->35[color="black", arrowhead="vee", label = ""];
+28->35[color="black", arrowhead="vee", label = ""];
+30->35[color="black", arrowhead="vee", label = ""];
+32->35[color="black", arrowhead="vee", label = ""];
+34->35[color="black", arrowhead="vee", label = ""];
+36->41[color="black", arrowhead="vee", label = ""];
+38->41[color="black", arrowhead="vee", label = ""];
+42->41[color="black", arrowhead="vee", label = ""];
+42->43[color="black", arrowhead="vee", label = ""]
+}

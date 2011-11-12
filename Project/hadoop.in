@@ -1,0 +1,35 @@
+
+project  {
+	name = "hadoop"
+	rootpath = "Jars/hadoop 0.20.1/hadoop-0.20.1-core.jar"
+	outputpath = "Jars/hadoop 0.20.1"
+	prefix =  "org.apache.hadoop"
+	reanalysis = "false"
+	additionalJars = ( )
+	removeFewerEdges = "false"
+	
+}
+
+rule violation {
+	"conf" -> ("io")
+	"util" -> ("fs", "io")
+	"io" -> ("fs", "util")
+	"fs" -> ("util", "io")
+}
+
+rule globalTypes {
+
+}
+
+rule ignore {
+	"util": 1, 2 ->  "io": 1, 2
+	"util": 3 ->  "fs": 3 
+	"mapreduce": 2, 4 ->  "mapred": 0, 1, 2, 3, 4
+	"conf": 1 ->  "io": 1
+	"fs": 1, 2, 3, 4 ->  "io": 1, 2, 3
+}
+
+action separation {
+	"io" -> ((0), (1,2,3,4))
+	"mapreduce" -> ((0, 1, 2), (3, 4, 5))
+}

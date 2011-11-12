@@ -1,0 +1,27 @@
+
+project  {
+	name = "argouml"
+	rootpath = "Jars/argouml 0.30.1/argouml.jar"
+	outputpath = "Jars/argouml 0.30.1"
+	prefix = ""
+	
+	additionalJars = ( "Jars/argouml 0.30.1/argouml-model.jar" )
+	removeFewerEdges = "false"
+	
+}
+
+rule violation {
+	
+}
+
+rule globalTypes {
+
+}
+
+rule ignore {
+
+}
+
+action separation {
+
+}

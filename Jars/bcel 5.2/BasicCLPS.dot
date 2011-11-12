@@ -1,0 +1,28 @@
+digraph BasicCLPS { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+5[ label="org.apache.bcel.util:1(17)\n(util:2(4), util:4(2),10)"];
+4[ label="org.apache.bcel:1(46)\n(2(7), 3(3), 4(31),11)"];
+3[ label="org.apache.bcel.generic:1(229)\n(generic:0(7), generic:2(205), generic:3(9),28)"];
+2[ label="org.apache.bcel.classfile:1(56)\n(classfile:0(3), classfile:2(2),15)"];
+1[ label="org.apache.bcel:0(23)"];
+0[ label="org.apache.bcel.util:0(12)"];
+2->1[color="black", arrowhead="vee", label = "8:0:1"];
+2->0[color="red",  arrowhead="odot", style="dotted", label = "9:4:2"];
+2->3[color="black", arrowhead="vee", label = "3:0:1"];
+2->5[color="black", arrowhead="vee", label = "3:0:3"];
+3->0[color="red",  arrowhead="odot", style="dotted", label = "25:3:2"];
+3->2[color="black", arrowhead="vee", label = "77:0:31"];
+3->1[color="black", arrowhead="vee", label = "33:0:2"];
+3->4[color="black", arrowhead="vee", label = "2:0:1"];
+4->3[color="red",  arrowhead="odot", style="dotted", label = "468:7:183"];
+4->1[color="red",  arrowhead="odot", style="dotted", label = "56:6:16"];
+4->2[color="red",  arrowhead="odot", style="dotted", label = "152:8:38"];
+4->5[color="black", arrowhead="vee", label = "2:0:2"];
+4->0[color="black", arrowhead="vee", label = "2:0:2"];
+5->3[color="red",  arrowhead="odot", style="dotted", label = "40:2:32"];
+5->1[color="black", arrowhead="vee", label = "8:0:1"];
+5->2[color="red",  arrowhead="odot", style="dotted", label = "79:2:28"];
+5->0[color="black", arrowhead="vee", label = "4:0:2"];
+5->4[color="black", arrowhead="vee", label = "1:0:1"]
+}

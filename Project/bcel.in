@@ -1,0 +1,35 @@
+
+project  {
+	name = "bcel"
+	rootpath = "Jars/bcel 5.2/bcel-5.2.jar"
+	outputpath = "Jars/bcel 5.2"
+	prefix =  "org.apache.bcel"
+	
+	additionalJars = ( )
+	removeFewerEdges = "false"
+	reanalysis = "true"
+	retainPackages = ( "generic", "util", "classfile" )
+	
+}
+
+rule violation {
+	"classfile" -> ("generic", ".", "util")
+	"generic" -> ("util", ".")
+	 "." -> ("util")
+}
+
+rule globalTypes {
+
+}
+
+rule ignore {
+	"classfile": -1 -> "util": 1, 2, 4 
+	"classfile": -1 ->  "generic": 1
+	"generic": -1 ->  ".": 1
+	"util": -1 ->  ".": 1
+}
+
+action separation {
+	"util" -> ((0), (1,2,4))
+	"." -> ((0), (1, 2, 3, 4))
+}

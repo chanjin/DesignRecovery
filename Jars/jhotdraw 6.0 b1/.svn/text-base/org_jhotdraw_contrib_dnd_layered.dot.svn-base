@@ -1,0 +1,67 @@
+digraph org_jhotdraw_contrib_dnd_layered { 
+fontname=Skia; 
+ fontsize=16; 
+edge [fontname=Skia, fontsize = 10];
+node [shape=plaintext, fontname=Skia, fontsize=18];
+subgraph cluster3	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="org.jhotdraw.standard:1(103)";
+27[ label="DragTracker"];
+35[ label="AbstractTool"];
+46[ label="StandardDrawingView$1"];
+37[ label="FigureEnumerator"];
+33[ label="HandleTracker"];
+29[ label="AWTCursor"];
+39[ label="DeleteFromDrawingVisitor"];
+44[ label="StandardDrawingView"];
+40[ label="SelectionTool"];
+31[ label="SelectAreaTracker"];
+}
+ subgraph cluster2	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="org.jhotdraw.contrib.dnd:0(2)";
+9[ label="DNDFiguresTransferable"];
+45[ label="DNDInterface"];
+}
+ subgraph cluster1	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="org.jhotdraw.contrib.dnd:1(1)";
+36[ label="DNDFigures"];
+}
+ subgraph cluster0	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="org.jhotdraw.contrib.dnd:2(7)";
+20[ label="JHDDropTargetListener$AddUndoActivity"];
+16[ label="DragNDropTool$1"];
+14[ label="JHDDropTargetListener"];
+47[ label="DNDHelper"];
+38[ label="JHDDragSourceListener"];
+24[ label="JHDDragSourceListener$RemoveUndoActivity"];
+41[ label="DragNDropTool"];
+}
+;
+41->45[color="black", arrowhead="vee", label = ""];
+38->9[color="black", arrowhead="vee", label = ""];
+47->9[color="black", arrowhead="vee", label = ""];
+14->9[color="black", arrowhead="vee", label = ""];
+16->9[color="black", arrowhead="vee", label = ""];
+16->45[color="black", arrowhead="vee", label = ""];
+38->36[color="black", arrowhead="vee", label = ""];
+14->36[color="black", arrowhead="vee", label = ""];
+16->36[color="black", arrowhead="vee", label = ""];
+20->37[color="black", arrowhead="vee", label = ""];
+20->39[color="black", arrowhead="vee", label = ""];
+24->37[color="black", arrowhead="vee", label = ""];
+24->39[color="black", arrowhead="vee", label = ""];
+41->27[color="black", arrowhead="vee", label = ""];
+41->29[color="black", arrowhead="vee", label = ""];
+41->31[color="black", arrowhead="vee", label = ""];
+41->33[color="black", arrowhead="vee", label = ""];
+41->35[color="red",  arrowhead="odot", style="dotted", label = ""];
+36->37[color="black", arrowhead="vee", label = ""];
+38->39[color="black", arrowhead="vee", label = ""];
+40->41[color="black", arrowhead="vee", label = ""];
+44->47[color="black", arrowhead="vee", label = ""];
+44->45[color="red",  arrowhead="odot", style="dotted", label = ""];
+46->47[color="red",  arrowhead="odot", style="dotted", label = ""]
+}

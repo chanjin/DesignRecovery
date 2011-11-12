@@ -1,0 +1,26 @@
+package experiments
+import projects._ 
+import module._
+
+class SimplePatternStudy  extends PackageCycleAnalysis {
+
+	override def  getViolationMap: Map[String, List[String]]   =Map[String, List[String]]()
+}
+
+object SimplePatternStudy {
+	def main(args : Array[String]) : Unit = {
+		projects.Project.proj = (new projects.SimplePatternCase)
+		val (tdg: TypeStructure, pdg, lpdg: LayeredPackageStructure) = (new SimplePatternStudy).run
+		
+		Graph2Dot.toDotType(tdg, Project.get.getHomePath + "/TDG")
+		
+		//return
+		
+		import trace._
+		val traceAnalyzer = new TraceAnalyzer(tdg)
+		traceAnalyzer.run(Project.get.getHomePath + "/pattern_Application_main_Method.log", 
+				Project.get.getHomePath+ "/pattern_Application_main_Call.log", lpdg)
+				
+		Graph2Dot.toDotType(tdg, projects.Project.get.getHomePath + "TDG")
+	}
+}

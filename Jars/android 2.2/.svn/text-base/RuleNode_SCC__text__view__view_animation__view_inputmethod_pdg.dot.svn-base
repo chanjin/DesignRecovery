@@ -1,0 +1,14 @@
+digraph RuleNode_SCC__text__view__view_animation__view_inputmethod_pdg { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+3[ label="android.text(45)"];
+2[ label="android.view.animation(24)"];
+1[ label="android.view.inputmethod(14)"];
+0[ label="android.view(77)"];
+0->2[color="black", arrowhead="vee", label = "7:0:5"];
+0->1[color="black", arrowhead="vee", label = "2:0:2"];
+1->3[color="black", arrowhead="vee", label = "3:0:3"];
+1->0[color="black", arrowhead="vee", label = "3:0:2"];
+2->0[color="black", arrowhead="vee", label = "2:0:1"];
+3->0[color="black", arrowhead="vee", label = "1:0:1"]
+}

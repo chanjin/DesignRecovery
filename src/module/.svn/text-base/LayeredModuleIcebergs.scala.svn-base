@@ -1,0 +1,151 @@
+package module
+
+class LayeredModuleIcebergs (lps: LayeredPackageStructure) {
+	val lpstrt = lps
+	class CompactedNode(ln: LayerModuleNode) {
+		val orgModule = ln
+		var modules = ln ::  List[LayerModuleNode]()
+		val pkgname = ln.pkgname
+		var rank =ln.rank
+		override def toString = orgModule + ": " + modules
+	}
+ 
+	var cnodes = List[CompactedNode]()
+
+	var module2node = scala.collection.mutable.Map[LayerModuleNode, CompactedNode]()
+	var p2nmap: scala.collection.mutable.Map[String, List[CompactedNode]] =  scala.collection.mutable.Map[String, List[CompactedNode]]()
+ 
+	var worklist = List[CompactedNode]()
+	// ------
+	def sources(n: CompactedNode) : List[CompactedNode] = 
+		(n.modules.flatMap(_.inedges.map(_.getSource.asInstanceOf[LayerModuleNode])).map(module2node(_))).removeDuplicates.remove(_ == n)
+	def outgoings(n: CompactedNode) : List[CompactedNode]= 
+		(n.modules.flatMap(_.outedges.map(_.getTarget.asInstanceOf[LayerModuleNode])).map(module2node(_))).removeDuplicates.remove(_ == n)
+  
+	private  	def makeCycle(node: CompactedNode, tonode: CompactedNode): Boolean = {
+		val clients = (sources(node) ::: sources(tonode)).removeDuplicates.remove(n => ( n == node || n == tonode))
+		val providers = (outgoings(node) ::: outgoings(tonode)).removeDuplicates.remove(n => ( n == node || n == tonode))
+		
+		( clients.exists(n => providers.contains(n)) )
+	}
+    
+	def icebergsNoIncoming(n: CompactedNode) : CompactedNode = {
+		// n has no incoming edges except same package nodes
+		var tonode: CompactedNode = null
+ 	  	val sourcenodes = sources(n)
+ 	  	var upnodes : List[CompactedNode] = p2nmap(n.pkgname).filter(node => node.rank > n.rank)
+ 	  	if (upnodes.length == 0 ) return null
+ 	  	
+ 	  	tonode = upnodes.tail.foldLeft(upnodes.head)((minnode, node) => (if (minnode.rank > node.rank) node else minnode))
+ 	  	if (tonode == null  || makeCycle(n, tonode) || sourcenodes.exists(_.rank < tonode.rank) ) return null
+     
+ 	  	if (sourcenodes.remove(_.pkgname == n.pkgname).length == 0  ) tonode
+ 	  	else {
+	    	val tonodesources = sources(tonode)
+	    	if ( sourcenodes.remove(_ == tonode).forall(n => tonodesources.contains(n)) ) tonode // if tonode doesnot subsume n
+	    	else null
+ 	  	}
+	}
+ 
+ 	def fallthroughNoIncoming(n: CompactedNode) : CompactedNode = {
+		// n has no incoming edges except same package nodes
+		var tonode: CompactedNode = null
+ 	  	val sourcenodes = sources(n)
+ 	  	var downnodes : List[CompactedNode] = p2nmap(n.pkgname).filter(node => node.rank < n.rank)
+ 	  	if ( downnodes.length == 0 ) return null
+     
+ 	  	tonode = downnodes.tail.foldLeft(downnodes.head)((maxnode, node) => (if (maxnode.rank < node.rank) node else maxnode))
+ 	  	if (tonode == null  || makeCycle(n, tonode) || outgoings(n).exists(_.rank > tonode.rank))  return null
+ 	  	
+ 	  	if (sourcenodes.remove(_.pkgname == n.pkgname).length == 0 ) tonode
+ 	  	else {
+ 	  		val tonodesources = sources(tonode)
+	    	if ( sourcenodes.remove(_ == tonode).forall(n => tonodesources.contains(n)) ) tonode // if tonode doesnot subsume n
+	    	else null
+ 	  	}
+	}
+ 
+	def mergeup(node: CompactedNode, tonode: CompactedNode) : List[CompactedNode] = {
+	   	if ( tonode == null ) return Nil
+	   	cnodes = cnodes.remove(_ ==  node)
+	   	node.modules.foreach(m => (module2node(m) = tonode))
+	   	p2nmap(node.pkgname) = p2nmap(node.pkgname).remove(_ == node)
+     
+ 	  	tonode.modules =node.modules ::: tonode.modules // module merge
+ 	  	//println("** Merged up: " + node.modules + "=> " + tonode.modules)
+ 	  
+ 	  	p2nmap(tonode.pkgname)
+	}
+ 
+	def mergedown(node: CompactedNode, tonode: CompactedNode) : List[CompactedNode] = {
+	   	if ( tonode == null ) return Nil
+	   	cnodes = cnodes.remove(_ ==  node)
+	   	node.modules.foreach(m => (module2node(m) = tonode))
+	   	p2nmap(node.pkgname) = p2nmap(node.pkgname).remove(_ == node)
+     
+ 	  	tonode.modules =node.modules ::: tonode.modules // module merge
+ 	  	//println("** Merged down: " + node.modules + "=> " + tonode.modules)
+ 	  
+ 	  	p2nmap(tonode.pkgname)
+	}
+ 
+	//--------------
+
+	def compactModulesNoIncoming = {
+	  	def sortnodes = 	for ( p <- p2nmap.keys ) 
+			p2nmap(p) = p2nmap(p).sort((p1, p2) => p1.rank < p2.rank)
+	  		
+		for ( ln <- lpstrt.nodes.values) 
+			cnodes = (new CompactedNode(ln.asInstanceOf[LayerModuleNode])) :: cnodes
+    
+		for ( cn <- cnodes ) {
+			if ( !p2nmap.contains(cn.pkgname) ) p2nmap.put(cn.pkgname, cn :: Nil)
+			else p2nmap(cn.pkgname) = cn :: p2nmap(cn.pkgname)
+		}
+
+	  	for ( cn <- cnodes) 
+	  		for (ln <- cn.modules )
+	  			module2node += (ln -> cn)
+		
+		worklist = cnodes
+		while (worklist.length > 0 ) {
+			//println("W-icebergs: " + worklist.length +":" + cnodes.length)
+			//println(worklist.mkString("\n"))
+			//println("--------")
+			var works: List[CompactedNode] = Nil
+			sortnodes
+			for ( cn <- worklist ) {
+				var tonode = icebergsNoIncoming(cn)
+				if ( tonode != null ) 
+					works = mergeup(cn, tonode) ::: works
+			    else {
+			    	tonode = fallthroughNoIncoming(cn)
+			    	if ( tonode != null )
+			    		works =  mergedown(cn, tonode) ::: works
+			    }
+			}
+			if ( works.length > 0 ) worklist = cnodes
+			else worklist = Nil
+			//worklist = works.removeDuplicates
+		}
+	}
+ 
+	// --------------
+ 	def makeLPDG(tdg: TypeStructure ) : LayeredPackageStructure = {
+	   
+	   var result = new LayeredPackageStructure(tdg)
+	   for ( cn <- cnodes ) {
+	     result.addNode(cn.orgModule.value, cn.rank, cn.pkgname, cn.modules)
+	    // println(cn.pkgname + ":" + cn.rank + " - " + cn.modules )
+	   }
+	   result.liftEdges
+	   result
+	}
+ 
+	// -------------
+	def compact(tdg: TypeStructure) : LayeredPackageStructure = {
+		compactModulesNoIncoming
+		makeLPDG(tdg)
+	}
+
+}

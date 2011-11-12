@@ -1,0 +1,93 @@
+package experiments
+import module._
+import util._
+import constructor._
+
+abstract class EvolutionaryCycleAnalysis extends PackageViolationAnalysis {
+
+	var originalHomePath = new String
+	var originalPrefix = new String
+	private def runVersion(version: String) : (TypeStructure, PackageStructure, LayeredPackageStructure) = {
+		val jarfile = originalHomePath + version
+		val path = jarfile.substring(0, jarfile.lastIndexOf(".")) + "/"
+		util.FileOut.makeDirectory(path) // if not existing make dir else remove all files
+		
+		project.rootpath = path
+		
+		(new DepGraphConstructor).loadGraph(project, jarfile)
+		
+		val dgs = GraphFile.load(project.getHomePath + "TypeStructure.lci")
+		Graph2Dot.toDot(dgs._2, project.getHomePath + "PDG_Original_No_Simplification")
+		// SCCwithSubtype.run(dgs._1)
+		SCCwithSubtype.runWithStructural(dgs._1)
+		SubtypeStructures.run(dgs._1)
+		
+	  	val pdg = dgs._2.simplifyStructure
+	  	val tdg = dgs._1
+	  	Graph2Dot.toDot(pdg, project.getHomePath + "PDG_Original")
+	  	
+
+		val lpdg = new LayeredPackageStructure(tdg)
+		lpdg.layeringPackages(pdg)
+		lpdg.liftEdges()
+		layerInformation(lpdg)
+		Graph2Dot.toDot(lpdg, project.getHomePath + "LPS_" + lpdg.nodes.size )
+		Graph2File.toFileModule(lpdg, project.getHomePath + "LPS_" + lpdg.nodes.size)
+
+		ModuleIntersection.run(lpdg, SubtypeStructures.getOverridingTypeGraph(tdg), "SubtypeGraph_Layered")
+
+		val clpdg = (new LayeredModuleIcebergs(lpdg)).compact(tdg)
+		Graph2Dot.toDot(clpdg, project.getHomePath + "CLPS_" + clpdg.nodes.size )
+		
+		///////////////////////////
+		
+		analysisSCC(lpdg, pdg, "Initial_")
+		
+		val cycles = analysisPackages(pdg)
+		val dredges = analysisViolations(lpdg, pdg, cycles) // design rule
+		if ( dredges.length > 0 ) 
+			analyzeDesignRuleEdges(lpdg.tdg, dredges)
+		
+		analyzeDesignRuleClasses(lpdg.tdg)
+		
+		val newpdg = makeNewPackageStructure(pdg, lpdg)
+		if ( newpdg != null )
+			Graph2Dot.toDot(newpdg, project.getHomePath + "NEWPDG") // + newpdg.nodes.size )
+		
+			
+		architectureMetrics(tdg, dgs._2, pdg, lpdg, newpdg, clpdg)
+		
+		(tdg, pdg, lpdg)
+
+	}
+	
+	def run() : (TypeStructure, PackageStructure, LayeredPackageStructure) = {
+		
+		util.FileOut.removeFiles(project.getHomePath, "dot")
+		
+		println("Evolutionary Dependency Analysis")
+		projects.Project.proj = project
+		val prefix = project.prefix
+		Graph2Dot.prefix = prefix
+		assert (project.getVersions.size > 0)
+		
+		//if ( !(new File(project.getHomePath + "TypeStructure.lci")).exists ) {
+		println("generate layer class information")
+		
+		var result = List[(TypeStructure, PackageStructure, LayeredPackageStructure)]()
+		originalHomePath = project.rootpath
+		originalPrefix = project.prefix
+		
+		project.getVersions.foreach( ver => {
+			if ( project.getVersionPrefix.size > 0 ) {
+				Graph2Dot.prefix = project.getVersionPrefix(ver)
+				project.prefix =  project.getVersionPrefix(ver)
+			}
+			
+			result = runVersion(ver) :: result
+		} )
+		
+		project.rootpath = originalHomePath 
+		result.last
+	}
+}

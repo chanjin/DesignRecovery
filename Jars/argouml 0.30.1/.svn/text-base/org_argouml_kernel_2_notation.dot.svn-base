@@ -1,0 +1,19 @@
+digraph org_argouml_kernel_2_notation { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+4[ label="org.argouml.notation:1(23)"];
+3[ label="org.argouml.notation:2(27)"];
+2[ label="org.argouml.notation:3(34)"];
+1[ label="org.argouml.kernel:2(34)"];
+0[ label="org.argouml.notation:0(2)"];
+1->4[color="black", arrowhead="vee", label = "23:0:3"];
+1->0[color="black", arrowhead="vee", label = "1:0:1"];
+2->3[color="red",  arrowhead="odot", style="dotted", label = "25:1:23"];
+2->1[color="black", arrowhead="vee", label = "12:0:3"];
+2->4[color="red",  arrowhead="odot", style="dotted", label = "36:14:7"];
+2->0[color="black", arrowhead="vee", label = "4:0:2"];
+3->4[color="red",  arrowhead="odot", style="dotted", label = "45:26:8"];
+3->0[color="black", arrowhead="vee", label = "5:0:2"];
+3->1[color="black", arrowhead="vee", label = "8:0:2"];
+4->0[color="red",  arrowhead="odot", style="dotted", label = "4:1:1"]
+}

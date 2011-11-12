@@ -1,0 +1,8 @@
+digraph StructuralSCCWithSubtypes_0_2 { 
+node [shape=plaintext, fontname=Skia, fontsize=20];
+edge [fontname=Skia, fontsize = 10];
+1[ label=".standard.AlignCommand$1"];
+0[ label=".standard.AlignCommand$Alignment"];
+0->1[color="black", arrowhead="vee", label = ""];
+1->0[color="red",  arrowhead="odot", style="dotted", label = ""]
+}

@@ -1,0 +1,37 @@
+package experiments
+import projects._
+import module._
+
+class SwingStudy (proj: ProjectCase) extends PackageCycleAnalysis {
+	projects.Project.proj = proj
+	override def  getViolationMap: Map[String, List[String]]  =  Map[String, List[String]]()
+}
+
+object SwingStudy {
+	def main(args : Array[String]) : Unit = {
+		val (tdg: TypeStructure, pdg, lpdg: LayeredPackageStructure) = (new SwingStudy(new projects.SwingCase)).run
+	}
+}
+
+class AwtStudy (proj: ProjectCase) extends PackageCycleAnalysis {
+	projects.Project.proj = proj
+	override def  getViolationMap: Map[String, List[String]]  =  Map[String, List[String]]()
+	
+	override def getNewPacakgeMap: Map[String, List[List[Int]]] = {
+		Map[String, List[List[Int]]] (
+				"." -> List(List(0), List(1, 2, 3, 4, 5)),
+				"views.jsp" -> List(List(0, 1), List( 2, 3, 4, 5, 6))
+		)
+	}
+	override def getRefactoredEdges: Map[(String, String), (List[Int], List[Int])]  = {
+		Map[(String, String), (List[Int], List[Int])]  (
+				("components", "views.jsp") ->  (List(1, 2), List(0, 1))
+		)
+	}	
+}
+
+object AwtStudy {
+	def main(args : Array[String]) : Unit = {
+		val (tdg: TypeStructure, pdg, lpdg: LayeredPackageStructure) = (new AwtStudy(new projects.AwtCase)).run
+	}
+}

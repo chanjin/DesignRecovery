@@ -1,0 +1,1799 @@
+org.apache.bcel.classfile:0(3)
+List(o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., A, c, c, e, s, s, F, l, a, g, s, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., C, l, a, s, s, F, o, r, m, a, t, E, x, c, e, p, t, i, o, n)
+	Utility$1
+org.apache.bcel.classfile:1(51)
+List(o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., A, t, t, r, i, b, u, t, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., A, t, t, r, i, b, u, t, e, R, e, a, d, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., C, l, a, s, s, P, a, r, s, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., C, o, d, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., C, o, d, e, E, x, c, e, p, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., C, o, n, s, t, a, n, t, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., C, o, n, s, t, a, n, t, C, P, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., C, o, n, s, t, a, n, t, C, l, a, s, s, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., C, o, n, s, t, a, n, t, D, o, u, b, l, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., C, o, n, s, t, a, n, t, F, i, e, l, d, r, e, f, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., C, o, n, s, t, a, n, t, F, l, o, a, t, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., C, o, n, s, t, a, n, t, I, n, t, e, g, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., C, o, n, s, t, a, n, t, I, n, t, e, r, f, a, c, e, M, e, t, h, o, d, r, e, f, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., C, o, n, s, t, a, n, t, L, o, n, g, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., C, o, n, s, t, a, n, t, M, e, t, h, o, d, r, e, f, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., C, o, n, s, t, a, n, t, N, a, m, e, A, n, d, T, y, p, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., C, o, n, s, t, a, n, t, O, b, j, e, c, t, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., C, o, n, s, t, a, n, t, P, o, o, l, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., C, o, n, s, t, a, n, t, S, t, r, i, n, g, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., C, o, n, s, t, a, n, t, U, t, f, 8, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., C, o, n, s, t, a, n, t, V, a, l, u, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., D, e, p, r, e, c, a, t, e, d, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., E, x, c, e, p, t, i, o, n, T, a, b, l, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., F, i, e, l, d, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., F, i, e, l, d, O, r, M, e, t, h, o, d, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., I, n, n, e, r, C, l, a, s, s, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., I, n, n, e, r, C, l, a, s, s, e, s, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., J, a, v, a, C, l, a, s, s, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., L, i, n, e, N, u, m, b, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., L, i, n, e, N, u, m, b, e, r, T, a, b, l, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., L, o, c, a, l, V, a, r, i, a, b, l, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., L, o, c, a, l, V, a, r, i, a, b, l, e, T, a, b, l, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., M, e, t, h, o, d, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., N, o, d, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., P, M, G, C, l, a, s, s, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., S, i, g, n, a, t, u, r, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., S, o, u, r, c, e, F, i, l, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., S, t, a, c, k, M, a, p, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., S, t, a, c, k, M, a, p, E, n, t, r, y, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., S, t, a, c, k, M, a, p, T, y, p, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., S, y, n, t, h, e, t, i, c, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., U, n, k, n, o, w, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., U, t, i, l, i, t, y, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., V, i, s, i, t, o, r)
+	Constant$1, Field$1, JavaClass$1, Method$1, Signature$MyByteArrayInputStream, Utility$JavaReader, Utility$JavaWriter
+org.apache.bcel.classfile:2(2)
+List(o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., D, e, s, c, e, n, d, i, n, g, V, i, s, i, t, o, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., c, l, a, s, s, f, i, l, e, ., E, m, p, t, y, V, i, s, i, t, o, r)
+	
+org.apache.bcel.generic:0(7)
+List(o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., A, l, l, o, c, a, t, i, o, n, I, n, s, t, r, u, c, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., C, l, a, s, s, G, e, n, E, x, c, e, p, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., E, x, c, e, p, t, i, o, n, T, h, r, o, w, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, n, d, e, x, e, d, I, n, s, t, r, u, c, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., U, n, c, o, n, d, i, t, i, o, n, a, l, B, r, a, n, c, h, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., V, a, r, i, a, b, l, e, L, e, n, g, t, h, I, n, s, t, r, u, c, t, i, o, n)
+	Type$3
+org.apache.bcel.generic:1(8)
+List(o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., A, r, r, a, y, T, y, p, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., B, a, s, i, c, T, y, p, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., N, a, m, e, d, A, n, d, T, y, p, e, d, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., O, b, j, e, c, t, T, y, p, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., R, e, f, e, r, e, n, c, e, T, y, p, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., T, y, p, e)
+	Type$1, Type$2
+org.apache.bcel.generic:2(205)
+List(o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., A, A, L, O, A, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., A, A, S, T, O, R, E, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., A, C, O, N, S, T, _, N, U, L, L, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., A, L, O, A, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., A, N, E, W, A, R, R, A, Y, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., A, R, E, T, U, R, N, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., A, R, R, A, Y, L, E, N, G, T, H, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., A, S, T, O, R, E, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., A, T, H, R, O, W, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., A, r, i, t, h, m, e, t, i, c, I, n, s, t, r, u, c, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., A, r, r, a, y, I, n, s, t, r, u, c, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., B, A, L, O, A, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., B, A, S, T, O, R, E, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., B, I, P, U, S, H, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., B, R, E, A, K, P, O, I, N, T, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., B, r, a, n, c, h, H, a, n, d, l, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., B, r, a, n, c, h, I, n, s, t, r, u, c, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., C, A, L, O, A, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., C, A, S, T, O, R, E, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., C, H, E, C, K, C, A, S, T, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., C, P, I, n, s, t, r, u, c, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., C, l, a, s, s, G, e, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., C, l, a, s, s, O, b, s, e, r, v, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., C, o, d, e, E, x, c, e, p, t, i, o, n, G, e, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., C, o, m, p, o, u, n, d, I, n, s, t, r, u, c, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., C, o, n, s, t, a, n, t, P, o, o, l, G, e, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., C, o, n, s, t, a, n, t, P, u, s, h, I, n, s, t, r, u, c, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., C, o, n, v, e, r, s, i, o, n, I, n, s, t, r, u, c, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., D, 2, F, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., D, 2, I, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., D, 2, L, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., D, A, D, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., D, A, L, O, A, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., D, A, S, T, O, R, E, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., D, C, M, P, G, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., D, C, M, P, L, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., D, C, O, N, S, T, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., D, D, I, V, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., D, L, O, A, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., D, M, U, L, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., D, N, E, G, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., D, R, E, M, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., D, R, E, T, U, R, N, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., D, S, T, O, R, E, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., D, S, U, B, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., D, U, P, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., D, U, P, 2, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., D, U, P, 2, _, X, 1, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., D, U, P, 2, _, X, 2, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., D, U, P, _, X, 1, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., D, U, P, _, X, 2, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., F, 2, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., F, 2, I, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., F, 2, L, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., F, A, D, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., F, A, L, O, A, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., F, A, S, T, O, R, E, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., F, C, M, P, G, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., F, C, M, P, L, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., F, C, O, N, S, T, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., F, D, I, V, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., F, L, O, A, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., F, M, U, L, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., F, N, E, G, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., F, R, E, M, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., F, R, E, T, U, R, N, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., F, S, T, O, R, E, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., F, S, U, B, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., F, i, e, l, d, G, e, n, O, r, M, e, t, h, o, d, G, e, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., F, i, e, l, d, I, n, s, t, r, u, c, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., F, i, e, l, d, O, r, M, e, t, h, o, d, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., G, E, T, F, I, E, L, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., G, E, T, S, T, A, T, I, C, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., G, O, T, O, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., G, O, T, O, _, W, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., G, o, t, o, I, n, s, t, r, u, c, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, 2, B, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, 2, C, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, 2, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, 2, F, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, 2, L, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, 2, S, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, A, D, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, A, L, O, A, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, A, N, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, A, S, T, O, R, E, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, C, O, N, S, T, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, D, I, V, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, F, E, Q, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, F, G, E, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, F, G, T, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, F, L, E, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, F, L, T, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, F, N, E, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, F, N, O, N, N, U, L, L, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, F, N, U, L, L, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, F, _, A, C, M, P, E, Q, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, F, _, A, C, M, P, N, E, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, F, _, I, C, M, P, E, Q, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, F, _, I, C, M, P, G, E, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, F, _, I, C, M, P, G, T, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, F, _, I, C, M, P, L, E, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, F, _, I, C, M, P, L, T, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, F, _, I, C, M, P, N, E, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, I, N, C, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, L, O, A, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, M, P, D, E, P, 1, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, M, P, D, E, P, 2, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, M, U, L, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, N, E, G, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, N, S, T, A, N, C, E, O, F, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, N, V, O, K, E, I, N, T, E, R, F, A, C, E, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, N, V, O, K, E, S, P, E, C, I, A, L, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, N, V, O, K, E, S, T, A, T, I, C, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, N, V, O, K, E, V, I, R, T, U, A, L, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, O, R, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, R, E, M, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, R, E, T, U, R, N, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, S, H, L, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, S, H, R, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, S, T, O, R, E, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, S, U, B, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, U, S, H, R, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, X, O, R, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, f, I, n, s, t, r, u, c, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, n, s, t, r, u, c, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, n, s, t, r, u, c, t, i, o, n, C, o, m, p, a, r, a, t, o, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, n, s, t, r, u, c, t, i, o, n, C, o, n, s, t, a, n, t, s, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, n, s, t, r, u, c, t, i, o, n, H, a, n, d, l, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, n, s, t, r, u, c, t, i, o, n, L, i, s, t, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, n, s, t, r, u, c, t, i, o, n, L, i, s, t, O, b, s, e, r, v, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, n, s, t, r, u, c, t, i, o, n, T, a, r, g, e, t, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, n, v, o, k, e, I, n, s, t, r, u, c, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., J, S, R, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., J, S, R, _, W, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., J, s, r, I, n, s, t, r, u, c, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, 2, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, 2, F, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, 2, I, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, A, D, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, A, L, O, A, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, A, N, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, A, S, T, O, R, E, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, C, M, P, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, C, O, N, S, T, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, D, C, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, D, C, 2, _, W, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, D, I, V, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, L, O, A, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, M, U, L, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, N, E, G, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, O, O, K, U, P, S, W, I, T, C, H, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, O, R, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, R, E, M, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, R, E, T, U, R, N, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, S, H, L, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, S, H, R, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, S, T, O, R, E, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, S, U, B, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, U, S, H, R, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, X, O, R, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, i, n, e, N, u, m, b, e, r, G, e, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, o, a, d, C, l, a, s, s, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, o, a, d, I, n, s, t, r, u, c, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, o, c, a, l, V, a, r, i, a, b, l, e, G, e, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, o, c, a, l, V, a, r, i, a, b, l, e, I, n, s, t, r, u, c, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., M, O, N, I, T, O, R, E, N, T, E, R, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., M, O, N, I, T, O, R, E, X, I, T, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., M, U, L, T, I, A, N, E, W, A, R, R, A, Y, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., M, e, t, h, o, d, G, e, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., M, e, t, h, o, d, O, b, s, e, r, v, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., N, E, W, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., N, E, W, A, R, R, A, Y, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., N, O, P, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., P, O, P, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., P, O, P, 2, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., P, U, T, F, I, E, L, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., P, U, T, S, T, A, T, I, C, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., P, o, p, I, n, s, t, r, u, c, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., P, u, s, h, I, n, s, t, r, u, c, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., R, E, T, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., R, E, T, U, R, N, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., R, e, t, u, r, n, I, n, s, t, r, u, c, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., R, e, t, u, r, n, a, d, d, r, e, s, s, T, y, p, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., S, A, L, O, A, D, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., S, A, S, T, O, R, E, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., S, I, P, U, S, H, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., S, W, A, P, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., S, e, l, e, c, t, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., S, t, a, c, k, C, o, n, s, u, m, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., S, t, a, c, k, I, n, s, t, r, u, c, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., S, t, a, c, k, P, r, o, d, u, c, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., S, t, o, r, e, I, n, s, t, r, u, c, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., T, A, B, L, E, S, W, I, T, C, H, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., T, a, r, g, e, t, L, o, s, t, E, x, c, e, p, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., T, y, p, e, d, I, n, s, t, r, u, c, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., V, i, s, i, t, o, r)
+	ClassGen$1, ConstantPoolGen$Index, InstructionComparator$1, InstructionConstants$Clinit, InstructionList$1, MethodGen$1, MethodGen$BranchStack, MethodGen$BranchTarget
+org.apache.bcel.generic:3(9)
+List(o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., E, m, p, t, y, V, i, s, i, t, o, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., F, i, e, l, d, G, e, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., F, i, e, l, d, O, b, s, e, r, v, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., I, n, s, t, r, u, c, t, i, o, n, F, a, c, t, o, r, y, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., L, D, C, _, W, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., P, U, S, H, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., g, e, n, e, r, i, c, ., S, W, I, T, C, H)
+	FieldGen$1, InstructionFactory$MethodObject
+org.apache.bcel.util:0(12)
+List(o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., u, t, i, l, ., B, C, E, L, C, o, m, p, a, r, a, t, o, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., u, t, i, l, ., B, y, t, e, S, e, q, u, e, n, c, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., u, t, i, l, ., C, l, a, s, s, P, a, t, h, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., u, t, i, l, ., J, a, v, a, W, r, a, p, p, e, r)
+	ByteSequence$ByteArrayStream, ClassPath$1, ClassPath$ClassFile, ClassPath$Dir, ClassPath$Dir$1, ClassPath$PathEntry, ClassPath$Zip, ClassPath$Zip$1
+org.apache.bcel.util:1(11)
+List(o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., u, t, i, l, ., A, t, t, r, i, b, u, t, e, H, T, M, L, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., u, t, i, l, ., C, l, a, s, s, 2, H, T, M, L, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., u, t, i, l, ., C, l, a, s, s, Q, u, e, u, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., u, t, i, l, ., C, l, a, s, s, S, e, t, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., u, t, i, l, ., C, l, a, s, s, S, t, a, c, k, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., u, t, i, l, ., C, l, a, s, s, V, e, c, t, o, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., u, t, i, l, ., C, o, d, e, H, T, M, L, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., u, t, i, l, ., C, o, n, s, t, a, n, t, H, T, M, L, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., u, t, i, l, ., M, e, t, h, o, d, H, T, M, L, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., u, t, i, l, ., R, e, p, o, s, i, t, o, r, y, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., u, t, i, l, ., S, y, n, t, h, e, t, i, c, R, e, p, o, s, i, t, o, r, y)
+	
+org.apache.bcel.util:2(4)
+List(o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., u, t, i, l, ., C, l, a, s, s, L, o, a, d, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., u, t, i, l, ., C, l, a, s, s, L, o, a, d, e, r, R, e, p, o, s, i, t, o, r, y, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., u, t, i, l, ., I, n, s, t, r, u, c, t, i, o, n, F, i, n, d, e, r)
+	InstructionFinder$CodeConstraint
+org.apache.bcel.util:4(2)
+List(o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., u, t, i, l, ., B, C, E, L, F, a, c, t, o, r, y, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., u, t, i, l, ., B, C, E, L, i, f, i, e, r)
+	
+org.apache.bcel:0(23)
+List(o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., C, o, n, s, t, a, n, t, s, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., E, x, c, e, p, t, i, o, n, C, o, n, s, t, a, n, t, s, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., N, a, t, i, v, e, V, e, r, i, f, i, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., P, a, s, s, V, e, r, i, f, i, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., V, e, r, i, f, i, c, a, t, i, o, n, R, e, s, u, l, t, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., V, e, r, i, f, i, e, r, F, a, c, t, o, r, y, O, b, s, e, r, v, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., e, x, c, ., A, s, s, e, r, t, i, o, n, V, i, o, l, a, t, e, d, E, x, c, e, p, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., e, x, c, ., C, l, a, s, s, C, o, n, s, t, r, a, i, n, t, E, x, c, e, p, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., e, x, c, ., C, o, d, e, C, o, n, s, t, r, a, i, n, t, E, x, c, e, p, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., e, x, c, ., I, n, v, a, l, i, d, M, e, t, h, o, d, E, x, c, e, p, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., e, x, c, ., L, i, n, k, i, n, g, C, o, n, s, t, r, a, i, n, t, E, x, c, e, p, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., e, x, c, ., L, o, a, d, i, n, g, E, x, c, e, p, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., e, x, c, ., L, o, c, a, l, V, a, r, i, a, b, l, e, I, n, f, o, I, n, c, o, n, s, i, s, t, e, n, t, E, x, c, e, p, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., e, x, c, ., S, t, a, t, i, c, C, o, d, e, C, o, n, s, t, r, a, i, n, t, E, x, c, e, p, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., e, x, c, ., S, t, a, t, i, c, C, o, d, e, I, n, s, t, r, u, c, t, i, o, n, C, o, n, s, t, r, a, i, n, t, E, x, c, e, p, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., e, x, c, ., S, t, a, t, i, c, C, o, d, e, I, n, s, t, r, u, c, t, i, o, n, O, p, e, r, a, n, d, C, o, n, s, t, r, a, i, n, t, E, x, c, e, p, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., e, x, c, ., S, t, r, u, c, t, u, r, a, l, C, o, d, e, C, o, n, s, t, r, a, i, n, t, E, x, c, e, p, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., e, x, c, ., U, t, i, l, i, t, y, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., e, x, c, ., V, e, r, i, f, i, c, a, t, i, o, n, E, x, c, e, p, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., e, x, c, ., V, e, r, i, f, i, e, r, C, o, n, s, t, r, a, i, n, t, V, i, o, l, a, t, e, d, E, x, c, e, p, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., s, t, a, t, i, c, s, ., I, n, t, L, i, s, t, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., s, t, r, u, c, t, u, r, a, l, s, ., G, e, n, e, r, i, c, A, r, r, a, y)
+	ExceptionConstants$1
+org.apache.bcel:1(5)
+List(o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., R, e, p, o, s, i, t, o, r, y, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., s, t, a, t, i, c, s, ., D, O, U, B, L, E, _, U, p, p, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., s, t, a, t, i, c, s, ., L, O, N, G, _, U, p, p, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., s, t, a, t, i, c, s, ., L, o, c, a, l, V, a, r, i, a, b, l, e, I, n, f, o, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., s, t, a, t, i, c, s, ., L, o, c, a, l, V, a, r, i, a, b, l, e, s, I, n, f, o)
+	
+org.apache.bcel:2(7)
+List(o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., s, t, r, u, c, t, u, r, a, l, s, ., E, x, c, e, p, t, i, o, n, H, a, n, d, l, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., s, t, r, u, c, t, u, r, a, l, s, ., E, x, c, e, p, t, i, o, n, H, a, n, d, l, e, r, s, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., s, t, r, u, c, t, u, r, a, l, s, ., F, r, a, m, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., s, t, r, u, c, t, u, r, a, l, s, ., L, o, c, a, l, V, a, r, i, a, b, l, e, s, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., s, t, r, u, c, t, u, r, a, l, s, ., O, p, e, r, a, n, d, S, t, a, c, k, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., s, t, r, u, c, t, u, r, a, l, s, ., S, u, b, r, o, u, t, i, n, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., s, t, r, u, c, t, u, r, a, l, s, ., U, n, i, n, i, t, i, a, l, i, z, e, d, O, b, j, e, c, t, T, y, p, e)
+	
+org.apache.bcel:3(3)
+List(o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., s, t, a, t, i, c, s, ., S, t, r, i, n, g, R, e, p, r, e, s, e, n, t, a, t, i, o, n, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., s, t, r, u, c, t, u, r, a, l, s, ., S, u, b, r, o, u, t, i, n, e, s)
+	verifier.structurals.Subroutines$SubroutineImpl
+org.apache.bcel:4(31)
+List(o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., G, r, a, p, h, i, c, a, l, V, e, r, i, f, i, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., T, r, a, n, s, i, t, i, v, e, H, u, l, l, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., V, e, r, i, f, i, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., V, e, r, i, f, i, e, r, A, p, p, F, r, a, m, e, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., V, e, r, i, f, i, e, r, F, a, c, t, o, r, y, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., V, e, r, i, f, i, e, r, F, a, c, t, o, r, y, L, i, s, t, M, o, d, e, l, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., V, e, r, i, f, y, D, i, a, l, o, g, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., s, t, a, t, i, c, s, ., P, a, s, s, 1, V, e, r, i, f, i, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., s, t, a, t, i, c, s, ., P, a, s, s, 2, V, e, r, i, f, i, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., s, t, a, t, i, c, s, ., P, a, s, s, 3, a, V, e, r, i, f, i, e, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., s, t, r, u, c, t, u, r, a, l, s, ., C, o, n, t, r, o, l, F, l, o, w, G, r, a, p, h, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., s, t, r, u, c, t, u, r, a, l, s, ., E, x, e, c, u, t, i, o, n, V, i, s, i, t, o, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., s, t, r, u, c, t, u, r, a, l, s, ., I, n, s, t, C, o, n, s, t, r, a, i, n, t, V, i, s, i, t, o, r, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., s, t, r, u, c, t, u, r, a, l, s, ., I, n, s, t, r, u, c, t, i, o, n, C, o, n, t, e, x, t, o, r, g, ., a, p, a, c, h, e, ., b, c, e, l, ., v, e, r, i, f, i, e, r, ., s, t, r, u, c, t, u, r, a, l, s, ., P, a, s, s, 3, b, V, e, r, i, f, i, e, r)
+	verifier.VerifierAppFrame$1, verifier.VerifierAppFrame$2, verifier.VerifierAppFrame$3, verifier.VerifierAppFrame$4, verifier.VerifierAppFrame$5, verifier.VerifierAppFrame$6, verifier.VerifyDialog$1, verifier.VerifyDialog$IvjEventHandler, verifier.statics.Pass2Verifier$1, verifier.statics.Pass2Verifier$CPESSC_Visitor, verifier.statics.Pass2Verifier$FAMRAV_Visitor, verifier.statics.Pass2Verifier$InnerClassDetector, verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor, verifier.structurals.ControlFlowGraph$InstructionContextImpl, verifier.structurals.Pass3bVerifier$1, verifier.structurals.Pass3bVerifier$InstructionContextQueue
+org.apache.bcel.classfile:1	org.apache.bcel.util:0
+org.apache.bcel.classfile:1	org.apache.bcel.generic:1
+org.apache.bcel.classfile:1	org.apache.bcel.classfile:0
+org.apache.bcel.classfile:1	org.apache.bcel:0
+org.apache.bcel.classfile:1	org.apache.bcel.util:1
+org.apache.bcel.classfile:2	org.apache.bcel.classfile:1
+
+org.apache.bcel.generic:1	org.apache.bcel.classfile:1
+org.apache.bcel.generic:1	org.apache.bcel:1
+org.apache.bcel.generic:1	org.apache.bcel.classfile:0
+org.apache.bcel.generic:1	org.apache.bcel.generic:0
+org.apache.bcel.generic:1	org.apache.bcel:0
+org.apache.bcel.generic:2	org.apache.bcel.generic:1
+org.apache.bcel.generic:2	org.apache.bcel.generic:0
+org.apache.bcel.generic:2	org.apache.bcel.classfile:1
+org.apache.bcel.generic:2	org.apache.bcel.util:0
+org.apache.bcel.generic:2	org.apache.bcel:0
+org.apache.bcel.generic:2	org.apache.bcel.classfile:0
+org.apache.bcel.generic:3	org.apache.bcel.generic:1
+org.apache.bcel.generic:3	org.apache.bcel.generic:2
+org.apache.bcel.generic:3	org.apache.bcel.classfile:1
+org.apache.bcel.generic:3	org.apache.bcel.util:0
+org.apache.bcel.generic:3	org.apache.bcel.generic:0
+org.apache.bcel.generic:3	org.apache.bcel.classfile:0
+
+org.apache.bcel.util:1	org.apache.bcel:0
+org.apache.bcel.util:1	org.apache.bcel.classfile:1
+org.apache.bcel.util:1	org.apache.bcel.util:0
+org.apache.bcel.util:2	org.apache.bcel.generic:0
+org.apache.bcel.util:2	org.apache.bcel.generic:2
+org.apache.bcel.util:2	org.apache.bcel.util:1
+org.apache.bcel.util:2	org.apache.bcel.classfile:1
+org.apache.bcel.util:2	org.apache.bcel:0
+org.apache.bcel.util:2	org.apache.bcel.util:0
+org.apache.bcel.util:4	org.apache.bcel.classfile:2
+org.apache.bcel.util:4	org.apache.bcel:1
+org.apache.bcel.util:4	org.apache.bcel.generic:1
+org.apache.bcel.util:4	org.apache.bcel.generic:3
+org.apache.bcel.util:4	org.apache.bcel.classfile:1
+org.apache.bcel.util:4	org.apache.bcel.generic:2
+org.apache.bcel.util:4	org.apache.bcel:0
+org.apache.bcel.util:4	org.apache.bcel.generic:0
+
+org.apache.bcel:1	org.apache.bcel:0
+org.apache.bcel:1	org.apache.bcel.util:0
+org.apache.bcel:1	org.apache.bcel.util:1
+org.apache.bcel:1	org.apache.bcel.generic:1
+org.apache.bcel:1	org.apache.bcel.classfile:1
+org.apache.bcel:2	org.apache.bcel:0
+org.apache.bcel:2	org.apache.bcel.generic:1
+org.apache.bcel:2	org.apache.bcel.generic:2
+org.apache.bcel:3	org.apache.bcel.generic:0
+org.apache.bcel:3	org.apache.bcel.generic:2
+org.apache.bcel:3	org.apache.bcel.classfile:2
+org.apache.bcel:3	org.apache.bcel:2
+org.apache.bcel:3	org.apache.bcel.generic:1
+org.apache.bcel:3	org.apache.bcel:0
+org.apache.bcel:3	org.apache.bcel.classfile:1
+org.apache.bcel:4	org.apache.bcel.classfile:1
+org.apache.bcel:4	org.apache.bcel.generic:3
+org.apache.bcel:4	org.apache.bcel.generic:1
+org.apache.bcel:4	org.apache.bcel:0
+org.apache.bcel:4	org.apache.bcel:3
+org.apache.bcel:4	org.apache.bcel.generic:2
+org.apache.bcel:4	org.apache.bcel.classfile:2
+org.apache.bcel:4	org.apache.bcel:1
+org.apache.bcel:4	org.apache.bcel:2
+org.apache.bcel:4	org.apache.bcel.classfile:0
+-----------
+
+------------
+***org.apache.bcel.classfile:1->org.apache.bcel.util:0
+org.apache.bcel.classfile.Constant	org.apache.bcel.util.BCELComparator	S,C
+org.apache.bcel.classfile.Constant$1	org.apache.bcel.util.BCELComparator	C,S,P,O
+org.apache.bcel.classfile.Field	org.apache.bcel.util.BCELComparator	S,C
+org.apache.bcel.classfile.Field$1	org.apache.bcel.util.BCELComparator	C,S,P,O
+org.apache.bcel.classfile.JavaClass	org.apache.bcel.util.BCELComparator	S,C
+org.apache.bcel.classfile.JavaClass$1	org.apache.bcel.util.BCELComparator	C,S,P,O
+org.apache.bcel.classfile.Method	org.apache.bcel.util.BCELComparator	S,C
+org.apache.bcel.classfile.Method$1	org.apache.bcel.util.BCELComparator	C,S,P,O
+org.apache.bcel.classfile.Utility	org.apache.bcel.util.ByteSequence	S,C
+***org.apache.bcel.classfile:1->org.apache.bcel.generic:1
+org.apache.bcel.classfile.Field	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.classfile.JavaClass	org.apache.bcel.generic.Type	C
+org.apache.bcel.classfile.Method	org.apache.bcel.generic.Type	S,C
+***org.apache.bcel.classfile:1->org.apache.bcel.classfile:0
+org.apache.bcel.classfile.Attribute	org.apache.bcel.classfile.ClassFormatException	C
+org.apache.bcel.classfile.ClassParser	org.apache.bcel.classfile.ClassFormatException	C
+org.apache.bcel.classfile.Constant	org.apache.bcel.classfile.ClassFormatException	C
+org.apache.bcel.classfile.ConstantPool	org.apache.bcel.classfile.ClassFormatException	C
+org.apache.bcel.classfile.Field	org.apache.bcel.classfile.AccessFlags	S,C
+org.apache.bcel.classfile.Field	org.apache.bcel.classfile.ClassFormatException	C
+org.apache.bcel.classfile.FieldOrMethod	org.apache.bcel.classfile.AccessFlags	S,C
+org.apache.bcel.classfile.FieldOrMethod	org.apache.bcel.classfile.ClassFormatException	C
+org.apache.bcel.classfile.JavaClass	org.apache.bcel.classfile.AccessFlags	S,C
+org.apache.bcel.classfile.Method	org.apache.bcel.classfile.AccessFlags	S,C
+org.apache.bcel.classfile.Method	org.apache.bcel.classfile.ClassFormatException	C
+org.apache.bcel.classfile.Utility	org.apache.bcel.classfile.Utility$1	C
+org.apache.bcel.classfile.Utility	org.apache.bcel.classfile.ClassFormatException	C
+***org.apache.bcel.classfile:1->org.apache.bcel:0
+org.apache.bcel.classfile.Attribute	org.apache.bcel.Constants	C
+org.apache.bcel.classfile.CodeException	org.apache.bcel.Constants	P,S,C
+org.apache.bcel.classfile.Constant	org.apache.bcel.Constants	C
+org.apache.bcel.classfile.ConstantPool	org.apache.bcel.Constants	C
+org.apache.bcel.classfile.Deprecated	org.apache.bcel.Constants	C
+org.apache.bcel.classfile.LocalVariable	org.apache.bcel.Constants	P,S,C
+org.apache.bcel.classfile.StackMapType	org.apache.bcel.Constants	C
+org.apache.bcel.classfile.Utility	org.apache.bcel.Constants	C
+***org.apache.bcel.classfile:1->org.apache.bcel.util:1
+org.apache.bcel.classfile.JavaClass	org.apache.bcel.util.ClassQueue	C
+org.apache.bcel.classfile.JavaClass	org.apache.bcel.util.SyntheticRepository	C
+org.apache.bcel.classfile.JavaClass	org.apache.bcel.util.Repository	S,C
+------------
+***org.apache.bcel.classfile:2->org.apache.bcel.classfile:1
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.ConstantValue	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.ConstantInteger	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.StackMap	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.InnerClass	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.CodeException	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.ConstantNameAndType	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.ConstantClass	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.Synthetic	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.Visitor	C,S,P,O
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.ExceptionTable	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.ConstantLong	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.LocalVariable	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.Signature	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.LineNumber	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.ConstantUtf8	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.ConstantFieldref	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.JavaClass	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.Constant	C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.Method	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.ConstantInterfaceMethodref	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.StackMapEntry	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.Deprecated	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.LineNumberTable	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.ConstantString	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.ConstantDouble	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.Unknown	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.Attribute	C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.Code	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.ConstantMethodref	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.ConstantPool	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.SourceFile	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.LocalVariableTable	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.InnerClasses	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.ConstantFloat	S,C
+org.apache.bcel.classfile.DescendingVisitor	org.apache.bcel.classfile.Field	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.Code	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.ExceptionTable	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.ConstantLong	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.LocalVariableTable	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.ConstantFieldref	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.JavaClass	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.ConstantString	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.Synthetic	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.ConstantClass	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.InnerClass	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.ConstantNameAndType	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.Signature	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.ConstantInteger	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.LineNumberTable	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.ConstantValue	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.StackMap	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.CodeException	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.Field	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.ConstantMethodref	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.Method	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.ConstantFloat	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.LineNumber	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.ConstantUtf8	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.Unknown	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.ConstantDouble	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.InnerClasses	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.ConstantPool	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.SourceFile	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.ConstantInterfaceMethodref	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.LocalVariable	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.Deprecated	S,C
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.Visitor	C,S,P,O
+org.apache.bcel.classfile.EmptyVisitor	org.apache.bcel.classfile.StackMapEntry	S,C
+------------
+
+------------
+***org.apache.bcel.generic:1->org.apache.bcel.classfile:1
+org.apache.bcel.generic.ObjectType	org.apache.bcel.classfile.JavaClass	C
+org.apache.bcel.generic.ReferenceType	org.apache.bcel.classfile.JavaClass	C
+org.apache.bcel.generic.Type	org.apache.bcel.classfile.Utility	C
+***org.apache.bcel.generic:1->org.apache.bcel:1
+org.apache.bcel.generic.ObjectType	org.apache.bcel.Repository	C
+org.apache.bcel.generic.ReferenceType	org.apache.bcel.Repository	C
+***org.apache.bcel.generic:1->org.apache.bcel.classfile:0
+org.apache.bcel.generic.Type	org.apache.bcel.classfile.ClassFormatException	C
+***org.apache.bcel.generic:1->org.apache.bcel.generic:0
+org.apache.bcel.generic.ArrayType	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.BasicType	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.Type	org.apache.bcel.generic.Type$3	C
+***org.apache.bcel.generic:1->org.apache.bcel:0
+org.apache.bcel.generic.BasicType	org.apache.bcel.Constants	C
+org.apache.bcel.generic.ReferenceType	org.apache.bcel.Constants	C
+------------
+***org.apache.bcel.generic:2->org.apache.bcel.generic:1
+org.apache.bcel.generic.ACONST_NULL	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.ACONST_NULL	org.apache.bcel.generic.ReferenceType	C
+org.apache.bcel.generic.ANEWARRAY	org.apache.bcel.generic.ObjectType	S,C
+org.apache.bcel.generic.ANEWARRAY	org.apache.bcel.generic.ArrayType	C
+org.apache.bcel.generic.ANEWARRAY	org.apache.bcel.generic.Type	C
+org.apache.bcel.generic.ArithmeticInstruction	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.ArithmeticInstruction	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.generic.ArrayInstruction	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.generic.ArrayInstruction	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.ArrayInstruction	org.apache.bcel.generic.ObjectType	C
+org.apache.bcel.generic.BIPUSH	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.BIPUSH	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.generic.CHECKCAST	org.apache.bcel.generic.ObjectType	S,C
+org.apache.bcel.generic.CHECKCAST	org.apache.bcel.generic.ArrayType	C
+org.apache.bcel.generic.CHECKCAST	org.apache.bcel.generic.Type	C
+org.apache.bcel.generic.CPInstruction	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.ClassGen	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.generic.ClassGen	org.apache.bcel.generic.Type	C
+org.apache.bcel.generic.CodeExceptionGen	org.apache.bcel.generic.ObjectType	S,C
+org.apache.bcel.generic.ConstantPoolGen	org.apache.bcel.generic.ObjectType	S,C
+org.apache.bcel.generic.ConstantPoolGen	org.apache.bcel.generic.ArrayType	S,C
+org.apache.bcel.generic.ConversionInstruction	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.generic.ConversionInstruction	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.DCMPG	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.generic.DCMPG	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.DCMPL	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.DCMPL	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.generic.DCONST	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.generic.DCONST	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.FCMPG	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.generic.FCMPG	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.FCMPL	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.FCMPL	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.generic.FCONST	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.FCONST	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.generic.FieldGenOrMethodGen	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.FieldGenOrMethodGen	org.apache.bcel.generic.NamedAndTyped	C,S,P,O
+org.apache.bcel.generic.FieldInstruction	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.FieldOrMethod	org.apache.bcel.generic.ReferenceType	S,C
+org.apache.bcel.generic.FieldOrMethod	org.apache.bcel.generic.ArrayType	C
+org.apache.bcel.generic.FieldOrMethod	org.apache.bcel.generic.ObjectType	S,C
+org.apache.bcel.generic.FieldOrMethod	org.apache.bcel.generic.Type	C
+org.apache.bcel.generic.ICONST	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.generic.ICONST	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.IINC	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.generic.IINC	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.INSTANCEOF	org.apache.bcel.generic.Type	C
+org.apache.bcel.generic.INSTANCEOF	org.apache.bcel.generic.ObjectType	S,C
+org.apache.bcel.generic.INSTANCEOF	org.apache.bcel.generic.ArrayType	C
+org.apache.bcel.generic.InvokeInstruction	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.JsrInstruction	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.LCMP	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.generic.LCMP	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.LCONST	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.generic.LCONST	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.LDC	org.apache.bcel.generic.ObjectType	C
+org.apache.bcel.generic.LDC	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.generic.LDC	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.LDC2_W	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.LDC2_W	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.generic.LoadClass	org.apache.bcel.generic.ObjectType	S,C
+org.apache.bcel.generic.LoadClass	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.LocalVariableGen	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.LocalVariableGen	org.apache.bcel.generic.NamedAndTyped	C,S,P,O
+org.apache.bcel.generic.LocalVariableInstruction	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.generic.LocalVariableInstruction	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.LocalVariableInstruction	org.apache.bcel.generic.ObjectType	C
+org.apache.bcel.generic.MULTIANEWARRAY	org.apache.bcel.generic.Type	C
+org.apache.bcel.generic.MULTIANEWARRAY	org.apache.bcel.generic.ArrayType	C
+org.apache.bcel.generic.MULTIANEWARRAY	org.apache.bcel.generic.ObjectType	S,C
+org.apache.bcel.generic.MethodGen	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.generic.MethodGen	org.apache.bcel.generic.ObjectType	S,C
+org.apache.bcel.generic.MethodGen	org.apache.bcel.generic.NamedAndTyped	S,C
+org.apache.bcel.generic.MethodGen	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.NEW	org.apache.bcel.generic.Type	C
+org.apache.bcel.generic.NEW	org.apache.bcel.generic.ObjectType	S,C
+org.apache.bcel.generic.NEWARRAY	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.NEWARRAY	org.apache.bcel.generic.ArrayType	C
+org.apache.bcel.generic.NEWARRAY	org.apache.bcel.generic.BasicType	S,C
+org.apache.bcel.generic.RET	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.ReturnInstruction	org.apache.bcel.generic.ObjectType	C
+org.apache.bcel.generic.ReturnInstruction	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.ReturnInstruction	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.generic.ReturnaddressType	org.apache.bcel.generic.Type	C,S,O
+org.apache.bcel.generic.SIPUSH	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.generic.SIPUSH	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.StackInstruction	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.TypedInstruction	org.apache.bcel.generic.Type	S,C
+***org.apache.bcel.generic:2->org.apache.bcel.generic:0
+org.apache.bcel.generic.AALOAD	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.AASTORE	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.ALOAD	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.ANEWARRAY	org.apache.bcel.generic.AllocationInstruction	P,S,C
+org.apache.bcel.generic.ANEWARRAY	org.apache.bcel.generic.ExceptionThrower	C,S,P,O
+org.apache.bcel.generic.ANEWARRAY	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.ARETURN	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.ARRAYLENGTH	org.apache.bcel.generic.ExceptionThrower	C,S,P,O
+org.apache.bcel.generic.ASTORE	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.ATHROW	org.apache.bcel.generic.ExceptionThrower	C,S,P,O
+org.apache.bcel.generic.ATHROW	org.apache.bcel.generic.UnconditionalBranch	P,S,C
+org.apache.bcel.generic.ArithmeticInstruction	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.ArrayInstruction	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.ArrayInstruction	org.apache.bcel.generic.ExceptionThrower	C,S,P,O
+org.apache.bcel.generic.BALOAD	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.BASTORE	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.BranchHandle	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.BranchInstruction	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.CALOAD	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.CASTORE	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.CHECKCAST	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.CHECKCAST	org.apache.bcel.generic.ExceptionThrower	C,S,P,O
+org.apache.bcel.generic.CPInstruction	org.apache.bcel.generic.IndexedInstruction	C,S,P,O
+org.apache.bcel.generic.CPInstruction	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.ClassGen	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.CodeExceptionGen	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.ConversionInstruction	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.DALOAD	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.DASTORE	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.DCONST	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.DLOAD	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.DRETURN	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.DSTORE	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.FALOAD	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.FASTORE	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.FCONST	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.FLOAD	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.FRETURN	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.FSTORE	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.FieldInstruction	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.FieldOrMethod	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.GETFIELD	org.apache.bcel.generic.ExceptionThrower	C,S,P,O
+org.apache.bcel.generic.GETFIELD	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.GETSTATIC	org.apache.bcel.generic.ExceptionThrower	C,S,P,O
+org.apache.bcel.generic.GETSTATIC	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.GOTO	org.apache.bcel.generic.UnconditionalBranch	S,C
+org.apache.bcel.generic.GOTO	org.apache.bcel.generic.VariableLengthInstruction	P,S,C
+org.apache.bcel.generic.GOTO_W	org.apache.bcel.generic.UnconditionalBranch	S,C
+org.apache.bcel.generic.GotoInstruction	org.apache.bcel.generic.UnconditionalBranch	P,S,C
+org.apache.bcel.generic.IALOAD	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.IASTORE	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.ICONST	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.IDIV	org.apache.bcel.generic.ExceptionThrower	C,S,P,O
+org.apache.bcel.generic.IINC	org.apache.bcel.generic.IndexedInstruction	C,S,O
+org.apache.bcel.generic.IINC	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.ILOAD	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.INSTANCEOF	org.apache.bcel.generic.ExceptionThrower	C,S,P,O
+org.apache.bcel.generic.INSTANCEOF	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.INVOKEINTERFACE	org.apache.bcel.generic.ExceptionThrower	C,S,O
+org.apache.bcel.generic.INVOKEINTERFACE	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.INVOKEINTERFACE	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.INVOKESPECIAL	org.apache.bcel.generic.ExceptionThrower	C,S,O
+org.apache.bcel.generic.INVOKESPECIAL	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.INVOKESTATIC	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.INVOKESTATIC	org.apache.bcel.generic.ExceptionThrower	C,S,O
+org.apache.bcel.generic.INVOKEVIRTUAL	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.INVOKEVIRTUAL	org.apache.bcel.generic.ExceptionThrower	C,S,O
+org.apache.bcel.generic.IREM	org.apache.bcel.generic.ExceptionThrower	C,S,P,O
+org.apache.bcel.generic.IRETURN	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.ISTORE	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.Instruction	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.InstructionComparator$1	org.apache.bcel.generic.IndexedInstruction	C
+org.apache.bcel.generic.InstructionHandle	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.InstructionList	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.InvokeInstruction	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.InvokeInstruction	org.apache.bcel.generic.ExceptionThrower	P,S,C
+org.apache.bcel.generic.JSR	org.apache.bcel.generic.VariableLengthInstruction	P,S,C
+org.apache.bcel.generic.JSR	org.apache.bcel.generic.UnconditionalBranch	S,C
+org.apache.bcel.generic.JSR_W	org.apache.bcel.generic.UnconditionalBranch	S,C
+org.apache.bcel.generic.JsrInstruction	org.apache.bcel.generic.UnconditionalBranch	P,S,C
+org.apache.bcel.generic.LALOAD	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.LASTORE	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.LCONST	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.LDC	org.apache.bcel.generic.ExceptionThrower	C,S,P,O
+org.apache.bcel.generic.LDC	org.apache.bcel.generic.IndexedInstruction	C,S,O
+org.apache.bcel.generic.LDC2_W	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.LDIV	org.apache.bcel.generic.ExceptionThrower	C,S,P,O
+org.apache.bcel.generic.LLOAD	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.LOOKUPSWITCH	org.apache.bcel.generic.VariableLengthInstruction	S,C
+org.apache.bcel.generic.LREM	org.apache.bcel.generic.ExceptionThrower	C,S,P,O
+org.apache.bcel.generic.LRETURN	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.LSTORE	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.LineNumberGen	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.LoadInstruction	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.LocalVariableGen	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.LocalVariableInstruction	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.LocalVariableInstruction	org.apache.bcel.generic.IndexedInstruction	C,S,P,O
+org.apache.bcel.generic.MONITORENTER	org.apache.bcel.generic.ExceptionThrower	C,S,P,O
+org.apache.bcel.generic.MONITOREXIT	org.apache.bcel.generic.ExceptionThrower	C,S,P,O
+org.apache.bcel.generic.MULTIANEWARRAY	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.MULTIANEWARRAY	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.MULTIANEWARRAY	org.apache.bcel.generic.AllocationInstruction	P,S,C
+org.apache.bcel.generic.MULTIANEWARRAY	org.apache.bcel.generic.ExceptionThrower	C,S,P,O
+org.apache.bcel.generic.MethodGen	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.MethodGen	org.apache.bcel.generic.IndexedInstruction	C
+org.apache.bcel.generic.NEW	org.apache.bcel.generic.AllocationInstruction	P,S,C
+org.apache.bcel.generic.NEW	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.NEW	org.apache.bcel.generic.ExceptionThrower	C,S,P,O
+org.apache.bcel.generic.NEWARRAY	org.apache.bcel.generic.AllocationInstruction	P,S,C
+org.apache.bcel.generic.NEWARRAY	org.apache.bcel.generic.ExceptionThrower	C,S,P,O
+org.apache.bcel.generic.PUTFIELD	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.PUTFIELD	org.apache.bcel.generic.ExceptionThrower	C,S,P,O
+org.apache.bcel.generic.PUTSTATIC	org.apache.bcel.generic.ExceptionThrower	C,S,P,O
+org.apache.bcel.generic.PUTSTATIC	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.RET	org.apache.bcel.generic.IndexedInstruction	C,S,P,O
+org.apache.bcel.generic.RET	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.RETURN	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.ReturnInstruction	org.apache.bcel.generic.ExceptionThrower	C,S,P,O
+org.apache.bcel.generic.ReturnInstruction	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.SALOAD	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.SASTORE	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.Select	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.Select	org.apache.bcel.generic.VariableLengthInstruction	P,S,C
+org.apache.bcel.generic.StoreInstruction	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.TABLESWITCH	org.apache.bcel.generic.VariableLengthInstruction	S,C
+org.apache.bcel.generic.Visitor	org.apache.bcel.generic.AllocationInstruction	S,C
+org.apache.bcel.generic.Visitor	org.apache.bcel.generic.VariableLengthInstruction	S,C
+org.apache.bcel.generic.Visitor	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.Visitor	org.apache.bcel.generic.UnconditionalBranch	S,C
+***org.apache.bcel.generic:2->org.apache.bcel.classfile:1
+org.apache.bcel.generic.CPInstruction	org.apache.bcel.classfile.Constant	C
+org.apache.bcel.generic.CPInstruction	org.apache.bcel.classfile.ConstantPool	S,C
+org.apache.bcel.generic.CPInstruction	org.apache.bcel.classfile.ConstantClass	C
+org.apache.bcel.generic.ClassGen	org.apache.bcel.classfile.Attribute	S,C
+org.apache.bcel.generic.ClassGen	org.apache.bcel.classfile.SourceFile	C
+org.apache.bcel.generic.ClassGen	org.apache.bcel.classfile.Method	S,C
+org.apache.bcel.generic.ClassGen	org.apache.bcel.classfile.JavaClass	S,C
+org.apache.bcel.generic.ClassGen	org.apache.bcel.classfile.ConstantPool	C
+org.apache.bcel.generic.ClassGen	org.apache.bcel.classfile.Field	S,C
+org.apache.bcel.generic.CodeExceptionGen	org.apache.bcel.classfile.CodeException	S,C
+org.apache.bcel.generic.ConstantPoolGen	org.apache.bcel.classfile.ConstantString	C
+org.apache.bcel.generic.ConstantPoolGen	org.apache.bcel.classfile.ConstantPool	S,C
+org.apache.bcel.generic.ConstantPoolGen	org.apache.bcel.classfile.ConstantNameAndType	C
+org.apache.bcel.generic.ConstantPoolGen	org.apache.bcel.classfile.ConstantCP	C
+org.apache.bcel.generic.ConstantPoolGen	org.apache.bcel.classfile.ConstantFieldref	C
+org.apache.bcel.generic.ConstantPoolGen	org.apache.bcel.classfile.ConstantDouble	C
+org.apache.bcel.generic.ConstantPoolGen	org.apache.bcel.classfile.ConstantFloat	C
+org.apache.bcel.generic.ConstantPoolGen	org.apache.bcel.classfile.ConstantClass	C
+org.apache.bcel.generic.ConstantPoolGen	org.apache.bcel.classfile.Constant	S,C
+org.apache.bcel.generic.ConstantPoolGen	org.apache.bcel.classfile.ConstantLong	C
+org.apache.bcel.generic.ConstantPoolGen	org.apache.bcel.classfile.ConstantInteger	C
+org.apache.bcel.generic.ConstantPoolGen	org.apache.bcel.classfile.ConstantUtf8	C
+org.apache.bcel.generic.ConstantPoolGen	org.apache.bcel.classfile.ConstantMethodref	C
+org.apache.bcel.generic.ConstantPoolGen	org.apache.bcel.classfile.ConstantInterfaceMethodref	C
+org.apache.bcel.generic.FieldGenOrMethodGen	org.apache.bcel.classfile.Attribute	S,C
+org.apache.bcel.generic.FieldInstruction	org.apache.bcel.classfile.ConstantPool	S,C
+org.apache.bcel.generic.FieldOrMethod	org.apache.bcel.classfile.ConstantUtf8	C
+org.apache.bcel.generic.FieldOrMethod	org.apache.bcel.classfile.ConstantPool	C
+org.apache.bcel.generic.FieldOrMethod	org.apache.bcel.classfile.ConstantNameAndType	C
+org.apache.bcel.generic.FieldOrMethod	org.apache.bcel.classfile.ConstantCP	C
+org.apache.bcel.generic.FieldOrMethod	org.apache.bcel.classfile.Constant	C
+org.apache.bcel.generic.INVOKEINTERFACE	org.apache.bcel.classfile.ConstantPool	S,C
+org.apache.bcel.generic.Instruction	org.apache.bcel.classfile.ConstantPool	S,C
+org.apache.bcel.generic.InstructionHandle	org.apache.bcel.classfile.Utility	C
+org.apache.bcel.generic.InstructionList	org.apache.bcel.classfile.Constant	C
+org.apache.bcel.generic.InvokeInstruction	org.apache.bcel.classfile.Constant	C
+org.apache.bcel.generic.InvokeInstruction	org.apache.bcel.classfile.ConstantPool	S,C
+org.apache.bcel.generic.LDC	org.apache.bcel.classfile.ConstantString	C
+org.apache.bcel.generic.LDC	org.apache.bcel.classfile.ConstantPool	C
+org.apache.bcel.generic.LDC	org.apache.bcel.classfile.ConstantInteger	C
+org.apache.bcel.generic.LDC	org.apache.bcel.classfile.Constant	C
+org.apache.bcel.generic.LDC	org.apache.bcel.classfile.ConstantUtf8	C
+org.apache.bcel.generic.LDC	org.apache.bcel.classfile.ConstantFloat	C
+org.apache.bcel.generic.LDC2_W	org.apache.bcel.classfile.ConstantDouble	C
+org.apache.bcel.generic.LDC2_W	org.apache.bcel.classfile.ConstantPool	C
+org.apache.bcel.generic.LDC2_W	org.apache.bcel.classfile.Constant	C
+org.apache.bcel.generic.LDC2_W	org.apache.bcel.classfile.ConstantLong	C
+org.apache.bcel.generic.LineNumberGen	org.apache.bcel.classfile.LineNumber	S,C
+org.apache.bcel.generic.LocalVariableGen	org.apache.bcel.classfile.ConstantPool	C
+org.apache.bcel.generic.LocalVariableGen	org.apache.bcel.classfile.LocalVariable	S,C
+org.apache.bcel.generic.MULTIANEWARRAY	org.apache.bcel.classfile.ConstantPool	S,C
+org.apache.bcel.generic.MethodGen	org.apache.bcel.classfile.CodeException	S,C
+org.apache.bcel.generic.MethodGen	org.apache.bcel.classfile.ConstantPool	C
+org.apache.bcel.generic.MethodGen	org.apache.bcel.classfile.Attribute	S,C
+org.apache.bcel.generic.MethodGen	org.apache.bcel.classfile.LineNumber	C
+org.apache.bcel.generic.MethodGen	org.apache.bcel.classfile.LocalVariableTable	S,C
+org.apache.bcel.generic.MethodGen	org.apache.bcel.classfile.ExceptionTable	S,C
+org.apache.bcel.generic.MethodGen	org.apache.bcel.classfile.Code	C
+org.apache.bcel.generic.MethodGen	org.apache.bcel.classfile.Utility	C
+org.apache.bcel.generic.MethodGen	org.apache.bcel.classfile.Method	S,C
+org.apache.bcel.generic.MethodGen	org.apache.bcel.classfile.LocalVariable	C
+org.apache.bcel.generic.MethodGen	org.apache.bcel.classfile.LineNumberTable	S,C
+***org.apache.bcel.generic:2->org.apache.bcel.util:0
+org.apache.bcel.generic.BIPUSH	org.apache.bcel.util.ByteSequence	S,C
+org.apache.bcel.generic.BranchInstruction	org.apache.bcel.util.ByteSequence	S,C
+org.apache.bcel.generic.CPInstruction	org.apache.bcel.util.ByteSequence	S,C
+org.apache.bcel.generic.ClassGen	org.apache.bcel.util.BCELComparator	S,C
+org.apache.bcel.generic.ClassGen$1	org.apache.bcel.util.BCELComparator	C,S,P,O
+org.apache.bcel.generic.GOTO_W	org.apache.bcel.util.ByteSequence	S,C
+org.apache.bcel.generic.IINC	org.apache.bcel.util.ByteSequence	S,C
+org.apache.bcel.generic.INVOKEINTERFACE	org.apache.bcel.util.ByteSequence	S,C
+org.apache.bcel.generic.Instruction	org.apache.bcel.util.ByteSequence	S,C
+org.apache.bcel.generic.InstructionList	org.apache.bcel.util.ByteSequence	C
+org.apache.bcel.generic.JSR_W	org.apache.bcel.util.ByteSequence	S,C
+org.apache.bcel.generic.LDC	org.apache.bcel.util.ByteSequence	S,C
+org.apache.bcel.generic.LOOKUPSWITCH	org.apache.bcel.util.ByteSequence	S,C
+org.apache.bcel.generic.LocalVariableInstruction	org.apache.bcel.util.ByteSequence	S,C
+org.apache.bcel.generic.MULTIANEWARRAY	org.apache.bcel.util.ByteSequence	S,C
+org.apache.bcel.generic.MethodGen	org.apache.bcel.util.BCELComparator	S,C
+org.apache.bcel.generic.MethodGen$1	org.apache.bcel.util.BCELComparator	C,S,P,O
+org.apache.bcel.generic.NEWARRAY	org.apache.bcel.util.ByteSequence	S,C
+org.apache.bcel.generic.RET	org.apache.bcel.util.ByteSequence	S,C
+org.apache.bcel.generic.SIPUSH	org.apache.bcel.util.ByteSequence	S,C
+org.apache.bcel.generic.Select	org.apache.bcel.util.ByteSequence	S,C
+org.apache.bcel.generic.TABLESWITCH	org.apache.bcel.util.ByteSequence	S,C
+***org.apache.bcel.generic:2->org.apache.bcel:0
+org.apache.bcel.generic.ANEWARRAY	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.ARRAYLENGTH	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.ATHROW	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.ArrayInstruction	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.CHECKCAST	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.CPInstruction	org.apache.bcel.Constants	C
+org.apache.bcel.generic.FieldInstruction	org.apache.bcel.Constants	C
+org.apache.bcel.generic.GETFIELD	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.GETSTATIC	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.IDIV	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.INSTANCEOF	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.INVOKEINTERFACE	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.INVOKESPECIAL	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.INVOKESTATIC	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.INVOKEVIRTUAL	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.IREM	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.Instruction	org.apache.bcel.Constants	C
+org.apache.bcel.generic.InstructionList	org.apache.bcel.Constants	C
+org.apache.bcel.generic.InvokeInstruction	org.apache.bcel.Constants	C
+org.apache.bcel.generic.LDC	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.LDIV	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.LREM	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.MONITORENTER	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.MONITOREXIT	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.MULTIANEWARRAY	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.NEW	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.NEWARRAY	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.NEWARRAY	org.apache.bcel.Constants	C
+org.apache.bcel.generic.PUTFIELD	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.PUTSTATIC	org.apache.bcel.ExceptionConstants	C
+org.apache.bcel.generic.ReturnInstruction	org.apache.bcel.ExceptionConstants	C
+***org.apache.bcel.generic:2->org.apache.bcel.classfile:0
+org.apache.bcel.generic.ClassGen	org.apache.bcel.classfile.AccessFlags	S,C
+org.apache.bcel.generic.FieldGenOrMethodGen	org.apache.bcel.classfile.AccessFlags	S,C
+org.apache.bcel.generic.MethodGen	org.apache.bcel.classfile.AccessFlags	S,C
+------------
+***org.apache.bcel.generic:3->org.apache.bcel.generic:1
+org.apache.bcel.generic.FieldGen	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.generic.FieldGen	org.apache.bcel.generic.NamedAndTyped	S,C
+org.apache.bcel.generic.FieldGen	org.apache.bcel.generic.ObjectType	C
+org.apache.bcel.generic.FieldGen	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.ObjectType	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.ReferenceType	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.ArrayType	C
+org.apache.bcel.generic.InstructionFactory$MethodObject	org.apache.bcel.generic.Type	S,C
+***org.apache.bcel.generic:3->org.apache.bcel.generic:2
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.PUTFIELD	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.NOP	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.DUP2_X2	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.ReturnInstruction	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.ARETURN	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IF_ICMPGE	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.BranchInstruction	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IMPDEP2	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IASTORE	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.FCMPG	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LSHR	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.ISHR	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.BALOAD	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.I2L	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IF_ICMPLT	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.DNEG	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.DSTORE	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.StoreInstruction	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IF_ICMPNE	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.SALOAD	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.DREM	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LALOAD	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.NEW	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LXOR	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.DSUB	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.StackProducer	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.D2F	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.CASTORE	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.ConversionInstruction	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IXOR	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LCMP	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.ARRAYLENGTH	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.I2C	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.FSTORE	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.MONITORENTER	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IFEQ	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.POP2	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LNEG	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.JSR	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.ArithmeticInstruction	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.AALOAD	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IF_ICMPLE	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.I2D	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.FADD	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.DLOAD	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.INSTANCEOF	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.DALOAD	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.ConstantPushInstruction	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.FNEG	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IDIV	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.FieldInstruction	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.RET	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.INVOKEINTERFACE	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.ATHROW	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.DUP_X1	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IINC	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IF_ACMPEQ	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.POP	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IFLT	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.FDIV	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.FMUL	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.Select	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LDIV	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.DMUL	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.CALOAD	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.ANEWARRAY	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LSUB	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.FCONST	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IF_ICMPGT	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.ACONST_NULL	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.ISUB	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LDC	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.JsrInstruction	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.FASTORE	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.MULTIANEWARRAY	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.INVOKESTATIC	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LUSHR	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IALOAD	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.StackInstruction	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.DCMPG	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IOR	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.ISTORE	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IMUL	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.SASTORE	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.InvokeInstruction	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IF_ICMPEQ	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.GETFIELD	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.INVOKESPECIAL	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.ILOAD	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.FALOAD	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.RETURN	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.FieldOrMethod	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.DUP2_X1	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LAND	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LoadClass	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.L2D	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.NEWARRAY	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.I2F	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LOOKUPSWITCH	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.TABLESWITCH	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.DUP2	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IF_ACMPNE	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.MONITOREXIT	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.ICONST	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.F2L	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.TypedInstruction	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.FLOAD	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IFNONNULL	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IFGE	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.ASTORE	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IFNULL	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LRETURN	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.L2F	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.StackConsumer	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.GOTO	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.FREM	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.PopInstruction	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.INVOKEVIRTUAL	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.JSR_W	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.DUP	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LMUL	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.DASTORE	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.Visitor	C,S,P,O
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LSHL	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.SWAP	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.BASTORE	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LREM	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.FSUB	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.CPInstruction	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.D2I	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LDC2_W	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.DADD	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.BREAKPOINT	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.DCONST	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IFLE	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.SIPUSH	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LoadInstruction	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.GOTO_W	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LOR	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IfInstruction	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IFGT	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.INEG	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.DCMPL	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.FCMPL	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.DRETURN	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IMPDEP1	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.I2S	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LSTORE	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.I2B	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LLOAD	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.PushInstruction	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.PUTSTATIC	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IFNE	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LASTORE	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.FRETURN	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.L2I	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IUSHR	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.F2D	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.GETSTATIC	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.F2I	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.BIPUSH	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.GotoInstruction	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IRETURN	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.DUP_X2	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LCONST	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.ISHL	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.DDIV	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LocalVariableInstruction	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.D2L	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IREM	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.CHECKCAST	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IADD	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.ALOAD	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.ArrayInstruction	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.AASTORE	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.LADD	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.IAND	S,C
+org.apache.bcel.generic.FieldGen	org.apache.bcel.generic.FieldGenOrMethodGen	C,S,O
+org.apache.bcel.generic.FieldGen	org.apache.bcel.generic.ConstantPoolGen	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.INSTANCEOF	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.IFLE	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.IF_ICMPGE	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.FLOAD	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.DLOAD	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.ALOAD	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.StackInstruction	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.InstructionHandle	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.IF_ICMPLT	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.IF_ACMPEQ	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.InvokeInstruction	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.INVOKEVIRTUAL	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.IF_ICMPGT	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.LSTORE	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.GETSTATIC	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.Instruction	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.GOTO_W	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.ISTORE	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.InstructionConstants	P,S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.MULTIANEWARRAY	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.ASTORE	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.ArrayInstruction	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.ConstantPoolGen	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.IFGE	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.IF_ICMPEQ	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.ReturnInstruction	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.DSTORE	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.INVOKESPECIAL	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.LLOAD	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.PUTSTATIC	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.NEW	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.GOTO	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.IF_ACMPNE	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.ILOAD	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.CompoundInstruction	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.IFLT	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.LocalVariableInstruction	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.ClassGen	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.IFNONNULL	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.IFEQ	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.FieldInstruction	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.IFNE	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.JSR_W	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.IFGT	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.PUTFIELD	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.BranchInstruction	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.JSR	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.IFNULL	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.InstructionList	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.NEWARRAY	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.ANEWARRAY	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.GETFIELD	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.FSTORE	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.INVOKESTATIC	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.ArithmeticInstruction	S,C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.INVOKEINTERFACE	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.IF_ICMPLE	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.IF_ICMPNE	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.CHECKCAST	S,C
+org.apache.bcel.generic.LDC_W	org.apache.bcel.generic.CPInstruction	C,S,O
+org.apache.bcel.generic.LDC_W	org.apache.bcel.generic.StackProducer	S,C
+org.apache.bcel.generic.LDC_W	org.apache.bcel.generic.PushInstruction	S,C
+org.apache.bcel.generic.LDC_W	org.apache.bcel.generic.Instruction	C,S,O
+org.apache.bcel.generic.LDC_W	org.apache.bcel.generic.TypedInstruction	S,C
+org.apache.bcel.generic.LDC_W	org.apache.bcel.generic.LDC	C,S,O
+org.apache.bcel.generic.PUSH	org.apache.bcel.generic.InstructionConstants	P,S,C
+org.apache.bcel.generic.PUSH	org.apache.bcel.generic.SIPUSH	C
+org.apache.bcel.generic.PUSH	org.apache.bcel.generic.InstructionList	S,C
+org.apache.bcel.generic.PUSH	org.apache.bcel.generic.LDC	C
+org.apache.bcel.generic.PUSH	org.apache.bcel.generic.ConstantPoolGen	S,C
+org.apache.bcel.generic.PUSH	org.apache.bcel.generic.BIPUSH	C
+org.apache.bcel.generic.PUSH	org.apache.bcel.generic.CompoundInstruction	C,S,P,O
+org.apache.bcel.generic.PUSH	org.apache.bcel.generic.Instruction	S,C
+org.apache.bcel.generic.PUSH	org.apache.bcel.generic.LDC2_W	C
+org.apache.bcel.generic.SWITCH	org.apache.bcel.generic.Instruction	S,C
+org.apache.bcel.generic.SWITCH	org.apache.bcel.generic.BranchInstruction	C
+org.apache.bcel.generic.SWITCH	org.apache.bcel.generic.Select	S,C
+org.apache.bcel.generic.SWITCH	org.apache.bcel.generic.TABLESWITCH	C
+org.apache.bcel.generic.SWITCH	org.apache.bcel.generic.InstructionHandle	S,C
+org.apache.bcel.generic.SWITCH	org.apache.bcel.generic.LOOKUPSWITCH	C
+org.apache.bcel.generic.SWITCH	org.apache.bcel.generic.CompoundInstruction	C,S,P,O
+org.apache.bcel.generic.SWITCH	org.apache.bcel.generic.InstructionList	S,C
+***org.apache.bcel.generic:3->org.apache.bcel.classfile:1
+org.apache.bcel.generic.FieldGen	org.apache.bcel.classfile.ConstantPool	C
+org.apache.bcel.generic.FieldGen	org.apache.bcel.classfile.ConstantObject	C
+org.apache.bcel.generic.FieldGen	org.apache.bcel.classfile.Attribute	C
+org.apache.bcel.generic.FieldGen	org.apache.bcel.classfile.ConstantValue	C
+org.apache.bcel.generic.FieldGen	org.apache.bcel.classfile.Utility	C
+org.apache.bcel.generic.FieldGen	org.apache.bcel.classfile.Constant	C
+org.apache.bcel.generic.FieldGen	org.apache.bcel.classfile.Field	S,C
+***org.apache.bcel.generic:3->org.apache.bcel.util:0
+org.apache.bcel.generic.FieldGen	org.apache.bcel.util.BCELComparator	S,C
+org.apache.bcel.generic.FieldGen$1	org.apache.bcel.util.BCELComparator	C,S,P,O
+org.apache.bcel.generic.LDC_W	org.apache.bcel.util.ByteSequence	S,C
+***org.apache.bcel.generic:3->org.apache.bcel.generic:0
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.AllocationInstruction	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.VariableLengthInstruction	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.EmptyVisitor	org.apache.bcel.generic.UnconditionalBranch	S,C
+org.apache.bcel.generic.FieldGen	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.InstructionFactory	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.LDC_W	org.apache.bcel.generic.IndexedInstruction	S,C
+org.apache.bcel.generic.LDC_W	org.apache.bcel.generic.ExceptionThrower	S,C
+org.apache.bcel.generic.PUSH	org.apache.bcel.generic.ClassGenException	C
+org.apache.bcel.generic.PUSH	org.apache.bcel.generic.VariableLengthInstruction	P,S,C
+***org.apache.bcel.generic:3->org.apache.bcel.classfile:0
+org.apache.bcel.generic.FieldGen	org.apache.bcel.classfile.AccessFlags	S,C
+------------
+
+------------
+***org.apache.bcel.util:1->org.apache.bcel:0
+org.apache.bcel.util.AttributeHTML	org.apache.bcel.Constants	P,S,C
+org.apache.bcel.util.Class2HTML	org.apache.bcel.Constants	P,S,C
+org.apache.bcel.util.CodeHTML	org.apache.bcel.Constants	P,S,C
+org.apache.bcel.util.ConstantHTML	org.apache.bcel.Constants	P,S,C
+org.apache.bcel.util.MethodHTML	org.apache.bcel.Constants	P,S,C
+***org.apache.bcel.util:1->org.apache.bcel.classfile:1
+org.apache.bcel.util.AttributeHTML	org.apache.bcel.classfile.Code	C
+org.apache.bcel.util.AttributeHTML	org.apache.bcel.classfile.ConstantUtf8	C
+org.apache.bcel.util.AttributeHTML	org.apache.bcel.classfile.LineNumber	C
+org.apache.bcel.util.AttributeHTML	org.apache.bcel.classfile.Attribute	S,C
+org.apache.bcel.util.AttributeHTML	org.apache.bcel.classfile.CodeException	C
+org.apache.bcel.util.AttributeHTML	org.apache.bcel.classfile.LocalVariable	C
+org.apache.bcel.util.AttributeHTML	org.apache.bcel.classfile.LineNumberTable	C
+org.apache.bcel.util.AttributeHTML	org.apache.bcel.classfile.LocalVariableTable	C
+org.apache.bcel.util.AttributeHTML	org.apache.bcel.classfile.ExceptionTable	C
+org.apache.bcel.util.AttributeHTML	org.apache.bcel.classfile.SourceFile	C
+org.apache.bcel.util.AttributeHTML	org.apache.bcel.classfile.Constant	C
+org.apache.bcel.util.AttributeHTML	org.apache.bcel.classfile.ConstantPool	S,C
+org.apache.bcel.util.AttributeHTML	org.apache.bcel.classfile.InnerClass	C
+org.apache.bcel.util.AttributeHTML	org.apache.bcel.classfile.InnerClasses	C
+org.apache.bcel.util.AttributeHTML	org.apache.bcel.classfile.Utility	C
+org.apache.bcel.util.AttributeHTML	org.apache.bcel.classfile.ConstantValue	C
+org.apache.bcel.util.Class2HTML	org.apache.bcel.classfile.ClassParser	C
+org.apache.bcel.util.Class2HTML	org.apache.bcel.classfile.JavaClass	S,C
+org.apache.bcel.util.Class2HTML	org.apache.bcel.classfile.Attribute	C
+org.apache.bcel.util.Class2HTML	org.apache.bcel.classfile.Utility	C
+org.apache.bcel.util.Class2HTML	org.apache.bcel.classfile.ConstantPool	S,C
+org.apache.bcel.util.Class2HTML	org.apache.bcel.classfile.Field	C
+org.apache.bcel.util.Class2HTML	org.apache.bcel.classfile.Method	C
+org.apache.bcel.util.ClassQueue	org.apache.bcel.classfile.JavaClass	S,C
+org.apache.bcel.util.ClassSet	org.apache.bcel.classfile.JavaClass	S,C
+org.apache.bcel.util.ClassStack	org.apache.bcel.classfile.JavaClass	S,C
+org.apache.bcel.util.ClassVector	org.apache.bcel.classfile.JavaClass	S,C
+org.apache.bcel.util.CodeHTML	org.apache.bcel.classfile.ConstantPool	S,C
+org.apache.bcel.util.CodeHTML	org.apache.bcel.classfile.Constant	C
+org.apache.bcel.util.CodeHTML	org.apache.bcel.classfile.LocalVariableTable	C
+org.apache.bcel.util.CodeHTML	org.apache.bcel.classfile.LocalVariable	C
+org.apache.bcel.util.CodeHTML	org.apache.bcel.classfile.Attribute	C
+org.apache.bcel.util.CodeHTML	org.apache.bcel.classfile.CodeException	C
+org.apache.bcel.util.CodeHTML	org.apache.bcel.classfile.Code	S,C
+org.apache.bcel.util.CodeHTML	org.apache.bcel.classfile.Utility	C
+org.apache.bcel.util.CodeHTML	org.apache.bcel.classfile.ConstantInterfaceMethodref	C
+org.apache.bcel.util.CodeHTML	org.apache.bcel.classfile.ConstantMethodref	C
+org.apache.bcel.util.CodeHTML	org.apache.bcel.classfile.ConstantNameAndType	C
+org.apache.bcel.util.CodeHTML	org.apache.bcel.classfile.ConstantFieldref	C
+org.apache.bcel.util.CodeHTML	org.apache.bcel.classfile.Method	S,C
+org.apache.bcel.util.ConstantHTML	org.apache.bcel.classfile.ConstantPool	S,C
+org.apache.bcel.util.ConstantHTML	org.apache.bcel.classfile.ConstantFieldref	C
+org.apache.bcel.util.ConstantHTML	org.apache.bcel.classfile.Method	S,C
+org.apache.bcel.util.ConstantHTML	org.apache.bcel.classfile.ConstantInterfaceMethodref	C
+org.apache.bcel.util.ConstantHTML	org.apache.bcel.classfile.ConstantNameAndType	C
+org.apache.bcel.util.ConstantHTML	org.apache.bcel.classfile.Constant	S,C
+org.apache.bcel.util.ConstantHTML	org.apache.bcel.classfile.ConstantString	C
+org.apache.bcel.util.ConstantHTML	org.apache.bcel.classfile.Utility	C
+org.apache.bcel.util.ConstantHTML	org.apache.bcel.classfile.ConstantClass	C
+org.apache.bcel.util.ConstantHTML	org.apache.bcel.classfile.ConstantMethodref	C
+org.apache.bcel.util.MethodHTML	org.apache.bcel.classfile.Method	S,C
+org.apache.bcel.util.MethodHTML	org.apache.bcel.classfile.Utility	C
+org.apache.bcel.util.MethodHTML	org.apache.bcel.classfile.ExceptionTable	C
+org.apache.bcel.util.MethodHTML	org.apache.bcel.classfile.Code	C
+org.apache.bcel.util.MethodHTML	org.apache.bcel.classfile.Attribute	C
+org.apache.bcel.util.MethodHTML	org.apache.bcel.classfile.ConstantValue	C
+org.apache.bcel.util.MethodHTML	org.apache.bcel.classfile.Field	S,C
+org.apache.bcel.util.Repository	org.apache.bcel.classfile.JavaClass	S,C
+org.apache.bcel.util.SyntheticRepository	org.apache.bcel.classfile.ClassParser	C
+org.apache.bcel.util.SyntheticRepository	org.apache.bcel.classfile.JavaClass	S,C
+***org.apache.bcel.util:1->org.apache.bcel.util:0
+org.apache.bcel.util.CodeHTML	org.apache.bcel.util.ByteSequence	S,C
+org.apache.bcel.util.Repository	org.apache.bcel.util.ClassPath	S,C
+org.apache.bcel.util.SyntheticRepository	org.apache.bcel.util.ClassPath	S,C
+------------
+***org.apache.bcel.util:2->org.apache.bcel.generic:0
+org.apache.bcel.util.InstructionFinder	org.apache.bcel.generic.ClassGenException	C
+***org.apache.bcel.util:2->org.apache.bcel.generic:2
+org.apache.bcel.util.InstructionFinder	org.apache.bcel.generic.InstructionList	S,C
+org.apache.bcel.util.InstructionFinder	org.apache.bcel.generic.Instruction	C
+org.apache.bcel.util.InstructionFinder	org.apache.bcel.generic.InstructionHandle	S,C
+org.apache.bcel.util.InstructionFinder$CodeConstraint	org.apache.bcel.generic.InstructionHandle	S,C
+***org.apache.bcel.util:2->org.apache.bcel.util:1
+org.apache.bcel.util.ClassLoader	org.apache.bcel.util.Repository	S,C
+org.apache.bcel.util.ClassLoader	org.apache.bcel.util.SyntheticRepository	C
+org.apache.bcel.util.ClassLoaderRepository	org.apache.bcel.util.Repository	C,S,P,O
+***org.apache.bcel.util:2->org.apache.bcel.classfile:1
+org.apache.bcel.util.ClassLoader	org.apache.bcel.classfile.ConstantPool	C
+org.apache.bcel.util.ClassLoader	org.apache.bcel.classfile.ConstantClass	C
+org.apache.bcel.util.ClassLoader	org.apache.bcel.classfile.Utility	C
+org.apache.bcel.util.ClassLoader	org.apache.bcel.classfile.Constant	C
+org.apache.bcel.util.ClassLoader	org.apache.bcel.classfile.JavaClass	S,C
+org.apache.bcel.util.ClassLoader	org.apache.bcel.classfile.ConstantUtf8	C
+org.apache.bcel.util.ClassLoader	org.apache.bcel.classfile.ClassParser	C
+org.apache.bcel.util.ClassLoaderRepository	org.apache.bcel.classfile.ClassParser	C
+org.apache.bcel.util.ClassLoaderRepository	org.apache.bcel.classfile.JavaClass	S,C
+***org.apache.bcel.util:2->org.apache.bcel:0
+org.apache.bcel.util.InstructionFinder	org.apache.bcel.Constants	C
+***org.apache.bcel.util:2->org.apache.bcel.util:0
+org.apache.bcel.util.ClassLoaderRepository	org.apache.bcel.util.ClassPath	S,C
+------------
+***org.apache.bcel.util:4->org.apache.bcel.classfile:2
+org.apache.bcel.util.BCELifier	org.apache.bcel.classfile.EmptyVisitor	C,S,O
+***org.apache.bcel.util:4->org.apache.bcel:1
+org.apache.bcel.util.BCELifier	org.apache.bcel.Repository	C
+***org.apache.bcel.util:4->org.apache.bcel.generic:1
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.ArrayType	C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.Type	C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.ObjectType	C
+org.apache.bcel.util.BCELifier	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.util.BCELifier	org.apache.bcel.generic.ArrayType	C
+***org.apache.bcel.util:4->org.apache.bcel.generic:3
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.EmptyVisitor	C,S,O
+***org.apache.bcel.util:4->org.apache.bcel.classfile:1
+org.apache.bcel.util.BCELFactory	org.apache.bcel.classfile.Utility	C
+org.apache.bcel.util.BCELifier	org.apache.bcel.classfile.ConstantValue	C
+org.apache.bcel.util.BCELifier	org.apache.bcel.classfile.Field	S,C
+org.apache.bcel.util.BCELifier	org.apache.bcel.classfile.ConstantPool	C
+org.apache.bcel.util.BCELifier	org.apache.bcel.classfile.JavaClass	S,C
+org.apache.bcel.util.BCELifier	org.apache.bcel.classfile.ClassParser	C
+org.apache.bcel.util.BCELifier	org.apache.bcel.classfile.Method	S,C
+org.apache.bcel.util.BCELifier	org.apache.bcel.classfile.Utility	C
+org.apache.bcel.util.BCELifier	org.apache.bcel.classfile.Visitor	C,S,O
+***org.apache.bcel.util:4->org.apache.bcel.generic:2
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.InstructionList	C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.BranchHandle	C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.ConstantPushInstruction	S,C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.FieldInstruction	S,C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.InstructionConstants	C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.BranchInstruction	S,C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.LocalVariableInstruction	S,C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.NEWARRAY	C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.CHECKCAST	S,C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.Visitor	C,S,O
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.LDC	S,C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.Select	C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.MethodGen	S,C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.Instruction	S,C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.MULTIANEWARRAY	C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.INSTANCEOF	S,C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.InvokeInstruction	S,C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.IINC	C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.RET	S,C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.ArrayInstruction	S,C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.CodeExceptionGen	C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.ReturnInstruction	S,C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.InstructionHandle	C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.LDC2_W	S,C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.CPInstruction	C
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.ConstantPoolGen	S,C
+org.apache.bcel.util.BCELifier	org.apache.bcel.generic.MethodGen	C
+org.apache.bcel.util.BCELifier	org.apache.bcel.generic.ConstantPoolGen	S,C
+***org.apache.bcel.util:4->org.apache.bcel:0
+org.apache.bcel.util.BCELFactory	org.apache.bcel.Constants	C
+org.apache.bcel.util.BCELifier	org.apache.bcel.Constants	C
+***org.apache.bcel.util:4->org.apache.bcel.generic:0
+org.apache.bcel.util.BCELFactory	org.apache.bcel.generic.AllocationInstruction	S,C
+------------
+
+------------
+***org.apache.bcel:1->org.apache.bcel:0
+org.apache.bcel.verifier.statics.LocalVariableInfo	org.apache.bcel.verifier.exc.LocalVariableInfoInconsistentException	C
+org.apache.bcel.verifier.statics.LocalVariablesInfo	org.apache.bcel.verifier.exc.LocalVariableInfoInconsistentException	C
+org.apache.bcel.verifier.statics.LocalVariablesInfo	org.apache.bcel.verifier.exc.AssertionViolatedException	C
+***org.apache.bcel:1->org.apache.bcel.util:0
+org.apache.bcel.Repository	org.apache.bcel.util.ClassPath	C
+org.apache.bcel.Repository	org.apache.bcel.util.ClassPath$ClassFile	S,C
+***org.apache.bcel:1->org.apache.bcel.util:1
+org.apache.bcel.Repository	org.apache.bcel.util.SyntheticRepository	C
+org.apache.bcel.Repository	org.apache.bcel.util.Repository	S,C
+***org.apache.bcel:1->org.apache.bcel.generic:1
+org.apache.bcel.verifier.statics.DOUBLE_Upper	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.verifier.statics.LONG_Upper	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.verifier.statics.LocalVariableInfo	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.verifier.statics.LocalVariablesInfo	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.verifier.statics.LocalVariablesInfo	org.apache.bcel.generic.BasicType	C
+***org.apache.bcel:1->org.apache.bcel.classfile:1
+org.apache.bcel.Repository	org.apache.bcel.classfile.JavaClass	S,C
+------------
+***org.apache.bcel:2->org.apache.bcel:0
+org.apache.bcel.verifier.structurals.LocalVariables	org.apache.bcel.verifier.exc.StructuralCodeConstraintException	C
+org.apache.bcel.verifier.structurals.LocalVariables	org.apache.bcel.verifier.exc.AssertionViolatedException	C
+org.apache.bcel.verifier.structurals.OperandStack	org.apache.bcel.verifier.exc.StructuralCodeConstraintException	C
+org.apache.bcel.verifier.structurals.OperandStack	org.apache.bcel.verifier.exc.AssertionViolatedException	C
+org.apache.bcel.verifier.structurals.UninitializedObjectType	org.apache.bcel.Constants	P,S,C
+***org.apache.bcel:2->org.apache.bcel.generic:1
+org.apache.bcel.verifier.structurals.ExceptionHandler	org.apache.bcel.generic.ObjectType	S,C
+org.apache.bcel.verifier.structurals.ExceptionHandlers	org.apache.bcel.generic.ObjectType	C
+org.apache.bcel.verifier.structurals.LocalVariables	org.apache.bcel.generic.ReferenceType	C
+org.apache.bcel.verifier.structurals.LocalVariables	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.verifier.structurals.LocalVariables	org.apache.bcel.generic.ObjectType	C
+org.apache.bcel.verifier.structurals.LocalVariables	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.verifier.structurals.OperandStack	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.verifier.structurals.OperandStack	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.verifier.structurals.OperandStack	org.apache.bcel.generic.ObjectType	S,C
+org.apache.bcel.verifier.structurals.OperandStack	org.apache.bcel.generic.ReferenceType	C
+org.apache.bcel.verifier.structurals.UninitializedObjectType	org.apache.bcel.generic.Type	C,S,O
+org.apache.bcel.verifier.structurals.UninitializedObjectType	org.apache.bcel.generic.ObjectType	S,C
+org.apache.bcel.verifier.structurals.UninitializedObjectType	org.apache.bcel.generic.ReferenceType	S,C
+***org.apache.bcel:2->org.apache.bcel.generic:2
+org.apache.bcel.verifier.structurals.ExceptionHandler	org.apache.bcel.generic.InstructionHandle	S,C
+org.apache.bcel.verifier.structurals.ExceptionHandlers	org.apache.bcel.generic.MethodGen	S,C
+org.apache.bcel.verifier.structurals.ExceptionHandlers	org.apache.bcel.generic.CodeExceptionGen	C
+org.apache.bcel.verifier.structurals.ExceptionHandlers	org.apache.bcel.generic.InstructionHandle	S,C
+org.apache.bcel.verifier.structurals.Subroutine	org.apache.bcel.generic.InstructionHandle	S,C
+------------
+***org.apache.bcel:3->org.apache.bcel.generic:0
+org.apache.bcel.verifier.structurals.Subroutines$SubroutineImpl	org.apache.bcel.generic.IndexedInstruction	C
+***org.apache.bcel:3->org.apache.bcel.generic:2
+org.apache.bcel.verifier.structurals.Subroutines	org.apache.bcel.generic.Instruction	C
+org.apache.bcel.verifier.structurals.Subroutines	org.apache.bcel.generic.JsrInstruction	C
+org.apache.bcel.verifier.structurals.Subroutines	org.apache.bcel.generic.ATHROW	C
+org.apache.bcel.verifier.structurals.Subroutines	org.apache.bcel.generic.GotoInstruction	C
+org.apache.bcel.verifier.structurals.Subroutines	org.apache.bcel.generic.ReturnInstruction	C
+org.apache.bcel.verifier.structurals.Subroutines	org.apache.bcel.generic.MethodGen	S,C
+org.apache.bcel.verifier.structurals.Subroutines	org.apache.bcel.generic.InstructionList	C
+org.apache.bcel.verifier.structurals.Subroutines	org.apache.bcel.generic.CodeExceptionGen	C
+org.apache.bcel.verifier.structurals.Subroutines	org.apache.bcel.generic.RET	C
+org.apache.bcel.verifier.structurals.Subroutines	org.apache.bcel.generic.BranchInstruction	C
+org.apache.bcel.verifier.structurals.Subroutines	org.apache.bcel.generic.ASTORE	C
+org.apache.bcel.verifier.structurals.Subroutines	org.apache.bcel.generic.Select	C
+org.apache.bcel.verifier.structurals.Subroutines	org.apache.bcel.generic.InstructionHandle	S,C
+org.apache.bcel.verifier.structurals.Subroutines$SubroutineImpl	org.apache.bcel.generic.ASTORE	C
+org.apache.bcel.verifier.structurals.Subroutines$SubroutineImpl	org.apache.bcel.generic.LocalVariableInstruction	C
+org.apache.bcel.verifier.structurals.Subroutines$SubroutineImpl	org.apache.bcel.generic.InstructionHandle	S,C
+org.apache.bcel.verifier.structurals.Subroutines$SubroutineImpl	org.apache.bcel.generic.ConstantPoolGen	C
+org.apache.bcel.verifier.structurals.Subroutines$SubroutineImpl	org.apache.bcel.generic.RET	C
+org.apache.bcel.verifier.structurals.Subroutines$SubroutineImpl	org.apache.bcel.generic.JsrInstruction	C
+org.apache.bcel.verifier.structurals.Subroutines$SubroutineImpl	org.apache.bcel.generic.Instruction	C
+***org.apache.bcel:3->org.apache.bcel.classfile:2
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.EmptyVisitor	C,S,O
+***org.apache.bcel:3->org.apache.bcel:2
+org.apache.bcel.verifier.structurals.Subroutines	org.apache.bcel.verifier.structurals.Subroutine	S,C
+org.apache.bcel.verifier.structurals.Subroutines$SubroutineImpl	org.apache.bcel.verifier.structurals.Subroutine	C,S,P,O
+***org.apache.bcel:3->org.apache.bcel.generic:1
+org.apache.bcel.verifier.structurals.Subroutines$SubroutineImpl	org.apache.bcel.generic.Type	C
+***org.apache.bcel:3->org.apache.bcel:0
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.verifier.exc.AssertionViolatedException	C
+org.apache.bcel.verifier.structurals.Subroutines	org.apache.bcel.verifier.exc.StructuralCodeConstraintException	C
+org.apache.bcel.verifier.structurals.Subroutines	org.apache.bcel.verifier.exc.AssertionViolatedException	C
+org.apache.bcel.verifier.structurals.Subroutines$SubroutineImpl	org.apache.bcel.verifier.exc.StructuralCodeConstraintException	C
+org.apache.bcel.verifier.structurals.Subroutines$SubroutineImpl	org.apache.bcel.verifier.exc.AssertionViolatedException	C
+***org.apache.bcel:3->org.apache.bcel.classfile:1
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.Code	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.ExceptionTable	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.ConstantLong	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.LocalVariableTable	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.ConstantFieldref	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.JavaClass	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.ConstantString	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.StackMap	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.ConstantClass	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.InnerClass	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.ConstantNameAndType	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.Signature	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.ConstantInteger	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.LineNumberTable	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.ConstantValue	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.Unknown	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.CodeException	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.Field	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.ConstantMethodref	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.Method	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.ConstantFloat	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.LineNumber	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.ConstantUtf8	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.Synthetic	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.ConstantDouble	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.InnerClasses	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.ConstantPool	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.SourceFile	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.ConstantInterfaceMethodref	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.LocalVariable	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.Deprecated	S,C
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.Visitor	C,S,P,O
+org.apache.bcel.verifier.statics.StringRepresentation	org.apache.bcel.classfile.Node	S,C
+------------
+***org.apache.bcel:4->org.apache.bcel.classfile:1
+org.apache.bcel.verifier.TransitiveHull	org.apache.bcel.classfile.JavaClass	C
+org.apache.bcel.verifier.TransitiveHull	org.apache.bcel.classfile.Method	C
+org.apache.bcel.verifier.Verifier	org.apache.bcel.classfile.JavaClass	C
+org.apache.bcel.verifier.Verifier	org.apache.bcel.classfile.Method	C
+org.apache.bcel.verifier.VerifierAppFrame	org.apache.bcel.classfile.JavaClass	C
+org.apache.bcel.verifier.VerifierAppFrame	org.apache.bcel.classfile.Method	C
+org.apache.bcel.verifier.VerifyDialog	org.apache.bcel.classfile.JavaClass	C
+org.apache.bcel.verifier.VerifyDialog	org.apache.bcel.classfile.Method	C
+org.apache.bcel.verifier.statics.Pass1Verifier	org.apache.bcel.classfile.JavaClass	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier	org.apache.bcel.classfile.Node	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier	org.apache.bcel.classfile.Visitor	C
+org.apache.bcel.verifier.statics.Pass2Verifier	org.apache.bcel.classfile.Method	C
+org.apache.bcel.verifier.statics.Pass2Verifier	org.apache.bcel.classfile.JavaClass	C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.Attribute	C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.SourceFile	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.ConstantInteger	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.LocalVariableTable	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.ConstantFieldref	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.ConstantValue	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.ConstantNameAndType	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.InnerClass	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.Node	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.Synthetic	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.ConstantLong	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.LocalVariable	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.ConstantInterfaceMethodref	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.ExceptionTable	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.Field	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.JavaClass	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.Constant	C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.Deprecated	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.ConstantFloat	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.Unknown	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.ConstantMethodref	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.Code	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.ConstantUtf8	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.LineNumber	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.ConstantClass	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.InnerClasses	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.ConstantDouble	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.CodeException	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.ConstantString	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.LineNumberTable	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.Method	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.Visitor	C,S,P,O
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.ConstantPool	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$FAMRAV_Visitor	org.apache.bcel.classfile.ConstantFieldref	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$FAMRAV_Visitor	org.apache.bcel.classfile.ConstantClass	C
+org.apache.bcel.verifier.statics.Pass2Verifier$FAMRAV_Visitor	org.apache.bcel.classfile.ConstantPool	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$FAMRAV_Visitor	org.apache.bcel.classfile.Visitor	C,S,P,O
+org.apache.bcel.verifier.statics.Pass2Verifier$FAMRAV_Visitor	org.apache.bcel.classfile.ConstantInterfaceMethodref	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$FAMRAV_Visitor	org.apache.bcel.classfile.ConstantUtf8	C
+org.apache.bcel.verifier.statics.Pass2Verifier$FAMRAV_Visitor	org.apache.bcel.classfile.ConstantMethodref	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$FAMRAV_Visitor	org.apache.bcel.classfile.Constant	C
+org.apache.bcel.verifier.statics.Pass2Verifier$FAMRAV_Visitor	org.apache.bcel.classfile.Node	C
+org.apache.bcel.verifier.statics.Pass2Verifier$FAMRAV_Visitor	org.apache.bcel.classfile.JavaClass	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$FAMRAV_Visitor	org.apache.bcel.classfile.ConstantNameAndType	C
+org.apache.bcel.verifier.statics.Pass2Verifier$InnerClassDetector	org.apache.bcel.classfile.Constant	C
+org.apache.bcel.verifier.statics.Pass2Verifier$InnerClassDetector	org.apache.bcel.classfile.ConstantPool	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$InnerClassDetector	org.apache.bcel.classfile.ConstantClass	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$InnerClassDetector	org.apache.bcel.classfile.ConstantUtf8	C
+org.apache.bcel.verifier.statics.Pass2Verifier$InnerClassDetector	org.apache.bcel.classfile.JavaClass	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$InnerClassDetector	org.apache.bcel.classfile.Visitor	C,S,O
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.classfile.Code	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.classfile.CodeException	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.classfile.LocalVariable	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.classfile.LineNumberTable	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.classfile.LocalVariableTable	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.classfile.LineNumber	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.classfile.JavaClass	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.classfile.Attribute	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.classfile.Method	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.classfile.ConstantPool	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.classfile.ConstantInterfaceMethodref	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.classfile.ConstantClass	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.classfile.ConstantLong	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.classfile.ConstantInteger	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.classfile.ConstantString	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.classfile.ConstantNameAndType	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.classfile.Field	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.classfile.ConstantMethodref	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.classfile.Code	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.classfile.ConstantUtf8	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.classfile.ConstantDouble	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.classfile.ConstantFieldref	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.classfile.Constant	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.classfile.JavaClass	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.classfile.ConstantFloat	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.classfile.Method	C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.classfile.ConstantInteger	C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.classfile.ConstantDouble	C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.classfile.Constant	C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.classfile.ConstantString	C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.classfile.ConstantLong	C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.classfile.ConstantFloat	C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.classfile.JavaClass	C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.classfile.ConstantDouble	C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.classfile.Constant	C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.classfile.ConstantFieldref	C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.classfile.ConstantFloat	C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.classfile.ConstantString	C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.classfile.ConstantInteger	C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.classfile.Field	C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.classfile.ConstantLong	C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.classfile.ConstantClass	C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.classfile.Method	C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.classfile.ConstantPool	C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.classfile.JavaClass	C
+***org.apache.bcel:4->org.apache.bcel.generic:3
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.EmptyVisitor	C,S,O
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.LDC_W	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.EmptyVisitor	C,S,O
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LDC_W	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.EmptyVisitor	C,S,O
+***org.apache.bcel:4->org.apache.bcel.generic:1
+org.apache.bcel.verifier.GraphicalVerifier	org.apache.bcel.generic.ObjectType	C
+org.apache.bcel.verifier.GraphicalVerifier	org.apache.bcel.generic.Type	C
+org.apache.bcel.verifier.statics.Pass2Verifier	org.apache.bcel.generic.Type	C
+org.apache.bcel.verifier.statics.Pass2Verifier	org.apache.bcel.generic.ObjectType	C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.generic.ArrayType	C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.generic.Type	C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.generic.ObjectType	C
+org.apache.bcel.verifier.statics.Pass2Verifier$FAMRAV_Visitor	org.apache.bcel.generic.Type	C
+org.apache.bcel.verifier.statics.Pass2Verifier$FAMRAV_Visitor	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.Type	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.ObjectType	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.ArrayType	C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.Type	C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.ReferenceType	C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.ObjectType	C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.ArrayType	C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.ReferenceType	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.ObjectType	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.ArrayType	C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.Type	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.BasicType	C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.generic.ObjectType	C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.generic.Type	C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.generic.BasicType	C
+***org.apache.bcel:4->org.apache.bcel:0
+org.apache.bcel.verifier.TransitiveHull	org.apache.bcel.verifier.VerifierFactoryObserver	C,S,P,O
+org.apache.bcel.verifier.TransitiveHull	org.apache.bcel.verifier.VerificationResult	C
+org.apache.bcel.verifier.Verifier	org.apache.bcel.verifier.VerificationResult	S,C
+org.apache.bcel.verifier.VerifierAppFrame	org.apache.bcel.verifier.VerificationResult	C
+org.apache.bcel.verifier.VerifierFactory	org.apache.bcel.verifier.VerifierFactoryObserver	S,C
+org.apache.bcel.verifier.VerifierFactoryListModel	org.apache.bcel.verifier.VerifierFactoryObserver	C,S,P,O
+org.apache.bcel.verifier.VerifyDialog	org.apache.bcel.verifier.VerificationResult	C
+org.apache.bcel.verifier.statics.Pass1Verifier	org.apache.bcel.verifier.VerificationResult	S,C
+org.apache.bcel.verifier.statics.Pass1Verifier	org.apache.bcel.verifier.exc.LoadingException	C
+org.apache.bcel.verifier.statics.Pass1Verifier	org.apache.bcel.verifier.PassVerifier	C,S,O
+org.apache.bcel.verifier.statics.Pass1Verifier	org.apache.bcel.verifier.exc.Utility	C
+org.apache.bcel.verifier.statics.Pass2Verifier	org.apache.bcel.verifier.VerificationResult	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier	org.apache.bcel.verifier.PassVerifier	C,S,O
+org.apache.bcel.verifier.statics.Pass2Verifier	org.apache.bcel.verifier.exc.ClassConstraintException	C
+org.apache.bcel.verifier.statics.Pass2Verifier	org.apache.bcel.verifier.exc.AssertionViolatedException	C
+org.apache.bcel.verifier.statics.Pass2Verifier	org.apache.bcel.Constants	P,S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.verifier.exc.AssertionViolatedException	C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.verifier.VerificationResult	C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.verifier.exc.LocalVariableInfoInconsistentException	C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.verifier.exc.ClassConstraintException	C
+org.apache.bcel.verifier.statics.Pass2Verifier$FAMRAV_Visitor	org.apache.bcel.verifier.exc.ClassConstraintException	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.verifier.exc.InvalidMethodException	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.verifier.exc.StaticCodeConstraintException	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.verifier.exc.StaticCodeInstructionConstraintException	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.verifier.statics.IntList	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.verifier.exc.ClassConstraintException	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.verifier.VerificationResult	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.verifier.PassVerifier	C,S,O
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.verifier.exc.StaticCodeInstructionOperandConstraintException	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.verifier.exc.AssertionViolatedException	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.verifier.exc.AssertionViolatedException	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.verifier.exc.StaticCodeInstructionOperandConstraintException	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.verifier.VerificationResult	C
+org.apache.bcel.verifier.structurals.ControlFlowGraph	org.apache.bcel.verifier.exc.AssertionViolatedException	C
+org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl	org.apache.bcel.verifier.exc.AssertionViolatedException	C
+org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl	org.apache.bcel.verifier.exc.StructuralCodeConstraintException	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.verifier.exc.AssertionViolatedException	C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.verifier.VerificationResult	C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.verifier.exc.StructuralCodeConstraintException	C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.verifier.VerificationResult	S,C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.verifier.exc.VerifierConstraintViolatedException	C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.verifier.PassVerifier	C,S,O
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.verifier.exc.AssertionViolatedException	C
+***org.apache.bcel:4->org.apache.bcel:3
+org.apache.bcel.verifier.statics.Pass2Verifier	org.apache.bcel.verifier.statics.StringRepresentation	C
+org.apache.bcel.verifier.structurals.ControlFlowGraph	org.apache.bcel.verifier.structurals.Subroutines	S,C
+org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl	org.apache.bcel.verifier.structurals.Subroutines	C
+***org.apache.bcel:4->org.apache.bcel.generic:2
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.generic.InstructionHandle	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.generic.ASTORE	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.generic.RET	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.generic.IMPDEP1	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.generic.InstructionList	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.generic.ReturnInstruction	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.generic.BREAKPOINT	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.generic.GotoInstruction	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.generic.ATHROW	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.generic.JsrInstruction	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.generic.Visitor	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.generic.IMPDEP2	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.generic.Instruction	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.generic.ConstantPoolGen	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.LoadClass	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.ASTORE	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.MULTIANEWARRAY	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.TABLESWITCH	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.InvokeInstruction	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.DLOAD	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.FLOAD	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.INVOKESPECIAL	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.LDC2_W	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.RET	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.NEWARRAY	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.GETSTATIC	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.CHECKCAST	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.DSTORE	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.ISTORE	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.Visitor	C,S,O
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.INVOKEVIRTUAL	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.LDC	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.IINC	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.ANEWARRAY	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.PUTSTATIC	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.INSTANCEOF	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.LSTORE	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.ALOAD	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.INVOKESTATIC	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.FieldInstruction	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.LLOAD	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.ILOAD	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.INVOKEINTERFACE	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.NEW	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.LOOKUPSWITCH	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.FSTORE	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.Instruction	S,C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.generic.ConstantPoolGen	S,C
+org.apache.bcel.verifier.structurals.ControlFlowGraph	org.apache.bcel.generic.MethodGen	S,C
+org.apache.bcel.verifier.structurals.ControlFlowGraph	org.apache.bcel.generic.InstructionList	C
+org.apache.bcel.verifier.structurals.ControlFlowGraph	org.apache.bcel.generic.InstructionHandle	S,C
+org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl	org.apache.bcel.generic.Select	C
+org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl	org.apache.bcel.generic.RET	C
+org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl	org.apache.bcel.generic.BranchInstruction	C
+org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl	org.apache.bcel.generic.GotoInstruction	C
+org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl	org.apache.bcel.generic.ReturnInstruction	C
+org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl	org.apache.bcel.generic.Instruction	C
+org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl	org.apache.bcel.generic.InstructionHandle	S,C
+org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl	org.apache.bcel.generic.JsrInstruction	C
+org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl	org.apache.bcel.generic.ATHROW	C
+org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl	org.apache.bcel.generic.Visitor	C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.LREM	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.I2C	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.DREM	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.INVOKEINTERFACE	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.PUTFIELD	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.CALOAD	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IF_ICMPLE	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.FCMPG	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.L2F	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.MONITORENTER	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.ANEWARRAY	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IASTORE	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.DUP2_X1	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.ISHR	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.TABLESWITCH	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.DASTORE	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IFNE	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.FRETURN	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.LDC	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.LSTORE	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.AALOAD	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.I2S	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.DUP	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IOR	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.SALOAD	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.D2I	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IFGE	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.FLOAD	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.LAND	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.NEWARRAY	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.ATHROW	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IF_ACMPNE	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.F2L	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IXOR	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.DDIV	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.ILOAD	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.GETSTATIC	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.LMUL	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.LSHL	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.InstructionHandle	C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.I2F	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.DSTORE	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.INVOKESTATIC	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.RET	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.CHECKCAST	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IF_ICMPNE	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.FCONST	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.LADD	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.MULTIANEWARRAY	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.ARRAYLENGTH	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IDIV	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.F2D	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.ISUB	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.DCMPL	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IFNULL	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.FSUB	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.LDIV	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.LUSHR	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.ACONST_NULL	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IALOAD	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.DUP_X2	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IRETURN	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.SIPUSH	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.DADD	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IFLE	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.FNEG	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.LCMP	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.POP	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.BASTORE	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IF_ICMPGE	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.FALOAD	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.JSR_W	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.DMUL	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.INEG	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.GOTO_W	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.LOOKUPSWITCH	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.LRETURN	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.Visitor	C,S,P,O
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.I2D	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.DRETURN	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.INVOKESPECIAL	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.PUTSTATIC	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.CASTORE	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IF_ICMPLT	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.FCMPL	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.L2I	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.MONITOREXIT	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.ARETURN	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.ICONST	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.DUP2_X2	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.ISTORE	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.ConstantPoolGen	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.DCMPG	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IFNONNULL	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.FSTORE	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.LDC2_W	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.LSUB	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.AASTORE	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IADD	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.DUP_X1	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IREM	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.SASTORE	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.D2L	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IFGT	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.FMUL	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.LASTORE	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.NOP	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.BALOAD	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IF_ICMPEQ	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.FADD	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.JSR	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.DLOAD	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IMUL	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.GOTO	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.LNEG	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.LSHR	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.ReturnaddressType	C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.I2L	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.DSUB	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.INVOKEVIRTUAL	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.RETURN	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.D2F	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IFEQ	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.FDIV	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.LALOAD	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.NEW	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.ASTORE	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IF_ACMPEQ	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.F2I	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IUSHR	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.DCONST	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IINC	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.GETFIELD	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.LLOAD	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.LXOR	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.ALOAD	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IAND	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.DUP2	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.ISHL	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.SWAP	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.DALOAD	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IFLT	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.FREM	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.LCONST	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.POP2	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.BIPUSH	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.IF_ICMPGT	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.FASTORE	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.L2D	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.DNEG	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.INSTANCEOF	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.I2B	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.generic.LOR	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.I2B	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LocalVariableInstruction	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LNEG	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IMUL	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.DNEG	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IF_ICMPGT	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.BREAKPOINT	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.NOP	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.JSR	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.FASTORE	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IAND	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.ANEWARRAY	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LSUB	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IREM	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.DUP2	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IFLT	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.DALOAD	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.SASTORE	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.Instruction	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LASTORE	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.FREM	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.I2L	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.AALOAD	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LRETURN	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.INVOKESPECIAL	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.DSUB	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IFEQ	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.D2F	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.PUTSTATIC	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.L2I	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.FDIV	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IF_ACMPEQ	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.ATHROW	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.MONITOREXIT	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.ISTORE	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.F2I	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IINC	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.DCONST	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.ConstantPoolGen	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.CPInstruction	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LDC2_W	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.GETFIELD	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.I2D	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.StoreInstruction	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LOR	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.INSTANCEOF	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.DRETURN	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IF_ICMPLT	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.CASTORE	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.POP2	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.L2D	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.FCMPL	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.ICONST	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.ARRAYLENGTH	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LXOR	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.ISHL	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.DUP2_X2	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IFNONNULL	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.DCMPG	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.SWAP	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.StackConsumer	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LCONST	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.FSTORE	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IADD	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.ACONST_NULL	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LSHR	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.INVOKEVIRTUAL	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.DUP_X1	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IFGT	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.D2L	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.RETURN	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.Visitor	C,S,P,O
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LALOAD	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.FMUL	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IF_ICMPEQ	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.BASTORE	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.NEW	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IUSHR	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.FADD	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IMPDEP1	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.DLOAD	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.InvokeInstruction	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LLOAD	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.GOTO	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.I2C	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LoadInstruction	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LOOKUPSWITCH	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.INEG	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.DREM	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IF_ICMPLE	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.CALOAD	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.POP	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.JSR_W	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.FCMPG	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IASTORE	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.ARETURN	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LUSHR	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IRETURN	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.DUP2_X1	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IFNE	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.DASTORE	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.SIPUSH	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LoadClass	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LCMP	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.FRETURN	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.I2S	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.AASTORE	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LSHL	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.INVOKESTATIC	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.DUP	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IFGE	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.D2I	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.RET	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LADD	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.FLOAD	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IF_ACMPNE	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.BALOAD	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.MULTIANEWARRAY	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.ISUB	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.F2L	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.ILOAD	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.DDIV	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.MethodGen	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.FieldInstruction	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LDIV	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.GETSTATIC	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.I2F	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.ReturnInstruction	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LREM	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.INVOKEINTERFACE	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.DSTORE	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IF_ICMPNE	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.CHECKCAST	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.PUTFIELD	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.L2F	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.FCONST	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IDIV	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.ASTORE	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.MONITORENTER	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.ISHR	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.F2D	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IFNULL	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.DCMPL	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.TABLESWITCH	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.StackProducer	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LDC	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.FSUB	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IALOAD	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.ALOAD	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LSTORE	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IOR	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.DUP_X2	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IFLE	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.DADD	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.SALOAD	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.ReturnaddressType	C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LAND	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.FNEG	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IF_ICMPGE	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.BIPUSH	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.NEWARRAY	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IXOR	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.FALOAD	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.IMPDEP2	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.DMUL	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.StackInstruction	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.LMUL	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.generic.GOTO_W	S,C
+org.apache.bcel.verifier.structurals.InstructionContext	org.apache.bcel.generic.InstructionHandle	S,C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.generic.InstructionList	C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.generic.ConstantPoolGen	C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.generic.RET	C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.generic.MethodGen	C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.generic.ReturnInstruction	C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.generic.InstructionHandle	C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.generic.JsrInstruction	C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.generic.ReturnaddressType	C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.generic.Instruction	C
+***org.apache.bcel:4->org.apache.bcel.classfile:2
+org.apache.bcel.verifier.statics.Pass2Verifier	org.apache.bcel.classfile.DescendingVisitor	C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.EmptyVisitor	C,S,O
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.DescendingVisitor	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier$FAMRAV_Visitor	org.apache.bcel.classfile.EmptyVisitor	C,S,O
+org.apache.bcel.verifier.statics.Pass2Verifier$InnerClassDetector	org.apache.bcel.classfile.EmptyVisitor	C,S,O
+org.apache.bcel.verifier.statics.Pass2Verifier$InnerClassDetector	org.apache.bcel.classfile.DescendingVisitor	C
+***org.apache.bcel:4->org.apache.bcel:1
+org.apache.bcel.verifier.TransitiveHull	org.apache.bcel.Repository	C
+org.apache.bcel.verifier.Verifier	org.apache.bcel.Repository	C
+org.apache.bcel.verifier.VerifierAppFrame	org.apache.bcel.Repository	C
+org.apache.bcel.verifier.VerifyDialog	org.apache.bcel.Repository	C
+org.apache.bcel.verifier.statics.Pass1Verifier	org.apache.bcel.Repository	C
+org.apache.bcel.verifier.statics.Pass2Verifier	org.apache.bcel.verifier.statics.LocalVariablesInfo	S,C
+org.apache.bcel.verifier.statics.Pass2Verifier	org.apache.bcel.Repository	C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.Repository	C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.verifier.statics.LocalVariablesInfo	C
+org.apache.bcel.verifier.statics.Pass3aVerifier	org.apache.bcel.Repository	C
+org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor	org.apache.bcel.Repository	C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.Repository	C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.Repository	C
+***org.apache.bcel:4->org.apache.bcel:2
+org.apache.bcel.verifier.structurals.ControlFlowGraph	org.apache.bcel.verifier.structurals.Subroutine	C
+org.apache.bcel.verifier.structurals.ControlFlowGraph	org.apache.bcel.verifier.structurals.ExceptionHandlers	S,C
+org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl	org.apache.bcel.verifier.structurals.Subroutine	C
+org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl	org.apache.bcel.verifier.structurals.ExceptionHandler	S,C
+org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl	org.apache.bcel.verifier.structurals.LocalVariables	C
+org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl	org.apache.bcel.verifier.structurals.ExceptionHandlers	C
+org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl	org.apache.bcel.verifier.structurals.Frame	S,C
+org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl	org.apache.bcel.verifier.structurals.OperandStack	C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.verifier.structurals.LocalVariables	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.verifier.structurals.UninitializedObjectType	C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.verifier.structurals.Frame	S,C
+org.apache.bcel.verifier.structurals.ExecutionVisitor	org.apache.bcel.verifier.structurals.OperandStack	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.verifier.structurals.UninitializedObjectType	C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.verifier.structurals.LocalVariables	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.verifier.structurals.OperandStack	S,C
+org.apache.bcel.verifier.structurals.InstConstraintVisitor	org.apache.bcel.verifier.structurals.Frame	S,C
+org.apache.bcel.verifier.structurals.InstructionContext	org.apache.bcel.verifier.structurals.Frame	S,C
+org.apache.bcel.verifier.structurals.InstructionContext	org.apache.bcel.verifier.structurals.ExceptionHandler	S,C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.verifier.structurals.ExceptionHandler	C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.verifier.structurals.UninitializedObjectType	C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.verifier.structurals.OperandStack	C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.verifier.structurals.Frame	S,C
+org.apache.bcel.verifier.structurals.Pass3bVerifier	org.apache.bcel.verifier.structurals.LocalVariables	C
+***org.apache.bcel:4->org.apache.bcel.classfile:0
+org.apache.bcel.verifier.statics.Pass1Verifier	org.apache.bcel.classfile.ClassFormatException	C
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor	org.apache.bcel.classfile.ClassFormatException	C
+org.apache.bcel.verifier.statics.Pass2Verifier$FAMRAV_Visitor	org.apache.bcel.classfile.ClassFormatException	C

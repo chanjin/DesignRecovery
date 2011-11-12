@@ -1,0 +1,63 @@
+digraph TDG_framework { 
+fontname=Skia; 
+ fontsize=16; 
+edge [fontname=Skia, fontsize = 10];
+node [shape=plaintext, fontname=Skia, fontsize=18];
+subgraph cluster2	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="junit.framework:0(5)";
+59[ label="AssertionFailedError"];
+60[ label="Assert"];
+56[ label="ComparisonCompactor"];
+15[ label="Protectable"];
+61[ label="ComparisonFailure"];
+}
+ subgraph cluster1	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="junit.framework:2(2)";
+34[ label="TestSuite$1"];
+31[ label="TestSuite"];
+}
+ subgraph cluster0	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="junit.framework:1(6)";
+18[ label="TestResult$1"];
+42[ label="TestListener"];
+49[ label="TestResult"];
+47[ label="Test"];
+50[ label="TestCase"];
+38[ label="TestFailure"];
+}
+;
+49->18[color="black", arrowhead="vee", label = "S"];
+49->38[color="black", arrowhead="vee", label = "S"];
+49->59[color="black", arrowhead="vee", label = "S"];
+49->42[color="black", arrowhead="vee", label = "S"];
+49->50[color="black", arrowhead="vee", label = "S"];
+49->15[color="black", arrowhead="vee", label = "S"];
+49->47[color="black", arrowhead="vee", label = "S"];
+18->15[color="red",  arrowhead="odot", style="dotted", label = "P,O"];
+18->49[color="black", arrowhead="vee", label = "S"];
+18->50[color="black", arrowhead="vee", label = "S"];
+31->47[color="red",  arrowhead="odot", style="dotted", label = "P,O"];
+31->50[color="black", arrowhead="vee", label = "S"];
+31->34[color="black", arrowhead="vee", label = "S"];
+31->49[color="black", arrowhead="vee", label = "S"];
+34->50[color="red",  arrowhead="odot", style="dotted", label = "P,O"];
+34->31[color="black", arrowhead="vee", label = "S"];
+34->60[color="black", arrowhead="vee", label = "S"];
+34->47[color="black", arrowhead="vee", label = "S"];
+38->59[color="black", arrowhead="vee", label = "S"];
+38->47[color="black", arrowhead="vee", label = "S"];
+42->59[color="black", arrowhead="vee", label = "S"];
+42->47[color="black", arrowhead="vee", label = "S"];
+47->49[color="black", arrowhead="vee", label = "S"];
+50->47[color="red",  arrowhead="odot", style="dotted", label = "P,O"];
+50->49[color="black", arrowhead="vee", label = "S"];
+50->60[color="black", arrowhead="vee", label = "S,P"];
+61->56[color="black", arrowhead="vee", label = "S"];
+61->59[color="black", arrowhead="vee", label = "S,P"];
+56->60[color="black", arrowhead="vee", label = "S"];
+60->59[color="black", arrowhead="vee", label = "S"];
+60->61[color="black", arrowhead="vee", label = "S"]
+}

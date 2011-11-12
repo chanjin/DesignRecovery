@@ -1,0 +1,51 @@
+digraph android_hardware_subtype { 
+fontname=Skia; 
+ fontsize=16; 
+edge [fontname=Skia, fontsize = 10];
+node [shape=plaintext, fontname=Skia, fontsize=18];
+subgraph cluster3	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.view:1(28)";
+3[ label="AccessibilityEventSource"];
+7[ label="InputConnection"];
+5[ label="KeyEvent$Callback"];
+}
+ subgraph cluster2	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.view:2(74)";
+13[ label="ViewParent"];
+6[ label="InputConnectionWrapper"];
+9[ label="View"];
+17[ label="GestureDetector$OnDoubleTapListener"];
+12[ label="ViewGroup"];
+14[ label="OrientationListener"];
+18[ label="GestureDetector$SimpleOnGestureListener"];
+21[ label="ScaleGestureDetector$OnScaleGestureListener"];
+19[ label="GestureDetector$OnGestureListener"];
+0[ label="BaseInputConnection"];
+11[ label="ViewManager"];
+20[ label="ScaleGestureDetector$SimpleOnScaleGestureListener"];
+}
+ subgraph cluster1	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.hardware:0(5)";
+15[ label="SensorListener"];
+}
+ subgraph cluster0	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.hardware:1(10)";
+;
+}
+;
+0->7[color="red",  arrowhead="odot", style="dotted", label = ""];
+9->3[color="red",  arrowhead="odot", style="dotted", label = ""];
+9->5[color="red",  arrowhead="odot", style="dotted", label = ""];
+6->7[color="red",  arrowhead="odot", style="dotted", label = ""];
+12->9[color="red",  arrowhead="odot", style="dotted", label = ""];
+12->11[color="red",  arrowhead="odot", style="dotted", label = ""];
+12->13[color="red",  arrowhead="odot", style="dotted", label = ""];
+14->15[color="red",  arrowhead="odot", style="dotted", label = ""];
+18->17[color="red",  arrowhead="odot", style="dotted", label = ""];
+18->19[color="red",  arrowhead="odot", style="dotted", label = ""];
+20->21[color="red",  arrowhead="odot", style="dotted", label = ""]
+}

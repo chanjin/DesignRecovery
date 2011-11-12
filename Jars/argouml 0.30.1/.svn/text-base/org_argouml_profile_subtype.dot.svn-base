@@ -1,0 +1,95 @@
+digraph org_argouml_profile_subtype { 
+fontname=Skia; 
+ fontsize=16; 
+edge [fontname=Skia, fontsize = 10];subgraph cluster8	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.uml.cognitive.critics:3(49)";
+style=filled;
+;
+}
+ subgraph cluster7	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.uml.cognitive.critics:7(4)";
+style=filled;
+;
+}
+ subgraph cluster6	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.uml.cognitive.critics:9(27)";
+style=filled;
+31[ label="WizMEName"];
+}
+ subgraph cluster5	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.uml.cognitive.critics:10(25)";
+style=filled;
+22[ label="ProfileGoodPractices"];
+30[ label="WizOperName"];
+0[ label="ProfileCodeGeneration"];
+}
+ subgraph cluster4	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.profile:0(17)";
+style=filled;
+29[ label="DefaultTypeStrategy"];
+33[ label="ProfileManager"];
+13[ label="FormatingStrategy"];
+35[ label="Profile"];
+37[ label="ProfileModelLoader"];
+19[ label="DependencyChecker"];
+15[ label="FigNodeStrategy"];
+}
+ subgraph cluster3	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.profile:1(4)";
+style=filled;
+36[ label="ZipModelLoader"];
+12[ label="FormatingStrategyUML"];
+25[ label="URLModelLoader"];
+20[ label="ReaderModelLoader"];
+}
+ subgraph cluster2	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.profile:2(10)";
+style=filled;
+6[ label="FileModelLoader"];
+26[ label="ResourceModelLoader"];
+10[ label="UserDefinedProfile"];
+14[ label="UserDefinedProfile$UserDefinedFigNodeStrategy"];
+32[ label="UserDefinedProfile$NullProfileManager"];
+}
+ subgraph cluster1	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.profile:3(3)";
+style=filled;
+8[ label="ProfileMeta"];
+}
+ subgraph cluster0	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.profile:10(4)";
+style=filled;
+34[ label="ProfileUML"];
+28[ label="ProfileUML$1"];
+18[ label="ProfileManagerImpl$1"];
+2[ label="ProfileManagerImpl"];
+}
+0->35[color="red",  arrowhead="odot", style="dotted", label = "I,O: "];
+2->33[color="red",  arrowhead="odot", style="dotted", label = "O: "];
+6->25[color="red",  arrowhead="odot", style="dotted", label = "I,O: "];
+6->37[color="red",  arrowhead="odot", style="dotted", label = "O: "];
+8->35[color="red",  arrowhead="odot", style="dotted", label = "I,O: "];
+10->35[color="red",  arrowhead="odot", style="dotted", label = "I,O: "];
+12->13[color="red",  arrowhead="odot", style="dotted", label = "O: "];
+14->15[color="red",  arrowhead="odot", style="dotted", label = "O: "];
+25->37[color="red",  arrowhead="odot", style="dotted", label = "O: "];
+18->19[color="red",  arrowhead="odot", style="dotted", label = "O: "];
+20->37[color="red",  arrowhead="odot", style="dotted", label = "O: "];
+22->35[color="red",  arrowhead="odot", style="dotted", label = "I,O: "];
+26->25[color="red",  arrowhead="odot", style="dotted", label = "I,O: "];
+26->37[color="red",  arrowhead="odot", style="dotted", label = "O: "];
+28->29[color="red",  arrowhead="odot", style="dotted", label = "O: "];
+30->31[color="red",  arrowhead="odot", style="dotted", label = "I,O: "];
+32->33[color="red",  arrowhead="odot", style="dotted", label = "O: "];
+34->35[color="red",  arrowhead="odot", style="dotted", label = "I,O: "];
+36->37[color="red",  arrowhead="odot", style="dotted", label = "O: "]
+}

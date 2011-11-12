@@ -1,0 +1,2467 @@
+org.jhotdraw.applet:4	org.jhotdraw.framework:0
+org.jhotdraw.applet:4	org.jhotdraw.standard:2
+org.jhotdraw.applet:4	org.jhotdraw.util:1
+org.jhotdraw.applet:4	org.jhotdraw.util:0
+org.jhotdraw.applet:4	org.jhotdraw.standard:1
+org.jhotdraw.applet:4	org.jhotdraw.standard:3
+org.jhotdraw.applet:4	org.jhotdraw.standard:4
+org.jhotdraw.application:4	org.jhotdraw.standard:1
+org.jhotdraw.application:4	org.jhotdraw.util:1
+org.jhotdraw.application:4	org.jhotdraw.standard:3
+org.jhotdraw.application:4	org.jhotdraw.framework:0
+org.jhotdraw.application:4	org.jhotdraw.standard:4
+org.jhotdraw.application:4	org.jhotdraw.contrib:0
+org.jhotdraw.application:4	org.jhotdraw.contrib:4
+org.jhotdraw.application:4	org.jhotdraw.standard:2
+org.jhotdraw.application:4	org.jhotdraw.util:0
+org.jhotdraw.application:4	org.jhotdraw.util:2
+
+org.jhotdraw.contrib.dnd:1	org.jhotdraw.standard:1
+org.jhotdraw.contrib.dnd:1	org.jhotdraw.framework:0
+org.jhotdraw.contrib.dnd:1	org.jhotdraw.util:0
+org.jhotdraw.contrib.dnd:2	org.jhotdraw.framework:0
+org.jhotdraw.contrib.dnd:2	org.jhotdraw.standard:1
+org.jhotdraw.contrib.dnd:2	org.jhotdraw.standard:2
+org.jhotdraw.contrib.dnd:2	org.jhotdraw.util:1
+org.jhotdraw.contrib.dnd:2	org.jhotdraw.contrib.dnd:0
+org.jhotdraw.contrib.dnd:2	org.jhotdraw.util:0
+org.jhotdraw.contrib.dnd:2	org.jhotdraw.standard:0
+org.jhotdraw.contrib.dnd:2	org.jhotdraw.contrib.dnd:1
+org.jhotdraw.contrib:0	org.jhotdraw.framework:0
+org.jhotdraw.contrib:0	org.jhotdraw.util:0
+org.jhotdraw.contrib:1	org.jhotdraw.util:0
+org.jhotdraw.contrib:1	org.jhotdraw.standard:1
+org.jhotdraw.contrib:1	org.jhotdraw.contrib:0
+org.jhotdraw.contrib:1	org.jhotdraw.framework:0
+org.jhotdraw.contrib:1	org.jhotdraw.util:1
+org.jhotdraw.contrib:2	org.jhotdraw.contrib:1
+org.jhotdraw.contrib:2	org.jhotdraw.contrib:0
+org.jhotdraw.contrib:2	org.jhotdraw.standard:0
+org.jhotdraw.contrib:2	org.jhotdraw.framework:0
+org.jhotdraw.contrib:2	org.jhotdraw.util:0
+org.jhotdraw.contrib:2	org.jhotdraw.standard:1
+org.jhotdraw.contrib:3	org.jhotdraw.standard:1
+org.jhotdraw.contrib:3	org.jhotdraw.contrib:0
+org.jhotdraw.contrib:3	org.jhotdraw.contrib:1
+org.jhotdraw.contrib:3	org.jhotdraw.figures:1
+org.jhotdraw.contrib:3	org.jhotdraw.framework:0
+org.jhotdraw.contrib:3	org.jhotdraw.standard:3
+org.jhotdraw.contrib:3	org.jhotdraw.standard:2
+org.jhotdraw.contrib:3	org.jhotdraw.util:0
+org.jhotdraw.contrib:3	org.jhotdraw.contrib:2
+org.jhotdraw.contrib:3	org.jhotdraw.figures:3
+org.jhotdraw.contrib:3	org.jhotdraw.standard:0
+org.jhotdraw.contrib:3	org.jhotdraw.util:1
+org.jhotdraw.contrib:4	org.jhotdraw.contrib:2
+org.jhotdraw.contrib:4	org.jhotdraw.figures:3
+org.jhotdraw.contrib:4	org.jhotdraw.standard:0
+org.jhotdraw.contrib:4	org.jhotdraw.util:0
+org.jhotdraw.contrib:4	org.jhotdraw.standard:4
+org.jhotdraw.contrib:4	org.jhotdraw.standard:2
+org.jhotdraw.contrib:4	org.jhotdraw.util:1
+org.jhotdraw.contrib:4	org.jhotdraw.framework:0
+org.jhotdraw.contrib:4	org.jhotdraw.standard:3
+org.jhotdraw.contrib:4	org.jhotdraw.contrib:0
+org.jhotdraw.contrib:4	org.jhotdraw.contrib:1
+org.jhotdraw.contrib:4	org.jhotdraw.standard:1
+org.jhotdraw.contrib:4	org.jhotdraw.contrib:3
+org.jhotdraw.contrib:4	org.jhotdraw.figures:4
+org.jhotdraw.contrib:4	org.jhotdraw.application:4
+org.jhotdraw.contrib:5	org.jhotdraw.figures:4
+org.jhotdraw.contrib:5	org.jhotdraw.standard:1
+org.jhotdraw.contrib:5	org.jhotdraw.contrib:3
+org.jhotdraw.contrib:5	org.jhotdraw.util:0
+org.jhotdraw.contrib:5	org.jhotdraw.standard:4
+org.jhotdraw.contrib:5	org.jhotdraw.standard:2
+org.jhotdraw.contrib:5	org.jhotdraw.contrib:1
+org.jhotdraw.contrib:5	org.jhotdraw.framework:0
+org.jhotdraw.contrib:5	org.jhotdraw.contrib:0
+org.jhotdraw.contrib:5	org.jhotdraw.contrib:4
+org.jhotdraw.contrib:5	org.jhotdraw.contrib:2
+org.jhotdraw.contrib:5	org.jhotdraw.util:1
+org.jhotdraw.contrib:5	org.jhotdraw.application:4
+org.jhotdraw.contrib:5	org.jhotdraw.figures:3
+org.jhotdraw.contrib:5	org.jhotdraw.standard:0
+org.jhotdraw.figures:0	org.jhotdraw.util:0
+org.jhotdraw.figures:0	org.jhotdraw.framework:0
+org.jhotdraw.figures:1	org.jhotdraw.figures:0
+org.jhotdraw.figures:1	org.jhotdraw.util:0
+org.jhotdraw.figures:1	org.jhotdraw.framework:0
+org.jhotdraw.figures:1	org.jhotdraw.standard:1
+org.jhotdraw.figures:2	org.jhotdraw.util:0
+org.jhotdraw.figures:2	org.jhotdraw.framework:0
+org.jhotdraw.figures:2	org.jhotdraw.figures:1
+org.jhotdraw.figures:2	org.jhotdraw.standard:1
+org.jhotdraw.figures:3	org.jhotdraw.util:0
+org.jhotdraw.figures:3	org.jhotdraw.util:1
+org.jhotdraw.figures:3	org.jhotdraw.standard:2
+org.jhotdraw.figures:3	org.jhotdraw.standard:3
+org.jhotdraw.figures:3	org.jhotdraw.standard:1
+org.jhotdraw.figures:3	org.jhotdraw.figures:0
+org.jhotdraw.figures:3	org.jhotdraw.standard:0
+org.jhotdraw.figures:3	org.jhotdraw.framework:0
+org.jhotdraw.figures:3	org.jhotdraw.figures:2
+org.jhotdraw.figures:4	org.jhotdraw.figures:3
+org.jhotdraw.figures:4	org.jhotdraw.util:1
+org.jhotdraw.figures:4	org.jhotdraw.util:0
+org.jhotdraw.figures:4	org.jhotdraw.standard:2
+org.jhotdraw.figures:4	org.jhotdraw.figures:0
+org.jhotdraw.figures:4	org.jhotdraw.standard:1
+org.jhotdraw.figures:4	org.jhotdraw.figures:2
+org.jhotdraw.figures:4	org.jhotdraw.standard:0
+org.jhotdraw.figures:4	org.jhotdraw.framework:0
+org.jhotdraw.figures:4	org.jhotdraw.standard:3
+org.jhotdraw.figures:5	org.jhotdraw.standard:0
+org.jhotdraw.figures:5	org.jhotdraw.standard:1
+org.jhotdraw.figures:5	org.jhotdraw.util:0
+org.jhotdraw.figures:5	org.jhotdraw.standard:2
+org.jhotdraw.figures:5	org.jhotdraw.figures:4
+org.jhotdraw.figures:5	org.jhotdraw.figures:1
+org.jhotdraw.figures:5	org.jhotdraw.standard:3
+org.jhotdraw.figures:5	org.jhotdraw.framework:0
+org.jhotdraw.figures:5	org.jhotdraw.figures:3
+org.jhotdraw.framework:0	org.jhotdraw.util:0
+org.jhotdraw.samples.javadraw:0	org.jhotdraw.util:0
+org.jhotdraw.samples.javadraw:0	org.jhotdraw.framework:0
+org.jhotdraw.samples.javadraw:1	org.jhotdraw.framework:0
+org.jhotdraw.samples.javadraw:2	org.jhotdraw.standard:1
+org.jhotdraw.samples.javadraw:2	org.jhotdraw.framework:0
+org.jhotdraw.samples.javadraw:2	org.jhotdraw.util:0
+org.jhotdraw.samples.javadraw:3	org.jhotdraw.standard:1
+org.jhotdraw.samples.javadraw:3	org.jhotdraw.framework:0
+org.jhotdraw.samples.javadraw:3	org.jhotdraw.standard:2
+org.jhotdraw.samples.javadraw:4	org.jhotdraw.standard:2
+org.jhotdraw.samples.javadraw:4	org.jhotdraw.util:0
+org.jhotdraw.samples.javadraw:4	org.jhotdraw.samples.javadraw:2
+org.jhotdraw.samples.javadraw:4	org.jhotdraw.standard:3
+org.jhotdraw.samples.javadraw:4	org.jhotdraw.framework:0
+org.jhotdraw.samples.javadraw:4	org.jhotdraw.standard:4
+org.jhotdraw.samples.javadraw:5	org.jhotdraw.contrib:5
+org.jhotdraw.samples.javadraw:5	org.jhotdraw.framework:0
+org.jhotdraw.samples.javadraw:5	org.jhotdraw.applet:4
+org.jhotdraw.samples.javadraw:5	org.jhotdraw.samples.javadraw:2
+org.jhotdraw.samples.javadraw:5	org.jhotdraw.figures:3
+org.jhotdraw.samples.javadraw:5	org.jhotdraw.util:0
+org.jhotdraw.samples.javadraw:5	org.jhotdraw.standard:3
+org.jhotdraw.samples.javadraw:5	org.jhotdraw.standard:2
+org.jhotdraw.samples.javadraw:5	org.jhotdraw.figures:5
+org.jhotdraw.samples.javadraw:5	org.jhotdraw.samples.javadraw:0
+org.jhotdraw.samples.javadraw:5	org.jhotdraw.samples.javadraw:4
+org.jhotdraw.samples.javadraw:5	org.jhotdraw.figures:4
+org.jhotdraw.samples.javadraw:5	org.jhotdraw.standard:1
+org.jhotdraw.samples.javadraw:5	org.jhotdraw.contrib:4
+org.jhotdraw.samples.javadraw:5	org.jhotdraw.standard:4
+org.jhotdraw.samples.javadraw:6	org.jhotdraw.samples.javadraw:3
+org.jhotdraw.samples.javadraw:6	org.jhotdraw.standard:1
+org.jhotdraw.samples.javadraw:6	org.jhotdraw.contrib:0
+org.jhotdraw.samples.javadraw:6	org.jhotdraw.util:0
+org.jhotdraw.samples.javadraw:6	org.jhotdraw.figures:4
+org.jhotdraw.samples.javadraw:6	org.jhotdraw.contrib:1
+org.jhotdraw.samples.javadraw:6	org.jhotdraw.figures:3
+org.jhotdraw.samples.javadraw:6	org.jhotdraw.samples.javadraw:2
+org.jhotdraw.samples.javadraw:6	org.jhotdraw.figures:5
+org.jhotdraw.samples.javadraw:6	org.jhotdraw.contrib:4
+org.jhotdraw.samples.javadraw:6	org.jhotdraw.contrib:3
+org.jhotdraw.samples.javadraw:6	org.jhotdraw.figures:0
+org.jhotdraw.samples.javadraw:6	org.jhotdraw.standard:2
+org.jhotdraw.samples.javadraw:6	org.jhotdraw.contrib:5
+org.jhotdraw.samples.javadraw:6	org.jhotdraw.util:1
+org.jhotdraw.samples.javadraw:6	org.jhotdraw.samples.javadraw:0
+org.jhotdraw.samples.javadraw:6	org.jhotdraw.samples.javadraw:5
+org.jhotdraw.samples.javadraw:6	org.jhotdraw.framework:0
+org.jhotdraw.samples.javadraw:6	org.jhotdraw.application:4
+org.jhotdraw.samples.minimap:5	org.jhotdraw.contrib:1
+org.jhotdraw.samples.minimap:5	org.jhotdraw.contrib:4
+org.jhotdraw.samples.minimap:6	org.jhotdraw.contrib:0
+org.jhotdraw.samples.minimap:6	org.jhotdraw.application:4
+org.jhotdraw.samples.minimap:6	org.jhotdraw.samples.minimap:5
+org.jhotdraw.samples.minimap:6	org.jhotdraw.contrib:5
+org.jhotdraw.samples.net:5	org.jhotdraw.standard:2
+org.jhotdraw.samples.net:5	org.jhotdraw.figures:4
+org.jhotdraw.samples.net:5	org.jhotdraw.figures:3
+org.jhotdraw.samples.net:5	org.jhotdraw.standard:3
+org.jhotdraw.samples.net:5	org.jhotdraw.framework:0
+org.jhotdraw.samples.net:5	org.jhotdraw.application:4
+org.jhotdraw.samples.net:5	org.jhotdraw.standard:1
+org.jhotdraw.samples.net:5	org.jhotdraw.standard:0
+org.jhotdraw.samples.nothing:5	org.jhotdraw.standard:2
+org.jhotdraw.samples.nothing:5	org.jhotdraw.figures:5
+org.jhotdraw.samples.nothing:5	org.jhotdraw.framework:0
+org.jhotdraw.samples.nothing:5	org.jhotdraw.application:4
+org.jhotdraw.samples.nothing:5	org.jhotdraw.figures:4
+org.jhotdraw.samples.nothing:5	org.jhotdraw.standard:1
+org.jhotdraw.samples.nothing:5	org.jhotdraw.figures:3
+org.jhotdraw.samples.nothing:5	org.jhotdraw.applet:4
+org.jhotdraw.samples.pert:5	org.jhotdraw.standard:2
+org.jhotdraw.samples.pert:5	org.jhotdraw.standard:3
+org.jhotdraw.samples.pert:5	org.jhotdraw.applet:4
+org.jhotdraw.samples.pert:5	org.jhotdraw.standard:1
+org.jhotdraw.samples.pert:5	org.jhotdraw.framework:0
+org.jhotdraw.samples.pert:5	org.jhotdraw.figures:0
+org.jhotdraw.samples.pert:5	org.jhotdraw.figures:4
+org.jhotdraw.samples.pert:5	org.jhotdraw.figures:5
+org.jhotdraw.samples.pert:5	org.jhotdraw.figures:2
+org.jhotdraw.samples.pert:5	org.jhotdraw.figures:3
+org.jhotdraw.samples.pert:5	org.jhotdraw.util:0
+org.jhotdraw.samples.pert:5	org.jhotdraw.application:4
+org.jhotdraw.standard:0	org.jhotdraw.framework:0
+org.jhotdraw.standard:1	org.jhotdraw.util:0
+org.jhotdraw.standard:1	org.jhotdraw.framework:0
+org.jhotdraw.standard:1	org.jhotdraw.standard:0
+org.jhotdraw.standard:2	org.jhotdraw.standard:1
+org.jhotdraw.standard:2	org.jhotdraw.framework:0
+org.jhotdraw.standard:2	org.jhotdraw.util:1
+org.jhotdraw.standard:2	org.jhotdraw.util:0
+org.jhotdraw.standard:2	org.jhotdraw.standard:0
+org.jhotdraw.standard:2	org.jhotdraw.contrib.dnd:2
+org.jhotdraw.standard:3	org.jhotdraw.util:0
+org.jhotdraw.standard:3	org.jhotdraw.util:1
+org.jhotdraw.standard:3	org.jhotdraw.standard:0
+org.jhotdraw.standard:3	org.jhotdraw.contrib.dnd:0
+org.jhotdraw.standard:3	org.jhotdraw.standard:2
+org.jhotdraw.standard:3	org.jhotdraw.contrib.dnd:2
+org.jhotdraw.standard:3	org.jhotdraw.standard:1
+org.jhotdraw.standard:3	org.jhotdraw.framework:0
+org.jhotdraw.standard:3	org.jhotdraw.contrib:0
+org.jhotdraw.standard:4	org.jhotdraw.standard:1
+org.jhotdraw.standard:4	org.jhotdraw.util:0
+org.jhotdraw.standard:4	org.jhotdraw.standard:2
+org.jhotdraw.standard:4	org.jhotdraw.framework:0
+org.jhotdraw.standard:4	org.jhotdraw.standard:3
+org.jhotdraw.util:0	org.jhotdraw.framework:0
+org.jhotdraw.util:1	org.jhotdraw.framework:0
+org.jhotdraw.util:1	org.jhotdraw.util:0
+org.jhotdraw.util:1	org.jhotdraw.standard:1
+org.jhotdraw.util:2	org.jhotdraw.framework:0
+org.jhotdraw.util:2	org.jhotdraw.util:1
+org.jhotdraw.util:2	org.jhotdraw.util:0
+org.jhotdraw.util:2	org.jhotdraw.standard:1
+-----------
+***org.jhotdraw.applet:4->org.jhotdraw.framework:0
+DrawApplet	Painter	
+DrawApplet	ViewChangeListener	
+DrawApplet	Drawing	
+DrawApplet	FigureEnumeration	
+DrawApplet	FigureSelectionListener	
+DrawApplet	Tool	
+DrawApplet	Figure	
+DrawApplet	FigureAttributeConstant	
+DrawApplet	DrawingView	
+DrawApplet	DrawingEditor	
+***org.jhotdraw.applet:4->org.jhotdraw.standard:2
+DrawApplet	DuplicateCommand	
+DrawApplet	ChangeAttributeCommand	
+DrawApplet	SelectionTool	
+DrawApplet	DeleteCommand	
+***org.jhotdraw.applet:4->org.jhotdraw.util:1
+DrawApplet	StandardVersionControlStrategy	
+***org.jhotdraw.applet:4->org.jhotdraw.util:0
+DrawApplet	Iconkit	
+DrawApplet	VersionControlStrategy	
+DrawApplet	Filler	
+DrawApplet	PaletteLayout	
+DrawApplet	PaletteButton	
+DrawApplet	VersionManagement	
+DrawApplet	PaletteListener	
+DrawApplet	CommandButton	
+DrawApplet	Storable	
+DrawApplet	ColorMap	
+DrawApplet	CommandChoice	
+DrawApplet	StorableInput	
+DrawApplet	UndoManager	
+DrawApplet	Command	
+DrawApplet	VersionRequester	
+***org.jhotdraw.applet:4->org.jhotdraw.standard:1
+DrawApplet	BufferedUpdateStrategy	
+DrawApplet	SimpleUpdateStrategy	
+DrawApplet	ToolButton	
+***org.jhotdraw.applet:4->org.jhotdraw.standard:3
+DrawApplet	StandardDrawingView	
+***org.jhotdraw.applet:4->org.jhotdraw.standard:4
+DrawApplet	StandardDrawing	
+------------
+***org.jhotdraw.application:4->org.jhotdraw.standard:1
+DrawApplication	ToolButton	
+DrawApplication$10	AbstractCommand	
+DrawApplication$3	AbstractCommand	
+DrawApplication$4	AbstractCommand	
+DrawApplication$5	AbstractCommand	
+DrawApplication$6	AbstractCommand	
+DrawApplication$7	AbstractCommand	
+DrawApplication$8	SimpleUpdateStrategy	
+DrawApplication$8	AbstractCommand	
+DrawApplication$9	BufferedUpdateStrategy	
+DrawApplication$9	AbstractCommand	
+***org.jhotdraw.application:4->org.jhotdraw.util:1
+DrawApplication	UndoableCommand	
+DrawApplication	CommandMenu	
+DrawApplication	StandardVersionControlStrategy	
+DrawApplication	StandardStorageFormat	
+***org.jhotdraw.application:4->org.jhotdraw.standard:3
+DrawApplication	BringToFrontCommand	
+DrawApplication	StandardDrawingView	
+***org.jhotdraw.application:4->org.jhotdraw.framework:0
+DrawApplication	Tool	
+DrawApplication	FigureSelectionListener	
+DrawApplication	Drawing	
+DrawApplication	FigureAttributeConstant	
+DrawApplication	DrawingEditor	
+DrawApplication	ViewChangeListener	
+DrawApplication	DrawingView	
+DrawApplication$1	DrawingView	
+DrawApplication$10	DrawingEditor	
+DrawApplication$11	Drawing	
+DrawApplication$11	DrawingView	
+DrawApplication$3	DrawingEditor	
+DrawApplication$4	DrawingEditor	
+DrawApplication$5	DrawingEditor	
+DrawApplication$6	DrawingEditor	
+DrawApplication$7	DrawingEditor	
+DrawApplication$8	Painter	
+DrawApplication$8	DrawingView	
+DrawApplication$8	DrawingEditor	
+DrawApplication$9	DrawingEditor	
+DrawApplication$9	Painter	
+DrawApplication$9	DrawingView	
+***org.jhotdraw.application:4->org.jhotdraw.standard:4
+DrawApplication	StandardDrawing	
+***org.jhotdraw.application:4->org.jhotdraw.contrib:0
+DrawApplication	Desktop	
+DrawApplication	DesktopListener	
+DrawApplication$1	Desktop	
+DrawApplication$11	DesktopListener	
+DrawApplication$11	DesktopEvent	
+***org.jhotdraw.application:4->org.jhotdraw.contrib:4
+DrawApplication	JPanelDesktop	
+***org.jhotdraw.application:4->org.jhotdraw.standard:2
+DrawApplication	DeleteCommand	
+DrawApplication	SelectionTool	
+DrawApplication	ToggleGridCommand	
+DrawApplication	NullTool	
+DrawApplication	CopyCommand	
+DrawApplication	SendToBackCommand	
+DrawApplication	DuplicateCommand	
+DrawApplication	CutCommand	
+DrawApplication	ChangeAttributeCommand	
+DrawApplication	AlignCommand$Alignment	
+DrawApplication	SelectAllCommand	
+DrawApplication	AlignCommand	
+DrawApplication	PasteCommand	
+***org.jhotdraw.application:4->org.jhotdraw.util:0
+DrawApplication	Command	
+DrawApplication	StorageFormat	
+DrawApplication	CollectionsFactory	
+DrawApplication	StorageFormatManager	
+DrawApplication	ColorMap	
+DrawApplication	VersionRequester	
+DrawApplication	Iconkit	
+DrawApplication	PaletteButton	
+DrawApplication	PaletteListener	
+DrawApplication	VersionControlStrategy	
+DrawApplication	UndoManager	
+DrawApplication	VersionManagement	
+DrawApplication$10	Command	
+DrawApplication$11	UndoManager	
+DrawApplication$3	Command	
+DrawApplication$4	Command	
+DrawApplication$5	Command	
+DrawApplication$6	Command	
+DrawApplication$7	Command	
+DrawApplication$8	Command	
+DrawApplication$9	Command	
+***org.jhotdraw.application:4->org.jhotdraw.util:2
+DrawApplication	RedoCommand	
+DrawApplication	SerializationStorageFormat	
+DrawApplication	UndoCommand	
+------------
+
+------------
+***org.jhotdraw.contrib.dnd:1->org.jhotdraw.standard:1
+DNDFigures	FigureEnumerator	
+***org.jhotdraw.contrib.dnd:1->org.jhotdraw.framework:0
+DNDFigures	FigureEnumeration	
+DNDFigures	Figure	
+***org.jhotdraw.contrib.dnd:1->org.jhotdraw.util:0
+DNDFigures	CollectionsFactory	
+------------
+***org.jhotdraw.contrib.dnd:2->org.jhotdraw.framework:0
+DNDHelper	DrawingView	
+DNDHelper	DrawingEditor	
+DragNDropTool	Handle	
+DragNDropTool	DrawingEditor	
+DragNDropTool	DrawingView	
+DragNDropTool	Cursor	
+DragNDropTool	Figure	
+DragNDropTool	Drawing	
+DragNDropTool	Tool	
+DragNDropTool$1	FigureEnumeration	
+DragNDropTool$1	DrawingView	
+DragNDropTool$1	Figure	
+JHDDragSourceListener	FigureEnumeration	
+JHDDragSourceListener	DrawingView	
+JHDDragSourceListener	Drawing	
+JHDDragSourceListener	Figure	
+JHDDragSourceListener	DrawingEditor	
+JHDDragSourceListener	FigureVisitor	
+JHDDragSourceListener$RemoveUndoActivity	FigureVisitor	
+JHDDragSourceListener$RemoveUndoActivity	DrawingView	
+JHDDragSourceListener$RemoveUndoActivity	Figure	
+JHDDragSourceListener$RemoveUndoActivity	FigureEnumeration	
+JHDDragSourceListener$RemoveUndoActivity	Drawing	
+JHDDropTargetListener	DrawingEditor	
+JHDDropTargetListener	FigureEnumeration	
+JHDDropTargetListener	DrawingView	
+JHDDropTargetListener$AddUndoActivity	FigureEnumeration	
+JHDDropTargetListener$AddUndoActivity	Drawing	
+JHDDropTargetListener$AddUndoActivity	Figure	
+JHDDropTargetListener$AddUndoActivity	FigureVisitor	
+JHDDropTargetListener$AddUndoActivity	DrawingView	
+***org.jhotdraw.contrib.dnd:2->org.jhotdraw.standard:1
+DragNDropTool	AbstractTool	
+JHDDragSourceListener	DeleteFromDrawingVisitor	
+JHDDragSourceListener$RemoveUndoActivity	DeleteFromDrawingVisitor	
+JHDDragSourceListener$RemoveUndoActivity	FigureEnumerator	
+JHDDropTargetListener$AddUndoActivity	FigureEnumerator	
+JHDDropTargetListener$AddUndoActivity	DeleteFromDrawingVisitor	
+***org.jhotdraw.contrib.dnd:2->org.jhotdraw.standard:2
+DragNDropTool	SelectAreaTracker	
+DragNDropTool	DragTracker	
+DragNDropTool	HandleTracker	
+***org.jhotdraw.contrib.dnd:2->org.jhotdraw.util:1
+JHDDragSourceListener$RemoveUndoActivity	UndoableAdapter	
+JHDDropTargetListener$AddUndoActivity	UndoableAdapter	
+***org.jhotdraw.contrib.dnd:2->org.jhotdraw.contrib.dnd:0
+DNDHelper	DNDFiguresTransferable	
+DragNDropTool	DNDInterface	
+DragNDropTool$1	DNDFiguresTransferable	
+DragNDropTool$1	DNDInterface	
+JHDDragSourceListener	DNDFiguresTransferable	
+JHDDropTargetListener	DNDFiguresTransferable	
+***org.jhotdraw.contrib.dnd:2->org.jhotdraw.util:0
+JHDDragSourceListener	UndoManager	
+JHDDragSourceListener	Undoable	
+JHDDragSourceListener$RemoveUndoActivity	Undoable	
+JHDDropTargetListener	UndoManager	
+JHDDropTargetListener	Undoable	
+JHDDropTargetListener$AddUndoActivity	Undoable	
+***org.jhotdraw.contrib.dnd:2->org.jhotdraw.standard:0
+DragNDropTool	AWTCursor	
+***org.jhotdraw.contrib.dnd:2->org.jhotdraw.contrib.dnd:1
+DragNDropTool$1	DNDFigures	
+JHDDragSourceListener	DNDFigures	
+JHDDropTargetListener	DNDFigures	
+------------
+***org.jhotdraw.contrib:0->org.jhotdraw.framework:0
+Desktop	DrawingView	
+DesktopEvent	DrawingView	
+Helper	DrawingView	
+Layoutable	Figure	
+PopupMenuFigureSelection	Figure	
+html.GeometricFigure	Figure	
+***org.jhotdraw.contrib:0->org.jhotdraw.util:0
+CommandHolder	Command	
+CustomToolBar	CollectionsFactory	
+Layouter	Storable	
+html.ContentProducer	Storable	
+------------
+***org.jhotdraw.contrib:1->org.jhotdraw.util:0
+CTXCommandMenu	CommandListener	
+CTXCommandMenu	Command	
+CommandCheckBoxMenuItem	Command	
+CommandMenuItem	Command	
+SimpleLayouter	StorableInput	
+SimpleLayouter	Storable	
+SimpleLayouter	StorableOutput	
+html.AbstractContentProducer	Storable	
+html.AbstractContentProducer	StorableOutput	
+html.AbstractContentProducer	StorableInput	
+html.HTMLLayouter	StorableInput	
+html.HTMLLayouter	StorableOutput	
+html.HTMLLayouter	Storable	
+***org.jhotdraw.contrib:1->org.jhotdraw.standard:1
+ClippingUpdateStrategy	FigureEnumerator	
+***org.jhotdraw.contrib:1->org.jhotdraw.contrib:0
+CTXCommandMenu	CommandHolder	
+CommandCheckBoxMenuItem	CommandHolder	
+CommandMenuItem	CommandHolder	
+SimpleLayouter	Layoutable	
+SimpleLayouter	Layouter	
+html.AbstractContentProducer	html.ContentProducer	
+html.DisposableResourceManagerFactory	html.ResourceManagerNotSetException	
+html.DisposableResourceManagerFactory	html.ResourceDisposabilityStrategy	
+html.DisposableResourceManagerFactory	html.DisposableResourceHolder	
+html.DisposableResourceManagerFactory	html.DisposableResourceManager	
+html.ETSLADisposalStrategy	html.ResourceManagerNotSetException	
+html.ETSLADisposalStrategy	html.DisposableResourceHolder	
+html.ETSLADisposalStrategy	html.ResourceDisposabilityStrategy	
+html.ETSLADisposalStrategy	html.DisposableResourceManager	
+html.HTMLLayouter	Layoutable	
+html.HTMLLayouter	Layouter	
+html.StandardDisposableResourceHolder	html.DisposableResourceHolder	
+html.StandardDisposableResourceManager	html.DisposableResourceHolder	
+html.StandardDisposableResourceManager	html.ResourceManagerNotSetException	
+html.StandardDisposableResourceManager	html.ResourceDisposabilityStrategy	
+html.StandardDisposableResourceManager	html.DisposableResourceManager	
+zoom.ZoomUpdateStrategy	zoom.ScalingGraphics	
+***org.jhotdraw.contrib:1->org.jhotdraw.framework:0
+CTXCommandMenu	JHotDrawRuntimeException	
+ClippingUpdateStrategy	DrawingView	
+ClippingUpdateStrategy	Figure	
+ClippingUpdateStrategy	Painter	
+ClippingUpdateStrategy	FigureEnumeration	
+ClippingUpdateStrategy	Drawing	
+MiniMapView	Drawing	
+MiniMapView	DrawingChangeListener	
+MiniMapView	DrawingView	
+MiniMapView$MappedDrawingChangeListener	DrawingChangeListener	
+MiniMapView$MappedDrawingChangeListener	DrawingChangeEvent	
+SimpleLayouter	Figure	
+SimpleLayouter	FigureEnumeration	
+zoom.ZoomUpdateStrategy	DrawingView	
+zoom.ZoomUpdateStrategy	Painter	
+***org.jhotdraw.contrib:1->org.jhotdraw.util:1
+CTXCommandMenu	CommandMenu	
+------------
+***org.jhotdraw.contrib:2->org.jhotdraw.contrib:1
+StandardLayouter	SimpleLayouter	
+html.FigureDataContentProducer	html.AbstractContentProducer	
+html.ResourceContentProducer	html.AbstractContentProducer	
+html.TextHolderContentProducer	html.AbstractContentProducer	
+***org.jhotdraw.contrib:2->org.jhotdraw.contrib:0
+StandardLayouter	Layoutable	
+StandardLayouter	Layouter	
+html.FigureDataContentProducer	html.ContentProducerContext	
+html.FigureDataContentProducer	html.ContentProducer	
+html.FigureDataContentProducer	html.FigureContentProducerContext	
+html.ResourceContentProducer	html.ContentProducerContext	
+html.ResourceContentProducer	html.ContentProducer	
+html.TextHolderContentProducer	html.ContentProducerContext	
+html.TextHolderContentProducer	html.ContentProducer	
+***org.jhotdraw.contrib:2->org.jhotdraw.standard:0
+html.TextHolderContentProducer	TextHolder	
+***org.jhotdraw.contrib:2->org.jhotdraw.framework:0
+StandardLayouter	FigureEnumeration	
+StandardLayouter	Figure	
+html.TextHolderContentProducer	Figure	
+zoom.AreaTracker	DrawingView	
+zoom.AreaTracker	DrawingEditor	
+zoom.AreaTracker	Tool	
+***org.jhotdraw.contrib:2->org.jhotdraw.util:0
+html.FigureDataContentProducer	StorableInput	
+html.FigureDataContentProducer	Storable	
+html.FigureDataContentProducer	StorableOutput	
+html.ResourceContentProducer	Storable	
+html.ResourceContentProducer	StorableOutput	
+html.ResourceContentProducer	StorableInput	
+html.TextHolderContentProducer	StorableInput	
+html.TextHolderContentProducer	StorableOutput	
+html.TextHolderContentProducer	Storable	
+***org.jhotdraw.contrib:2->org.jhotdraw.standard:1
+zoom.AreaTracker	AbstractTool	
+------------
+***org.jhotdraw.contrib:3->org.jhotdraw.standard:1
+CompositeFigureCreationTool	AbstractTool	
+CustomSelectionTool	AbstractTool	
+NestedCreationTool	AbstractTool	
+SplitConnectionTool	AbstractTool	
+SplitConnectionTool	SingleFigureEnumerator	
+TextAreaTool	AbstractTool	
+TextAreaTool	SingleFigureEnumerator	
+***org.jhotdraw.contrib:3->org.jhotdraw.contrib:0
+CustomSelectionTool	PopupMenuFigureSelection	
+TextAreaTool	FloatingTextArea	
+html.AttributeFigureContentProducer	html.ContentProducer	
+html.AttributeFigureContentProducer	html.ContentProducerContext	
+html.AttributeFigureContentProducer	html.AttributeContentProducerContext	
+html.ColorContentProducer	html.ContentProducer	
+html.ColorContentProducer	html.ContentProducerContext	
+html.ContentProducerRegistry	html.ContentProducer	
+html.URLContentProducer	html.ContentProducerContext	
+html.URLContentProducer	html.ContentProducer	
+***org.jhotdraw.contrib:3->org.jhotdraw.contrib:1
+html.AttributeFigureContentProducer	html.AbstractContentProducer	
+html.ColorContentProducer	html.AbstractContentProducer	
+html.URLContentProducer	html.AbstractContentProducer	
+***org.jhotdraw.contrib:3->org.jhotdraw.figures:1
+SplitConnectionTool	NullConnector	
+***org.jhotdraw.contrib:3->org.jhotdraw.framework:0
+ChopDiamondConnector	Figure	
+CompositeFigureCreationTool	Figure	
+CompositeFigureCreationTool	Tool	
+CompositeFigureCreationTool	Drawing	
+CompositeFigureCreationTool	DrawingEditor	
+CompositeFigureCreationTool	DrawingView	
+CustomSelectionTool	FigureAttributeConstant	
+CustomSelectionTool	DrawingView	
+CustomSelectionTool	Figure	
+CustomSelectionTool	Drawing	
+CustomSelectionTool	Tool	
+CustomSelectionTool	DrawingEditor	
+NestedCreationTool	Figure	
+NestedCreationTool	Drawing	
+NestedCreationTool	DrawingEditor	
+NestedCreationTool	Tool	
+SplitConnectionTool	FigureEnumeration	
+SplitConnectionTool	Connector	
+SplitConnectionTool	DrawingView	
+SplitConnectionTool	Drawing	
+SplitConnectionTool	Figure	
+SplitConnectionTool	DrawingEditor	
+SplitConnectionTool	Tool	
+SplitConnectionTool	ConnectionFigure	
+TextAreaTool	DrawingEditor	
+TextAreaTool	DrawingView	
+TextAreaTool	FigureEnumeration	
+TextAreaTool	Drawing	
+TextAreaTool	Tool	
+TextAreaTool	Figure	
+TextAreaTool$UndoActivity	FigureEnumeration	
+TextAreaTool$UndoActivity	Drawing	
+TextAreaTool$UndoActivity	Figure	
+TextAreaTool$UndoActivity	DrawingView	
+***org.jhotdraw.contrib:3->org.jhotdraw.standard:3
+CompositeFigureCreationTool	CompositeFigure	
+NestedCreationTool	CompositeFigure	
+***org.jhotdraw.contrib:3->org.jhotdraw.standard:2
+ChopDiamondConnector	ChopBoxConnector	
+CompositeFigureCreationTool	CreationTool	
+CustomSelectionTool	SelectionTool	
+NestedCreationTool	CreationTool	
+SplitConnectionTool	ConnectionTool	
+TextAreaTool	CreationTool	
+***org.jhotdraw.contrib:3->org.jhotdraw.util:0
+ChopDiamondConnector	Geom	
+SplitConnectionTool	Undoable	
+TextAreaTool	Undoable	
+TextAreaTool$UndoActivity	Undoable	
+html.AttributeFigureContentProducer	StorableOutput	
+html.AttributeFigureContentProducer	Storable	
+html.AttributeFigureContentProducer	StorableInput	
+html.ColorContentProducer	StorableInput	
+html.ColorContentProducer	Storable	
+html.ColorContentProducer	StorableOutput	
+html.ContentProducerRegistry	StorableOutput	
+html.ContentProducerRegistry	Storable	
+html.ContentProducerRegistry	StorableInput	
+html.URLContentProducer	StorableInput	
+html.URLContentProducer	StorableOutput	
+html.URLContentProducer	Storable	
+***org.jhotdraw.contrib:3->org.jhotdraw.contrib:2
+html.AttributeFigureContentProducer	html.FigureDataContentProducer	
+html.ColorContentProducer	html.FigureDataContentProducer	
+html.URLContentProducer	html.FigureDataContentProducer	
+***org.jhotdraw.contrib:3->org.jhotdraw.figures:3
+SplitConnectionTool	PolyLineFigure	
+SplitConnectionTool	NullFigure	
+***org.jhotdraw.contrib:3->org.jhotdraw.standard:0
+TextAreaTool	TextHolder	
+TextAreaTool$UndoActivity	TextHolder	
+***org.jhotdraw.contrib:3->org.jhotdraw.util:1
+TextAreaTool$UndoActivity	UndoableAdapter	
+------------
+***org.jhotdraw.contrib:4->org.jhotdraw.contrib:2
+GraphicalCompositeFigure	StandardLayouter	
+html.HTMLColorContentProducer	html.FigureDataContentProducer	
+html.HTMLContentProducer	html.FigureDataContentProducer	
+zoom.ZoomAreaTracker	zoom.AreaTracker	
+***org.jhotdraw.contrib:4->org.jhotdraw.figures:3
+ComponentFigure	AttributeFigure	
+DiamondFigure	AttributeFigure	
+PolygonFigure	AttributeFigure	
+PolygonHandle	PolyLineHandle$UndoActivity	
+PolygonHandle	PolyLineHandle	
+PolygonHandle$UndoActivity	PolyLineHandle	
+PolygonHandle$UndoActivity	PolyLineHandle$UndoActivity	
+TextAreaFigure	AttributeFigure	
+***org.jhotdraw.contrib:4->org.jhotdraw.standard:0
+TextAreaFigure	TextHolder	
+html.HTMLTextAreaTool	TextHolder	
+***org.jhotdraw.contrib:4->org.jhotdraw.util:0
+CTXWindowMenu	Command	
+CTXWindowMenu$1	Command	
+CTXWindowMenu$2	Command	
+CTXWindowMenu$3	Command	
+CTXWindowMenu$4	Command	
+CTXWindowMenu$5	Command	
+ComponentFigure	CollectionsFactory	
+DesktopEventService	CollectionsFactory	
+GraphicalCompositeFigure	CollectionsFactory	
+GraphicalCompositeFigure	StorableOutput	
+GraphicalCompositeFigure	Storable	
+GraphicalCompositeFigure	StorableInput	
+PolygonFigure	StorableOutput	
+PolygonFigure	CollectionsFactory	
+PolygonFigure	StorableInput	
+PolygonFigure	Storable	
+PolygonFigure	Geom	
+PolygonHandle	Undoable	
+PolygonScaleHandle	Geom	
+PolygonScaleHandle	Undoable	
+PolygonScaleHandle$UndoActivity	Undoable	
+PolygonTool	Undoable	
+TextAreaFigure	StorableInput	
+TextAreaFigure	CollectionsFactory	
+TextAreaFigure	ColorMap	
+TextAreaFigure	Storable	
+TextAreaFigure	StorableOutput	
+WindowMenu	Command	
+WindowMenu$1	Command	
+WindowMenu$2	Command	
+zoom.ZoomCommand	Command	
+zoom.ZoomDrawingView	Geom	
+***org.jhotdraw.contrib:4->org.jhotdraw.standard:4
+DesktopEventService$1	NullDrawingView	
+MDIDesktopPane$1	NullDrawingView	
+zoom.ZoomDrawingView	StandardDrawing	
+***org.jhotdraw.contrib:4->org.jhotdraw.standard:2
+ChopPolygonConnector	ChopBoxConnector	
+ComponentFigure	AbstractFigure	
+ComponentFigure	BoxHandleKit	
+DiamondFigure	AbstractFigure	
+GraphicalCompositeFigure	BoxHandleKit	
+GraphicalCompositeFigure	AbstractFigure	
+PolygonFigure	AbstractFigure	
+PolygonTool	PasteCommand	
+PolygonTool	PasteCommand$UndoActivity	
+TextAreaFigure	OffsetLocator	
+TextAreaFigure	BoxHandleKit	
+TextAreaFigure	AbstractFigure	
+***org.jhotdraw.contrib:4->org.jhotdraw.util:1
+PolygonScaleHandle$UndoActivity	UndoableAdapter	
+WindowMenu	CommandMenu	
+***org.jhotdraw.contrib:4->org.jhotdraw.framework:0
+CTXWindowMenu	DrawingEditor	
+CTXWindowMenu$1	DrawingEditor	
+CTXWindowMenu$2	DrawingEditor	
+CTXWindowMenu$3	DrawingEditor	
+CTXWindowMenu$4	DrawingEditor	
+CTXWindowMenu$5	DrawingEditor	
+ChopPolygonConnector	Figure	
+ComponentFigure	HandleEnumeration	
+ComponentFigure	Figure	
+DesktopEventService	DrawingView	
+DesktopEventService$1	DrawingView	
+DesktopEventService$1	DrawingEditor	
+DiamondFigure	Figure	
+DiamondFigure	Connector	
+GraphicalCompositeFigure	HandleEnumeration	
+GraphicalCompositeFigure	FigureChangeEvent	
+GraphicalCompositeFigure	FigureChangeListener	
+GraphicalCompositeFigure	Figure	
+GraphicalCompositeFigure	FigureAttributeConstant	
+JPanelDesktop	DrawingView	
+JPanelDesktop	Drawing	
+JScrollPaneDesktop	DrawingView	
+MDIDesktopPane	DrawingView	
+MDIDesktopPane	Drawing	
+MDIDesktopPane$1	DrawingView	
+MDIDesktopPane$1	DrawingEditor	
+PolygonFigure	HandleEnumeration	
+PolygonFigure	Connector	
+PolygonFigure	Figure	
+PolygonFigure	Locator	
+PolygonFigure$1	Figure	
+PolygonFigure$1	Locator	
+PolygonHandle	Figure	
+PolygonHandle	Locator	
+PolygonHandle	DrawingView	
+PolygonHandle	FigureEnumeration	
+PolygonHandle	Handle	
+PolygonHandle$UndoActivity	Figure	
+PolygonHandle$UndoActivity	DrawingView	
+PolygonHandle$UndoActivity	FigureEnumeration	
+PolygonScaleHandle	DrawingView	
+PolygonScaleHandle	FigureEnumeration	
+PolygonScaleHandle	Handle	
+PolygonScaleHandle	Figure	
+PolygonScaleHandle$UndoActivity	Figure	
+PolygonScaleHandle$UndoActivity	FigureEnumeration	
+PolygonScaleHandle$UndoActivity	DrawingView	
+PolygonTool	FigureEnumeration	
+PolygonTool	DrawingView	
+PolygonTool	DrawingEditor	
+PolygonTool	Figure	
+PolygonTool	Tool	
+PolygonTool	Drawing	
+SplitPaneDesktop	DrawingView	
+TextAreaFigure	FigureChangeListener	
+TextAreaFigure	FigureChangeEvent	
+TextAreaFigure	HandleEnumeration	
+TextAreaFigure	Locator	
+TextAreaFigure	Figure	
+WindowMenu	DrawingEditor	
+WindowMenu$1	DrawingEditor	
+WindowMenu$2	DrawingEditor	
+html.HTMLTextAreaTool	DrawingEditor	
+html.HTMLTextAreaTool	Figure	
+zoom.MiniMapZoomableView	DrawingView	
+zoom.ZoomAreaTracker	DrawingEditor	
+zoom.ZoomAreaTracker	Tool	
+zoom.ZoomAreaTracker	DrawingView	
+zoom.ZoomCommand	JHotDrawRuntimeException	
+zoom.ZoomCommand	DrawingEditor	
+zoom.ZoomCommand	DrawingView	
+zoom.ZoomDrawingView	DrawingChangeEvent	
+zoom.ZoomDrawingView	Figure	
+zoom.ZoomDrawingView	Drawing	
+zoom.ZoomDrawingView	DrawingChangeListener	
+zoom.ZoomDrawingView	DrawingEditor	
+zoom.ZoomDrawingView	PointConstrainer	
+zoom.ZoomDrawingView	FigureEnumeration	
+zoom.ZoomDrawingView	DrawingView	
+zoom.ZoomDrawingView$3	Drawing	
+zoom.ZoomTool	DrawingView	
+zoom.ZoomTool	DrawingEditor	
+zoom.ZoomTool	Tool	
+***org.jhotdraw.contrib:4->org.jhotdraw.standard:3
+GraphicalCompositeFigure	CompositeFigure	
+zoom.ZoomDrawingView	StandardDrawingView	
+zoom.ZoomDrawingView$1	StandardDrawingView$DrawingViewMouseListener	
+zoom.ZoomDrawingView$1	StandardDrawingView	
+zoom.ZoomDrawingView$2	StandardDrawingView	
+zoom.ZoomDrawingView$2	StandardDrawingView$DrawingViewMouseMotionListener	
+zoom.ZoomDrawingView$3	StandardDrawingView	
+zoom.ZoomDrawingView$3	StandardDrawingView$DrawingViewKeyListener	
+***org.jhotdraw.contrib:4->org.jhotdraw.contrib:0
+DesktopEventService	Helper	
+DesktopEventService	DesktopEvent	
+DesktopEventService	Desktop	
+DesktopEventService	DesktopListener	
+DesktopEventService$1	Helper	
+GraphicalCompositeFigure	Layoutable	
+GraphicalCompositeFigure	Layouter	
+JPanelDesktop	DesktopListener	
+JPanelDesktop	Desktop	
+JScrollPaneDesktop	Desktop	
+JScrollPaneDesktop	DesktopListener	
+MDIDesktopPane	Helper	
+MDIDesktopPane	Desktop	
+MDIDesktopPane	DesktopListener	
+MDIDesktopPane$1	Helper	
+SplitPaneDesktop	DesktopListener	
+SplitPaneDesktop	Desktop	
+SplitPaneDesktop	Helper	
+html.DiamondFigureGeometricAdapter	html.GeometricFigure	
+html.EllipseFigureGeometricAdapter	html.GeometricFigure	
+html.HTMLColorContentProducer	html.ContentProducer	
+html.HTMLColorContentProducer	html.ContentProducerContext	
+html.HTMLContentProducer	html.HTMLContentProducerContext	
+html.HTMLContentProducer	html.ContentProducer	
+html.HTMLContentProducer	html.ContentProducerContext	
+html.PolygonFigureGeometricAdapter	html.GeometricFigure	
+html.RoundRectangleGeometricAdapter	html.GeometricFigure	
+***org.jhotdraw.contrib:4->org.jhotdraw.contrib:1
+CTXWindowMenu	CTXCommandMenu	
+CTXWindowMenu	CommandMenuItem	
+WindowMenu	CommandMenuItem	
+zoom.MiniMapZoomableView	MiniMapView	
+***org.jhotdraw.contrib:4->org.jhotdraw.standard:1
+CTXWindowMenu$1	AbstractCommand	
+CTXWindowMenu$2	AbstractCommand	
+CTXWindowMenu$3	AbstractCommand	
+CTXWindowMenu$4	AbstractCommand	
+CTXWindowMenu$5	AbstractCommand	
+ComponentFigure	HandleEnumerator	
+GraphicalCompositeFigure	HandleEnumerator	
+PolygonFigure	HandleEnumerator	
+PolygonFigure$1	AbstractLocator	
+PolygonHandle	SingleFigureEnumerator	
+PolygonHandle	AbstractHandle	
+PolygonScaleHandle	SingleFigureEnumerator	
+PolygonScaleHandle	AbstractHandle	
+PolygonTool	SingleFigureEnumerator	
+PolygonTool	AbstractTool	
+TextAreaFigure	HandleEnumerator	
+WindowMenu$1	AbstractCommand	
+WindowMenu$2	AbstractCommand	
+zoom.ZoomAreaTracker	AbstractTool	
+zoom.ZoomCommand	AbstractCommand	
+zoom.ZoomTool	AbstractTool	
+***org.jhotdraw.contrib:4->org.jhotdraw.contrib:3
+DiamondFigure	ChopDiamondConnector	
+html.HTMLColorContentProducer	html.ColorContentProducer	
+html.HTMLContentProducer	html.AttributeFigureContentProducer	
+html.HTMLTextAreaTool	TextAreaTool	
+***org.jhotdraw.contrib:4->org.jhotdraw.figures:4
+DiamondFigure	RectangleFigure	
+GraphicalCompositeFigure	RectangleFigure	
+html.EllipseFigureGeometricAdapter	EllipseFigure	
+html.RoundRectangleGeometricAdapter	RoundRectangleFigure	
+***org.jhotdraw.contrib:4->org.jhotdraw.application:4
+JPanelDesktop	DrawApplication	
+MDIDesktopPane	DrawApplication	
+------------
+***org.jhotdraw.contrib:5->org.jhotdraw.figures:4
+TriangleFigure	RectangleFigure	
+html.HTMLTextAreaFigure	RectangleFigure	
+***org.jhotdraw.contrib:5->org.jhotdraw.standard:1
+MDI_DrawApplication	ToolButton	
+TriangleFigure	HandleEnumerator	
+TriangleRotationHandle	SingleFigureEnumerator	
+TriangleRotationHandle	AbstractHandle	
+***org.jhotdraw.contrib:5->org.jhotdraw.contrib:3
+html.HTMLTextAreaFigure	html.ContentProducerRegistry	
+***org.jhotdraw.contrib:5->org.jhotdraw.util:0
+TriangleFigure	StorableInput	
+TriangleFigure	Storable	
+TriangleFigure	StorableOutput	
+TriangleRotationHandle	Undoable	
+TriangleRotationHandle	Geom	
+TriangleRotationHandle$UndoActivity	Undoable	
+html.HTMLTextAreaFigure	Geom	
+html.HTMLTextAreaFigure	StorableInput	
+html.HTMLTextAreaFigure	StorableOutput	
+html.HTMLTextAreaFigure	Storable	
+***org.jhotdraw.contrib:5->org.jhotdraw.standard:4
+MDI_DrawApplication	NullDrawingView	
+***org.jhotdraw.contrib:5->org.jhotdraw.standard:2
+TriangleFigure	AbstractFigure	
+html.HTMLTextAreaFigure	AbstractFigure	
+***org.jhotdraw.contrib:5->org.jhotdraw.contrib:1
+html.HTMLTextAreaFigure	html.DisposableResourceManagerFactory	
+***org.jhotdraw.contrib:5->org.jhotdraw.framework:0
+MDI_DrawApplication	Drawing	
+MDI_DrawApplication	DrawingEditor	
+MDI_DrawApplication	DrawingView	
+MDI_DrawApplication	Tool	
+TriangleFigure	Figure	
+TriangleFigure	HandleEnumeration	
+TriangleRotationHandle	Figure	
+TriangleRotationHandle	Handle	
+TriangleRotationHandle	DrawingView	
+TriangleRotationHandle	FigureEnumeration	
+TriangleRotationHandle$UndoActivity	DrawingView	
+TriangleRotationHandle$UndoActivity	FigureEnumeration	
+TriangleRotationHandle$UndoActivity	Figure	
+html.HTMLTextAreaFigure	FigureChangeEvent	
+html.HTMLTextAreaFigure	Figure	
+html.HTMLTextAreaFigure	FigureAttributeConstant	
+html.HTMLTextAreaFigure	HandleEnumeration	
+html.HTMLTextAreaFigure	FigureChangeListener	
+***org.jhotdraw.contrib:5->org.jhotdraw.contrib:0
+MDI_DrawApplication	Desktop	
+SplitPaneDrawApplication	Desktop	
+html.HTMLTextAreaFigure	html.DisposableResourceHolder	
+html.HTMLTextAreaFigure	html.ContentProducerContext	
+html.HTMLTextAreaFigure	html.ContentProducer	
+html.HTMLTextAreaFigure	html.GeometricFigure	
+html.HTMLTextAreaFigure	html.HTMLContentProducerContext	
+html.TriangleFigureGeometricAdapter	html.GeometricFigure	
+***org.jhotdraw.contrib:5->org.jhotdraw.contrib:4
+MDI_DrawApplication	MDIDesktopPane	
+SplitPaneDrawApplication	SplitPaneDesktop	
+TriangleFigure	PolygonFigure	
+html.HTMLTextAreaFigure	html.HTMLContentProducer	
+html.HTMLTextAreaFigure	html.HTMLColorContentProducer	
+html.HTMLTextAreaFigure	TextAreaFigure	
+***org.jhotdraw.contrib:5->org.jhotdraw.contrib:2
+html.HTMLTextAreaFigure	html.TextHolderContentProducer	
+***org.jhotdraw.contrib:5->org.jhotdraw.util:1
+TriangleRotationHandle$UndoActivity	UndoableAdapter	
+***org.jhotdraw.contrib:5->org.jhotdraw.application:4
+MDI_DrawApplication	DrawApplication	
+SplitPaneDrawApplication	DrawApplication	
+***org.jhotdraw.contrib:5->org.jhotdraw.figures:3
+TriangleFigure	AttributeFigure	
+html.HTMLTextAreaFigure	AttributeFigure	
+***org.jhotdraw.contrib:5->org.jhotdraw.standard:0
+html.HTMLTextAreaFigure	TextHolder	
+------------
+***org.jhotdraw.figures:0->org.jhotdraw.util:0
+FigureAttributes	StorableOutput	
+FigureAttributes	StorableInput	
+FigureAttributes	CollectionsFactory	
+FigureAttributes	Storable	
+LineDecoration	Storable	
+***org.jhotdraw.figures:0->org.jhotdraw.framework:0
+FigureAttributes	FigureAttributeConstant	
+------------
+***org.jhotdraw.figures:1->org.jhotdraw.figures:0
+AbstractLineDecoration	FigureAttributes	
+AbstractLineDecoration	LineDecoration	
+***org.jhotdraw.figures:1->org.jhotdraw.util:0
+AbstractLineDecoration	StorableInput	
+AbstractLineDecoration	StorableOutput	
+AbstractLineDecoration	Storable	
+***org.jhotdraw.figures:1->org.jhotdraw.framework:0
+AbstractLineDecoration	FigureAttributeConstant	
+ElbowTextLocator	Figure	
+ElbowTextLocator	Locator	
+NullConnector	Figure	
+***org.jhotdraw.figures:1->org.jhotdraw.standard:1
+ElbowTextLocator	AbstractLocator	
+NullConnector	AbstractConnector	
+------------
+***org.jhotdraw.figures:2->org.jhotdraw.util:0
+ArrowTip	StorableOutput	
+ArrowTip	Storable	
+ArrowTip	StorableInput	
+ShortestDistanceConnector	Geom	
+***org.jhotdraw.figures:2->org.jhotdraw.framework:0
+ShortestDistanceConnector	ConnectionFigure	
+ShortestDistanceConnector	Figure	
+ShortestDistanceConnector	Connector	
+***org.jhotdraw.figures:2->org.jhotdraw.figures:1
+ArrowTip	AbstractLineDecoration	
+***org.jhotdraw.figures:2->org.jhotdraw.standard:1
+ShortestDistanceConnector	AbstractConnector	
+------------
+***org.jhotdraw.figures:3->org.jhotdraw.util:0
+AttributeFigure	Storable	
+AttributeFigure	StorableOutput	
+AttributeFigure	ColorMap	
+AttributeFigure	StorableInput	
+ChopEllipseConnector	Geom	
+GroupCommand	Command	
+GroupCommand	Undoable	
+GroupCommand$UndoActivity	Undoable	
+GroupCommand$UndoActivity	CollectionsFactory	
+GroupFigure	CollectionsFactory	
+PolyLineConnector	Geom	
+PolyLineFigure	StorableOutput	
+PolyLineFigure	CollectionsFactory	
+PolyLineFigure	StorableInput	
+PolyLineFigure	Geom	
+PolyLineFigure	Storable	
+PolyLineHandle	Undoable	
+PolyLineHandle$UndoActivity	Undoable	
+ScribbleTool	Undoable	
+TextTool	Undoable	
+TextTool	FloatingTextField	
+TextTool$UndoActivity	Undoable	
+UngroupCommand	Command	
+UngroupCommand	Undoable	
+UngroupCommand$UndoActivity	Undoable	
+***org.jhotdraw.figures:3->org.jhotdraw.util:1
+GroupCommand$UndoActivity	UndoableAdapter	
+PolyLineHandle$UndoActivity	UndoableAdapter	
+TextTool$UndoActivity	UndoableAdapter	
+UngroupCommand$UndoActivity	UndoableAdapter	
+***org.jhotdraw.figures:3->org.jhotdraw.standard:2
+AttributeFigure	AbstractFigure	
+ChopEllipseConnector	ChopBoxConnector	
+GroupFigure	RelativeLocator	
+GroupFigure	AbstractFigure	
+GroupHandle	NullHandle	
+NullFigure	AbstractFigure	
+PolyLineConnector	ChopBoxConnector	
+PolyLineFigure	AbstractFigure	
+PolyLineHandle	LocatorHandle	
+ScribbleTool	PasteCommand$UndoActivity	
+ScribbleTool	PasteCommand	
+TextTool	PasteCommand$UndoActivity	
+TextTool	CreationTool	
+TextTool	PasteCommand	
+TextTool	DeleteCommand$UndoActivity	
+TextTool	DeleteCommand	
+***org.jhotdraw.figures:3->org.jhotdraw.standard:3
+GroupFigure	CompositeFigure	
+***org.jhotdraw.figures:3->org.jhotdraw.standard:1
+GroupCommand	AbstractCommand	
+GroupCommand$UndoActivity	FigureEnumerator	
+GroupFigure	HandleEnumerator	
+GroupFigure	FigureEnumerator	
+GroupHandle	AbstractHandle	
+NullFigure	SingleFigureEnumerator	
+NullFigure	FigureEnumerator	
+NullFigure	HandleEnumerator	
+PolyLineFigure	HandleEnumerator	
+PolyLineHandle	AbstractHandle	
+PolyLineHandle	SingleFigureEnumerator	
+PolyLineLocator	AbstractLocator	
+ScribbleTool	AbstractTool	
+ScribbleTool	SingleFigureEnumerator	
+TextTool	SingleFigureEnumerator	
+TextTool	AbstractTool	
+TextTool	FigureTransferCommand	
+UngroupCommand	AbstractCommand	
+***org.jhotdraw.figures:3->org.jhotdraw.figures:0
+AttributeFigure	FigureAttributes	
+PolyLineFigure	LineDecoration	
+***org.jhotdraw.figures:3->org.jhotdraw.standard:0
+TextTool	TextHolder	
+TextTool$UndoActivity	TextHolder	
+***org.jhotdraw.figures:3->org.jhotdraw.framework:0
+AttributeFigure	Figure	
+AttributeFigure	FigureAttributeConstant	
+ChopEllipseConnector	Figure	
+GroupCommand	FigureEnumeration	
+GroupCommand	DrawingView	
+GroupCommand	DrawingEditor	
+GroupCommand$UndoActivity	DrawingView	
+GroupCommand$UndoActivity	Figure	
+GroupCommand$UndoActivity	FigureEnumeration	
+GroupCommand$UndoActivity	Drawing	
+GroupFigure	FigureAttributeConstant	
+GroupFigure	Figure	
+GroupFigure	HandleEnumeration	
+GroupFigure	Locator	
+GroupFigure	FigureEnumeration	
+GroupHandle	Locator	
+GroupHandle	Figure	
+GroupHandle	Handle	
+NullFigure	Figure	
+NullFigure	HandleEnumeration	
+NullFigure	FigureEnumeration	
+NullFigure	FigureAttributeConstant	
+PolyLineConnector	Figure	
+PolyLineFigure	FigureAttributeConstant	
+PolyLineFigure	HandleEnumeration	
+PolyLineFigure	Locator	
+PolyLineFigure	Connector	
+PolyLineFigure	Figure	
+PolyLineHandle	FigureEnumeration	
+PolyLineHandle	Handle	
+PolyLineHandle	DrawingView	
+PolyLineHandle	Figure	
+PolyLineHandle	Locator	
+PolyLineHandle$UndoActivity	Figure	
+PolyLineHandle$UndoActivity	FigureEnumeration	
+PolyLineHandle$UndoActivity	DrawingView	
+PolyLineLocator	Locator	
+PolyLineLocator	Figure	
+ScribbleTool	Figure	
+ScribbleTool	Tool	
+ScribbleTool	Drawing	
+ScribbleTool	DrawingEditor	
+ScribbleTool	DrawingView	
+ScribbleTool	FigureEnumeration	
+TextTool	Tool	
+TextTool	Drawing	
+TextTool	Figure	
+TextTool	FigureEnumeration	
+TextTool	DrawingEditor	
+TextTool	DrawingView	
+TextTool$UndoActivity	Figure	
+TextTool$UndoActivity	FigureEnumeration	
+TextTool$UndoActivity	DrawingView	
+UngroupCommand	Figure	
+UngroupCommand	DrawingView	
+UngroupCommand	DrawingEditor	
+UngroupCommand	FigureEnumeration	
+UngroupCommand$UndoActivity	DrawingView	
+UngroupCommand$UndoActivity	Figure	
+UngroupCommand$UndoActivity	FigureEnumeration	
+UngroupCommand$UndoActivity	Drawing	
+***org.jhotdraw.figures:3->org.jhotdraw.figures:2
+PolyLineFigure	ArrowTip	
+------------
+***org.jhotdraw.figures:4->org.jhotdraw.figures:3
+ConnectedTextTool	TextTool	
+ConnectedTextTool$UndoActivity	TextTool	
+ConnectedTextTool$UndoActivity	TextTool$UndoActivity	
+EllipseFigure	ChopEllipseConnector	
+EllipseFigure	AttributeFigure	
+ImageFigure	AttributeFigure	
+LineConnection	PolyLineHandle	
+LineConnection	PolyLineFigure	
+LineFigure	PolyLineFigure	
+RectangleFigure	AttributeFigure	
+RoundRectangleFigure	AttributeFigure	
+TextFigure	AttributeFigure	
+***org.jhotdraw.figures:4->org.jhotdraw.util:1
+BorderTool$UndoActivity	UndoableAdapter	
+ConnectedTextTool$DeleteUndoActivity	UndoableAdapter	
+ConnectedTextTool$UndoActivity	UndoableAdapter	
+FontSizeHandle$UndoActivity	UndoableAdapter	
+InsertImageCommand$UndoActivity	UndoableAdapter	
+RadiusHandle$UndoActivity	UndoableAdapter	
+***org.jhotdraw.figures:4->org.jhotdraw.util:0
+BorderTool	CollectionsFactory	
+BorderTool	Undoable	
+BorderTool$UndoActivity	Undoable	
+BorderTool$UndoActivity	CollectionsFactory	
+ConnectedTextTool	Undoable	
+ConnectedTextTool$DeleteUndoActivity	Undoable	
+ConnectedTextTool$UndoActivity	Undoable	
+ElbowHandle	Geom	
+EllipseFigure	Storable	
+EllipseFigure	CollectionsFactory	
+EllipseFigure	StorableOutput	
+EllipseFigure	StorableInput	
+FontSizeHandle	Undoable	
+FontSizeHandle$UndoActivity	Undoable	
+ImageFigure	Storable	
+ImageFigure	Iconkit	
+ImageFigure	CollectionsFactory	
+ImageFigure	StorableOutput	
+ImageFigure	StorableInput	
+InsertImageCommand	Command	
+InsertImageCommand	Undoable	
+InsertImageCommand$UndoActivity	Iconkit	
+InsertImageCommand$UndoActivity	Undoable	
+LineConnection	StorableInput	
+LineConnection	Storable	
+LineConnection	CollectionsFactory	
+LineConnection	StorableOutput	
+RadiusHandle	Undoable	
+RadiusHandle	Geom	
+RadiusHandle$UndoActivity	Undoable	
+RectangleFigure	Storable	
+RectangleFigure	CollectionsFactory	
+RectangleFigure	StorableOutput	
+RectangleFigure	StorableInput	
+RoundRectangleFigure	StorableInput	
+RoundRectangleFigure	StorableOutput	
+RoundRectangleFigure	Storable	
+RoundRectangleFigure	CollectionsFactory	
+TextFigure	ColorMap	
+TextFigure	StorableOutput	
+TextFigure	Storable	
+TextFigure	CollectionsFactory	
+TextFigure	StorableInput	
+***org.jhotdraw.figures:4->org.jhotdraw.standard:2
+BorderDecorator	AbstractFigure	
+BorderTool	ActionTool	
+ConnectedTextTool	DeleteCommand	
+ConnectedTextTool	CreationTool	
+ConnectedTextTool$DeleteUndoActivity	DeleteCommand$UndoActivity	
+ConnectedTextTool$DeleteUndoActivity	DeleteCommand	
+EllipseFigure	AbstractFigure	
+EllipseFigure	BoxHandleKit	
+FontSizeHandle	LocatorHandle	
+ImageFigure	BoxHandleKit	
+ImageFigure	AbstractFigure	
+LineConnection	AbstractFigure	
+LineFigure	AbstractFigure	
+RectangleFigure	BoxHandleKit	
+RectangleFigure	AbstractFigure	
+RoundRectangleFigure	BoxHandleKit	
+RoundRectangleFigure	AbstractFigure	
+TextFigure	AbstractFigure	
+TextFigure	OffsetLocator	
+TextFigure	RelativeLocator	
+TextFigure	NullHandle	
+***org.jhotdraw.figures:4->org.jhotdraw.figures:0
+LineConnection	LineDecoration	
+***org.jhotdraw.figures:4->org.jhotdraw.standard:1
+BorderTool	FigureEnumerator	
+BorderTool	AbstractTool	
+BorderTool$UndoActivity	FigureEnumerator	
+ConnectedTextTool	AbstractTool	
+ConnectedTextTool	FigureTransferCommand	
+ConnectedTextTool$DeleteUndoActivity	FigureTransferCommand	
+ElbowHandle	AbstractHandle	
+EllipseFigure	HandleEnumerator	
+FontSizeHandle	SingleFigureEnumerator	
+FontSizeHandle	AbstractHandle	
+ImageFigure	HandleEnumerator	
+InsertImageCommand	AbstractCommand	
+LineConnection	HandleEnumerator	
+RadiusHandle	SingleFigureEnumerator	
+RadiusHandle	AbstractHandle	
+RectangleFigure	HandleEnumerator	
+RoundRectangleFigure	HandleEnumerator	
+TextFigure	HandleEnumerator	
+***org.jhotdraw.figures:4->org.jhotdraw.figures:2
+LineConnection	ArrowTip	
+RoundRectangleFigure	ShortestDistanceConnector	
+***org.jhotdraw.figures:4->org.jhotdraw.standard:0
+ConnectedTextTool	TextHolder	
+ConnectedTextTool$DeleteUndoActivity	TextHolder	
+ConnectedTextTool$UndoActivity	TextHolder	
+TextFigure	TextHolder	
+***org.jhotdraw.figures:4->org.jhotdraw.framework:0
+BorderDecorator	Figure	
+BorderDecorator	FigureChangeEvent	
+BorderDecorator	FigureChangeListener	
+BorderTool	FigureEnumeration	
+BorderTool	DrawingView	
+BorderTool	DrawingEditor	
+BorderTool	Figure	
+BorderTool	Tool	
+BorderTool	Drawing	
+BorderTool$UndoActivity	FigureEnumeration	
+BorderTool$UndoActivity	Drawing	
+BorderTool$UndoActivity	Figure	
+BorderTool$UndoActivity	DrawingView	
+ConnectedTextTool	Tool	
+ConnectedTextTool	Figure	
+ConnectedTextTool	Drawing	
+ConnectedTextTool	DrawingEditor	
+ConnectedTextTool	DrawingView	
+ConnectedTextTool$DeleteUndoActivity	FigureEnumeration	
+ConnectedTextTool$DeleteUndoActivity	Figure	
+ConnectedTextTool$UndoActivity	Figure	
+ConnectedTextTool$UndoActivity	FigureEnumeration	
+ConnectedTextTool$UndoActivity	DrawingView	
+ElbowHandle	Handle	
+ElbowHandle	Connector	
+ElbowHandle	Figure	
+ElbowHandle	DrawingView	
+EllipseFigure	Figure	
+EllipseFigure	HandleEnumeration	
+EllipseFigure	Connector	
+FontSizeHandle	Figure	
+FontSizeHandle	Locator	
+FontSizeHandle	DrawingView	
+FontSizeHandle	FigureEnumeration	
+FontSizeHandle	Handle	
+FontSizeHandle$UndoActivity	DrawingView	
+FontSizeHandle$UndoActivity	FigureEnumeration	
+FontSizeHandle$UndoActivity	Figure	
+ImageFigure	HandleEnumeration	
+ImageFigure	FigureChangeListener	
+ImageFigure	FigureChangeEvent	
+ImageFigure	Figure	
+InsertImageCommand	DrawingEditor	
+InsertImageCommand	DrawingView	
+InsertImageCommand$UndoActivity	Drawing	
+InsertImageCommand$UndoActivity	Figure	
+InsertImageCommand$UndoActivity	DrawingView	
+LineConnection	Figure	
+LineConnection	FigureChangeEvent	
+LineConnection	ConnectionFigure	
+LineConnection	FigureVisitor	
+LineConnection	FigureChangeListener	
+LineConnection	Locator	
+LineConnection	Connector	
+LineConnection	HandleEnumeration	
+LineFigure	Figure	
+RadiusHandle	FigureEnumeration	
+RadiusHandle	DrawingView	
+RadiusHandle	Figure	
+RadiusHandle	Handle	
+RadiusHandle$UndoActivity	DrawingView	
+RadiusHandle$UndoActivity	FigureEnumeration	
+RadiusHandle$UndoActivity	Figure	
+RectangleFigure	HandleEnumeration	
+RectangleFigure	Figure	
+RoundRectangleFigure	Connector	
+RoundRectangleFigure	HandleEnumeration	
+RoundRectangleFigure	Figure	
+TextFigure	Figure	
+TextFigure	FigureChangeEvent	
+TextFigure	Locator	
+TextFigure	FigureChangeListener	
+TextFigure	FigureAttributeConstant	
+TextFigure	HandleEnumeration	
+***org.jhotdraw.figures:4->org.jhotdraw.standard:3
+BorderDecorator	DecoratorFigure	
+BorderTool	DecoratorFigure	
+LineConnection	ChangeConnectionStartHandle	
+LineConnection	ChangeConnectionEndHandle	
+------------
+***org.jhotdraw.figures:5->org.jhotdraw.standard:0
+NumberTextFigure	TextHolder	
+***org.jhotdraw.figures:5->org.jhotdraw.standard:1
+ElbowConnection	HandleEnumerator	
+***org.jhotdraw.figures:5->org.jhotdraw.util:0
+ElbowConnection	Geom	
+ElbowConnection	CollectionsFactory	
+***org.jhotdraw.figures:5->org.jhotdraw.standard:2
+ElbowConnection	NullHandle	
+ElbowConnection	AbstractFigure	
+***org.jhotdraw.figures:5->org.jhotdraw.figures:4
+ElbowConnection	ElbowHandle	
+ElbowConnection	LineConnection	
+NumberTextFigure	TextFigure	
+***org.jhotdraw.figures:5->org.jhotdraw.figures:1
+ElbowConnection	ElbowTextLocator	
+***org.jhotdraw.figures:5->org.jhotdraw.standard:3
+ElbowConnection	ChangeConnectionStartHandle	
+ElbowConnection	ChangeConnectionEndHandle	
+***org.jhotdraw.figures:5->org.jhotdraw.framework:0
+ElbowConnection	Locator	
+ElbowConnection	Figure	
+ElbowConnection	HandleEnumeration	
+ElbowConnection	Connector	
+ElbowConnection	ConnectionFigure	
+NumberTextFigure	Figure	
+***org.jhotdraw.figures:5->org.jhotdraw.figures:3
+ElbowConnection	PolyLineFigure	
+------------
+***org.jhotdraw.framework:0->org.jhotdraw.util:0
+Connector	Storable	
+Drawing	Storable	
+DrawingEditor	UndoManager	
+Figure	Storable	
+Handle	Undoable	
+Locator	Storable	
+Tool	Undoable	
+------------
+***org.jhotdraw.samples.javadraw:0->org.jhotdraw.util:0
+Animator	Animatable	
+***org.jhotdraw.samples.javadraw:0->org.jhotdraw.framework:0
+Animator	DrawingView	
+------------
+***org.jhotdraw.samples.javadraw:1->org.jhotdraw.framework:0
+PatternPainter	DrawingView	
+PatternPainter	Painter	
+------------
+***org.jhotdraw.samples.javadraw:2->org.jhotdraw.standard:1
+FollowURLTool	AbstractTool	
+URLTool	AbstractTool	
+***org.jhotdraw.samples.javadraw:2->org.jhotdraw.framework:0
+FollowURLTool	Drawing	
+FollowURLTool	DrawingEditor	
+FollowURLTool	Tool	
+FollowURLTool	Figure	
+FollowURLTool	FigureAttributeConstant	
+URLTool	FigureAttributeConstant	
+URLTool	Figure	
+URLTool	DrawingView	
+URLTool	Drawing	
+URLTool	DrawingEditor	
+URLTool	Tool	
+***org.jhotdraw.samples.javadraw:2->org.jhotdraw.util:0
+URLTool	FloatingTextField	
+------------
+***org.jhotdraw.samples.javadraw:3->org.jhotdraw.standard:1
+MySelectionTool	AbstractTool	
+***org.jhotdraw.samples.javadraw:3->org.jhotdraw.framework:0
+MySelectionTool	DrawingEditor	
+MySelectionTool	DrawingView	
+MySelectionTool	Drawing	
+MySelectionTool	Figure	
+MySelectionTool	Tool	
+***org.jhotdraw.samples.javadraw:3->org.jhotdraw.standard:2
+MySelectionTool	SelectionTool	
+------------
+***org.jhotdraw.samples.javadraw:4->org.jhotdraw.standard:2
+AnimationDecorator	AbstractFigure	
+***org.jhotdraw.samples.javadraw:4->org.jhotdraw.util:0
+AnimationDecorator	Animatable	
+AnimationDecorator	StorableInput	
+AnimationDecorator	StorableOutput	
+AnimationDecorator	Storable	
+JavaDrawViewer	UndoManager	
+JavaDrawViewer	Storable	
+JavaDrawViewer	StorableInput	
+***org.jhotdraw.samples.javadraw:4->org.jhotdraw.samples.javadraw:2
+JavaDrawViewer	FollowURLTool	
+***org.jhotdraw.samples.javadraw:4->org.jhotdraw.standard:3
+AnimationDecorator	DecoratorFigure	
+JavaDrawViewer	StandardDrawingView	
+***org.jhotdraw.samples.javadraw:4->org.jhotdraw.framework:0
+AnimationDecorator	Figure	
+JavaDrawViewer	DrawingView	
+JavaDrawViewer	Tool	
+JavaDrawViewer	FigureSelectionListener	
+JavaDrawViewer	ViewChangeListener	
+JavaDrawViewer	Drawing	
+JavaDrawViewer	DrawingEditor	
+***org.jhotdraw.samples.javadraw:4->org.jhotdraw.standard:4
+JavaDrawViewer	StandardDrawing	
+------------
+***org.jhotdraw.samples.javadraw:5->org.jhotdraw.contrib:5
+JavaDrawApplet	TriangleFigure	
+***org.jhotdraw.samples.javadraw:5->org.jhotdraw.framework:0
+BouncingDrawing	FigureEnumeration	
+BouncingDrawing	ConnectionFigure	
+BouncingDrawing	Figure	
+BouncingDrawing	Drawing	
+JavaDrawApplet	Tool	
+JavaDrawApplet	ConnectionFigure	
+JavaDrawApplet	DrawingEditor	
+JavaDrawApplet	Drawing	
+JavaDrawApplet	Figure	
+JavaDrawApplet	DrawingView	
+***org.jhotdraw.samples.javadraw:5->org.jhotdraw.applet:4
+JavaDrawApplet	DrawApplet	
+***org.jhotdraw.samples.javadraw:5->org.jhotdraw.samples.javadraw:2
+JavaDrawApplet	URLTool	
+***org.jhotdraw.samples.javadraw:5->org.jhotdraw.figures:3
+JavaDrawApplet	ScribbleTool	
+JavaDrawApplet	TextTool	
+***org.jhotdraw.samples.javadraw:5->org.jhotdraw.util:0
+BouncingDrawing	Animatable	
+JavaDrawApplet	Animatable	
+***org.jhotdraw.samples.javadraw:5->org.jhotdraw.standard:3
+BouncingDrawing	CompositeFigure	
+***org.jhotdraw.samples.javadraw:5->org.jhotdraw.standard:2
+JavaDrawApplet	CreationTool	
+JavaDrawApplet	ConnectionTool	
+***org.jhotdraw.samples.javadraw:5->org.jhotdraw.figures:5
+JavaDrawApplet	ElbowConnection	
+***org.jhotdraw.samples.javadraw:5->org.jhotdraw.samples.javadraw:0
+JavaDrawApplet	Animator	
+***org.jhotdraw.samples.javadraw:5->org.jhotdraw.samples.javadraw:4
+BouncingDrawing	AnimationDecorator	
+***org.jhotdraw.samples.javadraw:5->org.jhotdraw.figures:4
+JavaDrawApplet	ConnectedTextTool	
+JavaDrawApplet	BorderTool	
+JavaDrawApplet	EllipseFigure	
+JavaDrawApplet	RectangleFigure	
+JavaDrawApplet	TextFigure	
+JavaDrawApplet	LineFigure	
+JavaDrawApplet	RoundRectangleFigure	
+JavaDrawApplet	LineConnection	
+***org.jhotdraw.samples.javadraw:5->org.jhotdraw.standard:1
+JavaDrawApplet	ToolButton	
+***org.jhotdraw.samples.javadraw:5->org.jhotdraw.contrib:4
+JavaDrawApplet	PolygonTool	
+JavaDrawApplet	DiamondFigure	
+***org.jhotdraw.samples.javadraw:5->org.jhotdraw.standard:4
+BouncingDrawing	StandardDrawing	
+------------
+***org.jhotdraw.samples.javadraw:6->org.jhotdraw.samples.javadraw:3
+JavaDrawApp	MySelectionTool	
+***org.jhotdraw.samples.javadraw:6->org.jhotdraw.standard:1
+JavaDrawApp	ToolButton	
+JavaDrawApp$1	AbstractCommand	
+JavaDrawApp$2	AbstractCommand	
+JavaDrawApp$3	AbstractCommand	
+JavaDrawApp$4	AbstractCommand	
+JavaDrawApp$5	AbstractCommand	
+***org.jhotdraw.samples.javadraw:6->org.jhotdraw.contrib:0
+JavaDrawApp	Layoutable	
+JavaDrawApp	Layouter	
+JavaDrawApp	Desktop	
+***org.jhotdraw.samples.javadraw:6->org.jhotdraw.util:0
+JavaDrawApp	Command	
+JavaDrawApp	Animatable	
+JavaDrawApp$1	Command	
+JavaDrawApp$2	Command	
+JavaDrawApp$3	Command	
+JavaDrawApp$4	Command	
+JavaDrawApp$5	Command	
+***org.jhotdraw.samples.javadraw:6->org.jhotdraw.figures:4
+JavaDrawApp	EllipseFigure	
+JavaDrawApp	RectangleFigure	
+JavaDrawApp	BorderTool	
+JavaDrawApp	InsertImageCommand	
+JavaDrawApp	RoundRectangleFigure	
+JavaDrawApp	LineConnection	
+JavaDrawApp	LineFigure	
+JavaDrawApp	TextFigure	
+JavaDrawApp	ConnectedTextTool	
+***org.jhotdraw.samples.javadraw:6->org.jhotdraw.contrib:1
+JavaDrawApp	SimpleLayouter	
+JavaDrawApp$5	ClippingUpdateStrategy	
+***org.jhotdraw.samples.javadraw:6->org.jhotdraw.figures:3
+JavaDrawApp	TextTool	
+JavaDrawApp	ScribbleTool	
+***org.jhotdraw.samples.javadraw:6->org.jhotdraw.samples.javadraw:2
+JavaDrawApp	URLTool	
+***org.jhotdraw.samples.javadraw:6->org.jhotdraw.figures:5
+JavaDrawApp	ElbowConnection	
+***org.jhotdraw.samples.javadraw:6->org.jhotdraw.contrib:4
+JavaDrawApp	DiamondFigure	
+JavaDrawApp	ComponentFigure	
+JavaDrawApp	GraphicalCompositeFigure	
+JavaDrawApp	MDIDesktopPane	
+JavaDrawApp	PolygonTool	
+JavaDrawApp	TextAreaFigure	
+JavaDrawApp	WindowMenu	
+***org.jhotdraw.samples.javadraw:6->org.jhotdraw.contrib:3
+JavaDrawApp	TextAreaTool	
+JavaDrawApp	SplitConnectionTool	
+JavaDrawApp	CompositeFigureCreationTool	
+***org.jhotdraw.samples.javadraw:6->org.jhotdraw.figures:0
+JavaDrawApp	LineDecoration	
+***org.jhotdraw.samples.javadraw:6->org.jhotdraw.standard:2
+JavaDrawApp	CreationTool	
+JavaDrawApp	ConnectionTool	
+***org.jhotdraw.samples.javadraw:6->org.jhotdraw.contrib:5
+JavaDrawApp	TriangleFigure	
+JavaDrawApp	MDI_DrawApplication	
+***org.jhotdraw.samples.javadraw:6->org.jhotdraw.util:1
+JavaDrawApp	CommandMenu	
+JavaDrawApp	UndoableCommand	
+JavaDrawApp	UndoableTool	
+***org.jhotdraw.samples.javadraw:6->org.jhotdraw.samples.javadraw:0
+JavaDrawApp	Animator	
+***org.jhotdraw.samples.javadraw:6->org.jhotdraw.samples.javadraw:5
+JavaDrawApp	BouncingDrawing	
+***org.jhotdraw.samples.javadraw:6->org.jhotdraw.framework:0
+JavaDrawApp	Tool	
+JavaDrawApp	JHotDrawRuntimeException	
+JavaDrawApp	Drawing	
+JavaDrawApp	DrawingEditor	
+JavaDrawApp	Figure	
+JavaDrawApp	DrawingView	
+JavaDrawApp	ConnectionFigure	
+JavaDrawApp$1	DrawingEditor	
+JavaDrawApp$2	DrawingEditor	
+JavaDrawApp$3	DrawingEditor	
+JavaDrawApp$4	DrawingEditor	
+JavaDrawApp$4	Drawing	
+JavaDrawApp$5	DrawingView	
+JavaDrawApp$5	Painter	
+JavaDrawApp$5	DrawingEditor	
+***org.jhotdraw.samples.javadraw:6->org.jhotdraw.application:4
+JavaDrawApp	DrawApplication	
+------------
+***org.jhotdraw.samples.minimap:5->org.jhotdraw.contrib:1
+MiniMapDesktop	MiniMapView	
+***org.jhotdraw.samples.minimap:5->org.jhotdraw.contrib:4
+MiniMapDesktop	SplitPaneDesktop	
+------------
+***org.jhotdraw.samples.minimap:6->org.jhotdraw.contrib:0
+MiniMapApplication	Desktop	
+***org.jhotdraw.samples.minimap:6->org.jhotdraw.application:4
+MiniMapApplication	DrawApplication	
+***org.jhotdraw.samples.minimap:6->org.jhotdraw.samples.minimap:5
+MiniMapApplication	MiniMapDesktop	
+***org.jhotdraw.samples.minimap:6->org.jhotdraw.contrib:5
+MiniMapApplication	SplitPaneDrawApplication	
+------------
+***org.jhotdraw.samples.net:5->org.jhotdraw.standard:2
+NetApp	CreationTool	
+NetApp	ConnectionTool	
+NodeFigure	RelativeLocator	
+NodeFigure	NullHandle	
+NodeFigure	LocatorConnector	
+NodeFigure	AbstractFigure	
+***org.jhotdraw.samples.net:5->org.jhotdraw.figures:4
+NetApp	LineConnection	
+NodeFigure	LineConnection	
+NodeFigure	TextFigure	
+***org.jhotdraw.samples.net:5->org.jhotdraw.figures:3
+NetApp	TextTool	
+NodeFigure	AttributeFigure	
+***org.jhotdraw.samples.net:5->org.jhotdraw.standard:3
+NodeFigure	ConnectionHandle	
+***org.jhotdraw.samples.net:5->org.jhotdraw.framework:0
+NetApp	DrawingEditor	
+NetApp	ConnectionFigure	
+NetApp	Tool	
+NetApp	Figure	
+NodeFigure	ConnectionFigure	
+NodeFigure	HandleEnumeration	
+NodeFigure	Locator	
+NodeFigure	Connector	
+NodeFigure	Figure	
+***org.jhotdraw.samples.net:5->org.jhotdraw.application:4
+NetApp	DrawApplication	
+***org.jhotdraw.samples.net:5->org.jhotdraw.standard:1
+NetApp	ToolButton	
+NodeFigure	HandleEnumerator	
+***org.jhotdraw.samples.net:5->org.jhotdraw.standard:0
+NodeFigure	TextHolder	
+------------
+***org.jhotdraw.samples.nothing:5->org.jhotdraw.standard:2
+NothingApp	CreationTool	
+NothingApp	ConnectionTool	
+NothingApplet	CreationTool	
+NothingApplet	ConnectionTool	
+***org.jhotdraw.samples.nothing:5->org.jhotdraw.figures:5
+NothingApp	ElbowConnection	
+NothingApplet	ElbowConnection	
+***org.jhotdraw.samples.nothing:5->org.jhotdraw.framework:0
+NothingApp	DrawingEditor	
+NothingApp	ConnectionFigure	
+NothingApp	Tool	
+NothingApp	Figure	
+NothingApplet	DrawingEditor	
+NothingApplet	ConnectionFigure	
+NothingApplet	Tool	
+NothingApplet	Figure	
+***org.jhotdraw.samples.nothing:5->org.jhotdraw.application:4
+NothingApp	DrawApplication	
+***org.jhotdraw.samples.nothing:5->org.jhotdraw.figures:4
+NothingApp	LineConnection	
+NothingApp	LineFigure	
+NothingApp	TextFigure	
+NothingApp	RoundRectangleFigure	
+NothingApp	RectangleFigure	
+NothingApp	EllipseFigure	
+NothingApplet	TextFigure	
+NothingApplet	LineFigure	
+NothingApplet	LineConnection	
+NothingApplet	EllipseFigure	
+NothingApplet	RectangleFigure	
+NothingApplet	RoundRectangleFigure	
+***org.jhotdraw.samples.nothing:5->org.jhotdraw.standard:1
+NothingApp	ToolButton	
+NothingApplet	ToolButton	
+***org.jhotdraw.samples.nothing:5->org.jhotdraw.figures:3
+NothingApp	TextTool	
+NothingApplet	TextTool	
+***org.jhotdraw.samples.nothing:5->org.jhotdraw.applet:4
+NothingApplet	DrawApplet	
+------------
+***org.jhotdraw.samples.pert:5->org.jhotdraw.standard:2
+PertApplet	ConnectionTool	
+PertApplet	CreationTool	
+PertApplication	CreationTool	
+PertApplication	ConnectionTool	
+PertDependency	AbstractFigure	
+PertDependency	NullHandle	
+PertFigure	AbstractFigure	
+PertFigure	RelativeLocator	
+PertFigure	NullHandle	
+PertFigureCreationTool	CreationTool	
+***org.jhotdraw.samples.pert:5->org.jhotdraw.standard:3
+PertFigure	ConnectionHandle	
+PertFigure	CompositeFigure	
+***org.jhotdraw.samples.pert:5->org.jhotdraw.applet:4
+PertApplet	DrawApplet	
+***org.jhotdraw.samples.pert:5->org.jhotdraw.standard:1
+PertApplet	ToolButton	
+PertApplication	ToolButton	
+PertDependency	HandleEnumerator	
+PertFigure	HandleEnumerator	
+***org.jhotdraw.samples.pert:5->org.jhotdraw.framework:0
+PertApplet	Figure	
+PertApplet	Tool	
+PertApplet	DrawingEditor	
+PertApplet	ConnectionFigure	
+PertApplication	DrawingEditor	
+PertApplication	ConnectionFigure	
+PertApplication	Tool	
+PertApplication	Figure	
+PertDependency	Figure	
+PertDependency	FigureAttributeConstant	
+PertDependency	ConnectionFigure	
+PertDependency	HandleEnumeration	
+PertDependency	Locator	
+PertFigure	FigureChangeListener	
+PertFigure	Locator	
+PertFigure	FigureChangeEvent	
+PertFigure	HandleEnumeration	
+PertFigure	FigureEnumeration	
+PertFigure	ConnectionFigure	
+PertFigure	Figure	
+PertFigureCreationTool	Figure	
+PertFigureCreationTool	DrawingEditor	
+***org.jhotdraw.samples.pert:5->org.jhotdraw.figures:0
+PertDependency	LineDecoration	
+***org.jhotdraw.samples.pert:5->org.jhotdraw.figures:4
+PertApplet	TextFigure	
+PertApplet	LineFigure	
+PertApplication	LineFigure	
+PertApplication	TextFigure	
+PertDependency	LineConnection	
+PertFigure	TextFigure	
+***org.jhotdraw.samples.pert:5->org.jhotdraw.figures:5
+PertFigure	NumberTextFigure	
+***org.jhotdraw.samples.pert:5->org.jhotdraw.figures:2
+PertDependency	ArrowTip	
+***org.jhotdraw.samples.pert:5->org.jhotdraw.figures:3
+PertApplet	TextTool	
+PertApplication	TextTool	
+PertDependency	PolyLineFigure	
+***org.jhotdraw.samples.pert:5->org.jhotdraw.util:0
+PertFigure	StorableOutput	
+PertFigure	CollectionsFactory	
+PertFigure	StorableInput	
+PertFigure	Storable	
+***org.jhotdraw.samples.pert:5->org.jhotdraw.application:4
+PertApplication	DrawApplication	
+------------
+***org.jhotdraw.standard:0->org.jhotdraw.framework:0
+AWTCursor	Cursor	
+OrderedFigureElement	Figure	
+TextHolder	Figure	
+------------
+***org.jhotdraw.standard:1->org.jhotdraw.util:0
+AbstractCommand	Command	
+AbstractCommand	CommandListener	
+AbstractCommand	Undoable	
+AbstractCommand$EventDispatcher	Command	
+AbstractCommand$EventDispatcher	CommandListener	
+AbstractCommand$EventDispatcher	CollectionsFactory	
+AbstractConnector	StorableInput	
+AbstractConnector	Geom	
+AbstractConnector	Storable	
+AbstractConnector	StorableOutput	
+AbstractHandle	Undoable	
+AbstractLocator	StorableInput	
+AbstractLocator	StorableOutput	
+AbstractLocator	Storable	
+AbstractTool	Undoable	
+AbstractTool$EventDispatcher	CollectionsFactory	
+DeleteFromDrawingVisitor	CollectionsFactory	
+FigureEnumerator	CollectionsFactory	
+FigureTransferCommand	Clipboard	
+HandleEnumerator	CollectionsFactory	
+InsertIntoDrawingVisitor	CollectionsFactory	
+QuadTree	CollectionsFactory	
+ReverseFigureEnumerator	ReverseListEnumerator	
+StandardFigureSelection	Storable	
+StandardFigureSelection	StorableInput	
+StandardFigureSelection	StorableOutput	
+StandardFigureSelection	CollectionsFactory	
+ToolButton	PaletteListener	
+ToolButton	PaletteIcon	
+ToolButton	Iconkit	
+ToolButton	PaletteButton	
+***org.jhotdraw.standard:1->org.jhotdraw.framework:0
+AbstractCommand	JHotDrawRuntimeException	
+AbstractCommand	ViewChangeListener	
+AbstractCommand	DrawingView	
+AbstractCommand	FigureSelectionListener	
+AbstractCommand	DrawingEditor	
+AbstractCommand$1	ViewChangeListener	
+AbstractCommand$1	DrawingView	
+AbstractConnector	ConnectionFigure	
+AbstractConnector	Figure	
+AbstractConnector	Connector	
+AbstractHandle	Handle	
+AbstractHandle	Figure	
+AbstractHandle	Drawing	
+AbstractHandle	Cursor	
+AbstractHandle	DrawingView	
+AbstractLocator	Locator	
+AbstractTool	Cursor	
+AbstractTool	DrawingView	
+AbstractTool	ToolListener	
+AbstractTool	Tool	
+AbstractTool	DrawingEditor	
+AbstractTool	ViewChangeListener	
+AbstractTool	Drawing	
+AbstractTool$1	ViewChangeListener	
+AbstractTool$1	DrawingView	
+AbstractTool$EventDispatcher	Tool	
+AbstractTool$EventDispatcher	ToolListener	
+BufferedUpdateStrategy	Painter	
+BufferedUpdateStrategy	DrawingView	
+DeleteFromDrawingVisitor	Figure	
+DeleteFromDrawingVisitor	Drawing	
+DeleteFromDrawingVisitor	FigureEnumeration	
+DeleteFromDrawingVisitor	FigureChangeListener	
+DeleteFromDrawingVisitor	FigureVisitor	
+DeleteFromDrawingVisitor	Handle	
+FastBufferedUpdateStrategy	Drawing	
+FastBufferedUpdateStrategy	Painter	
+FastBufferedUpdateStrategy	DrawingView	
+FastBufferedUpdateStrategy	FigureEnumeration	
+FigureAndEnumerator	FigureEnumeration	
+FigureAndEnumerator	Figure	
+FigureChangeAdapter	FigureChangeEvent	
+FigureChangeAdapter	FigureChangeListener	
+FigureChangeEventMulticaster	FigureChangeListener	
+FigureChangeEventMulticaster	FigureChangeEvent	
+FigureEnumerator	Figure	
+FigureEnumerator	FigureEnumeration	
+FigureTransferCommand	Figure	
+FigureTransferCommand	Drawing	
+FigureTransferCommand	FigureVisitor	
+FigureTransferCommand	DrawingEditor	
+FigureTransferCommand	DrawingView	
+FigureTransferCommand	FigureEnumeration	
+GridConstrainer	PointConstrainer	
+HandleAndEnumerator	Handle	
+HandleAndEnumerator	HandleEnumeration	
+HandleEnumerator	Handle	
+HandleEnumerator	HandleEnumeration	
+InsertIntoDrawingVisitor	FigureEnumeration	
+InsertIntoDrawingVisitor	Drawing	
+InsertIntoDrawingVisitor	Figure	
+InsertIntoDrawingVisitor	Handle	
+InsertIntoDrawingVisitor	FigureVisitor	
+InsertIntoDrawingVisitor	FigureChangeListener	
+NullPainter	Painter	
+NullPainter	DrawingView	
+PeripheralLocator	Figure	
+PeripheralLocator	Locator	
+QuadTree	FigureEnumeration	
+ReverseFigureEnumerator	FigureEnumeration	
+ReverseFigureEnumerator	Figure	
+SimpleUpdateStrategy	Painter	
+SimpleUpdateStrategy	DrawingView	
+SingleFigureEnumerator	Figure	
+SingleFigureEnumerator	FigureEnumeration	
+StandardFigureSelection	Figure	
+StandardFigureSelection	FigureEnumeration	
+StandardFigureSelection	FigureSelection	
+ToolButton	Tool	
+ToolButton	JHotDrawRuntimeException	
+ToolButton	ToolListener	
+***org.jhotdraw.standard:1->org.jhotdraw.standard:0
+AbstractHandle	AWTCursor	
+AbstractTool	AWTCursor	
+------------
+***org.jhotdraw.standard:2->org.jhotdraw.standard:1
+AbstractFigure	FigureChangeEventMulticaster	
+AbstractFigure	FigureEnumerator	
+ActionTool	AbstractTool	
+AlignCommand	AbstractCommand	
+ChangeAttributeCommand	AbstractCommand	
+ChangeConnectionHandle	SingleFigureEnumerator	
+ChangeConnectionHandle	AbstractHandle	
+ChopBoxConnector	AbstractConnector	
+ConnectionTool	SingleFigureEnumerator	
+ConnectionTool	AbstractTool	
+CopyCommand	FigureTransferCommand	
+CopyCommand	AbstractCommand	
+CreationTool	FigureEnumerator	
+CreationTool	AbstractTool	
+CutCommand	FigureEnumerator	
+CutCommand	AbstractCommand	
+CutCommand	FigureTransferCommand	
+CutCommand$UndoActivity	FigureTransferCommand	
+CutCommand$UndoActivity	FigureEnumerator	
+DeleteCommand	FigureEnumerator	
+DeleteCommand	AbstractCommand	
+DeleteCommand	FigureTransferCommand	
+DeleteCommand$UndoActivity	FigureTransferCommand	
+DragTracker	AbstractTool	
+DuplicateCommand	AbstractCommand	
+DuplicateCommand	FigureTransferCommand	
+EastHandle	AbstractHandle	
+HandleTracker	AbstractTool	
+LocatorConnector	AbstractConnector	
+LocatorHandle	AbstractHandle	
+NorthEastHandle	AbstractHandle	
+NorthHandle	AbstractHandle	
+NorthWestHandle	AbstractHandle	
+NullHandle	AbstractHandle	
+NullTool	AbstractTool	
+OffsetLocator	AbstractLocator	
+PasteCommand	FigureEnumerator	
+PasteCommand	AbstractCommand	
+PasteCommand	FigureTransferCommand	
+PasteCommand$UndoActivity	DeleteFromDrawingVisitor	
+RelativeLocator	AbstractLocator	
+ResizeHandle	SingleFigureEnumerator	
+ResizeHandle	AbstractHandle	
+SelectAllCommand	AbstractCommand	
+SelectAreaTracker	AbstractTool	
+SelectionTool	AbstractTool	
+SendToBackCommand	AbstractCommand	
+SouthEastHandle	AbstractHandle	
+SouthHandle	AbstractHandle	
+SouthWestHandle	AbstractHandle	
+ToggleGridCommand	AbstractCommand	
+ToggleGridCommand	GridConstrainer	
+WestHandle	AbstractHandle	
+***org.jhotdraw.standard:2->org.jhotdraw.framework:0
+AbstractFigure	FigureEnumeration	
+AbstractFigure	Connector	
+AbstractFigure	Locator	
+AbstractFigure	FigureAttributeConstant	
+AbstractFigure	Handle	
+AbstractFigure	Figure	
+AbstractFigure	FigureChangeListener	
+AbstractFigure	FigureVisitor	
+AbstractFigure	ConnectionFigure	
+AbstractFigure	FigureChangeEvent	
+AbstractFigure	HandleEnumeration	
+ActionTool	Tool	
+ActionTool	Figure	
+ActionTool	Drawing	
+ActionTool	DrawingEditor	
+ActionTool	DrawingView	
+AlignCommand	FigureEnumeration	
+AlignCommand	DrawingView	
+AlignCommand	DrawingEditor	
+AlignCommand$1	Figure	
+AlignCommand$2	Figure	
+AlignCommand$3	Figure	
+AlignCommand$4	Figure	
+AlignCommand$5	Figure	
+AlignCommand$6	Figure	
+AlignCommand$Alignment	Figure	
+AlignCommand$UndoActivity	FigureEnumeration	
+AlignCommand$UndoActivity	DrawingView	
+AlignCommand$UndoActivity	Figure	
+BoxHandleKit	Handle	
+BoxHandleKit	Figure	
+ChangeAttributeCommand	FigureEnumeration	
+ChangeAttributeCommand	DrawingView	
+ChangeAttributeCommand	DrawingEditor	
+ChangeAttributeCommand	Figure	
+ChangeAttributeCommand	FigureAttributeConstant	
+ChangeAttributeCommand$UndoActivity	FigureEnumeration	
+ChangeAttributeCommand$UndoActivity	FigureAttributeConstant	
+ChangeAttributeCommand$UndoActivity	Figure	
+ChangeAttributeCommand$UndoActivity	DrawingView	
+ChangeConnectionHandle	Drawing	
+ChangeConnectionHandle	Figure	
+ChangeConnectionHandle	ConnectionFigure	
+ChangeConnectionHandle	FigureEnumeration	
+ChangeConnectionHandle	DrawingView	
+ChangeConnectionHandle	Connector	
+ChangeConnectionHandle	Handle	
+ChangeConnectionHandle$UndoActivity	Figure	
+ChangeConnectionHandle$UndoActivity	DrawingView	
+ChangeConnectionHandle$UndoActivity	Connector	
+ChangeConnectionHandle$UndoActivity	FigureEnumeration	
+ChangeConnectionHandle$UndoActivity	ConnectionFigure	
+ChopBoxConnector	Connector	
+ChopBoxConnector	Figure	
+ChopBoxConnector	ConnectionFigure	
+ConnectionTool	ConnectionFigure	
+ConnectionTool	Tool	
+ConnectionTool	Figure	
+ConnectionTool	DrawingEditor	
+ConnectionTool	FigureEnumeration	
+ConnectionTool	Connector	
+ConnectionTool	DrawingView	
+ConnectionTool	Drawing	
+ConnectionTool$UndoActivity	Figure	
+ConnectionTool$UndoActivity	ConnectionFigure	
+ConnectionTool$UndoActivity	Drawing	
+ConnectionTool$UndoActivity	Connector	
+ConnectionTool$UndoActivity	DrawingView	
+ConnectionTool$UndoActivity	FigureEnumeration	
+CopyCommand	FigureEnumeration	
+CopyCommand	DrawingView	
+CopyCommand	DrawingEditor	
+CreationTool	DrawingView	
+CreationTool	DrawingEditor	
+CreationTool	FigureEnumeration	
+CreationTool	Tool	
+CreationTool	JHotDrawRuntimeException	
+CreationTool	Cursor	
+CreationTool	Figure	
+CutCommand	DrawingEditor	
+CutCommand	FigureEnumeration	
+CutCommand	DrawingView	
+CutCommand	Figure	
+CutCommand$UndoActivity	FigureEnumeration	
+CutCommand$UndoActivity	DrawingView	
+CutCommand$UndoActivity	Figure	
+DeleteCommand	Figure	
+DeleteCommand	DrawingView	
+DeleteCommand	DrawingEditor	
+DeleteCommand	FigureEnumeration	
+DeleteCommand$UndoActivity	FigureEnumeration	
+DeleteCommand$UndoActivity	DrawingView	
+DragTracker	DrawingEditor	
+DragTracker	FigureEnumeration	
+DragTracker	Tool	
+DragTracker	DrawingView	
+DragTracker	Figure	
+DragTracker$UndoActivity	Figure	
+DragTracker$UndoActivity	FigureEnumeration	
+DragTracker$UndoActivity	DrawingView	
+DuplicateCommand	DrawingView	
+DuplicateCommand	FigureSelection	
+DuplicateCommand	FigureEnumeration	
+DuplicateCommand	DrawingEditor	
+EastHandle	Figure	
+EastHandle	Locator	
+EastHandle	DrawingView	
+EastHandle	Handle	
+HandleTracker	DrawingView	
+HandleTracker	Handle	
+HandleTracker	Tool	
+HandleTracker	DrawingEditor	
+LocatorConnector	Locator	
+LocatorConnector	Figure	
+LocatorConnector	Connector	
+LocatorHandle	Locator	
+LocatorHandle	Figure	
+LocatorHandle	Handle	
+LocatorHandle	Cursor	
+NorthEastHandle	DrawingView	
+NorthEastHandle	Handle	
+NorthEastHandle	Locator	
+NorthEastHandle	Figure	
+NorthHandle	Figure	
+NorthHandle	Locator	
+NorthHandle	DrawingView	
+NorthHandle	Handle	
+NorthWestHandle	Figure	
+NorthWestHandle	Locator	
+NorthWestHandle	DrawingView	
+NorthWestHandle	Handle	
+NullHandle	Locator	
+NullHandle	Figure	
+NullHandle	Handle	
+NullTool	Tool	
+NullTool	DrawingEditor	
+OffsetLocator	Figure	
+OffsetLocator	Locator	
+PasteCommand	Figure	
+PasteCommand	DrawingEditor	
+PasteCommand	FigureSelection	
+PasteCommand	DrawingView	
+PasteCommand	FigureEnumeration	
+PasteCommand$UndoActivity	FigureEnumeration	
+PasteCommand$UndoActivity	Drawing	
+PasteCommand$UndoActivity	Figure	
+PasteCommand$UndoActivity	DrawingView	
+PasteCommand$UndoActivity	FigureVisitor	
+RelativeLocator	Locator	
+RelativeLocator	Figure	
+ResizeHandle	Handle	
+ResizeHandle	FigureEnumeration	
+ResizeHandle	DrawingView	
+ResizeHandle	Figure	
+ResizeHandle	Locator	
+ResizeHandle$UndoActivity	FigureEnumeration	
+ResizeHandle$UndoActivity	DrawingView	
+ResizeHandle$UndoActivity	Figure	
+SelectAllCommand	Figure	
+SelectAllCommand	Drawing	
+SelectAllCommand	DrawingEditor	
+SelectAllCommand	DrawingView	
+SelectAllCommand	FigureEnumeration	
+SelectAllCommand$UndoActivity	Drawing	
+SelectAllCommand$UndoActivity	DrawingView	
+SelectAllCommand$UndoActivity	FigureEnumeration	
+SelectAreaTracker	Tool	
+SelectAreaTracker	Figure	
+SelectAreaTracker	Drawing	
+SelectAreaTracker	DrawingEditor	
+SelectAreaTracker	FigureEnumeration	
+SelectAreaTracker	DrawingView	
+SelectionTool	Handle	
+SelectionTool	DrawingView	
+SelectionTool	DrawingEditor	
+SelectionTool	Figure	
+SelectionTool	Tool	
+SelectionTool	Drawing	
+SendToBackCommand	Figure	
+SendToBackCommand	Drawing	
+SendToBackCommand	DrawingEditor	
+SendToBackCommand	FigureEnumeration	
+SendToBackCommand	DrawingView	
+SendToBackCommand$UndoActivity	Figure	
+SendToBackCommand$UndoActivity	DrawingView	
+SendToBackCommand$UndoActivity	Drawing	
+SendToBackCommand$UndoActivity	FigureEnumeration	
+SouthEastHandle	Handle	
+SouthEastHandle	DrawingView	
+SouthEastHandle	Figure	
+SouthEastHandle	Locator	
+SouthHandle	Handle	
+SouthHandle	DrawingView	
+SouthHandle	Figure	
+SouthHandle	Locator	
+SouthWestHandle	Locator	
+SouthWestHandle	Figure	
+SouthWestHandle	Handle	
+SouthWestHandle	DrawingView	
+ToggleGridCommand	DrawingEditor	
+ToggleGridCommand	PointConstrainer	
+ToggleGridCommand	DrawingView	
+WestHandle	Handle	
+WestHandle	DrawingView	
+WestHandle	Figure	
+WestHandle	Locator	
+***org.jhotdraw.standard:2->org.jhotdraw.util:1
+AlignCommand$UndoActivity	UndoableAdapter	
+ChangeAttributeCommand$UndoActivity	UndoableAdapter	
+ChangeConnectionHandle$UndoActivity	UndoableAdapter	
+ConnectionTool$UndoActivity	UndoableAdapter	
+CutCommand$UndoActivity	UndoableAdapter	
+DeleteCommand$UndoActivity	UndoableAdapter	
+DragTracker$UndoActivity	UndoableAdapter	
+PasteCommand$UndoActivity	UndoableAdapter	
+ResizeHandle$UndoActivity	UndoableAdapter	
+SelectAllCommand$UndoActivity	UndoableAdapter	
+SelectionTool	UndoableHandle	
+SelectionTool	UndoableTool	
+SendToBackCommand$UndoActivity	UndoableAdapter	
+***org.jhotdraw.standard:2->org.jhotdraw.util:0
+AbstractFigure	Geom	
+AbstractFigure	Storable	
+AbstractFigure	StorableInput	
+AbstractFigure	StorableOutput	
+AbstractFigure	CollectionsFactory	
+AlignCommand	Undoable	
+AlignCommand	Command	
+AlignCommand$UndoActivity	Undoable	
+ChangeAttributeCommand	Undoable	
+ChangeAttributeCommand	Command	
+ChangeAttributeCommand$UndoActivity	Undoable	
+ChangeConnectionHandle	Undoable	
+ChangeConnectionHandle	Geom	
+ChangeConnectionHandle$UndoActivity	Undoable	
+ChopBoxConnector	Geom	
+ConnectionTool	Geom	
+ConnectionTool	Undoable	
+ConnectionTool$UndoActivity	Undoable	
+CopyCommand	Command	
+CreationTool	CollectionsFactory	
+CreationTool	Undoable	
+CutCommand	Command	
+CutCommand	Undoable	
+CutCommand	CollectionsFactory	
+CutCommand$UndoActivity	Undoable	
+CutCommand$UndoActivity	CollectionsFactory	
+DeleteCommand	CollectionsFactory	
+DeleteCommand	Undoable	
+DeleteCommand	Command	
+DeleteCommand$UndoActivity	Undoable	
+DragTracker	Undoable	
+DragTracker$UndoActivity	Undoable	
+DuplicateCommand	Undoable	
+DuplicateCommand	Command	
+LocatorConnector	Storable	
+LocatorConnector	StorableOutput	
+LocatorConnector	StorableInput	
+OffsetLocator	StorableInput	
+OffsetLocator	StorableOutput	
+OffsetLocator	Storable	
+PasteCommand	Undoable	
+PasteCommand	Clipboard	
+PasteCommand	Command	
+PasteCommand$UndoActivity	Undoable	
+RelativeLocator	StorableInput	
+RelativeLocator	StorableOutput	
+RelativeLocator	Storable	
+ResizeHandle	Undoable	
+ResizeHandle$UndoActivity	Undoable	
+SelectAllCommand	Undoable	
+SelectAllCommand	Command	
+SelectAllCommand$UndoActivity	Undoable	
+SendToBackCommand	Undoable	
+SendToBackCommand	Command	
+SendToBackCommand$UndoActivity	Undoable	
+ToggleGridCommand	Command	
+***org.jhotdraw.standard:2->org.jhotdraw.standard:0
+AbstractFigure	TextHolder	
+CreationTool	AWTCursor	
+LocatorHandle	AWTCursor	
+***org.jhotdraw.standard:2->org.jhotdraw.contrib.dnd:2
+SelectionTool	DragNDropTool	
+------------
+***org.jhotdraw.standard:3->org.jhotdraw.util:0
+BringToFrontCommand	Undoable	
+BringToFrontCommand	Command	
+ChangeConnectionEndHandle	Undoable	
+ChangeConnectionStartHandle	Undoable	
+CompositeFigure	CollectionsFactory	
+CompositeFigure	StorableInput	
+CompositeFigure	StorableOutput	
+CompositeFigure	Storable	
+CompositeFigure	Bounds	
+ConnectionHandle	Geom	
+ConnectionHandle	Undoable	
+DecoratorFigure	StorableOutput	
+DecoratorFigure	Storable	
+DecoratorFigure	StorableInput	
+StandardDrawingView	CollectionsFactory	
+StandardDrawingView	Geom	
+StandardDrawingView$DrawingViewKeyListener	Command	
+***org.jhotdraw.standard:3->org.jhotdraw.util:1
+StandardDrawingView$DrawingViewKeyListener	UndoableCommand	
+***org.jhotdraw.standard:3->org.jhotdraw.standard:0
+CompositeFigure	OrderedFigureElement	
+ConnectionHandle	AWTCursor	
+DecoratorFigure	TextHolder	
+***org.jhotdraw.standard:3->org.jhotdraw.contrib.dnd:0
+StandardDrawingView	DNDInterface	
+***org.jhotdraw.standard:3->org.jhotdraw.standard:2
+BringToFrontCommand$UndoActivity	SendToBackCommand	
+BringToFrontCommand$UndoActivity	SendToBackCommand$UndoActivity	
+ChangeConnectionEndHandle	ChangeConnectionHandle	
+ChangeConnectionEndHandle$UndoActivity	ChangeConnectionHandle$UndoActivity	
+ChangeConnectionEndHandle$UndoActivity	ChangeConnectionHandle	
+ChangeConnectionStartHandle	ChangeConnectionHandle	
+ChangeConnectionStartHandle$UndoActivity	ChangeConnectionHandle$UndoActivity	
+ChangeConnectionStartHandle$UndoActivity	ChangeConnectionHandle	
+CompositeFigure	AbstractFigure	
+ConnectionHandle	PasteCommand$UndoActivity	
+ConnectionHandle	LocatorHandle	
+ConnectionHandle	PasteCommand	
+DecoratorFigure	AbstractFigure	
+StandardDrawingView$DrawingViewKeyListener	DeleteCommand	
+***org.jhotdraw.standard:3->org.jhotdraw.contrib.dnd:2
+StandardDrawingView	DNDHelper	
+StandardDrawingView$1	DNDHelper	
+***org.jhotdraw.standard:3->org.jhotdraw.standard:1
+BringToFrontCommand	AbstractCommand	
+CompositeFigure	ReverseFigureEnumerator	
+CompositeFigure	QuadTree	
+CompositeFigure	FigureEnumerator	
+ConnectionHandle	FigureEnumerator	
+ConnectionHandle	AbstractHandle	
+StandardDrawingView	HandleEnumerator	
+StandardDrawingView	StandardFigureSelection	
+StandardDrawingView	InsertIntoDrawingVisitor	
+StandardDrawingView	SimpleUpdateStrategy	
+StandardDrawingView	ReverseFigureEnumerator	
+StandardDrawingView	FigureEnumerator	
+***org.jhotdraw.standard:3->org.jhotdraw.framework:0
+BringToFrontCommand	Drawing	
+BringToFrontCommand	Figure	
+BringToFrontCommand	FigureEnumeration	
+BringToFrontCommand	DrawingView	
+BringToFrontCommand	DrawingEditor	
+BringToFrontCommand$UndoActivity	DrawingView	
+BringToFrontCommand$UndoActivity	Figure	
+BringToFrontCommand$UndoActivity	Drawing	
+ChangeConnectionEndHandle	ConnectionFigure	
+ChangeConnectionEndHandle	Connector	
+ChangeConnectionEndHandle	Figure	
+ChangeConnectionEndHandle	Handle	
+ChangeConnectionEndHandle	DrawingView	
+ChangeConnectionEndHandle$UndoActivity	ConnectionFigure	
+ChangeConnectionEndHandle$UndoActivity	Connector	
+ChangeConnectionEndHandle$UndoActivity	DrawingView	
+ChangeConnectionStartHandle	Figure	
+ChangeConnectionStartHandle	Handle	
+ChangeConnectionStartHandle	DrawingView	
+ChangeConnectionStartHandle	Connector	
+ChangeConnectionStartHandle	ConnectionFigure	
+ChangeConnectionStartHandle$UndoActivity	Connector	
+ChangeConnectionStartHandle$UndoActivity	ConnectionFigure	
+ChangeConnectionStartHandle$UndoActivity	DrawingView	
+CompositeFigure	Figure	
+CompositeFigure	FigureChangeEvent	
+CompositeFigure	FigureChangeListener	
+CompositeFigure	FigureEnumeration	
+ConnectionHandle	Cursor	
+ConnectionHandle	FigureEnumeration	
+ConnectionHandle	Locator	
+ConnectionHandle	DrawingView	
+ConnectionHandle	Drawing	
+ConnectionHandle	Figure	
+ConnectionHandle	ConnectionFigure	
+ConnectionHandle	Connector	
+ConnectionHandle	Handle	
+DecoratorFigure	FigureAttributeConstant	
+DecoratorFigure	FigureEnumeration	
+DecoratorFigure	ConnectionFigure	
+DecoratorFigure	FigureChangeListener	
+DecoratorFigure	FigureChangeEvent	
+DecoratorFigure	Locator	
+DecoratorFigure	Figure	
+DecoratorFigure	HandleEnumeration	
+DecoratorFigure	Connector	
+StandardDrawingView	Handle	
+StandardDrawingView	FigureSelectionListener	
+StandardDrawingView	Connector	
+StandardDrawingView	DrawingChangeListener	
+StandardDrawingView	DrawingChangeEvent	
+StandardDrawingView	FigureEnumeration	
+StandardDrawingView	Figure	
+StandardDrawingView	Drawing	
+StandardDrawingView	DrawingEditor	
+StandardDrawingView	HandleEnumeration	
+StandardDrawingView	FigureSelection	
+StandardDrawingView	Tool	
+StandardDrawingView	DrawingView	
+StandardDrawingView	Cursor	
+StandardDrawingView	Painter	
+StandardDrawingView	PointConstrainer	
+StandardDrawingView	ConnectionFigure	
+StandardDrawingView	FigureVisitor	
+StandardDrawingView$1	DrawingEditor	
+StandardDrawingView$1	DrawingView	
+StandardDrawingView$DrawingViewKeyListener	DrawingEditor	
+StandardDrawingView$DrawingViewKeyListener	PointConstrainer	
+StandardDrawingView$DrawingViewKeyListener	Tool	
+StandardDrawingView$DrawingViewMouseListener	Tool	
+StandardDrawingView$DrawingViewMouseMotionListener	Tool	
+***org.jhotdraw.standard:3->org.jhotdraw.contrib:0
+StandardDrawingView$ASH	AutoscrollHelper	
+------------
+***org.jhotdraw.standard:4->org.jhotdraw.standard:1
+NullDrawingView	FigureEnumerator	
+NullDrawingView	StandardFigureSelection	
+StandardDrawing	HandleEnumerator	
+***org.jhotdraw.standard:4->org.jhotdraw.util:0
+StandardDrawing	CollectionsFactory	
+***org.jhotdraw.standard:4->org.jhotdraw.standard:2
+StandardDrawing	NullHandle	
+StandardDrawing	RelativeLocator	
+StandardDrawing	AbstractFigure	
+***org.jhotdraw.standard:4->org.jhotdraw.framework:0
+NullDrawingView	Handle	
+NullDrawingView	PointConstrainer	
+NullDrawingView	DrawingEditor	
+NullDrawingView	Figure	
+NullDrawingView	Painter	
+NullDrawingView	DrawingView	
+NullDrawingView	Drawing	
+NullDrawingView	FigureSelectionListener	
+NullDrawingView	DrawingChangeEvent	
+NullDrawingView	DrawingChangeListener	
+NullDrawingView	Tool	
+NullDrawingView	FigureSelection	
+NullDrawingView	Cursor	
+NullDrawingView	FigureEnumeration	
+StandardDrawing	FigureChangeEvent	
+StandardDrawing	DrawingChangeListener	
+StandardDrawing	FigureEnumeration	
+StandardDrawing	FigureChangeListener	
+StandardDrawing	Locator	
+StandardDrawing	Figure	
+StandardDrawing	HandleEnumeration	
+StandardDrawing	DrawingChangeEvent	
+StandardDrawing	Drawing	
+***org.jhotdraw.standard:4->org.jhotdraw.standard:3
+StandardDrawing	CompositeFigure	
+------------
+***org.jhotdraw.util:0->org.jhotdraw.framework:0
+CollectionsFactory	JHotDrawRuntimeException	
+Command	DrawingEditor	
+GraphNode	Figure	
+StorageFormat	Drawing	
+UndoManager	DrawingView	
+Undoable	DrawingView	
+Undoable	FigureEnumeration	
+------------
+***org.jhotdraw.util:1->org.jhotdraw.framework:0
+CommandMenu	JHotDrawRuntimeException	
+StandardStorageFormat	Drawing	
+StandardVersionControlStrategy	JHotDrawRuntimeException	
+UndoRedoActivity	FigureEnumeration	
+UndoRedoActivity	DrawingView	
+UndoableAdapter	FigureEnumeration	
+UndoableAdapter	DrawingView	
+UndoableAdapter	Figure	
+UndoableCommand	DrawingView	
+UndoableCommand	DrawingEditor	
+UndoableCommand	FigureSelectionListener	
+UndoableHandle	DrawingEditor	
+UndoableHandle	Figure	
+UndoableHandle	DrawingView	
+UndoableHandle	Drawing	
+UndoableHandle	Cursor	
+UndoableHandle	Handle	
+UndoableTool	Tool	
+UndoableTool	DrawingEditor	
+UndoableTool	ToolListener	
+UndoableTool	DrawingView	
+***org.jhotdraw.util:1->org.jhotdraw.util:0
+CommandMenu	CommandListener	
+CommandMenu	Command	
+StandardStorageFormat	StorageFormat	
+StandardStorageFormat	StorableOutput	
+StandardStorageFormat	Storable	
+StandardStorageFormat	StorableInput	
+StandardVersionControlStrategy	VersionRequester	
+StandardVersionControlStrategy	VersionControlStrategy	
+StandardVersionControlStrategy	VersionManagement	
+UndoRedoActivity	Undoable	
+UndoableAdapter	CollectionsFactory	
+UndoableAdapter	Undoable	
+UndoableCommand	Command	
+UndoableCommand	Undoable	
+UndoableCommand	CommandListener	
+UndoableCommand	UndoManager	
+UndoableHandle	Undoable	
+UndoableHandle	UndoManager	
+UndoableTool	Undoable	
+UndoableTool	UndoManager	
+collections.jdk11.CollectionsFactoryJDK11	collections.jdk11.SetWrapper	
+collections.jdk11.CollectionsFactoryJDK11	collections.jdk11.MapWrapper	
+collections.jdk11.CollectionsFactoryJDK11	collections.jdk11.ListWrapper	
+collections.jdk11.CollectionsFactoryJDK11	CollectionsFactory	
+collections.jdk12.CollectionsFactoryJDK12	CollectionsFactory	
+***org.jhotdraw.util:1->org.jhotdraw.standard:1
+UndoableAdapter	FigureEnumerator	
+UndoableAdapter	StandardFigureSelection	
+UndoableAdapter	ReverseFigureEnumerator	
+UndoableCommand	AbstractCommand$EventDispatcher	
+UndoableCommand	AbstractCommand	
+UndoableTool	AbstractTool	
+UndoableTool	AbstractTool$EventDispatcher	
+------------
+***org.jhotdraw.util:2->org.jhotdraw.framework:0
+GraphLayout	FigureChangeEvent	
+GraphLayout	Figure	
+GraphLayout	ConnectionFigure	
+GraphLayout	FigureAttributeConstant	
+GraphLayout	Connector	
+GraphLayout	FigureChangeListener	
+RedoCommand	DrawingEditor	
+RedoCommand	DrawingView	
+SerializationStorageFormat	Drawing	
+UndoCommand	DrawingEditor	
+UndoCommand	DrawingView	
+***org.jhotdraw.util:2->org.jhotdraw.util:1
+SerializationStorageFormat	StandardStorageFormat	
+***org.jhotdraw.util:2->org.jhotdraw.util:0
+GraphLayout	GraphNode	
+RedoCommand	Undoable	
+RedoCommand	Command	
+RedoCommand	UndoManager	
+SerializationStorageFormat	StorageFormat	
+UndoCommand	UndoManager	
+UndoCommand	Undoable	
+UndoCommand	Command	
+***org.jhotdraw.util:2->org.jhotdraw.standard:1
+GraphLayout	FigureChangeAdapter	
+RedoCommand	AbstractCommand	
+UndoCommand	AbstractCommand	

@@ -1,0 +1,20 @@
+digraph org_apache_struts2_components_2_jsp_tdg { 
+node [shape=plaintext, fontname=Skia, fontsize=20];
+edge [fontname=Skia, fontsize = 10];
+7[ label=".views.jsp.IteratorStatus$StatusState(0)"];
+6[ label=".components.IteratorComponent(2)"];
+5[ label=".views.jsp.IteratorStatus(0)"];
+6[ label=".components.IteratorComponent(2)"];
+3[ label=".views.jsp.TagUtils(1)"];
+2[ label=".components.ActionComponent(2)"];
+3[ label=".views.jsp.TagUtils(1)"];
+0[ label=".components.Component(1)"];
+5->7[color="black", arrowhead="vee", label = ""];
+6->0[color="red",  arrowhead="odot", style="dotted", label = ""];
+6->7[color="black", arrowhead="vee", label = ""];
+6->5[color="black", arrowhead="vee", label = ""];
+7->5[color="black", arrowhead="vee", label = ""];
+2->0[color="red",  arrowhead="odot", style="dotted", label = ""];
+2->3[color="black", arrowhead="vee", label = ""];
+0->3[color="black", arrowhead="vee", label = ""]
+}

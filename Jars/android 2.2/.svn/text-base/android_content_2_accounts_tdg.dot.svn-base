@@ -1,0 +1,17 @@
+digraph android_content_2_accounts_tdg { 
+node [shape=plaintext, fontname=Skia, fontsize=20];
+edge [fontname=Skia, fontsize = 10];
+7[ label=".accounts.Account(1)"];
+6[ label=".content.PeriodicSync(1)"];
+7[ label=".accounts.Account(1)"];
+4[ label=".content.SyncInfo(1)"];
+7[ label=".accounts.Account(1)"];
+2[ label=".content.AbstractThreadedSyncAdapter(2)"];
+7[ label=".accounts.Account(1)"];
+0[ label=".content.ContentResolver(2)"];
+6->7[color="black", arrowhead="vee", label = ""];
+4->7[color="black", arrowhead="vee", label = ""];
+0->4[color="black", arrowhead="vee", label = ""];
+0->7[color="black", arrowhead="vee", label = ""];
+2->7[color="black", arrowhead="vee", label = ""]
+}

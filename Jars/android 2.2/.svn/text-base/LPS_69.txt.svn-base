@@ -1,0 +1,3729 @@
+
+android.accounts:1	android.os:0
+android.accounts:2	android.os:0
+android.accounts:2	android.accounts:0
+android.accounts:2	android.accounts:1
+android.accounts:2	android.content:2
+android.accounts:5	android.app:5
+android.accounts:5	android.accounts:0
+android.accounts:5	android.os:1
+android.accounts:5	android.content:2
+android.accounts:5	android.accounts:1
+android.accounts:5	android.os:0
+android.accounts:6	android.os:0
+android.accounts:6	android.app:5
+android.app:0	android.os:0
+android.app:2	android.content:2
+android.app:2	android.util:0
+android.app:2	android.graphics:1
+android.app:2	android.os:1
+android.app:2	android.os:0
+android.app:2	android.content:1
+android.app:2	android.content.res:1
+android.app:2	android.app:0
+android.app:3	android.app:2
+android.app:3	android.content:1
+android.app:3	android.content:3
+android.app:3	android.net:0
+android.app:3	android.os:0
+android.app:3	android.widget:3
+android.app:3	android.content.res:1
+android.app:3	android.content:2
+android.app:3	android.app:0
+android.app:4	android.os:0
+android.app:4	android.app:3
+android.app:4	android.content:2
+android.app:4	android.app:0
+android.app:5	android.content:2
+android.app:5	android.content.res:1
+android.app:5	android.app:2
+android.app:5	android.content:1
+android.app:5	android.view:1
+android.app:5	android.util:0
+android.app:5	android.database:2
+android.app:5	android.view:4
+android.app:5	android.os:0
+android.app:5	android.content:0
+android.app:5	android.view:2
+android.app:5	android.content:3
+android.app:5	android.app:3
+android.app:5	android.net:0
+android.app:5	android.graphics:1
+android.app:5	android.os:1
+android.app:6	android.os:0
+android.app:6	android.content:1
+android.app:6	android.view:1
+android.app:6	android.content:2
+android.app:6	android.view:2
+android.app:6	android.widget:2
+android.app:6	android.widget:3
+android.app:6	android.os:1
+android.app:6	android.app:5
+android.app:6	android.widget:5
+android.app:6	android.graphics:1
+android.app:6	android.database:2
+android.app:7	android.os:0
+android.app:7	android.content:1
+android.app:7	android.app:6
+android.app:7	android.widget:5
+android.app:7	android.widget:6
+android.app:7	android.app:5
+android.app:7	android.content:2
+android.app:7	android.widget:2
+android.app:7	android.graphics:1
+android.app:7	android.view:2
+android.app:7	android.widget:3
+android.content.res:0	android.util:0
+android.content.res:1	android.content.res:0
+android.content.res:1	android.graphics:1
+android.content.res:1	android.util:0
+android.content.res:1	android.os:0
+android.content:0	android.net:0
+android.content:0	android.util:0
+android.content:1	android.os:0
+android.content:1	android.view:1
+android.content:1	android.content.res:1
+android.content:1	android.net:0
+android.content:1	android.accounts:1
+android.content:2	android.net:0
+android.content:2	android.os:0
+android.content:2	android.database:1
+android.content:2	android.content.res:1
+android.content:2	android.os:1
+android.content:2	android.graphics:1
+android.content:2	android.content:0
+android.content:2	android.database:2
+android.content:2	android.content.res:0
+android.content:2	android.accounts:1
+android.content:2	android.content:1
+android.content:2	android.util:0
+android.content:3	android.os:0
+android.content:3	android.net:0
+android.content:3	android.database:2
+android.content:3	android.content.res:1
+android.content:3	android.graphics:1
+android.content:3	android.os:1
+android.content:3	android.content:1
+android.content:3	android.content:2
+android.content:3	android.content:0
+
+android.database:1	android.database:0
+android.database:1	android.os:1
+android.database:1	android.os:0
+android.database:2	android.os:0
+android.database:2	android.database:1
+android.database:2	android.content:0
+android.database:2	android.database:0
+android.database:2	android.net:0
+android.database:2	android.content:2
+android.database:2	android.content:1
+android.database:3	android.content:2
+android.database:3	android.database:1
+android.database:3	android.net:0
+android.database:3	android.os:1
+android.database:3	android.os:0
+android.database:3	android.database:0
+android.database:3	android.database:2
+android.database:4	android.database:2
+android.database:4	android.database:0
+android.database:4	android.database:3
+android.database:4	android.database:1
+android.database:5	android.database:2
+android.database:5	android.database:3
+android.database:5	android.database:1
+android.database:5	android.database:0
+android.database:5	android.database:4
+
+android.graphics:1	android.graphics:0
+android.graphics:1	android.content.res:1
+android.graphics:1	android.util:0
+android.graphics:1	android.os:0
+android.graphics:2	android.graphics:1
+android.graphics:2	android.util:0
+android.graphics:2	android.graphics:0
+android.graphics:2	android.content.res:1
+android.graphics:3	android.content.res:1
+android.graphics:3	android.graphics:1
+android.graphics:3	android.graphics:2
+android.graphics:3	android.util:0
+android.graphics:3	android.graphics:0
+
+android.hardware:1	android.os:1
+android.hardware:1	android.hardware:0
+android.hardware:1	android.view:1
+
+android.media:1	android.graphics:1
+android.media:1	android.media:0
+android.media:1	android.content.res:1
+android.media:1	android.hardware:1
+android.media:1	android.os:1
+android.media:1	android.view:1
+android.media:1	android.graphics:0
+android.media:2	android.content.res:1
+android.media:2	android.view:1
+android.media:2	android.content:2
+android.media:2	android.net:0
+android.media:3	android.content:2
+android.media:3	android.net:0
+android.media:3	android.os:0
+android.media:5	android.content:2
+android.media:5	android.media:2
+android.media:5	android.app:5
+android.media:5	android.database:2
+android.media:5	android.net:0
+android.net:0	android.os:0
+android.net:1	android.os:0
+android.net:2	android.content:2
+android.os:0	android.util:0
+android.os:1	android.os:0
+android.os:1	android.util:0
+android.os:2	android.content:2
+android.text:0	android.os:0
+android.text:1	android.graphics:1
+android.text:1	android.os:0
+android.text:1	android.text:0
+android.text:1	android.util:0
+android.text:2	android.view:1
+android.text:2	android.graphics:1
+android.text:2	android.text:0
+android.text:2	android.os:0
+android.text:2	android.view:2
+android.text:2	android.graphics:0
+android.text:2	android.text:1
+android.text:2	android.content:2
+android.text:3	android.text:0
+android.text:3	android.content.res:1
+android.text:3	android.view:2
+android.text:3	android.text:1
+android.text:3	android.view:1
+android.text:3	android.text:2
+android.text:3	android.graphics:1
+android.text:3	android.content:2
+android.text:3	android.os:0
+android.text:3	android.widget:3
+android.text:4	android.text:3
+android.text:4	android.text:0
+android.text:4	android.text:2
+android.text:4	android.view:1
+android.text:4	android.view:2
+android.text:4	android.widget:3
+android.text:4	android.graphics:1
+android.text:5	android.text:4
+android.text:5	android.net:0
+android.text:5	android.graphics:1
+android.text:5	android.widget:3
+android.text:5	android.text:0
+android.text:5	android.view:1
+android.text:5	android.content:2
+android.text:5	android.text:2
+android.text:5	android.text:3
+android.text:6	android.widget:5
+android.text:6	android.view:2
+android.text:6	android.content:1
+android.text:6	android.os:0
+android.text:6	android.text:0
+android.text:6	android.widget:3
+android.text:6	android.content:2
+android.text:6	android.app:5
+
+android.util:1	android.util:0
+android.view:0	android.util:0
+android.view:1	android.os:1
+android.view:1	android.text:0
+android.view:1	android.graphics:1
+android.view:1	android.os:0
+android.view:1	android.util:0
+android.view:2	android.graphics:1
+android.view:2	android.content:2
+android.view:2	android.os:1
+android.view:2	android.text:0
+android.view:2	android.util:0
+android.view:2	android.net:0
+android.view:2	android.content.res:1
+android.view:2	android.view:1
+android.view:2	android.hardware:0
+android.view:2	android.os:0
+android.view:2	android.view:0
+android.view:2	android.graphics:0
+android.view:3	android.view:1
+android.view:3	android.util:0
+android.view:3	android.content:2
+android.view:3	android.view:2
+android.view:3	android.graphics:1
+android.view:4	android.content:2
+android.view:4	android.content.res:1
+android.view:4	android.content:3
+
+android.widget:2	android.view:2
+android.widget:2	android.util:0
+android.widget:2	android.content.res:1
+android.widget:2	android.database:2
+android.widget:2	android.content:2
+android.widget:2	android.view:0
+android.widget:2	android.graphics:1
+android.widget:2	android.database:0
+android.widget:2	android.widget:0
+android.widget:3	android.widget:2
+android.widget:3	android.text:0
+android.widget:3	android.app:2
+android.widget:3	android.graphics:0
+android.widget:3	android.util:0
+android.widget:3	android.text:3
+android.widget:3	android.text:1
+android.widget:3	android.content:2
+android.widget:3	android.widget:0
+android.widget:3	android.graphics:1
+android.widget:3	android.text:2
+android.widget:3	android.net:0
+android.widget:3	android.database:0
+android.widget:3	android.os:0
+android.widget:3	android.content.res:1
+android.widget:3	android.view:1
+android.widget:3	android.view:2
+android.widget:3	android.view:0
+android.widget:4	android.view:2
+android.widget:4	android.os:0
+android.widget:4	android.text:0
+android.widget:4	android.widget:2
+android.widget:4	android.text:1
+android.widget:4	android.content.res:1
+android.widget:4	android.view:1
+android.widget:4	android.content:2
+android.widget:4	android.net:0
+android.widget:4	android.widget:3
+android.widget:4	android.widget:0
+android.widget:4	android.content:1
+android.widget:4	android.media:2
+android.widget:4	android.text:3
+android.widget:4	android.database:2
+android.widget:4	android.graphics:1
+android.widget:4	android.util:0
+android.widget:4	android.view:3
+android.widget:5	android.view:1
+android.widget:5	android.view:2
+android.widget:5	android.database:0
+android.widget:5	android.widget:3
+android.widget:5	android.widget:2
+android.widget:5	android.app:5
+android.widget:5	android.util:0
+android.widget:5	android.graphics:1
+android.widget:5	android.widget:0
+android.widget:5	android.database:2
+android.widget:5	android.widget:4
+android.widget:5	android.content:2
+android.widget:5	android.os:0
+android.widget:6	android.os:0
+android.widget:6	android.content:2
+android.widget:6	android.graphics:1
+android.widget:6	android.widget:4
+android.widget:6	android.widget:2
+android.widget:6	android.util:0
+android.widget:6	android.widget:3
+android.widget:6	android.view:2
+android.widget:6	android.widget:5
+android:0	android.os:0
+android:1	android.graphics:1
+android:1	android:0
+android:1	android.text:0
+android:1	android.os:0
+android:1	android.util:0
+android:2	android.content:2
+android:2	android.graphics:1
+android:2	android.net:0
+android:2	android.accounts:1
+android:2	android:0
+android:2	android.util:0
+android:2	android.content:0
+android:2	android.app:2
+android:2	android.os:0
+android:2	android.content.res:0
+android:2	android.database:2
+android:2	android.content:1
+android:2	android.os:1
+android:2	android.text:0
+android:2	android.content.res:1
+android:2	android.view:2
+android:2	android:1
+android:3	android.widget:3
+android:3	android.content.res:1
+android:3	android.database:2
+android:3	android.os:0
+android:3	android.database:1
+android:3	android.util:0
+android:3	android.content.res:0
+android:3	android:2
+android:3	android.content:0
+android:3	android.app:3
+android:3	android.view:1
+android:3	android.content:1
+android:3	android.os:1
+android:3	android.net:0
+android:3	android.view:2
+android:3	android.graphics:1
+android:3	android.content:2
+android:3	android.database:0
+android:4	android:1
+android:4	android.content.res:1
+android:4	android.os:1
+android:4	android.graphics:1
+android:4	android:3
+android:4	android.widget:3
+android:4	android.app:3
+android:4	android.os:0
+android:4	android.view:1
+android:4	android:0
+android:4	android.view:2
+android:4	android.content:1
+android:4	android.net:0
+android:4	android.content:2
+android:4	android.database:2
+android:4	android:2
+android:4	android.widget:4
+android:4	android.content:3
+android:4	android.util:0
+android:4	android.view:3
+android:5	android:4
+android:5	android.content:3
+android:5	android:3
+android:5	android.widget:5
+android:5	android.content:2
+android:5	android.content:0
+android:5	android.content.res:1
+android:5	android.graphics:1
+android:5	android.net:0
+android:5	android.os:0
+android:5	android.app:3
+android:5	android.view:2
+android:5	android.app:5
+android:5	android.widget:3
+android:5	android.util:0
+android:5	android.widget:2
+android:5	android.content:1
+android:5	android.view:1
+android:5	android.os:1
+android:6	android.view:2
+android:6	android:5
+android:6	android:0
+android:6	android.content.res:1
+android:6	android.app:3
+android:6	android.graphics:1
+android:6	android.util:0
+android:6	android.content:2
+android:6	android.content:1
+android:6	android.app:5
+android:6	android.net:0
+android:6	android.os:0
+android:6	android.app:6
+android:7	android.view:2
+android:7	android:5
+android:7	android.widget:4
+android:7	android.os:0
+android:7	android.app:6
+android:7	android.util:0
+android:7	android:6
+android:7	android.content.res:1
+android:7	android.content:2
+android:7	android.app:5
+-----------
+
+------------
+***android.accounts:1->android.os:0
+Account	Parcelable	
+Account	Parcelable$Creator	
+Account	Parcel	
+AccountAuthenticatorResponse	Parcelable	
+AccountAuthenticatorResponse	Parcel	
+AccountAuthenticatorResponse	Parcelable$Creator	
+AccountAuthenticatorResponse	Bundle	
+AuthenticatorDescription	Parcel	
+AuthenticatorDescription	Parcelable$Creator	
+AuthenticatorDescription	Parcelable	
+------------
+***android.accounts:2->android.os:0
+AbstractAccountAuthenticator	IBinder	
+AbstractAccountAuthenticator	Bundle	
+***android.accounts:2->android.accounts:0
+AbstractAccountAuthenticator	NetworkErrorException	
+***android.accounts:2->android.accounts:1
+AbstractAccountAuthenticator	AccountAuthenticatorResponse	
+AbstractAccountAuthenticator	Account	
+***android.accounts:2->android.content:2
+AbstractAccountAuthenticator	Context	
+------------
+***android.accounts:5->android.app:5
+AccountManager	Activity	
+***android.accounts:5->android.accounts:0
+AccountManager	AuthenticatorException	
+AccountManager	AccountManagerFuture	
+AccountManager	OperationCanceledException	
+AccountManager	AccountManagerCallback	
+***android.accounts:5->android.os:1
+AccountManager	Handler	
+***android.accounts:5->android.content:2
+AccountManager	Context	
+***android.accounts:5->android.accounts:1
+AccountManager	Account	
+AccountManager	AuthenticatorDescription	
+AccountManager	OnAccountsUpdateListener	
+***android.accounts:5->android.os:0
+AccountManager	Bundle	
+------------
+***android.accounts:6->android.os:0
+AccountAuthenticatorActivity	Bundle	
+***android.accounts:6->android.app:5
+AccountAuthenticatorActivity	Activity	
+------------
+***android.app:0->android.os:0
+backup.BackupHelper	ParcelFileDescriptor	
+backup.FileBackupHelperBase	ParcelFileDescriptor	
+------------
+***android.app:2->android.content:2
+ActivityManager	ComponentName	
+ActivityManager$RecentTaskInfo	ComponentName	
+ActivityManager$RecentTaskInfo	Intent	
+ActivityManager$RunningAppProcessInfo	ComponentName	
+ActivityManager$RunningServiceInfo	ComponentName	
+ActivityManager$RunningTaskInfo	ComponentName	
+PendingIntent	Intent	
+PendingIntent	IntentSender	
+PendingIntent	Context	
+PendingIntent$OnFinished	Intent	
+SearchManager	ComponentName	
+SearchableInfo	ComponentName	
+WallpaperInfo	pm.ServiceInfo	
+WallpaperInfo	pm.PackageManager	
+WallpaperInfo	ComponentName	
+WallpaperInfo	Context	
+WallpaperInfo	pm.ResolveInfo	
+WallpaperManager	Context	
+admin.DeviceAdminInfo	Context	
+admin.DeviceAdminInfo	pm.ResolveInfo	
+admin.DeviceAdminInfo	pm.PackageManager	
+admin.DeviceAdminInfo	ComponentName	
+admin.DeviceAdminInfo	pm.ActivityInfo	
+admin.DevicePolicyManager	ComponentName	
+backup.BackupManager	Context	
+backup.FileBackupHelper	Context	
+backup.SharedPreferencesBackupHelper	Context	
+***android.app:2->android.util:0
+PendingIntent$CanceledException	AndroidException	
+WallpaperInfo	Printer	
+admin.DeviceAdminInfo	Printer	
+***android.app:2->android.graphics:1
+ActivityManager$RunningTaskInfo	Bitmap	
+WallpaperInfo	drawable.Drawable	
+WallpaperManager	drawable.Drawable	
+WallpaperManager	Bitmap	
+admin.DeviceAdminInfo	drawable.Drawable	
+***android.app:2->android.os:1
+ActivityManager	Debug	
+ActivityManager	Debug$MemoryInfo	
+PendingIntent	Handler	
+***android.app:2->android.os:0
+ActivityManager$MemoryInfo	Parcel	
+ActivityManager$MemoryInfo	Parcelable	
+ActivityManager$MemoryInfo	Parcelable$Creator	
+ActivityManager$ProcessErrorStateInfo	Parcelable	
+ActivityManager$ProcessErrorStateInfo	Parcelable$Creator	
+ActivityManager$ProcessErrorStateInfo	Parcel	
+ActivityManager$RecentTaskInfo	Parcelable	
+ActivityManager$RecentTaskInfo	Parcelable$Creator	
+ActivityManager$RecentTaskInfo	Parcel	
+ActivityManager$RunningAppProcessInfo	Parcelable	
+ActivityManager$RunningAppProcessInfo	Parcelable$Creator	
+ActivityManager$RunningAppProcessInfo	Parcel	
+ActivityManager$RunningServiceInfo	Parcel	
+ActivityManager$RunningServiceInfo	Parcelable	
+ActivityManager$RunningServiceInfo	Parcelable$Creator	
+ActivityManager$RunningTaskInfo	Parcel	
+ActivityManager$RunningTaskInfo	Parcelable$Creator	
+ActivityManager$RunningTaskInfo	Parcelable	
+PendingIntent	Parcel	
+PendingIntent	Parcelable$Creator	
+PendingIntent	Parcelable	
+PendingIntent$OnFinished	Bundle	
+SearchManager	Bundle	
+SearchableInfo	Parcelable	
+SearchableInfo	Parcelable$Creator	
+SearchableInfo	Parcel	
+WallpaperInfo	Parcel	
+WallpaperInfo	Parcelable	
+WallpaperInfo	Parcelable$Creator	
+WallpaperManager	Bundle	
+WallpaperManager	IBinder	
+admin.DeviceAdminInfo	Parcelable$Creator	
+admin.DeviceAdminInfo	Parcelable	
+admin.DeviceAdminInfo	Parcel	
+backup.FileBackupHelper	ParcelFileDescriptor	
+backup.SharedPreferencesBackupHelper	ParcelFileDescriptor	
+***android.app:2->android.content:1
+ActivityManager	pm.ConfigurationInfo	
+SearchManager	DialogInterface$OnDismissListener	
+SearchManager	DialogInterface	
+SearchManager	DialogInterface$OnCancelListener	
+***android.app:2->android.content.res:1
+WallpaperInfo	Resources$NotFoundException	
+WallpaperInfo	Resources	
+admin.DeviceAdminInfo	Resources$NotFoundException	
+admin.DeviceAdminInfo	Resources	
+***android.app:2->android.app:0
+backup.BackupManager	backup.RestoreObserver	
+backup.FileBackupHelper	backup.FileBackupHelperBase	
+backup.FileBackupHelper	backup.BackupHelper	
+backup.FileBackupHelper	backup.BackupDataInputStream	
+backup.FileBackupHelper	backup.BackupDataOutput	
+backup.SharedPreferencesBackupHelper	backup.FileBackupHelperBase	
+backup.SharedPreferencesBackupHelper	backup.BackupHelper	
+backup.SharedPreferencesBackupHelper	backup.BackupDataInputStream	
+backup.SharedPreferencesBackupHelper	backup.BackupDataOutput	
+------------
+***android.app:3->android.app:2
+Notification	PendingIntent	
+admin.DeviceAdminReceiver	admin.DevicePolicyManager	
+***android.app:3->android.content:1
+Application	ComponentCallbacks	
+Service	ComponentCallbacks	
+***android.app:3->android.content:3
+Application	ContextWrapper	
+Service	ContextWrapper	
+backup.BackupAgent	ContextWrapper	
+***android.app:3->android.net:0
+Notification	Uri	
+***android.app:3->android.os:0
+Notification	Parcelable$Creator	
+Notification	Parcelable	
+Notification	Parcel	
+Service	IBinder	
+backup.BackupAgent	ParcelFileDescriptor	
+***android.app:3->android.widget:3
+Notification	RemoteViews	
+***android.app:3->android.content.res:1
+Application	Configuration	
+Service	Configuration	
+***android.app:3->android.content:2
+Application	Context	
+Notification	Context	
+Service	Context	
+Service	Intent	
+admin.DeviceAdminReceiver	Intent	
+admin.DeviceAdminReceiver	BroadcastReceiver	
+admin.DeviceAdminReceiver	Context	
+admin.DeviceAdminReceiver	ComponentName	
+backup.BackupAgent	Context	
+***android.app:3->android.app:0
+backup.BackupAgent	backup.BackupDataInput	
+backup.BackupAgent	backup.BackupDataOutput	
+------------
+***android.app:4->android.os:0
+IntentService	IBinder	
+backup.BackupAgentHelper	ParcelFileDescriptor	
+***android.app:4->android.app:3
+IntentService	Service	
+backup.BackupAgentHelper	backup.BackupAgent	
+***android.app:4->android.content:2
+IntentService	Intent	
+***android.app:4->android.app:0
+backup.BackupAgentHelper	backup.BackupDataOutput	
+backup.BackupAgentHelper	backup.BackupDataInput	
+backup.BackupAgentHelper	backup.BackupHelper	
+------------
+***android.app:5->android.content:2
+Activity	ComponentName	
+Activity	Intent	
+Activity	IntentSender	
+Activity	Context	
+Activity	IntentSender$SendIntentException	
+Dialog	Context	
+Instrumentation	pm.ActivityInfo	
+Instrumentation	ComponentName	
+Instrumentation	Context	
+Instrumentation	Intent	
+Instrumentation	IntentFilter	
+Instrumentation$ActivityMonitor	IntentFilter	
+Instrumentation$ActivityResult	Intent	
+LocalActivityManager	Intent	
+***android.app:5->android.content.res:1
+Activity	Configuration	
+Activity	Resources	
+Activity	Resources$Theme	
+***android.app:5->android.app:2
+Activity	PendingIntent	
+***android.app:5->android.content:1
+Activity	ComponentCallbacks	
+Dialog	DialogInterface$OnCancelListener	
+Dialog	DialogInterface$OnKeyListener	
+Dialog	DialogInterface$OnShowListener	
+Dialog	DialogInterface$OnDismissListener	
+Dialog	DialogInterface	
+***android.app:5->android.view:1
+Activity	accessibility.AccessibilityEvent	
+Activity	MotionEvent	
+Activity	KeyEvent	
+Activity	KeyEvent$Callback	
+Dialog	accessibility.AccessibilityEvent	
+Dialog	MotionEvent	
+Dialog	KeyEvent	
+Dialog	KeyEvent$Callback	
+Instrumentation	MotionEvent	
+Instrumentation	KeyEvent	
+***android.app:5->android.util:0
+Activity	AttributeSet	
+***android.app:5->android.database:2
+Activity	Cursor	
+***android.app:5->android.view:4
+Activity	ContextThemeWrapper	
+***android.app:5->android.os:0
+Activity	Bundle	
+Dialog	Bundle	
+Instrumentation	Bundle	
+Instrumentation	IBinder	
+LocalActivityManager	Bundle	
+***android.app:5->android.content:0
+Activity	SharedPreferences	
+***android.app:5->android.view:2
+Activity	Window$Callback	
+Activity	MenuItem	
+Activity	View	
+Activity	MenuInflater	
+Activity	ViewGroup$LayoutParams	
+Activity	ContextMenu	
+Activity	ViewGroup	
+Activity	View$OnCreateContextMenuListener	
+Activity	Menu	
+Activity	WindowManager$LayoutParams	
+Activity	Window	
+Activity	WindowManager	
+Activity	ContextMenu$ContextMenuInfo	
+Activity	LayoutInflater	
+Activity	LayoutInflater$Factory	
+Dialog	MenuItem	
+Dialog	View	
+Dialog	Window	
+Dialog	ViewGroup$LayoutParams	
+Dialog	ContextMenu	
+Dialog	Window$Callback	
+Dialog	Menu	
+Dialog	WindowManager$LayoutParams	
+Dialog	ViewGroup	
+Dialog	WindowManager	
+Dialog	ContextMenu$ContextMenuInfo	
+Dialog	LayoutInflater	
+Dialog	View$OnCreateContextMenuListener	
+LocalActivityManager	Window	
+***android.app:5->android.content:3
+Activity	ContextWrapper	
+***android.app:5->android.app:3
+Activity	Application	
+Instrumentation	Application	
+***android.app:5->android.net:0
+Activity	Uri	
+Dialog	Uri	
+***android.app:5->android.graphics:1
+Activity	Bitmap	
+Activity	drawable.Drawable	
+Activity	Canvas	
+Dialog	drawable.Drawable	
+***android.app:5->android.os:1
+Dialog	Message	
+------------
+***android.app:6->android.os:0
+ActivityGroup	Bundle	
+AlertDialog	Bundle	
+AliasActivity	Bundle	
+DatePickerDialog	Bundle	
+ListActivity	Bundle	
+TimePickerDialog	Bundle	
+***android.app:6->android.content:1
+AlertDialog	DialogInterface$OnClickListener	
+AlertDialog	DialogInterface$OnCancelListener	
+AlertDialog	DialogInterface	
+AlertDialog$Builder	DialogInterface$OnKeyListener	
+AlertDialog$Builder	DialogInterface	
+AlertDialog$Builder	DialogInterface$OnMultiChoiceClickListener	
+AlertDialog$Builder	DialogInterface$OnCancelListener	
+AlertDialog$Builder	DialogInterface$OnClickListener	
+DatePickerDialog	DialogInterface$OnClickListener	
+DatePickerDialog	DialogInterface$OnCancelListener	
+DatePickerDialog	DialogInterface	
+TimePickerDialog	DialogInterface	
+TimePickerDialog	DialogInterface$OnCancelListener	
+TimePickerDialog	DialogInterface$OnClickListener	
+***android.app:6->android.view:1
+AlertDialog	KeyEvent	
+AlertDialog	KeyEvent$Callback	
+***android.app:6->android.content:2
+AlertDialog	Context	
+AlertDialog$Builder	Context	
+DatePickerDialog	Context	
+TimePickerDialog	Context	
+***android.app:6->android.view:2
+AlertDialog	View	
+AlertDialog$Builder	View	
+ListActivity	View	
+ListActivity	Window$Callback	
+***android.app:6->android.widget:2
+AlertDialog$Builder	ListAdapter	
+ListActivity	ListAdapter	
+***android.app:6->android.widget:3
+AlertDialog	Button	
+AlertDialog$Builder	AdapterView	
+AlertDialog$Builder	AdapterView$OnItemSelectedListener	
+DatePickerDialog	DatePicker	
+DatePickerDialog	DatePicker$OnDateChangedListener	
+DatePickerDialog$OnDateSetListener	DatePicker	
+TimePickerDialog	TimePicker	
+TimePickerDialog	TimePicker$OnTimeChangedListener	
+TimePickerDialog$OnTimeSetListener	TimePicker	
+***android.app:6->android.os:1
+AlertDialog	Message	
+***android.app:6->android.app:5
+ActivityGroup	LocalActivityManager	
+ActivityGroup	Activity	
+AlertDialog	Dialog	
+AliasActivity	Activity	
+DatePickerDialog	Dialog	
+ListActivity	Activity	
+TimePickerDialog	Dialog	
+***android.app:6->android.widget:5
+AlertDialog	ListView	
+ListActivity	ListView	
+***android.app:6->android.graphics:1
+AlertDialog	drawable.Drawable	
+AlertDialog$Builder	drawable.Drawable	
+***android.app:6->android.database:2
+AlertDialog$Builder	Cursor	
+------------
+***android.app:7->android.os:0
+ExpandableListActivity	Bundle	
+LauncherActivity	Bundle	
+LauncherActivity$ListItem	Bundle	
+ProgressDialog	Bundle	
+TabActivity	Bundle	
+***android.app:7->android.content:1
+ProgressDialog	DialogInterface	
+ProgressDialog	DialogInterface$OnCancelListener	
+***android.app:7->android.app:6
+LauncherActivity	ListActivity	
+ProgressDialog	AlertDialog	
+TabActivity	ActivityGroup	
+***android.app:7->android.widget:5
+LauncherActivity	ListView	
+TabActivity	TabHost	
+***android.app:7->android.widget:6
+ExpandableListActivity	ExpandableListView	
+ExpandableListActivity	ExpandableListView$OnGroupCollapseListener	
+ExpandableListActivity	ExpandableListView$OnChildClickListener	
+ExpandableListActivity	ExpandableListView$OnGroupExpandListener	
+***android.app:7->android.app:5
+ExpandableListActivity	Activity	
+LauncherActivity	Activity	
+ProgressDialog	Dialog	
+TabActivity	Activity	
+***android.app:7->android.content:2
+LauncherActivity	Intent	
+LauncherActivity$ListItem	pm.ResolveInfo	
+ProgressDialog	Context	
+***android.app:7->android.widget:2
+ExpandableListActivity	ExpandableListAdapter	
+***android.app:7->android.graphics:1
+LauncherActivity$IconResizer	drawable.Drawable	
+LauncherActivity$ListItem	drawable.Drawable	
+ProgressDialog	drawable.Drawable	
+***android.app:7->android.view:2
+ExpandableListActivity	ContextMenu$ContextMenuInfo	
+ExpandableListActivity	ContextMenu	
+ExpandableListActivity	View$OnCreateContextMenuListener	
+ExpandableListActivity	Window$Callback	
+ExpandableListActivity	View	
+LauncherActivity	View	
+TabActivity	Window$Callback	
+***android.app:7->android.widget:3
+TabActivity	TabWidget	
+------------
+***android.content.res:0->android.util:0
+XmlResourceParser	AttributeSet	
+------------
+***android.content.res:1->android.content.res:0
+AssetManager	XmlResourceParser	
+Resources	XmlResourceParser	
+***android.content.res:1->android.graphics:1
+Resources	Movie	
+Resources	drawable.Drawable	
+TypedArray	drawable.Drawable	
+***android.content.res:1->android.util:0
+Resources	DisplayMetrics	
+Resources	TypedValue	
+Resources	AttributeSet	
+Resources$Theme	TypedValue	
+Resources$Theme	AttributeSet	
+TypedArray	TypedValue	
+***android.content.res:1->android.os:0
+AssetFileDescriptor	Parcel	
+AssetFileDescriptor	Parcelable	
+AssetFileDescriptor	ParcelFileDescriptor	
+AssetFileDescriptor	Parcelable$Creator	
+AssetFileDescriptor$AutoCloseInputStream	ParcelFileDescriptor	
+AssetFileDescriptor$AutoCloseInputStream	ParcelFileDescriptor$AutoCloseInputStream	
+AssetFileDescriptor$AutoCloseOutputStream	ParcelFileDescriptor$AutoCloseOutputStream	
+AssetFileDescriptor$AutoCloseOutputStream	ParcelFileDescriptor	
+ColorStateList	Parcelable$Creator	
+ColorStateList	Parcelable	
+ColorStateList	Parcel	
+Configuration	Parcel	
+Configuration	Parcelable$Creator	
+Configuration	Parcelable	
+Resources	Bundle	
+------------
+***android.content:0->android.net:0
+ContentUris	Uri$Builder	
+ContentUris	Uri	
+UriMatcher	Uri	
+***android.content:0->android.util:0
+ReceiverCallNotAllowedException	AndroidRuntimeException	
+------------
+***android.content:1->android.os:0
+ContentProviderResult	Parcelable$Creator	
+ContentProviderResult	Parcelable	
+ContentProviderResult	Parcel	
+ContentValues	Parcel	
+ContentValues	Parcelable	
+ContentValues	Parcelable$Creator	
+PeriodicSync	Parcel	
+PeriodicSync	Parcelable	
+PeriodicSync	Bundle	
+PeriodicSync	Parcelable$Creator	
+SyncAdapterType	Parcelable$Creator	
+SyncAdapterType	Parcelable	
+SyncAdapterType	Parcel	
+SyncContext	IBinder	
+SyncResult	Parcelable	
+SyncResult	Parcelable$Creator	
+SyncResult	Parcel	
+SyncStats	Parcel	
+SyncStats	Parcelable$Creator	
+SyncStats	Parcelable	
+pm.ConfigurationInfo	Parcel	
+pm.ConfigurationInfo	Parcelable$Creator	
+pm.ConfigurationInfo	Parcelable	
+pm.FeatureInfo	Parcelable	
+pm.FeatureInfo	Parcelable$Creator	
+pm.FeatureInfo	Parcel	
+pm.PackageStats	Parcel	
+pm.PackageStats	Parcelable$Creator	
+pm.PackageStats	Parcelable	
+pm.Signature	Parcel	
+pm.Signature	Parcelable	
+pm.Signature	Parcelable$Creator	
+***android.content:1->android.view:1
+DialogInterface$OnKeyListener	KeyEvent	
+***android.content:1->android.content.res:1
+ComponentCallbacks	Configuration	
+***android.content:1->android.net:0
+ContentProviderResult	Uri	
+Entity	Uri	
+Entity$NamedContentValues	Uri	
+***android.content:1->android.accounts:1
+PeriodicSync	Account	
+SyncInfo	Account	
+------------
+***android.content:2->android.net:0
+AsyncQueryHandler	Uri	
+AsyncQueryHandler$WorkerArgs	Uri	
+ContentProvider	Uri	
+ContentProviderClient	Uri	
+ContentProviderOperation	Uri	
+ContentResolver	Uri	
+Context	Uri	
+Intent	Uri	
+IntentFilter	Uri	
+IntentFilter$AuthorityEntry	Uri	
+***android.content:2->android.os:0
+AbstractThreadedSyncAdapter	Bundle	
+AbstractThreadedSyncAdapter	IBinder	
+AsyncQueryHandler	Looper	
+AsyncQueryHandler$WorkerHandler	Looper	
+BroadcastReceiver	Bundle	
+BroadcastReceiver	IBinder	
+ComponentName	Parcelable$Creator	
+ComponentName	Parcelable	
+ComponentName	Parcel	
+ContentProvider	ParcelFileDescriptor	
+ContentProviderClient	RemoteException	
+ContentProviderClient	ParcelFileDescriptor	
+ContentProviderOperation	Parcelable	
+ContentProviderOperation	Parcelable$Creator	
+ContentProviderOperation	Parcel	
+ContentResolver	Bundle	
+ContentResolver	ParcelFileDescriptor	
+ContentResolver	RemoteException	
+Context	Looper	
+Context	Bundle	
+Intent	Parcelable$Creator	
+Intent	Parcel	
+Intent	Bundle	
+Intent	Parcelable	
+Intent$ShortcutIconResource	Parcelable	
+Intent$ShortcutIconResource	Parcelable$Creator	
+Intent$ShortcutIconResource	Parcel	
+IntentFilter	Parcel	
+IntentFilter	Parcelable$Creator	
+IntentFilter	Parcelable	
+IntentSender	Parcelable	
+IntentSender	Parcelable$Creator	
+IntentSender	Parcel	
+IntentSender$OnFinished	Bundle	
+ServiceConnection	IBinder	
+pm.ActivityInfo	Parcelable$Creator	
+pm.ActivityInfo	Parcelable	
+pm.ActivityInfo	Parcel	
+pm.ApplicationInfo	Parcelable$Creator	
+pm.ApplicationInfo	Parcelable	
+pm.ApplicationInfo	Parcel	
+pm.ComponentInfo	Parcel	
+pm.InstrumentationInfo	Parcel	
+pm.InstrumentationInfo	Parcelable$Creator	
+pm.InstrumentationInfo	Parcelable	
+pm.PackageInfo	Parcel	
+pm.PackageInfo	Parcelable	
+pm.PackageInfo	Parcelable$Creator	
+pm.PackageItemInfo	Parcel	
+pm.PackageItemInfo	Bundle	
+pm.PathPermission	Parcel	
+pm.PathPermission	Parcelable$Creator	
+pm.PathPermission	Parcelable	
+pm.PermissionGroupInfo	Parcelable	
+pm.PermissionGroupInfo	Parcelable$Creator	
+pm.PermissionGroupInfo	Parcel	
+pm.PermissionInfo	Parcel	
+pm.PermissionInfo	Parcelable$Creator	
+pm.PermissionInfo	Parcelable	
+pm.ProviderInfo	Parcelable$Creator	
+pm.ProviderInfo	Parcelable	
+pm.ProviderInfo	Parcel	
+pm.ResolveInfo	Parcel	
+pm.ResolveInfo	Parcelable$Creator	
+pm.ResolveInfo	Parcelable	
+pm.ServiceInfo	Parcelable	
+pm.ServiceInfo	Parcelable$Creator	
+pm.ServiceInfo	Parcel	
+***android.content:2->android.database:1
+ContentResolver	ContentObserver	
+***android.content:2->android.content.res:1
+ContentProvider	Configuration	
+ContentProvider	AssetFileDescriptor	
+ContentProviderClient	AssetFileDescriptor	
+ContentResolver	AssetFileDescriptor	
+Context	Resources	
+Context	Resources$NotFoundException	
+Context	AssetManager	
+Context	TypedArray	
+Context	Resources$Theme	
+Intent	Resources	
+pm.PackageManager	Resources	
+***android.content:2->android.os:1
+AsyncQueryHandler	Handler	
+AsyncQueryHandler	Message	
+AsyncQueryHandler$WorkerArgs	Handler	
+AsyncQueryHandler$WorkerHandler	Message	
+AsyncQueryHandler$WorkerHandler	Handler	
+ContentQueryMap	Handler	
+Context	Handler	
+IntentFilter	PatternMatcher	
+IntentSender	Handler	
+pm.PathPermission	PatternMatcher	
+pm.ProviderInfo	PatternMatcher	
+***android.content:2->android.graphics:1
+Context	Bitmap	
+Context	drawable.Drawable	
+Intent	Rect	
+pm.PackageItemInfo	drawable.Drawable	
+pm.PackageManager	drawable.Drawable	
+pm.ResolveInfo	drawable.Drawable	
+***android.content:2->android.content:0
+ContentProvider	OperationApplicationException	
+ContentProviderClient	OperationApplicationException	
+ContentProviderOperation	OperationApplicationException	
+ContentResolver	OperationApplicationException	
+ContentResolver	SyncStatusObserver	
+Context	SharedPreferences	
+***android.content:2->android.database:2
+AsyncQueryHandler	Cursor	
+ContentProvider	Cursor	
+ContentProviderClient	Cursor	
+ContentQueryMap	Cursor	
+ContentResolver	Cursor	
+Context	sqlite.SQLiteDatabase	
+Context	sqlite.SQLiteDatabase$CursorFactory	
+***android.content:2->android.content.res:0
+pm.PackageItemInfo	XmlResourceParser	
+pm.PackageManager	XmlResourceParser	
+***android.content:2->android.accounts:1
+AbstractThreadedSyncAdapter	Account	
+ContentResolver	Account	
+***android.content:2->android.content:1
+AbstractThreadedSyncAdapter	SyncResult	
+AsyncQueryHandler	ContentValues	
+AsyncQueryHandler$WorkerArgs	ContentValues	
+ContentProvider	ComponentCallbacks	
+ContentProvider	ContentValues	
+ContentProvider	ContentProviderResult	
+ContentProviderClient	ContentValues	
+ContentProviderClient	ContentProviderResult	
+ContentProviderOperation	ContentValues	
+ContentProviderOperation	ContentProviderResult	
+ContentProviderOperation$Builder	ContentValues	
+ContentQueryMap	ContentValues	
+ContentResolver	ContentProviderResult	
+ContentResolver	ContentValues	
+ContentResolver	SyncAdapterType	
+ContentResolver	SyncInfo	
+pm.PackageInfo	pm.FeatureInfo	
+pm.PackageInfo	pm.ConfigurationInfo	
+pm.PackageInfo	pm.Signature	
+pm.PackageManager	pm.FeatureInfo	
+***android.content:2->android.util:0
+Context	AttributeSet	
+Intent	AttributeSet	
+IntentFilter	Printer	
+IntentFilter$MalformedMimeTypeException	AndroidException	
+IntentSender$SendIntentException	AndroidException	
+pm.ActivityInfo	Printer	
+pm.ApplicationInfo	Printer	
+pm.ComponentInfo	Printer	
+pm.PackageItemInfo	Printer	
+pm.PackageManager$NameNotFoundException	AndroidException	
+pm.ResolveInfo	Printer	
+pm.ServiceInfo	Printer	
+------------
+***android.content:3->android.os:0
+ContextWrapper	Looper	
+ContextWrapper	Bundle	
+pm.LabeledIntent	Parcel	
+pm.LabeledIntent	Parcelable	
+pm.LabeledIntent	Parcelable$Creator	
+***android.content:3->android.net:0
+ContextWrapper	Uri	
+SearchRecentSuggestionsProvider	Uri	
+***android.content:3->android.database:2
+ContextWrapper	sqlite.SQLiteDatabase$CursorFactory	
+ContextWrapper	sqlite.SQLiteDatabase	
+SearchRecentSuggestionsProvider	Cursor	
+***android.content:3->android.content.res:1
+ContextWrapper	AssetManager	
+ContextWrapper	Resources	
+ContextWrapper	Resources$Theme	
+***android.content:3->android.graphics:1
+ContextWrapper	Bitmap	
+ContextWrapper	drawable.Drawable	
+pm.LabeledIntent	drawable.Drawable	
+***android.content:3->android.os:1
+ContextWrapper	Handler	
+***android.content:3->android.content:1
+SearchRecentSuggestionsProvider	ContentValues	
+***android.content:3->android.content:2
+ContextWrapper	Intent	
+ContextWrapper	ComponentName	
+ContextWrapper	pm.ApplicationInfo	
+ContextWrapper	IntentFilter	
+ContextWrapper	BroadcastReceiver	
+ContextWrapper	pm.PackageManager$NameNotFoundException	
+ContextWrapper	ContentResolver	
+ContextWrapper	IntentSender$SendIntentException	
+ContextWrapper	pm.PackageManager	
+ContextWrapper	ServiceConnection	
+ContextWrapper	IntentSender	
+ContextWrapper	Context	
+MutableContextWrapper	Context	
+SearchRecentSuggestionsProvider	ContentProvider	
+pm.LabeledIntent	Intent	
+pm.LabeledIntent	pm.PackageManager	
+***android.content:3->android.content:0
+ContextWrapper	SharedPreferences	
+------------
+
+------------
+***android.database:1->android.database:0
+ContentObservable	Observable	
+CursorWindow	CharArrayBuffer	
+CursorWindow	sqlite.SQLiteClosable	
+***android.database:1->android.os:1
+ContentObserver	Handler	
+***android.database:1->android.os:0
+CursorWindow	Parcel	
+CursorWindow	Parcelable$Creator	
+CursorWindow	Parcelable	
+------------
+***android.database:2->android.os:0
+Cursor	Bundle	
+DatabaseUtils	Parcel	
+***android.database:2->android.database:1
+CrossProcessCursor	CursorWindow	
+Cursor	ContentObserver	
+***android.database:2->android.content:0
+DatabaseUtils	OperationApplicationException	
+***android.database:2->android.database:0
+Cursor	CharArrayBuffer	
+Cursor	DataSetObserver	
+sqlite.SQLiteDatabase	sqlite.SQLiteTransactionListener	
+sqlite.SQLiteDatabase	SQLException	
+sqlite.SQLiteDatabase	sqlite.SQLiteClosable	
+sqlite.SQLiteProgram	sqlite.SQLiteClosable	
+***android.database:2->android.net:0
+Cursor	Uri	
+***android.database:2->android.content:2
+Cursor	ContentResolver	
+DatabaseUtils	Context	
+sqlite.SQLiteOpenHelper	Context	
+***android.database:2->android.content:1
+DatabaseUtils	ContentValues	
+DatabaseUtils$InsertHelper	ContentValues	
+sqlite.SQLiteDatabase	ContentValues	
+------------
+***android.database:3->android.content:2
+AbstractCursor	ContentResolver	
+CursorWrapper	ContentResolver	
+***android.database:3->android.database:1
+AbstractCursor	ContentObserver	
+AbstractCursor	CursorWindow	
+AbstractCursor$SelfContentObserver	ContentObserver	
+CursorWrapper	ContentObserver	
+***android.database:3->android.net:0
+AbstractCursor	Uri	
+CursorWrapper	Uri	
+***android.database:3->android.os:1
+AbstractCursor$SelfContentObserver	Handler	
+***android.database:3->android.os:0
+AbstractCursor	Bundle	
+CursorWrapper	Bundle	
+***android.database:3->android.database:0
+AbstractCursor	CharArrayBuffer	
+AbstractCursor	DataSetObserver	
+CursorWrapper	CharArrayBuffer	
+CursorWrapper	DataSetObserver	
+***android.database:3->android.database:2
+AbstractCursor	CrossProcessCursor	
+AbstractCursor	Cursor	
+CursorWrapper	Cursor	
+------------
+***android.database:4->android.database:2
+AbstractWindowedCursor	Cursor	
+AbstractWindowedCursor	CrossProcessCursor	
+MatrixCursor	Cursor	
+MergeCursor	Cursor	
+MergeCursor	CrossProcessCursor	
+***android.database:4->android.database:0
+AbstractWindowedCursor	CharArrayBuffer	
+MergeCursor	DataSetObserver	
+***android.database:4->android.database:3
+AbstractWindowedCursor	AbstractCursor	
+MatrixCursor	AbstractCursor	
+MergeCursor	AbstractCursor	
+***android.database:4->android.database:1
+AbstractWindowedCursor	CursorWindow	
+MergeCursor	ContentObserver	
+------------
+***android.database:5->android.database:2
+sqlite.SQLiteCursor	sqlite.SQLiteDatabase	
+sqlite.SQLiteCursor	Cursor	
+sqlite.SQLiteCursor	sqlite.SQLiteQuery	
+sqlite.SQLiteCursor	sqlite.SQLiteCursorDriver	
+sqlite.SQLiteCursor	CrossProcessCursor	
+***android.database:5->android.database:3
+sqlite.SQLiteCursor	AbstractCursor	
+***android.database:5->android.database:1
+sqlite.SQLiteCursor	CursorWindow	
+***android.database:5->android.database:0
+sqlite.SQLiteCursor	DataSetObserver	
+***android.database:5->android.database:4
+sqlite.SQLiteCursor	AbstractWindowedCursor	
+------------
+
+------------
+***android.graphics:1->android.graphics:0
+Canvas	PorterDuff$Mode	
+Canvas	DrawFilter	
+Canvas	PorterDuff	
+ComposeShader	Xfermode	
+ComposeShader	PorterDuff$Mode	
+ComposeShader	PorterDuff	
+LayerRasterizer	Rasterizer	
+Paint	Xfermode	
+Paint	Rasterizer	
+Paint	ColorFilter	
+Paint	MaskFilter	
+Paint	PathEffect	
+PathDashPathEffect	PathEffect	
+drawable.Drawable	ColorFilter	
+drawable.Drawable	PorterDuff$Mode	
+drawable.Drawable	PorterDuff	
+***android.graphics:1->android.content.res:1
+BitmapFactory	Resources	
+Typeface	AssetManager	
+drawable.Drawable	Resources	
+drawable.Drawable$ConstantState	Resources	
+***android.graphics:1->android.util:0
+Bitmap	DisplayMetrics	
+BitmapFactory	TypedValue	
+drawable.Drawable	AttributeSet	
+drawable.Drawable	TypedValue	
+***android.graphics:1->android.os:0
+Bitmap	Parcelable$Creator	
+Bitmap	Parcelable	
+Bitmap	Parcel	
+Rect	Parcel	
+Rect	Parcelable$Creator	
+Rect	Parcelable	
+RectF	Parcel	
+RectF	Parcelable	
+RectF	Parcelable$Creator	
+Region	Parcelable	
+Region	Parcelable$Creator	
+Region	Parcel	
+------------
+***android.graphics:2->android.graphics:1
+drawable.BitmapDrawable	Paint	
+drawable.BitmapDrawable	drawable.Drawable$ConstantState	
+drawable.BitmapDrawable	Bitmap	
+drawable.BitmapDrawable	Rect	
+drawable.BitmapDrawable	Shader	
+drawable.BitmapDrawable	drawable.Drawable	
+drawable.BitmapDrawable	Canvas	
+drawable.BitmapDrawable	Shader$TileMode	
+drawable.ClipDrawable	Canvas	
+drawable.ClipDrawable	drawable.Drawable	
+drawable.ClipDrawable	Rect	
+drawable.ClipDrawable	drawable.Drawable$Callback	
+drawable.ClipDrawable	drawable.Drawable$ConstantState	
+drawable.ColorDrawable	Canvas	
+drawable.ColorDrawable	drawable.Drawable	
+drawable.ColorDrawable	drawable.Drawable$ConstantState	
+drawable.DrawableContainer	Canvas	
+drawable.DrawableContainer	Rect	
+drawable.DrawableContainer	drawable.Drawable	
+drawable.DrawableContainer	drawable.Drawable$Callback	
+drawable.DrawableContainer	drawable.Drawable$ConstantState	
+drawable.DrawableContainer$DrawableContainerState	drawable.Drawable	
+drawable.DrawableContainer$DrawableContainerState	Rect	
+drawable.DrawableContainer$DrawableContainerState	drawable.Drawable$ConstantState	
+drawable.GradientDrawable	Rect	
+drawable.GradientDrawable	Canvas	
+drawable.GradientDrawable	drawable.Drawable$ConstantState	
+drawable.GradientDrawable	drawable.Drawable	
+drawable.InsetDrawable	Rect	
+drawable.InsetDrawable	drawable.Drawable	
+drawable.InsetDrawable	Canvas	
+drawable.InsetDrawable	drawable.Drawable$ConstantState	
+drawable.InsetDrawable	drawable.Drawable$Callback	
+drawable.LayerDrawable	Rect	
+drawable.LayerDrawable	drawable.Drawable	
+drawable.LayerDrawable	Canvas	
+drawable.LayerDrawable	drawable.Drawable$ConstantState	
+drawable.LayerDrawable	drawable.Drawable$Callback	
+drawable.NinePatchDrawable	NinePatch	
+drawable.NinePatchDrawable	Canvas	
+drawable.NinePatchDrawable	Bitmap	
+drawable.NinePatchDrawable	drawable.Drawable	
+drawable.NinePatchDrawable	Paint	
+drawable.NinePatchDrawable	drawable.Drawable$ConstantState	
+drawable.NinePatchDrawable	Region	
+drawable.NinePatchDrawable	Rect	
+drawable.PictureDrawable	Picture	
+drawable.PictureDrawable	drawable.Drawable	
+drawable.PictureDrawable	Canvas	
+drawable.RotateDrawable	Canvas	
+drawable.RotateDrawable	Rect	
+drawable.RotateDrawable	drawable.Drawable	
+drawable.RotateDrawable	drawable.Drawable$Callback	
+drawable.RotateDrawable	drawable.Drawable$ConstantState	
+drawable.ScaleDrawable	drawable.Drawable$Callback	
+drawable.ScaleDrawable	drawable.Drawable$ConstantState	
+drawable.ScaleDrawable	drawable.Drawable	
+drawable.ScaleDrawable	Rect	
+drawable.ScaleDrawable	Canvas	
+drawable.ShapeDrawable	drawable.shapes.Shape	
+drawable.ShapeDrawable	Rect	
+drawable.ShapeDrawable	drawable.Drawable$ConstantState	
+drawable.ShapeDrawable	Canvas	
+drawable.ShapeDrawable	Paint	
+drawable.ShapeDrawable	drawable.Drawable	
+drawable.ShapeDrawable$ShaderFactory	Shader	
+drawable.shapes.PathShape	Path	
+drawable.shapes.PathShape	Canvas	
+drawable.shapes.PathShape	Paint	
+drawable.shapes.PathShape	drawable.shapes.Shape	
+drawable.shapes.RectShape	Paint	
+drawable.shapes.RectShape	RectF	
+drawable.shapes.RectShape	Canvas	
+drawable.shapes.RectShape	drawable.shapes.Shape	
+***android.graphics:2->android.util:0
+drawable.BitmapDrawable	AttributeSet	
+drawable.BitmapDrawable	DisplayMetrics	
+drawable.ClipDrawable	AttributeSet	
+drawable.ColorDrawable	AttributeSet	
+drawable.GradientDrawable	AttributeSet	
+drawable.InsetDrawable	AttributeSet	
+drawable.LayerDrawable	AttributeSet	
+drawable.NinePatchDrawable	DisplayMetrics	
+drawable.NinePatchDrawable	AttributeSet	
+drawable.RotateDrawable	AttributeSet	
+drawable.ScaleDrawable	AttributeSet	
+drawable.ShapeDrawable	AttributeSet	
+***android.graphics:2->android.graphics:0
+drawable.BitmapDrawable	ColorFilter	
+drawable.ClipDrawable	ColorFilter	
+drawable.ColorDrawable	ColorFilter	
+drawable.DrawableContainer	ColorFilter	
+drawable.GradientDrawable	ColorFilter	
+drawable.InsetDrawable	ColorFilter	
+drawable.LayerDrawable	ColorFilter	
+drawable.NinePatchDrawable	ColorFilter	
+drawable.PictureDrawable	ColorFilter	
+drawable.RotateDrawable	ColorFilter	
+drawable.ScaleDrawable	ColorFilter	
+drawable.ShapeDrawable	ColorFilter	
+***android.graphics:2->android.content.res:1
+drawable.BitmapDrawable	Resources	
+drawable.ClipDrawable	Resources	
+drawable.ColorDrawable	Resources	
+drawable.GradientDrawable	Resources	
+drawable.InsetDrawable	Resources	
+drawable.LayerDrawable	Resources	
+drawable.NinePatchDrawable	Resources	
+drawable.RotateDrawable	Resources	
+drawable.ScaleDrawable	Resources	
+drawable.ShapeDrawable	Resources	
+------------
+***android.graphics:3->android.content.res:1
+drawable.AnimationDrawable	Resources	
+drawable.LevelListDrawable	Resources	
+drawable.PaintDrawable	Resources	
+drawable.StateListDrawable	Resources	
+***android.graphics:3->android.graphics:1
+drawable.AnimationDrawable	drawable.Drawable	
+drawable.LevelListDrawable	drawable.Drawable	
+drawable.StateListDrawable	drawable.Drawable	
+drawable.TransitionDrawable	drawable.Drawable$Callback	
+drawable.TransitionDrawable	Canvas	
+drawable.TransitionDrawable	drawable.Drawable	
+drawable.shapes.ArcShape	Paint	
+drawable.shapes.ArcShape	drawable.shapes.Shape	
+drawable.shapes.ArcShape	Canvas	
+drawable.shapes.OvalShape	Paint	
+drawable.shapes.OvalShape	drawable.shapes.Shape	
+drawable.shapes.OvalShape	Canvas	
+drawable.shapes.RoundRectShape	Paint	
+drawable.shapes.RoundRectShape	RectF	
+drawable.shapes.RoundRectShape	Canvas	
+drawable.shapes.RoundRectShape	drawable.shapes.Shape	
+***android.graphics:3->android.graphics:2
+drawable.AnimationDrawable	drawable.DrawableContainer	
+drawable.LevelListDrawable	drawable.DrawableContainer	
+drawable.PaintDrawable	drawable.ShapeDrawable	
+drawable.StateListDrawable	drawable.DrawableContainer	
+drawable.TransitionDrawable	drawable.LayerDrawable	
+drawable.shapes.ArcShape	drawable.shapes.RectShape	
+drawable.shapes.OvalShape	drawable.shapes.RectShape	
+drawable.shapes.RoundRectShape	drawable.shapes.RectShape	
+***android.graphics:3->android.util:0
+drawable.AnimationDrawable	AttributeSet	
+drawable.LevelListDrawable	AttributeSet	
+drawable.PaintDrawable	AttributeSet	
+drawable.StateListDrawable	AttributeSet	
+***android.graphics:3->android.graphics:0
+drawable.AnimationDrawable	drawable.Animatable	
+------------
+
+------------
+***android.hardware:1->android.os:1
+SensorManager	Handler	
+***android.hardware:1->android.hardware:0
+SensorManager	SensorListener	
+SensorManager	Sensor	
+SensorManager	SensorEventListener	
+***android.hardware:1->android.view:1
+Camera	SurfaceHolder	
+------------
+
+------------
+***android.media:1->android.graphics:1
+FaceDetector	Bitmap	
+ThumbnailUtils	Bitmap	
+***android.media:1->android.media:0
+MediaRecorder	CamcorderProfile	
+***android.media:1->android.content.res:1
+JetPlayer	AssetFileDescriptor	
+***android.media:1->android.hardware:1
+MediaRecorder	Camera	
+***android.media:1->android.os:1
+AudioRecord	Handler	
+AudioTrack	Handler	
+JetPlayer	Handler	
+***android.media:1->android.view:1
+MediaRecorder	Surface	
+***android.media:1->android.graphics:0
+FaceDetector$Face	PointF	
+------------
+***android.media:2->android.content.res:1
+SoundPool	AssetFileDescriptor	
+***android.media:2->android.view:1
+MediaPlayer	SurfaceHolder	
+***android.media:2->android.content:2
+AsyncPlayer	Context	
+AudioManager	ComponentName	
+MediaPlayer	Context	
+Ringtone	Context	
+SoundPool	Context	
+***android.media:2->android.net:0
+AsyncPlayer	Uri	
+MediaPlayer	Uri	
+------------
+***android.media:3->android.content:2
+MediaScannerConnection	Context	
+MediaScannerConnection	ComponentName	
+MediaScannerConnection	ServiceConnection	
+***android.media:3->android.net:0
+MediaScannerConnection$MediaScannerConnectionClient	Uri	
+MediaScannerConnection$OnScanCompletedListener	Uri	
+***android.media:3->android.os:0
+MediaScannerConnection	IBinder	
+------------
+***android.media:5->android.content:2
+RingtoneManager	Context	
+***android.media:5->android.media:2
+RingtoneManager	Ringtone	
+***android.media:5->android.app:5
+RingtoneManager	Activity	
+***android.media:5->android.database:2
+RingtoneManager	Cursor	
+***android.media:5->android.net:0
+RingtoneManager	Uri	
+------------
+***android.net:0->android.os:0
+Uri	Parcelable$Creator	
+Uri	Parcelable	
+Uri	Parcel	
+http.SslCertificate	Bundle	
+------------
+***android.net:1->android.os:0
+DhcpInfo	Parcel	
+DhcpInfo	Parcelable	
+NetworkInfo	Parcel	
+NetworkInfo	Parcelable	
+wifi.ScanResult	Parcel	
+wifi.ScanResult	Parcelable	
+wifi.SupplicantState	Parcel	
+wifi.SupplicantState	Parcelable	
+wifi.WifiConfiguration	Parcel	
+wifi.WifiConfiguration	Parcelable	
+wifi.WifiInfo	Parcel	
+wifi.WifiInfo	Parcelable	
+------------
+***android.net:2->android.content:2
+Proxy	Context	
+SSLSessionCache	Context	
+http.AndroidHttpClient	Context	
+http.AndroidHttpClient	ContentResolver	
+------------
+***android.os:0->android.util:0
+BadParcelableException	AndroidRuntimeException	
+Bundle	SparseArray	
+Looper	Printer	
+Parcel	SparseBooleanArray	
+Parcel	SparseArray	
+RemoteException	AndroidException	
+------------
+***android.os:1->android.os:0
+Binder	IBinder$DeathRecipient	
+Binder	Parcel	
+Binder	IInterface	
+Binder	IBinder	
+Binder	RemoteException	
+Debug$MemoryInfo	Parcel	
+Debug$MemoryInfo	Parcelable	
+Debug$MemoryInfo	Parcelable$Creator	
+DropBoxManager$Entry	ParcelFileDescriptor	
+DropBoxManager$Entry	Parcelable$Creator	
+DropBoxManager$Entry	Parcelable	
+DropBoxManager$Entry	Parcel	
+Handler	Looper	
+Message	Bundle	
+Message	Parcelable$Creator	
+Message	Parcelable	
+Message	Parcel	
+Messenger	IBinder	
+Messenger	Parcel	
+Messenger	Parcelable$Creator	
+Messenger	RemoteException	
+Messenger	Parcelable	
+ParcelUuid	Parcelable$Creator	
+ParcelUuid	Parcelable	
+ParcelUuid	Parcel	
+PatternMatcher	Parcelable	
+PatternMatcher	Parcelable$Creator	
+PatternMatcher	Parcel	
+ResultReceiver	Bundle	
+ResultReceiver	Parcelable$Creator	
+ResultReceiver	Parcelable	
+ResultReceiver	Parcel	
+TokenWatcher	IBinder	
+***android.os:1->android.util:0
+Handler	Printer	
+------------
+***android.os:2->android.content:2
+RecoverySystem	Context	
+------------
+***android.text:0->android.os:0
+ParcelableSpan	Parcelable	
+------------
+***android.text:1->android.graphics:1
+Html$ImageGetter	drawable.Drawable	
+Layout	Canvas	
+Layout	Path	
+Layout	Rect	
+Layout	Paint	
+TextPaint	Paint	
+style.LeadingMarginSpan	Paint	
+style.LeadingMarginSpan	Canvas	
+style.LeadingMarginSpan$Standard	Paint	
+style.LeadingMarginSpan$Standard	Canvas	
+style.LineBackgroundSpan	Canvas	
+style.LineBackgroundSpan	Paint	
+style.LineHeightSpan	Paint	
+style.LineHeightSpan	Paint$FontMetricsInt	
+style.LineHeightSpan$WithDensity	Paint$FontMetricsInt	
+style.LineHeightSpan$WithDensity	Paint	
+***android.text:1->android.os:0
+Annotation	Parcelable	
+Annotation	Parcel	
+TextUtils	Parcelable$Creator	
+TextUtils	Parcelable	
+TextUtils	Parcel	
+style.AlignmentSpan$Standard	Parcelable	
+style.AlignmentSpan$Standard	Parcel	
+style.LeadingMarginSpan$Standard	Parcelable	
+style.LeadingMarginSpan$Standard	Parcel	
+***android.text:1->android.text:0
+AlteredCharSequence	GetChars	
+Annotation	ParcelableSpan	
+Html	Spanned	
+Html$TagHandler	Editable	
+LoginFilter	InputFilter	
+LoginFilter	Spanned	
+Selection	Spannable	
+SpannableString	Spannable	
+SpannableString	SpannableStringInternal	
+SpannableString	GetChars	
+SpannableStringBuilder	GetChars	
+SpannableStringBuilder	InputFilter	
+SpannableStringBuilder	Editable	
+SpannableStringBuilder	Spannable	
+SpannableStringBuilder	Spanned	
+TextUtils	Spanned	
+TextUtils	Spannable	
+style.AlignmentSpan	style.ParagraphStyle	
+style.AlignmentSpan$Standard	ParcelableSpan	
+style.LeadingMarginSpan	style.ParagraphStyle	
+style.LeadingMarginSpan$LeadingMarginSpan2	style.WrapTogetherSpan	
+style.LeadingMarginSpan$Standard	ParcelableSpan	
+style.LineBackgroundSpan	style.ParagraphStyle	
+style.LineHeightSpan	style.WrapTogetherSpan	
+style.LineHeightSpan	style.ParagraphStyle	
+***android.text:1->android.util:0
+TextUtils	Printer	
+------------
+***android.text:2->android.view:1
+method.KeyListener	KeyEvent	
+method.MetaKeyKeyListener	KeyEvent	
+***android.text:2->android.graphics:1
+BoringLayout	Canvas	
+BoringLayout	Path	
+BoringLayout	Paint	
+BoringLayout$Metrics	Paint	
+BoringLayout$Metrics	Paint$FontMetricsInt	
+method.TransformationMethod	Rect	
+style.BulletSpan	Canvas	
+style.BulletSpan	Paint	
+style.DrawableMarginSpan	Paint$FontMetricsInt	
+style.DrawableMarginSpan	Canvas	
+style.DrawableMarginSpan	Paint	
+style.DrawableMarginSpan	drawable.Drawable	
+style.IconMarginSpan	Paint$FontMetricsInt	
+style.IconMarginSpan	Paint	
+style.IconMarginSpan	Bitmap	
+style.IconMarginSpan	Canvas	
+style.QuoteSpan	Canvas	
+style.QuoteSpan	Paint	
+***android.text:2->android.text:0
+method.KeyListener	Editable	
+method.MetaKeyKeyListener	Editable	
+method.MetaKeyKeyListener	Spannable	
+style.BackgroundColorSpan	style.UpdateAppearance	
+style.BackgroundColorSpan	ParcelableSpan	
+style.BulletSpan	ParcelableSpan	
+style.ClickableSpan	style.UpdateAppearance	
+style.ForegroundColorSpan	style.UpdateAppearance	
+style.ForegroundColorSpan	ParcelableSpan	
+style.MaskFilterSpan	style.UpdateAppearance	
+style.MetricAffectingSpan	style.UpdateLayout	
+style.QuoteSpan	ParcelableSpan	
+style.RasterizerSpan	style.UpdateAppearance	
+style.StrikethroughSpan	style.UpdateAppearance	
+style.StrikethroughSpan	ParcelableSpan	
+style.UnderlineSpan	style.UpdateAppearance	
+style.UnderlineSpan	ParcelableSpan	
+***android.text:2->android.os:0
+style.BackgroundColorSpan	Parcel	
+style.BackgroundColorSpan	Parcelable	
+style.BulletSpan	Parcel	
+style.BulletSpan	Parcelable	
+style.ForegroundColorSpan	Parcel	
+style.ForegroundColorSpan	Parcelable	
+style.QuoteSpan	Parcel	
+style.QuoteSpan	Parcelable	
+style.StrikethroughSpan	Parcel	
+style.StrikethroughSpan	Parcelable	
+style.UnderlineSpan	Parcel	
+style.UnderlineSpan	Parcelable	
+***android.text:2->android.view:2
+AutoText	View	
+method.KeyListener	View	
+method.MetaKeyKeyListener	View	
+method.TransformationMethod	View	
+style.ClickableSpan	View	
+***android.text:2->android.graphics:0
+style.MaskFilterSpan	MaskFilter	
+style.RasterizerSpan	Rasterizer	
+***android.text:2->android.text:1
+BoringLayout	Layout$Directions	
+BoringLayout	TextPaint	
+BoringLayout	TextUtils$EllipsizeCallback	
+BoringLayout	TextUtils	
+BoringLayout	Layout$Alignment	
+BoringLayout	TextUtils$TruncateAt	
+BoringLayout	Layout	
+DynamicLayout	TextUtils$TruncateAt	
+DynamicLayout	TextUtils	
+DynamicLayout	Layout$Alignment	
+DynamicLayout	Layout$Directions	
+DynamicLayout	TextPaint	
+DynamicLayout	Layout	
+StaticLayout	Layout	
+StaticLayout	TextPaint	
+StaticLayout	Layout$Directions	
+StaticLayout	TextUtils$TruncateAt	
+StaticLayout	TextUtils	
+StaticLayout	Layout$Alignment	
+style.BackgroundColorSpan	TextPaint	
+style.BackgroundColorSpan	style.CharacterStyle	
+style.BulletSpan	Layout	
+style.BulletSpan	style.LeadingMarginSpan	
+style.ClickableSpan	TextPaint	
+style.ClickableSpan	style.CharacterStyle	
+style.DrawableMarginSpan	style.LeadingMarginSpan	
+style.DrawableMarginSpan	style.LineHeightSpan	
+style.DrawableMarginSpan	Layout	
+style.ForegroundColorSpan	TextPaint	
+style.ForegroundColorSpan	style.CharacterStyle	
+style.IconMarginSpan	Layout	
+style.IconMarginSpan	style.LineHeightSpan	
+style.IconMarginSpan	style.LeadingMarginSpan	
+style.MaskFilterSpan	TextPaint	
+style.MaskFilterSpan	style.CharacterStyle	
+style.MetricAffectingSpan	TextPaint	
+style.MetricAffectingSpan	style.CharacterStyle	
+style.QuoteSpan	Layout	
+style.QuoteSpan	style.LeadingMarginSpan	
+style.RasterizerSpan	TextPaint	
+style.RasterizerSpan	style.CharacterStyle	
+style.StrikethroughSpan	TextPaint	
+style.StrikethroughSpan	style.CharacterStyle	
+style.UnderlineSpan	TextPaint	
+style.UnderlineSpan	style.CharacterStyle	
+***android.text:2->android.content:2
+format.DateFormat	Context	
+format.DateUtils	Context	
+format.Formatter	Context	
+------------
+***android.text:3->android.text:0
+method.BaseKeyListener	Editable	
+method.MovementMethod	Spannable	
+method.PasswordTransformationMethod	Editable	
+method.PasswordTransformationMethod	TextWatcher	
+method.Touch	Spannable	
+style.AbsoluteSizeSpan	ParcelableSpan	
+style.RelativeSizeSpan	ParcelableSpan	
+style.ScaleXSpan	ParcelableSpan	
+style.StyleSpan	ParcelableSpan	
+style.SubscriptSpan	ParcelableSpan	
+style.SuperscriptSpan	ParcelableSpan	
+style.TextAppearanceSpan	ParcelableSpan	
+style.TypefaceSpan	ParcelableSpan	
+style.URLSpan	ParcelableSpan	
+util.Linkify	Spannable	
+***android.text:3->android.content.res:1
+style.TextAppearanceSpan	ColorStateList	
+***android.text:3->android.view:2
+method.BaseKeyListener	View	
+method.PasswordTransformationMethod	View	
+method.ReplacementTransformationMethod	View	
+style.URLSpan	View	
+***android.text:3->android.text:1
+method.Touch	Layout	
+style.AbsoluteSizeSpan	style.CharacterStyle	
+style.AbsoluteSizeSpan	TextPaint	
+style.RelativeSizeSpan	style.CharacterStyle	
+style.RelativeSizeSpan	TextPaint	
+style.ReplacementSpan	style.CharacterStyle	
+style.ReplacementSpan	TextPaint	
+style.ScaleXSpan	style.CharacterStyle	
+style.ScaleXSpan	TextPaint	
+style.StyleSpan	style.CharacterStyle	
+style.StyleSpan	TextPaint	
+style.SubscriptSpan	style.CharacterStyle	
+style.SubscriptSpan	TextPaint	
+style.SuperscriptSpan	style.CharacterStyle	
+style.SuperscriptSpan	TextPaint	
+style.TextAppearanceSpan	style.CharacterStyle	
+style.TextAppearanceSpan	TextPaint	
+style.TypefaceSpan	style.CharacterStyle	
+style.TypefaceSpan	TextPaint	
+***android.text:3->android.view:1
+method.BaseKeyListener	KeyEvent	
+method.MovementMethod	MotionEvent	
+method.MovementMethod	KeyEvent	
+method.Touch	MotionEvent	
+***android.text:3->android.text:2
+method.BaseKeyListener	method.MetaKeyKeyListener	
+method.BaseKeyListener	method.KeyListener	
+method.PasswordTransformationMethod	method.TransformationMethod	
+method.ReplacementTransformationMethod	method.TransformationMethod	
+style.AbsoluteSizeSpan	style.MetricAffectingSpan	
+style.RelativeSizeSpan	style.MetricAffectingSpan	
+style.ReplacementSpan	style.MetricAffectingSpan	
+style.ScaleXSpan	style.MetricAffectingSpan	
+style.StyleSpan	style.MetricAffectingSpan	
+style.SubscriptSpan	style.MetricAffectingSpan	
+style.SuperscriptSpan	style.MetricAffectingSpan	
+style.TextAppearanceSpan	style.MetricAffectingSpan	
+style.TypefaceSpan	style.MetricAffectingSpan	
+style.URLSpan	style.ClickableSpan	
+***android.text:3->android.graphics:1
+method.PasswordTransformationMethod	Rect	
+method.ReplacementTransformationMethod	Rect	
+style.ReplacementSpan	Canvas	
+style.ReplacementSpan	Paint$FontMetricsInt	
+style.ReplacementSpan	Paint	
+***android.text:3->android.content:2
+style.TextAppearanceSpan	Context	
+***android.text:3->android.os:0
+style.AbsoluteSizeSpan	Parcel	
+style.AbsoluteSizeSpan	Parcelable	
+style.RelativeSizeSpan	Parcel	
+style.RelativeSizeSpan	Parcelable	
+style.ScaleXSpan	Parcel	
+style.ScaleXSpan	Parcelable	
+style.StyleSpan	Parcel	
+style.StyleSpan	Parcelable	
+style.SubscriptSpan	Parcel	
+style.SubscriptSpan	Parcelable	
+style.SuperscriptSpan	Parcel	
+style.SuperscriptSpan	Parcelable	
+style.TextAppearanceSpan	Parcel	
+style.TextAppearanceSpan	Parcelable	
+style.TypefaceSpan	Parcel	
+style.TypefaceSpan	Parcelable	
+style.URLSpan	Parcel	
+style.URLSpan	Parcelable	
+***android.text:3->android.widget:3
+method.MovementMethod	TextView	
+method.Touch	TextView	
+util.Linkify	TextView	
+------------
+***android.text:4->android.text:3
+method.ArrowKeyMovementMethod	method.MovementMethod	
+method.HideReturnsTransformationMethod	method.ReplacementTransformationMethod	
+method.MultiTapKeyListener	method.BaseKeyListener	
+method.NumberKeyListener	method.BaseKeyListener	
+method.QwertyKeyListener	method.BaseKeyListener	
+method.ScrollingMovementMethod	method.MovementMethod	
+method.SingleLineTransformationMethod	method.ReplacementTransformationMethod	
+method.TextKeyListener	method.BaseKeyListener	
+style.DynamicDrawableSpan	style.ReplacementSpan	
+***android.text:4->android.text:0
+method.ArrowKeyMovementMethod	Spannable	
+method.MultiTapKeyListener	Editable	
+method.MultiTapKeyListener	SpanWatcher	
+method.MultiTapKeyListener	Spannable	
+method.NumberKeyListener	Spannable	
+method.NumberKeyListener	Spanned	
+method.NumberKeyListener	InputFilter	
+method.NumberKeyListener	Editable	
+method.QwertyKeyListener	Spannable	
+method.QwertyKeyListener	Editable	
+method.ScrollingMovementMethod	Spannable	
+method.TextKeyListener	Editable	
+method.TextKeyListener	SpanWatcher	
+method.TextKeyListener	Spannable	
+***android.text:4->android.text:2
+method.MultiTapKeyListener	method.KeyListener	
+method.MultiTapKeyListener	method.MetaKeyKeyListener	
+method.NumberKeyListener	method.KeyListener	
+method.NumberKeyListener	method.MetaKeyKeyListener	
+method.QwertyKeyListener	method.KeyListener	
+method.QwertyKeyListener	method.MetaKeyKeyListener	
+method.TextKeyListener	method.KeyListener	
+method.TextKeyListener	method.MetaKeyKeyListener	
+***android.text:4->android.view:1
+method.ArrowKeyMovementMethod	MotionEvent	
+method.ArrowKeyMovementMethod	KeyEvent	
+method.MultiTapKeyListener	KeyEvent	
+method.NumberKeyListener	KeyEvent	
+method.QwertyKeyListener	KeyEvent	
+method.ScrollingMovementMethod	KeyEvent	
+method.ScrollingMovementMethod	MotionEvent	
+method.TextKeyListener	KeyEvent	
+***android.text:4->android.view:2
+method.MultiTapKeyListener	View	
+method.NumberKeyListener	View	
+method.QwertyKeyListener	View	
+method.TextKeyListener	View	
+***android.text:4->android.widget:3
+method.ArrowKeyMovementMethod	TextView	
+method.ScrollingMovementMethod	TextView	
+***android.text:4->android.graphics:1
+style.DynamicDrawableSpan	Canvas	
+style.DynamicDrawableSpan	drawable.Drawable	
+style.DynamicDrawableSpan	Paint	
+style.DynamicDrawableSpan	Paint$FontMetricsInt	
+------------
+***android.text:5->android.text:4
+method.DateKeyListener	method.NumberKeyListener	
+method.DateTimeKeyListener	method.NumberKeyListener	
+method.DialerKeyListener	method.NumberKeyListener	
+method.DigitsKeyListener	method.NumberKeyListener	
+method.LinkMovementMethod	method.ScrollingMovementMethod	
+method.TimeKeyListener	method.NumberKeyListener	
+style.ImageSpan	style.DynamicDrawableSpan	
+***android.text:5->android.net:0
+style.ImageSpan	Uri	
+***android.text:5->android.graphics:1
+style.ImageSpan	Bitmap	
+style.ImageSpan	drawable.Drawable	
+***android.text:5->android.widget:3
+method.LinkMovementMethod	TextView	
+***android.text:5->android.text:0
+method.DialerKeyListener	Spannable	
+method.DigitsKeyListener	Spanned	
+method.DigitsKeyListener	InputFilter	
+method.LinkMovementMethod	Spannable	
+***android.text:5->android.view:1
+method.DialerKeyListener	KeyEvent	
+method.LinkMovementMethod	MotionEvent	
+method.LinkMovementMethod	KeyEvent	
+***android.text:5->android.content:2
+style.ImageSpan	Context	
+***android.text:5->android.text:2
+method.DateKeyListener	method.KeyListener	
+method.DateTimeKeyListener	method.KeyListener	
+method.DialerKeyListener	method.KeyListener	
+method.DigitsKeyListener	method.KeyListener	
+method.TimeKeyListener	method.KeyListener	
+***android.text:5->android.text:3
+method.LinkMovementMethod	method.MovementMethod	
+------------
+***android.text:6->android.widget:5
+util.Rfc822Tokenizer	MultiAutoCompleteTextView	
+util.Rfc822Tokenizer	MultiAutoCompleteTextView$Tokenizer	
+***android.text:6->android.view:2
+method.CharacterPickerDialog	View	
+method.CharacterPickerDialog	View$OnClickListener	
+***android.text:6->android.content:1
+method.CharacterPickerDialog	DialogInterface	
+method.CharacterPickerDialog	DialogInterface$OnCancelListener	
+***android.text:6->android.os:0
+method.CharacterPickerDialog	Bundle	
+***android.text:6->android.text:0
+method.CharacterPickerDialog	Editable	
+util.Rfc822Tokenizer	util.Rfc822Token	
+***android.text:6->android.widget:3
+method.CharacterPickerDialog	AdapterView	
+method.CharacterPickerDialog	AdapterView$OnItemClickListener	
+***android.text:6->android.content:2
+method.CharacterPickerDialog	Context	
+***android.text:6->android.app:5
+method.CharacterPickerDialog	Dialog	
+------------
+
+------------
+***android.util:1->android.util:0
+LogPrinter	Printer	
+PrintStreamPrinter	Printer	
+PrintWriterPrinter	Printer	
+StringBuilderPrinter	Printer	
+------------
+***android.view:0->android.util:0
+Display	DisplayMetrics	
+------------
+***android.view:1->android.os:1
+inputmethod.InputMethod	ResultReceiver	
+***android.view:1->android.text:0
+inputmethod.EditorInfo	InputType	
+***android.view:1->android.graphics:1
+Gravity	Rect	
+Surface	Rect	
+Surface	Canvas	
+Surface	Region	
+SurfaceHolder	Canvas	
+SurfaceHolder	Rect	
+animation.Transformation	Matrix	
+inputmethod.InputMethodSession	Rect	
+***android.view:1->android.os:0
+AbsSavedState	Parcel	
+AbsSavedState	Parcelable$Creator	
+AbsSavedState	Parcelable	
+KeyEvent	Parcelable	
+KeyEvent	Parcelable$Creator	
+KeyEvent	Parcel	
+MotionEvent	Parcel	
+MotionEvent	Parcelable$Creator	
+MotionEvent	Parcelable	
+Surface	Parcel	
+Surface	Parcelable	
+Surface	Parcelable$Creator	
+accessibility.AccessibilityEvent	Parcel	
+accessibility.AccessibilityEvent	Parcelable$Creator	
+accessibility.AccessibilityEvent	Parcelable	
+inputmethod.CompletionInfo	Parcelable$Creator	
+inputmethod.CompletionInfo	Parcelable	
+inputmethod.CompletionInfo	Parcel	
+inputmethod.EditorInfo	Parcelable$Creator	
+inputmethod.EditorInfo	Bundle	
+inputmethod.EditorInfo	Parcel	
+inputmethod.EditorInfo	Parcelable	
+inputmethod.ExtractedText	Parcelable$Creator	
+inputmethod.ExtractedText	Parcelable	
+inputmethod.ExtractedText	Parcel	
+inputmethod.ExtractedTextRequest	Parcelable$Creator	
+inputmethod.ExtractedTextRequest	Parcelable	
+inputmethod.ExtractedTextRequest	Parcel	
+inputmethod.InputBinding	IBinder	
+inputmethod.InputBinding	Parcel	
+inputmethod.InputBinding	Parcelable$Creator	
+inputmethod.InputBinding	Parcelable	
+inputmethod.InputConnection	Bundle	
+inputmethod.InputMethod	IBinder	
+inputmethod.InputMethodSession	Bundle	
+***android.view:1->android.util:0
+inputmethod.EditorInfo	Printer	
+------------
+***android.view:2->android.graphics:1
+ContextMenu	drawable.Drawable	
+FocusFinder	Rect	
+MenuItem	drawable.Drawable	
+SubMenu	drawable.Drawable	
+TouchDelegate	Rect	
+View	Canvas	
+View	Rect	
+View	drawable.Drawable$Callback	
+View	drawable.Drawable	
+View	Bitmap	
+ViewGroup	Region	
+ViewGroup	Rect	
+ViewGroup	Canvas	
+ViewParent	Rect	
+Window	drawable.Drawable	
+inputmethod.InputMethodInfo	drawable.Drawable	
+***android.view:2->android.content:2
+GestureDetector	Context	
+LayoutInflater	Context	
+LayoutInflater$Factory	Context	
+Menu	ComponentName	
+Menu	Intent	
+MenuInflater	Context	
+MenuItem	Intent	
+OrientationEventListener	Context	
+OrientationListener	Context	
+ScaleGestureDetector	Context	
+View	Context	
+ViewConfiguration	Context	
+ViewGroup	Context	
+ViewGroup$LayoutParams	Context	
+ViewGroup$MarginLayoutParams	Context	
+Window	Context	
+animation.AccelerateDecelerateInterpolator	Context	
+animation.AccelerateInterpolator	Context	
+animation.Animation	Context	
+animation.AnimationUtils	Context	
+animation.AnticipateInterpolator	Context	
+animation.AnticipateOvershootInterpolator	Context	
+animation.BounceInterpolator	Context	
+animation.CycleInterpolator	Context	
+animation.DecelerateInterpolator	Context	
+animation.LayoutAnimationController	Context	
+animation.LinearInterpolator	Context	
+animation.OvershootInterpolator	Context	
+inputmethod.InputMethodInfo	pm.ServiceInfo	
+inputmethod.InputMethodInfo	pm.ResolveInfo	
+inputmethod.InputMethodInfo	pm.PackageManager	
+inputmethod.InputMethodInfo	ComponentName	
+inputmethod.InputMethodInfo	Context	
+***android.view:2->android.os:1
+GestureDetector	Handler	
+View	Handler	
+inputmethod.InputMethodManager	ResultReceiver	
+***android.view:2->android.text:0
+inputmethod.BaseInputConnection	Editable	
+inputmethod.BaseInputConnection	Spannable	
+***android.view:2->android.util:0
+LayoutInflater	AttributeSet	
+LayoutInflater$Factory	AttributeSet	
+View	AttributeSet	
+View	SparseArray	
+ViewGroup	AttributeSet	
+ViewGroup	SparseArray	
+ViewGroup$LayoutParams	AttributeSet	
+ViewGroup$MarginLayoutParams	AttributeSet	
+animation.AccelerateDecelerateInterpolator	AttributeSet	
+animation.AccelerateInterpolator	AttributeSet	
+animation.Animation	AttributeSet	
+animation.AnticipateInterpolator	AttributeSet	
+animation.AnticipateOvershootInterpolator	AttributeSet	
+animation.BounceInterpolator	AttributeSet	
+animation.CycleInterpolator	AttributeSet	
+animation.DecelerateInterpolator	AttributeSet	
+animation.LayoutAnimationController	AttributeSet	
+animation.LinearInterpolator	AttributeSet	
+animation.OvershootInterpolator	AttributeSet	
+inputmethod.InputMethodInfo	Printer	
+***android.view:2->android.net:0
+Window	Uri	
+***android.view:2->android.content.res:1
+View	TypedArray	
+View	Configuration	
+View	Resources	
+ViewGroup	Configuration	
+ViewGroup$LayoutParams	TypedArray	
+Window	TypedArray	
+Window	Configuration	
+animation.AnimationUtils	Resources$NotFoundException	
+animation.AnimationUtils	Resources	
+***android.view:2->android.view:1
+GestureDetector	MotionEvent	
+GestureDetector$OnDoubleTapListener	MotionEvent	
+GestureDetector$OnGestureListener	MotionEvent	
+GestureDetector$SimpleOnGestureListener	MotionEvent	
+Menu	KeyEvent	
+ScaleGestureDetector	MotionEvent	
+TouchDelegate	MotionEvent	
+View	accessibility.AccessibilityEventSource	
+View	MotionEvent	
+View	accessibility.AccessibilityEvent	
+View	KeyEvent$DispatcherState	
+View	inputmethod.InputConnection	
+View	inputmethod.EditorInfo	
+View	KeyEvent	
+View	KeyEvent$Callback	
+View$BaseSavedState	AbsSavedState	
+View$OnKeyListener	KeyEvent	
+View$OnTouchListener	MotionEvent	
+ViewGroup	MotionEvent	
+ViewGroup	accessibility.AccessibilityEvent	
+ViewGroup	animation.Transformation	
+ViewGroup	KeyEvent	
+Window	KeyEvent	
+Window	MotionEvent	
+Window$Callback	MotionEvent	
+Window$Callback	accessibility.AccessibilityEvent	
+Window$Callback	KeyEvent	
+animation.Animation	animation.Transformation	
+inputmethod.BaseInputConnection	KeyEvent	
+inputmethod.BaseInputConnection	inputmethod.ExtractedText	
+inputmethod.BaseInputConnection	inputmethod.InputConnection	
+inputmethod.BaseInputConnection	inputmethod.ExtractedTextRequest	
+inputmethod.BaseInputConnection	inputmethod.CompletionInfo	
+inputmethod.InputConnectionWrapper	KeyEvent	
+inputmethod.InputConnectionWrapper	inputmethod.CompletionInfo	
+inputmethod.InputConnectionWrapper	inputmethod.ExtractedTextRequest	
+inputmethod.InputConnectionWrapper	inputmethod.InputConnection	
+inputmethod.InputConnectionWrapper	inputmethod.ExtractedText	
+inputmethod.InputMethodManager	inputmethod.CompletionInfo	
+inputmethod.InputMethodManager	inputmethod.ExtractedText	
+***android.view:2->android.hardware:0
+OrientationListener	SensorListener	
+***android.view:2->android.os:0
+View	IBinder	
+View	Parcelable	
+View$BaseSavedState	Parcelable	
+View$BaseSavedState	Parcel	
+View$BaseSavedState	Parcelable$Creator	
+Window	Bundle	
+Window	IBinder	
+WindowManager$LayoutParams	Parcelable$Creator	
+WindowManager$LayoutParams	Parcelable	
+WindowManager$LayoutParams	Parcel	
+WindowManager$LayoutParams	IBinder	
+inputmethod.BaseInputConnection	Bundle	
+inputmethod.InputConnectionWrapper	Bundle	
+inputmethod.InputMethodInfo	Parcelable	
+inputmethod.InputMethodInfo	Parcelable$Creator	
+inputmethod.InputMethodInfo	Parcel	
+inputmethod.InputMethodManager	Bundle	
+inputmethod.InputMethodManager	IBinder	
+***android.view:2->android.view:0
+LayoutInflater	InflateException	
+WindowManager	Display	
+animation.AccelerateDecelerateInterpolator	animation.Interpolator	
+animation.AccelerateInterpolator	animation.Interpolator	
+animation.Animation	animation.Interpolator	
+animation.AnimationUtils	animation.Interpolator	
+animation.AnticipateInterpolator	animation.Interpolator	
+animation.AnticipateOvershootInterpolator	animation.Interpolator	
+animation.BounceInterpolator	animation.Interpolator	
+animation.CycleInterpolator	animation.Interpolator	
+animation.DecelerateInterpolator	animation.Interpolator	
+animation.LayoutAnimationController	animation.Interpolator	
+animation.LinearInterpolator	animation.Interpolator	
+animation.OvershootInterpolator	animation.Interpolator	
+***android.view:2->android.graphics:0
+View	Point	
+ViewGroup	Point	
+ViewParent	Point	
+------------
+***android.view:3->android.view:1
+SurfaceView	SurfaceHolder	
+animation.AlphaAnimation	animation.Transformation	
+animation.AnimationSet	animation.Transformation	
+animation.RotateAnimation	animation.Transformation	
+animation.ScaleAnimation	animation.Transformation	
+animation.TranslateAnimation	animation.Transformation	
+***android.view:3->android.util:0
+SurfaceView	AttributeSet	
+ViewStub	AttributeSet	
+animation.AlphaAnimation	AttributeSet	
+animation.AnimationSet	AttributeSet	
+animation.GridLayoutAnimationController	AttributeSet	
+animation.RotateAnimation	AttributeSet	
+animation.ScaleAnimation	AttributeSet	
+animation.TranslateAnimation	AttributeSet	
+***android.view:3->android.content:2
+SurfaceView	Context	
+ViewStub	Context	
+animation.AlphaAnimation	Context	
+animation.AnimationSet	Context	
+animation.GridLayoutAnimationController	Context	
+animation.RotateAnimation	Context	
+animation.ScaleAnimation	Context	
+animation.TranslateAnimation	Context	
+***android.view:3->android.view:2
+SurfaceView	View	
+ViewStub	View	
+ViewStub$OnInflateListener	View	
+animation.AlphaAnimation	animation.Animation	
+animation.AnimationSet	animation.Animation	
+animation.GridLayoutAnimationController	View	
+animation.GridLayoutAnimationController	animation.LayoutAnimationController	
+animation.GridLayoutAnimationController	animation.Animation	
+animation.GridLayoutAnimationController$AnimationParameters	animation.LayoutAnimationController	
+animation.GridLayoutAnimationController$AnimationParameters	animation.LayoutAnimationController$AnimationParameters	
+animation.RotateAnimation	animation.Animation	
+animation.ScaleAnimation	animation.Animation	
+animation.TranslateAnimation	animation.Animation	
+***android.view:3->android.graphics:1
+SurfaceView	Region	
+SurfaceView	Canvas	
+ViewStub	Canvas	
+------------
+***android.view:4->android.content:2
+ContextThemeWrapper	Context	
+***android.view:4->android.content.res:1
+ContextThemeWrapper	Resources$Theme	
+ContextThemeWrapper	Resources	
+***android.view:4->android.content:3
+ContextThemeWrapper	ContextWrapper	
+------------
+
+------------
+***android.widget:2->android.view:2
+Adapter	ViewGroup	
+Adapter	View	
+ExpandableListAdapter	View	
+ExpandableListAdapter	ViewGroup	
+PopupWindow	View	
+PopupWindow	View$OnTouchListener	
+SpinnerAdapter	ViewGroup	
+SpinnerAdapter	View	
+Toast	View	
+***android.widget:2->android.util:0
+PopupWindow	AttributeSet	
+***android.widget:2->android.content.res:1
+Toast	Resources$NotFoundException	
+Toast	Resources	
+***android.widget:2->android.database:2
+AlphabetIndexer	Cursor	
+FilterQueryProvider	Cursor	
+***android.widget:2->android.content:2
+PopupWindow	Context	
+Scroller	Context	
+Toast	Context	
+***android.widget:2->android.view:0
+Scroller	animation.Interpolator	
+***android.widget:2->android.graphics:1
+PopupWindow	drawable.Drawable	
+***android.widget:2->android.database:0
+Adapter	DataSetObserver	
+AlphabetIndexer	DataSetObserver	
+ExpandableListAdapter	DataSetObserver	
+***android.widget:2->android.widget:0
+AlphabetIndexer	SectionIndexer	
+------------
+***android.widget:3->android.widget:2
+AdapterView	Adapter	
+BaseAdapter	Adapter	
+BaseAdapter	SpinnerAdapter	
+BaseAdapter	ListAdapter	
+BaseExpandableListAdapter	ExpandableListAdapter	
+SimpleExpandableListAdapter	ExpandableListAdapter	
+TextView	Scroller	
+***android.widget:3->android.text:0
+DialerFilter	TextWatcher	
+TextView	Editable	
+TextView	InputFilter	
+TextView	Spannable	
+TextView	Spannable$Factory	
+TextView	Editable$Factory	
+TextView	TextWatcher	
+***android.widget:3->android.app:2
+RemoteViews	PendingIntent	
+***android.widget:3->android.graphics:0
+ImageView	ColorFilter	
+ImageView	PorterDuff$Mode	
+ImageView	PorterDuff	
+***android.widget:3->android.util:0
+AbsoluteLayout	AttributeSet	
+AbsoluteLayout$LayoutParams	AttributeSet	
+AdapterView	AttributeSet	
+AdapterView	SparseArray	
+AnalogClock	AttributeSet	
+Button	AttributeSet	
+DatePicker	SparseArray	
+DatePicker	AttributeSet	
+DialerFilter	AttributeSet	
+FrameLayout	AttributeSet	
+FrameLayout$LayoutParams	AttributeSet	
+ImageView	AttributeSet	
+LinearLayout	AttributeSet	
+LinearLayout$LayoutParams	AttributeSet	
+MediaController	AttributeSet	
+ProgressBar	AttributeSet	
+QuickContactBadge	AttributeSet	
+RelativeLayout	AttributeSet	
+RelativeLayout$LayoutParams	AttributeSet	
+SlidingDrawer	AttributeSet	
+TabWidget	AttributeSet	
+TextView	AttributeSet	
+TimePicker	AttributeSet	
+TwoLineListItem	AttributeSet	
+ViewAnimator	AttributeSet	
+ViewFlipper	AttributeSet	
+ZoomControls	AttributeSet	
+***android.widget:3->android.text:3
+TextView	style.URLSpan	
+TextView	method.MovementMethod	
+***android.widget:3->android.text:1
+TextView	TextUtils$TruncateAt	
+TextView	Layout	
+TextView	TextPaint	
+TextView	TextUtils	
+***android.widget:3->android.content:2
+AbsoluteLayout	Context	
+AbsoluteLayout$LayoutParams	Context	
+AdapterView	Context	
+AnalogClock	Context	
+Button	Context	
+DatePicker	Context	
+DialerFilter	Context	
+FrameLayout	Context	
+FrameLayout$LayoutParams	Context	
+ImageView	Context	
+LinearLayout	Context	
+LinearLayout$LayoutParams	Context	
+MediaController	Context	
+ProgressBar	Context	
+QuickContactBadge	Context	
+RelativeLayout	Context	
+RelativeLayout$LayoutParams	Context	
+RemoteViews	Context	
+SimpleExpandableListAdapter	Context	
+SlidingDrawer	Context	
+TabWidget	Context	
+TextView	Context	
+TimePicker	Context	
+TwoLineListItem	Context	
+ViewAnimator	Context	
+ViewFlipper	Context	
+ZoomControls	Context	
+***android.widget:3->android.widget:0
+BaseExpandableListAdapter	HeterogeneousExpandableList	
+***android.widget:3->android.graphics:1
+AnalogClock	Canvas	
+DialerFilter	Rect	
+FrameLayout	drawable.Drawable	
+FrameLayout	Region	
+FrameLayout	Canvas	
+ImageView	Bitmap	
+ImageView	drawable.Drawable$Callback	
+ImageView	drawable.Drawable	
+ImageView	Canvas	
+ImageView	Matrix	
+ProgressBar	drawable.Drawable	
+ProgressBar	Canvas	
+ProgressBar	drawable.Drawable$Callback	
+RemoteViews	Bitmap	
+SlidingDrawer	Canvas	
+TabWidget	Canvas	
+TabWidget	drawable.Drawable	
+TextView	Typeface	
+TextView	Canvas	
+TextView	drawable.Drawable$Callback	
+TextView	Rect	
+TextView	drawable.Drawable	
+***android.widget:3->android.text:2
+TextView	method.TransformationMethod	
+TextView	method.KeyListener	
+***android.widget:3->android.net:0
+ImageView	Uri	
+QuickContactBadge	Uri	
+RemoteViews	Uri	
+***android.widget:3->android.database:0
+BaseAdapter	DataSetObserver	
+BaseExpandableListAdapter	DataSetObserver	
+***android.widget:3->android.os:0
+DatePicker	Parcelable	
+ProgressBar	Parcelable	
+RemoteViews	Parcelable	
+RemoteViews	Bundle	
+RemoteViews	Parcelable$Creator	
+RemoteViews	Parcel	
+TextView	Bundle	
+TextView	Parcelable	
+TextView$SavedState	Parcel	
+TextView$SavedState	Parcelable	
+TextView$SavedState	Parcelable$Creator	
+TimePicker	Parcelable	
+***android.widget:3->android.content.res:1
+TextView	TypedArray	
+TextView	ColorStateList	
+***android.widget:3->android.view:1
+AdapterView	accessibility.AccessibilityEvent	
+DialerFilter	KeyEvent$Callback	
+DialerFilter	KeyEvent	
+MediaController	KeyEvent	
+MediaController	MotionEvent	
+RelativeLayout	accessibility.AccessibilityEvent	
+SlidingDrawer	MotionEvent	
+TextView	KeyEvent	
+TextView	KeyEvent$Callback	
+TextView	inputmethod.CompletionInfo	
+TextView	inputmethod.ExtractedTextRequest	
+TextView	inputmethod.InputConnection	
+TextView	MotionEvent	
+TextView	inputmethod.ExtractedText	
+TextView	inputmethod.EditorInfo	
+TextView	accessibility.AccessibilityEvent	
+TextView$OnEditorActionListener	KeyEvent	
+TextView$SavedState	AbsSavedState	
+ZoomButtonsController	MotionEvent	
+ZoomControls	MotionEvent	
+***android.widget:3->android.view:2
+AbsoluteLayout	ViewGroup	
+AbsoluteLayout	ViewGroup$LayoutParams	
+AbsoluteLayout	View	
+AbsoluteLayout$LayoutParams	ViewGroup	
+AbsoluteLayout$LayoutParams	ViewGroup$LayoutParams	
+AdapterView	View	
+AdapterView	View$OnClickListener	
+AdapterView	ViewGroup	
+AdapterView	ViewGroup$LayoutParams	
+AdapterView	ViewManager	
+AdapterView$AdapterContextMenuInfo	View	
+AdapterView$AdapterContextMenuInfo	ContextMenu	
+AdapterView$AdapterContextMenuInfo	ContextMenu$ContextMenuInfo	
+AdapterView$OnItemClickListener	View	
+AdapterView$OnItemLongClickListener	View	
+AdapterView$OnItemSelectedListener	View	
+AnalogClock	View	
+BaseAdapter	View	
+BaseAdapter	ViewGroup	
+DatePicker	ViewGroup	
+DatePicker	View	
+DialerFilter	View	
+FrameLayout	ViewGroup	
+FrameLayout	ViewGroup$LayoutParams	
+FrameLayout	View	
+FrameLayout$LayoutParams	ViewGroup$LayoutParams	
+FrameLayout$LayoutParams	ViewGroup	
+FrameLayout$LayoutParams	ViewGroup$MarginLayoutParams	
+ImageView	View	
+LinearLayout	View	
+LinearLayout	ViewGroup	
+LinearLayout	ViewGroup$LayoutParams	
+LinearLayout$LayoutParams	ViewGroup$MarginLayoutParams	
+LinearLayout$LayoutParams	ViewGroup	
+LinearLayout$LayoutParams	ViewGroup$LayoutParams	
+MediaController	ViewGroup	
+MediaController	View$OnClickListener	
+MediaController	View	
+ProgressBar	View	
+QuickContactBadge	View	
+QuickContactBadge	View$OnClickListener	
+RelativeLayout	ViewGroup$LayoutParams	
+RelativeLayout	View	
+RelativeLayout	ViewParent	
+RelativeLayout	ViewGroup	
+RelativeLayout$LayoutParams	ViewGroup$LayoutParams	
+RelativeLayout$LayoutParams	ViewGroup	
+RelativeLayout$LayoutParams	ViewGroup$MarginLayoutParams	
+RemoteViews	ViewGroup	
+RemoteViews	LayoutInflater$Filter	
+RemoteViews	LayoutInflater	
+RemoteViews	View	
+SimpleExpandableListAdapter	ViewGroup	
+SimpleExpandableListAdapter	View	
+SlidingDrawer	ViewGroup	
+SlidingDrawer	View	
+TabWidget	View	
+TabWidget	ViewParent	
+TabWidget	ViewGroup	
+TabWidget	View$OnFocusChangeListener	
+TextView	ContextMenu	
+TextView	View	
+TextView	ViewTreeObserver$OnPreDrawListener	
+TextView	ViewTreeObserver	
+TextView$SavedState	View	
+TextView$SavedState	View$BaseSavedState	
+TimePicker	View	
+TwoLineListItem	View	
+ViewAnimator	ViewGroup$LayoutParams	
+ViewAnimator	View	
+ViewAnimator	ViewManager	
+ViewAnimator	ViewGroup	
+ViewAnimator	animation.Animation	
+ViewFlipper	View	
+ZoomButtonsController	ViewGroup	
+ZoomButtonsController	View$OnTouchListener	
+ZoomButtonsController	View	
+ZoomControls	View	
+ZoomControls	ViewGroup	
+ZoomControls	View$OnClickListener	
+***android.widget:3->android.view:0
+ProgressBar	animation.Interpolator	
+------------
+***android.widget:4->android.view:2
+AbsListView	ViewGroup$LayoutParams	
+AbsListView	ViewTreeObserver$OnTouchModeChangeListener	
+AbsListView	ViewParent	
+AbsListView	ViewGroup	
+AbsListView	ViewTreeObserver	
+AbsListView	ContextMenu$ContextMenuInfo	
+AbsListView	View	
+AbsListView	ViewTreeObserver$OnGlobalLayoutListener	
+AbsListView	ContextMenu	
+AbsListView$LayoutParams	ViewGroup$LayoutParams	
+AbsListView$LayoutParams	ViewGroup	
+AbsListView$RecyclerListener	View	
+AbsSeekBar	View	
+AbsSpinner	View	
+AbsSpinner	ViewGroup$LayoutParams	
+AbsSpinner	ViewGroup	
+AbsSpinner	ViewParent	
+ArrayAdapter	ViewGroup	
+ArrayAdapter	View	
+AutoCompleteTextView	View	
+AutoCompleteTextView	View$OnClickListener	
+CheckedTextView	View	
+Chronometer	View	
+CompoundButton	View	
+CursorAdapter	ViewGroup	
+CursorAdapter	View	
+CursorTreeAdapter	ViewGroup	
+CursorTreeAdapter	View	
+DigitalClock	View	
+HorizontalScrollView	ViewGroup	
+HorizontalScrollView	ViewGroup$LayoutParams	
+HorizontalScrollView	ViewManager	
+HorizontalScrollView	ViewParent	
+HorizontalScrollView	View	
+ImageButton	View	
+RadioGroup	View	
+RadioGroup	ViewGroup$OnHierarchyChangeListener	
+RadioGroup	ViewGroup	
+RadioGroup	ViewGroup$LayoutParams	
+RadioGroup$LayoutParams	ViewGroup	
+RadioGroup$LayoutParams	ViewGroup$LayoutParams	
+RadioGroup$LayoutParams	ViewGroup$MarginLayoutParams	
+ScrollView	ViewParent	
+ScrollView	View	
+ScrollView	ViewManager	
+ScrollView	ViewGroup$LayoutParams	
+ScrollView	ViewGroup	
+SimpleAdapter	View	
+SimpleAdapter	ViewGroup	
+SimpleAdapter$ViewBinder	View	
+Spinner	ViewGroup	
+Spinner	View	
+TableLayout	ViewGroup$OnHierarchyChangeListener	
+TableLayout	View	
+TableLayout	ViewParent	
+TableLayout	ViewGroup$LayoutParams	
+TableLayout	ViewGroup	
+TableLayout	ViewManager	
+TableLayout$LayoutParams	ViewGroup$MarginLayoutParams	
+TableLayout$LayoutParams	ViewGroup$LayoutParams	
+TableLayout$LayoutParams	ViewGroup	
+TableRow	ViewGroup$OnHierarchyChangeListener	
+TableRow	View	
+TableRow	ViewGroup$LayoutParams	
+TableRow	ViewGroup	
+TableRow$LayoutParams	ViewGroup$MarginLayoutParams	
+TableRow$LayoutParams	ViewGroup$LayoutParams	
+TableRow$LayoutParams	ViewGroup	
+VideoView	View	
+ViewSwitcher	ViewGroup	
+ViewSwitcher	ViewGroup$LayoutParams	
+ViewSwitcher	View	
+ViewSwitcher$ViewFactory	View	
+ZoomButton	View$OnLongClickListener	
+ZoomButton	View	
+***android.widget:4->android.os:0
+AbsListView	Parcelable	
+AbsSpinner	Parcelable	
+CompoundButton	Parcelable	
+***android.widget:4->android.text:0
+AbsListView	Editable	
+AbsListView	TextWatcher	
+EditText	Editable	
+***android.widget:4->android.widget:2
+AbsSpinner	SpinnerAdapter	
+AbsSpinner	Adapter	
+ArrayAdapter	SpinnerAdapter	
+ArrayAdapter	Adapter	
+AutoCompleteTextView	ListAdapter	
+CursorAdapter	FilterQueryProvider	
+CursorAdapter	SpinnerAdapter	
+CursorAdapter	Adapter	
+CursorTreeAdapter	FilterQueryProvider	
+CursorTreeAdapter	ExpandableListAdapter	
+SimpleAdapter	Adapter	
+SimpleAdapter	SpinnerAdapter	
+***android.widget:4->android.text:1
+EditText	TextUtils	
+EditText	TextUtils$TruncateAt	
+***android.widget:4->android.content.res:1
+RadioGroup$LayoutParams	TypedArray	
+TableLayout$LayoutParams	TypedArray	
+TableRow$LayoutParams	TypedArray	
+***android.widget:4->android.view:1
+AbsListView	KeyEvent$Callback	
+AbsListView	inputmethod.InputConnection	
+AbsListView	MotionEvent	
+AbsListView	KeyEvent	
+AbsListView	inputmethod.EditorInfo	
+AbsSeekBar	MotionEvent	
+AbsSeekBar	KeyEvent	
+AbsSeekBar	KeyEvent$Callback	
+AutoCompleteTextView	KeyEvent	
+AutoCompleteTextView	inputmethod.CompletionInfo	
+AutoCompleteTextView	KeyEvent$Callback	
+CheckedTextView	accessibility.AccessibilityEvent	
+CompoundButton	accessibility.AccessibilityEvent	
+HorizontalScrollView	KeyEvent	
+HorizontalScrollView	MotionEvent	
+ScrollView	KeyEvent	
+ScrollView	MotionEvent	
+VideoView	KeyEvent$Callback	
+VideoView	MotionEvent	
+VideoView	KeyEvent	
+ZoomButton	KeyEvent$Callback	
+ZoomButton	KeyEvent	
+ZoomButton	MotionEvent	
+***android.widget:4->android.content:2
+AbsListView	Context	
+AbsListView$LayoutParams	Context	
+AbsSeekBar	Context	
+AbsSpinner	Context	
+ArrayAdapter	Context	
+AutoCompleteTextView	Context	
+CheckBox	Context	
+CheckedTextView	Context	
+Chronometer	Context	
+CompoundButton	Context	
+CursorAdapter	Context	
+CursorTreeAdapter	Context	
+DigitalClock	Context	
+EditText	Context	
+HorizontalScrollView	Context	
+ImageButton	Context	
+ImageSwitcher	Context	
+RadioGroup	Context	
+RadioGroup$LayoutParams	Context	
+ScrollView	Context	
+SeekBar	Context	
+SimpleAdapter	Context	
+Spinner	Context	
+TableLayout	Context	
+TableLayout$LayoutParams	Context	
+TableRow	Context	
+TableRow$LayoutParams	Context	
+VideoView	Context	
+ViewSwitcher	Context	
+ZoomButton	Context	
+***android.widget:4->android.net:0
+ImageSwitcher	Uri	
+VideoView	Uri	
+***android.widget:4->android.widget:3
+AbsListView	AdapterView	
+AbsSeekBar	ProgressBar	
+AbsSpinner	AdapterView	
+ArrayAdapter	BaseAdapter	
+AutoCompleteTextView	AdapterView$OnItemClickListener	
+AutoCompleteTextView	AdapterView	
+AutoCompleteTextView	AdapterView$OnItemSelectedListener	
+AutoCompleteTextView	TextView	
+CheckedTextView	TextView	
+Chronometer	RemoteViews$RemoteView	
+Chronometer	TextView	
+Chronometer	RemoteViews	
+CompoundButton	TextView	
+CompoundButton	Button	
+CursorAdapter	BaseAdapter	
+CursorTreeAdapter	BaseExpandableListAdapter	
+DigitalClock	TextView	
+EditText	TextView	
+EditText	TextView$BufferType	
+HorizontalScrollView	FrameLayout	
+ImageButton	ImageView	
+ImageButton	RemoteViews	
+ImageButton	RemoteViews$RemoteView	
+RadioGroup	LinearLayout$LayoutParams	
+RadioGroup	LinearLayout	
+RadioGroup$LayoutParams	LinearLayout	
+RadioGroup$LayoutParams	LinearLayout$LayoutParams	
+ScrollView	FrameLayout	
+SimpleAdapter	ImageView	
+SimpleAdapter	TextView	
+SimpleAdapter	BaseAdapter	
+Spinner	AdapterView	
+Spinner	AdapterView$OnItemClickListener	
+TableLayout	LinearLayout	
+TableLayout	LinearLayout$LayoutParams	
+TableLayout$LayoutParams	LinearLayout	
+TableLayout$LayoutParams	LinearLayout$LayoutParams	
+TableRow	LinearLayout	
+TableRow	LinearLayout$LayoutParams	
+TableRow$LayoutParams	LinearLayout	
+TableRow$LayoutParams	LinearLayout$LayoutParams	
+VideoView	MediaController$MediaPlayerControl	
+VideoView	MediaController	
+ViewSwitcher	ViewAnimator	
+***android.widget:4->android.widget:0
+AbsListView	Filter	
+AbsListView	Filter$FilterListener	
+ArrayAdapter	Filter	
+ArrayAdapter	Filterable	
+AutoCompleteTextView	Filter	
+AutoCompleteTextView	Filter$FilterListener	
+CheckedTextView	Checkable	
+CompoundButton	Checkable	
+CursorAdapter	Filter	
+CursorAdapter	Filterable	
+CursorTreeAdapter	Filter	
+CursorTreeAdapter	Filterable	
+SimpleAdapter	Filter	
+SimpleAdapter	Filterable	
+***android.widget:4->android.content:1
+Spinner	DialogInterface	
+Spinner	DialogInterface$OnClickListener	
+***android.widget:4->android.media:2
+VideoView	MediaPlayer	
+VideoView	MediaPlayer$OnPreparedListener	
+VideoView	MediaPlayer$OnErrorListener	
+VideoView	MediaPlayer$OnCompletionListener	
+***android.widget:4->android.text:3
+EditText	method.MovementMethod	
+***android.widget:4->android.database:2
+CursorAdapter	Cursor	
+CursorTreeAdapter	Cursor	
+***android.widget:4->android.graphics:1
+AbsListView	Rect	
+AbsListView	drawable.Drawable	
+AbsListView	Canvas	
+AbsSeekBar	Canvas	
+AbsSeekBar	drawable.Drawable	
+AutoCompleteTextView	drawable.Drawable	
+AutoCompleteTextView	Rect	
+CheckedTextView	drawable.Drawable	
+CheckedTextView	Canvas	
+CompoundButton	drawable.Drawable	
+CompoundButton	Canvas	
+HorizontalScrollView	Rect	
+ImageSwitcher	drawable.Drawable	
+ScrollView	Rect	
+***android.widget:4->android.util:0
+AbsListView	AttributeSet	
+AbsListView$LayoutParams	AttributeSet	
+AbsSeekBar	AttributeSet	
+AbsSpinner	AttributeSet	
+AutoCompleteTextView	AttributeSet	
+CheckBox	AttributeSet	
+CheckedTextView	AttributeSet	
+Chronometer	AttributeSet	
+CompoundButton	AttributeSet	
+DigitalClock	AttributeSet	
+EditText	AttributeSet	
+HorizontalScrollView	AttributeSet	
+ImageButton	AttributeSet	
+ImageSwitcher	AttributeSet	
+RadioGroup	AttributeSet	
+RadioGroup$LayoutParams	AttributeSet	
+ScrollView	AttributeSet	
+SeekBar	AttributeSet	
+Spinner	AttributeSet	
+TableLayout	AttributeSet	
+TableLayout$LayoutParams	AttributeSet	
+TableRow	AttributeSet	
+TableRow$LayoutParams	AttributeSet	
+VideoView	AttributeSet	
+ViewSwitcher	AttributeSet	
+ZoomButton	AttributeSet	
+***android.widget:4->android.view:3
+VideoView	SurfaceView	
+------------
+***android.widget:5->android.view:1
+Gallery	animation.Transformation	
+Gallery	KeyEvent$Callback	
+Gallery	KeyEvent	
+Gallery	MotionEvent	
+GridView	KeyEvent$Callback	
+GridView	KeyEvent	
+ListView	MotionEvent	
+ListView	KeyEvent	
+ListView	accessibility.AccessibilityEvent	
+ListView	KeyEvent$Callback	
+TabHost	KeyEvent	
+***android.widget:5->android.view:2
+Gallery	GestureDetector$OnGestureListener	
+Gallery	ContextMenu$ContextMenuInfo	
+Gallery	ViewGroup	
+Gallery	GestureDetector	
+Gallery	View	
+Gallery	ContextMenu	
+Gallery	ViewGroup$LayoutParams	
+Gallery	ViewParent	
+Gallery$LayoutParams	ViewGroup$LayoutParams	
+Gallery$LayoutParams	ViewGroup	
+GridView	View	
+GridView	ViewGroup	
+GridView	ViewGroup$LayoutParams	
+HeaderViewListAdapter	View	
+HeaderViewListAdapter	ViewGroup	
+ListView	ViewGroup	
+ListView	ViewParent	
+ListView	View	
+ListView$FixedViewInfo	View	
+RatingBar	View	
+ResourceCursorAdapter	View	
+ResourceCursorAdapter	ViewGroup	
+ResourceCursorTreeAdapter	View	
+ResourceCursorTreeAdapter	ViewGroup	
+SimpleCursorAdapter	View	
+SimpleCursorAdapter$ViewBinder	View	
+SimpleCursorTreeAdapter	View	
+SimpleCursorTreeAdapter$ViewBinder	View	
+TabHost	ViewTreeObserver$OnTouchModeChangeListener	
+TabHost	ViewGroup	
+TabHost	View	
+TabHost	ViewTreeObserver	
+TabHost$TabContentFactory	View	
+TabHost$TabSpec	View	
+TextSwitcher	ViewGroup$LayoutParams	
+TextSwitcher	ViewGroup	
+TextSwitcher	View	
+ToggleButton	View	
+***android.widget:5->android.database:0
+HeaderViewListAdapter	DataSetObserver	
+***android.widget:5->android.widget:3
+Gallery	AdapterView	
+GridView	AdapterView	
+ListView	AdapterView	
+RatingBar	ProgressBar	
+SimpleCursorAdapter	ImageView	
+SimpleCursorAdapter	TextView	
+SimpleCursorTreeAdapter	TextView	
+SimpleCursorTreeAdapter	ImageView	
+TabHost	TabWidget	
+TabHost	FrameLayout	
+TextSwitcher	ViewAnimator	
+ToggleButton	TextView	
+***android.widget:5->android.widget:2
+GridView	Adapter	
+GridView	ListAdapter	
+HeaderViewListAdapter	ListAdapter	
+HeaderViewListAdapter	WrapperListAdapter	
+HeaderViewListAdapter	Adapter	
+ListView	ListAdapter	
+ListView	Adapter	
+***android.widget:5->android.app:5
+TabHost	LocalActivityManager	
+***android.widget:5->android.util:0
+Gallery	AttributeSet	
+Gallery$LayoutParams	AttributeSet	
+GridView	AttributeSet	
+ListView	SparseBooleanArray	
+ListView	AttributeSet	
+MultiAutoCompleteTextView	AttributeSet	
+RadioButton	AttributeSet	
+RatingBar	AttributeSet	
+TabHost	AttributeSet	
+TextSwitcher	AttributeSet	
+ToggleButton	AttributeSet	
+***android.widget:5->android.graphics:1
+Gallery	Rect	
+GridView	Rect	
+ListView	drawable.Drawable	
+ListView	Rect	
+ListView	Canvas	
+TabHost$TabSpec	drawable.Drawable	
+ToggleButton	drawable.Drawable	
+***android.widget:5->android.widget:0
+HeaderViewListAdapter	Filter	
+HeaderViewListAdapter	Filterable	
+RadioButton	Checkable	
+ToggleButton	Checkable	
+***android.widget:5->android.database:2
+ResourceCursorAdapter	Cursor	
+ResourceCursorTreeAdapter	Cursor	
+SimpleCursorAdapter	Cursor	
+SimpleCursorAdapter$CursorToStringConverter	Cursor	
+SimpleCursorAdapter$ViewBinder	Cursor	
+SimpleCursorTreeAdapter	Cursor	
+SimpleCursorTreeAdapter$ViewBinder	Cursor	
+***android.widget:5->android.widget:4
+Gallery	AbsSpinner	
+GridView	AbsListView	
+ListView	AbsListView	
+MultiAutoCompleteTextView	AutoCompleteTextView	
+RadioButton	CompoundButton	
+RatingBar	AbsSeekBar	
+ResourceCursorAdapter	CursorAdapter	
+ResourceCursorTreeAdapter	CursorTreeAdapter	
+SimpleCursorAdapter	CursorAdapter	
+SimpleCursorTreeAdapter	CursorTreeAdapter	
+TextSwitcher	ViewSwitcher	
+ToggleButton	CompoundButton	
+***android.widget:5->android.content:2
+Gallery	Context	
+Gallery$LayoutParams	Context	
+GridView	Context	
+ListView	Context	
+MultiAutoCompleteTextView	Context	
+RadioButton	Context	
+RatingBar	Context	
+ResourceCursorAdapter	Context	
+ResourceCursorTreeAdapter	Context	
+SimpleCursorAdapter	Context	
+SimpleCursorTreeAdapter	Context	
+TabHost	Context	
+TabHost$TabSpec	Intent	
+TextSwitcher	Context	
+ToggleButton	Context	
+***android.widget:5->android.os:0
+ListView	Parcelable	
+------------
+***android.widget:6->android.os:0
+ExpandableListView	Parcelable	
+***android.widget:6->android.content:2
+ExpandableListView	Context	
+***android.widget:6->android.graphics:1
+ExpandableListView	drawable.Drawable	
+ExpandableListView	Canvas	
+***android.widget:6->android.widget:4
+ExpandableListView	AbsListView	
+***android.widget:6->android.widget:2
+ExpandableListView	ExpandableListAdapter	
+ExpandableListView	ListAdapter	
+ExpandableListView	Adapter	
+***android.widget:6->android.util:0
+ExpandableListView	AttributeSet	
+***android.widget:6->android.widget:3
+ExpandableListView	AdapterView$OnItemClickListener	
+ExpandableListView	AdapterView	
+***android.widget:6->android.view:2
+ExpandableListView	ViewGroup	
+ExpandableListView	View	
+ExpandableListView$ExpandableListContextMenuInfo	View	
+ExpandableListView$ExpandableListContextMenuInfo	ContextMenu	
+ExpandableListView$ExpandableListContextMenuInfo	ContextMenu$ContextMenuInfo	
+ExpandableListView$OnChildClickListener	View	
+ExpandableListView$OnGroupClickListener	View	
+***android.widget:6->android.widget:5
+ExpandableListView	ListView	
+------------
+***android:0->android.os:0
+speech.RecognitionListener	Bundle	
+telephony.cdma.CdmaCellLocation	Bundle	
+telephony.gsm.GsmCellLocation	Bundle	
+------------
+***android:1->android.graphics:1
+gesture.Gesture	Path	
+gesture.Gesture	Bitmap	
+gesture.Gesture	RectF	
+gesture.GestureStroke	Path	
+gesture.GestureStroke	RectF	
+opengl.GLUtils	Bitmap	
+webkit.WebHistoryItem	Bitmap	
+webkit.WebIconDatabase$IconListener	Bitmap	
+***android:1->android:0
+gesture.GestureStroke	gesture.OrientedBoundingBox	
+gesture.GestureUtils	gesture.OrientedBoundingBox	
+telephony.PhoneStateListener	telephony.CellLocation	
+telephony.TelephonyManager	telephony.CellLocation	
+***android:1->android.text:0
+telephony.PhoneNumberFormattingTextWatcher	Editable	
+telephony.PhoneNumberFormattingTextWatcher	TextWatcher	
+***android:1->android.os:0
+accessibilityservice.AccessibilityServiceInfo	Parcelable	
+accessibilityservice.AccessibilityServiceInfo	Parcelable$Creator	
+accessibilityservice.AccessibilityServiceInfo	Parcel	
+bluetooth.BluetoothClass	Parcelable$Creator	
+bluetooth.BluetoothClass	Parcelable	
+bluetooth.BluetoothClass	Parcel	
+bluetooth.BluetoothDevice	Parcel	
+bluetooth.BluetoothDevice	Parcelable	
+bluetooth.BluetoothDevice	Parcelable$Creator	
+gesture.Gesture	Parcel	
+gesture.Gesture	Parcelable	
+gesture.Gesture	Parcelable$Creator	
+location.Address	Bundle	
+location.Address	Parcelable$Creator	
+location.Address	Parcelable	
+location.Address	Parcel	
+location.Criteria	Parcelable$Creator	
+location.Criteria	Parcelable	
+location.Criteria	Parcel	
+location.Location	Bundle	
+location.Location	Parcelable$Creator	
+location.Location	Parcelable	
+location.Location	Parcel	
+location.LocationListener	Bundle	
+telephony.NeighboringCellInfo	Parcelable	
+telephony.NeighboringCellInfo	Parcelable$Creator	
+telephony.NeighboringCellInfo	Parcel	
+telephony.ServiceState	Parcel	
+telephony.ServiceState	Parcelable$Creator	
+telephony.ServiceState	Parcelable	
+telephony.SignalStrength	Parcel	
+telephony.SignalStrength	Parcelable	
+***android:1->android.util:0
+location.Location	Printer	
+------------
+***android:2->android.content:2
+appwidget.AppWidgetProviderInfo	ComponentName	
+gesture.GestureLibraries	Context	
+inputmethodservice.Keyboard	Context	
+location.Geocoder	Context	
+provider.Browser	ContentResolver	
+provider.Browser	Context	
+provider.CallLog$Calls	Context	
+provider.Contacts$ContactMethods	Context	
+provider.Contacts$Organizations	Context	
+provider.Contacts$People	Context	
+provider.Contacts$People	ContentResolver	
+provider.Contacts$Phones	Context	
+provider.Contacts$Settings	ContentResolver	
+provider.ContactsContract$Contacts	ContentResolver	
+provider.ContactsContract$Data	ContentResolver	
+provider.ContactsContract$QuickContact	Context	
+provider.ContactsContract$RawContacts	ContentResolver	
+provider.ContactsContract$SyncState	ContentProviderClient	
+provider.ContactsContract$SyncState	ContentProviderOperation	
+provider.MediaStore$Audio$Playlists$Members	ContentResolver	
+provider.MediaStore$Images$Media	ContentResolver	
+provider.MediaStore$Images$Thumbnails	ContentResolver	
+provider.MediaStore$Video	ContentResolver	
+provider.MediaStore$Video$Thumbnails	ContentResolver	
+provider.SearchRecentSuggestions	ContentResolver	
+provider.SearchRecentSuggestions	Context	
+provider.Settings$NameValueTable	ContentResolver	
+provider.Settings$Secure	ContentResolver	
+provider.Settings$System	ContentResolver	
+provider.SyncStateContract$Helpers	ContentProviderClient	
+provider.SyncStateContract$Helpers	ContentProviderOperation	
+provider.UserDictionary$Words	Context	
+speech.RecognizerIntent	Intent	
+speech.RecognizerIntent	Context	
+speech.SpeechRecognizer	Intent	
+speech.SpeechRecognizer	ComponentName	
+speech.SpeechRecognizer	Context	
+speech.tts.TextToSpeech	Context	
+telephony.PhoneNumberUtils	Intent	
+telephony.PhoneNumberUtils	Context	
+test.AndroidTestCase	Context	
+webkit.CookieSyncManager	Context	
+webkit.DateSorter	Context	
+webkit.Plugin	Context	
+webkit.Plugin$PreferencesClickHandler	Context	
+webkit.PluginList	Context	
+webkit.PluginStub	Context	
+webkit.WebSyncManager	Context	
+webkit.WebViewDatabase	Context	
+***android:2->android.graphics:1
+inputmethodservice.Keyboard$Key	drawable.Drawable	
+provider.Contacts$People	Bitmap	
+provider.Contacts$People	BitmapFactory$Options	
+provider.Contacts$People	BitmapFactory	
+provider.ContactsContract$QuickContact	Rect	
+provider.MediaStore$Images$Media	Bitmap	
+provider.MediaStore$Images$Thumbnails	BitmapFactory	
+provider.MediaStore$Images$Thumbnails	Bitmap	
+provider.MediaStore$Images$Thumbnails	BitmapFactory$Options	
+provider.MediaStore$Video$Thumbnails	BitmapFactory$Options	
+provider.MediaStore$Video$Thumbnails	Bitmap	
+provider.MediaStore$Video$Thumbnails	BitmapFactory	
+test.mock.MockResources	drawable.Drawable	
+test.mock.MockResources	Movie	
+***android:2->android.net:0
+provider.Browser	Uri	
+provider.CallLog	Uri	
+provider.CallLog$Calls	Uri	
+provider.Contacts	Uri	
+provider.Contacts$ContactMethods	Uri	
+provider.Contacts$Extensions	Uri	
+provider.Contacts$GroupMembership	Uri	
+provider.Contacts$Groups	Uri	
+provider.Contacts$Organizations	Uri	
+provider.Contacts$People	Uri	
+provider.Contacts$Phones	Uri	
+provider.Contacts$Photos	Uri	
+provider.Contacts$Settings	Uri	
+provider.ContactsContract	Uri	
+provider.ContactsContract$AggregationExceptions	Uri	
+provider.ContactsContract$CommonDataKinds$Email	Uri	
+provider.ContactsContract$CommonDataKinds$Phone	Uri	
+provider.ContactsContract$CommonDataKinds$StructuredPostal	Uri	
+provider.ContactsContract$Contacts	Uri	
+provider.ContactsContract$Data	Uri	
+provider.ContactsContract$Groups	Uri	
+provider.ContactsContract$PhoneLookup	Uri	
+provider.ContactsContract$QuickContact	Uri	
+provider.ContactsContract$RawContacts	Uri	
+provider.ContactsContract$RawContactsEntity	Uri	
+provider.ContactsContract$Settings	Uri	
+provider.ContactsContract$StatusUpdates	Uri	
+provider.ContactsContract$SyncState	Uri	
+provider.MediaStore	Uri	
+provider.MediaStore$Audio$Albums	Uri	
+provider.MediaStore$Audio$Artists	Uri	
+provider.MediaStore$Audio$Artists$Albums	Uri	
+provider.MediaStore$Audio$Genres	Uri	
+provider.MediaStore$Audio$Genres$Members	Uri	
+provider.MediaStore$Audio$Media	Uri	
+provider.MediaStore$Audio$Playlists	Uri	
+provider.MediaStore$Audio$Playlists$Members	Uri	
+provider.MediaStore$Images$Media	Uri	
+provider.MediaStore$Images$Thumbnails	Uri	
+provider.MediaStore$Video	Uri	
+provider.MediaStore$Video$Media	Uri	
+provider.MediaStore$Video$Thumbnails	Uri	
+provider.Settings$NameValueTable	Uri	
+provider.Settings$Secure	Uri	
+provider.Settings$System	Uri	
+provider.SyncStateContract$Helpers	Uri	
+provider.UserDictionary	Uri	
+provider.UserDictionary$Words	Uri	
+test.AndroidTestCase	Uri	
+***android:2->android.accounts:1
+provider.ContactsContract$SyncState	Account	
+provider.SyncStateContract$Helpers	Account	
+***android:2->android:0
+location.LocationManager	location.GpsStatus	
+location.LocationManager	location.GpsStatus$Listener	
+location.LocationManager	location.GpsStatus$NmeaListener	
+provider.Browser$BookmarkColumns	provider.BaseColumns	
+provider.Browser$SearchColumns	provider.BaseColumns	
+provider.CallLog$Calls	provider.BaseColumns	
+provider.Contacts$ContactMethods	provider.BaseColumns	
+provider.Contacts$Extensions	provider.BaseColumns	
+provider.Contacts$GroupMembership	provider.BaseColumns	
+provider.Contacts$Groups	provider.BaseColumns	
+provider.Contacts$Organizations	provider.BaseColumns	
+provider.Contacts$People	provider.BaseColumns	
+provider.Contacts$People$ContactMethods	provider.BaseColumns	
+provider.Contacts$People$Extensions	provider.BaseColumns	
+provider.Contacts$People$Phones	provider.BaseColumns	
+provider.Contacts$Phones	provider.BaseColumns	
+provider.Contacts$Photos	provider.BaseColumns	
+provider.Contacts$Settings	provider.BaseColumns	
+provider.ContactsContract$AggregationExceptions	provider.BaseColumns	
+provider.ContactsContract$Contacts	provider.BaseColumns	
+provider.ContactsContract$Contacts$AggregationSuggestions	provider.BaseColumns	
+provider.ContactsContract$Contacts$Data	provider.BaseColumns	
+provider.ContactsContract$Contacts$Photo	provider.BaseColumns	
+provider.ContactsContract$DataColumnsWithJoins	provider.BaseColumns	
+provider.ContactsContract$Groups	provider.BaseColumns	
+provider.ContactsContract$PhoneLookup	provider.BaseColumns	
+provider.ContactsContract$RawContacts	provider.BaseColumns	
+provider.ContactsContract$RawContacts$Data	provider.BaseColumns	
+provider.ContactsContract$RawContacts$Entity	provider.BaseColumns	
+provider.ContactsContract$RawContactsEntity	provider.BaseColumns	
+provider.MediaStore$Audio$Albums	provider.BaseColumns	
+provider.MediaStore$Audio$Artists	provider.BaseColumns	
+provider.MediaStore$Audio$Genres	provider.BaseColumns	
+provider.MediaStore$Audio$Playlists	provider.BaseColumns	
+provider.MediaStore$Images$Thumbnails	provider.BaseColumns	
+provider.MediaStore$MediaColumns	provider.BaseColumns	
+provider.MediaStore$Video$Thumbnails	provider.BaseColumns	
+provider.Settings$NameValueTable	provider.BaseColumns	
+provider.SyncStateContract$Columns	provider.BaseColumns	
+provider.UserDictionary$Words	provider.BaseColumns	
+speech.SpeechRecognizer	speech.RecognitionListener	
+***android:2->android.util:0
+provider.ContactsContract$SyncState	Pair	
+provider.Settings$SettingNotFoundException	AndroidException	
+provider.SyncStateContract$Helpers	Pair	
+test.mock.MockResources	DisplayMetrics	
+test.mock.MockResources	TypedValue	
+test.mock.MockResources	AttributeSet	
+***android:2->android.content:0
+provider.ContactsContract$Groups	EntityIterator	
+provider.ContactsContract$RawContacts	EntityIterator	
+***android:2->android.app:2
+location.LocationManager	PendingIntent	
+telephony.SmsManager	PendingIntent	
+telephony.gsm.SmsManager	PendingIntent	
+***android:2->android.os:0
+appwidget.AppWidgetProviderInfo	Parcel	
+appwidget.AppWidgetProviderInfo	Parcelable$Creator	
+appwidget.AppWidgetProviderInfo	Parcelable	
+location.LocationManager	Bundle	
+location.LocationManager	Looper	
+provider.ContactsContract$SyncState	RemoteException	
+provider.SyncStateContract$Helpers	RemoteException	
+***android:2->android.content.res:0
+inputmethodservice.Keyboard	XmlResourceParser	
+inputmethodservice.Keyboard$Key	XmlResourceParser	
+inputmethodservice.Keyboard$Row	XmlResourceParser	
+test.mock.MockResources	XmlResourceParser	
+***android:2->android.database:2
+provider.Browser	Cursor	
+provider.Contacts$People	Cursor	
+provider.ContactsContract$Groups	Cursor	
+provider.ContactsContract$RawContacts	Cursor	
+provider.MediaStore$Images$Media	Cursor	
+provider.MediaStore$Images$Thumbnails	Cursor	
+provider.MediaStore$Video	Cursor	
+***android:2->android.content:1
+provider.Contacts$People	ContentValues	
+test.mock.MockDialogInterface	DialogInterface	
+***android:2->android.os:1
+webkit.HttpAuthHandler	Handler	
+webkit.HttpAuthHandler	Message	
+webkit.SslErrorHandler	Handler	
+webkit.SslErrorHandler	Message	
+webkit.WebSyncManager	Handler	
+***android:2->android.text:0
+telephony.PhoneNumberUtils	Editable	
+***android:2->android.content.res:1
+inputmethodservice.Keyboard	Resources	
+inputmethodservice.Keyboard$Key	Resources	
+inputmethodservice.Keyboard$Row	Resources	
+provider.ContactsContract$CommonDataKinds$Email	Resources	
+provider.ContactsContract$CommonDataKinds$Im	Resources	
+provider.ContactsContract$CommonDataKinds$Organization	Resources	
+provider.ContactsContract$CommonDataKinds$Phone	Resources	
+provider.ContactsContract$CommonDataKinds$StructuredPostal	Resources	
+provider.Settings$System	Configuration	
+test.mock.MockResources	Resources$NotFoundException	
+test.mock.MockResources	AssetManager	
+test.mock.MockResources	TypedArray	
+test.mock.MockResources	AssetFileDescriptor	
+test.mock.MockResources	Configuration	
+test.mock.MockResources	ColorStateList	
+test.mock.MockResources	Resources	
+***android:2->android.view:2
+provider.ContactsContract$QuickContact	View	
+test.ViewAsserts	ViewGroup	
+test.ViewAsserts	View	
+webkit.PluginStub	View	
+***android:2->android:1
+gesture.GestureLibraries	gesture.GestureLibrary	
+location.LocationManager	location.LocationListener	
+location.LocationManager	location.LocationProvider	
+location.LocationManager	location.Criteria	
+location.LocationManager	location.Location	
+provider.Browser	webkit.WebIconDatabase	
+provider.Browser	webkit.WebIconDatabase$IconListener	
+------------
+***android:3->android.widget:3
+appwidget.AppWidgetManager	RemoteViews	
+***android:3->android.content.res:1
+test.mock.MockContext	AssetManager	
+test.mock.MockContext	Resources	
+test.mock.MockContext	Resources$Theme	
+test.mock.MockPackageManager	Resources	
+***android:3->android.database:2
+test.mock.MockContentProvider	Cursor	
+test.mock.MockContext	sqlite.SQLiteDatabase	
+test.mock.MockContext	sqlite.SQLiteDatabase$CursorFactory	
+test.mock.MockCursor	Cursor	
+***android:3->android.os:0
+test.ServiceTestCase	IBinder	
+test.mock.MockContext	Looper	
+test.mock.MockContext	Bundle	
+test.mock.MockCursor	Bundle	
+***android:3->android.database:1
+test.mock.MockContentResolver	ContentObserver	
+test.mock.MockCursor	ContentObserver	
+***android:3->android.util:0
+inputmethodservice.KeyboardView	AttributeSet	
+***android:3->android.content.res:0
+test.mock.MockPackageManager	XmlResourceParser	
+***android:3->android:2
+appwidget.AppWidgetManager	appwidget.AppWidgetProviderInfo	
+inputmethodservice.KeyboardView	inputmethodservice.Keyboard$Key	
+inputmethodservice.KeyboardView	inputmethodservice.Keyboard	
+test.ApplicationTestCase	test.AndroidTestCase	
+test.ServiceTestCase	test.AndroidTestCase	
+***android:3->android.content:0
+test.mock.MockContext	SharedPreferences	
+***android:3->android.app:3
+test.ApplicationTestCase	Application	
+test.ServiceTestCase	Service	
+test.ServiceTestCase	Application	
+***android:3->android.view:1
+inputmethodservice.KeyboardView	MotionEvent	
+***android:3->android.content:1
+test.mock.MockContentProvider	ContentValues	
+test.mock.MockContentProvider	ContentProviderResult	
+test.mock.MockPackageManager	pm.FeatureInfo	
+***android:3->android.os:1
+test.mock.MockContext	Handler	
+***android:3->android.net:0
+test.mock.MockContentProvider	Uri	
+test.mock.MockContentResolver	Uri	
+test.mock.MockContext	Uri	
+test.mock.MockCursor	Uri	
+***android:3->android.view:2
+inputmethodservice.KeyboardView	View$OnClickListener	
+inputmethodservice.KeyboardView	View	
+***android:3->android.graphics:1
+inputmethodservice.KeyboardView	Canvas	
+test.mock.MockContext	Bitmap	
+test.mock.MockContext	drawable.Drawable	
+test.mock.MockPackageManager	drawable.Drawable	
+***android:3->android.content:2
+appwidget.AppWidgetManager	Context	
+appwidget.AppWidgetManager	ComponentName	
+appwidget.AppWidgetProvider	Intent	
+appwidget.AppWidgetProvider	BroadcastReceiver	
+appwidget.AppWidgetProvider	Context	
+inputmethodservice.KeyboardView	Context	
+test.ApplicationTestCase	Context	
+test.ServiceTestCase	Intent	
+test.ServiceTestCase	Context	
+test.mock.MockContentProvider	Context	
+test.mock.MockContentProvider	ContentProvider	
+test.mock.MockContentProvider	pm.ProviderInfo	
+test.mock.MockContentProvider	pm.PathPermission	
+test.mock.MockContentResolver	ContentProvider	
+test.mock.MockContentResolver	ContentResolver	
+test.mock.MockContentResolver	Context	
+test.mock.MockContext	BroadcastReceiver	
+test.mock.MockContext	pm.PackageManager$NameNotFoundException	
+test.mock.MockContext	IntentFilter	
+test.mock.MockContext	Intent	
+test.mock.MockContext	pm.ApplicationInfo	
+test.mock.MockContext	ComponentName	
+test.mock.MockContext	IntentSender	
+test.mock.MockContext	Context	
+test.mock.MockContext	ServiceConnection	
+test.mock.MockContext	ContentResolver	
+test.mock.MockContext	pm.PackageManager	
+test.mock.MockContext	IntentSender$SendIntentException	
+test.mock.MockCursor	ContentResolver	
+test.mock.MockPackageManager	pm.ResolveInfo	
+test.mock.MockPackageManager	Intent	
+test.mock.MockPackageManager	IntentFilter	
+test.mock.MockPackageManager	pm.PackageManager	
+test.mock.MockPackageManager	pm.PackageInfo	
+test.mock.MockPackageManager	pm.PackageManager$NameNotFoundException	
+test.mock.MockPackageManager	pm.PermissionInfo	
+test.mock.MockPackageManager	pm.ServiceInfo	
+test.mock.MockPackageManager	pm.ApplicationInfo	
+test.mock.MockPackageManager	pm.ActivityInfo	
+test.mock.MockPackageManager	pm.ProviderInfo	
+test.mock.MockPackageManager	pm.InstrumentationInfo	
+test.mock.MockPackageManager	pm.PermissionGroupInfo	
+test.mock.MockPackageManager	ComponentName	
+***android:3->android.database:0
+test.mock.MockCursor	CharArrayBuffer	
+test.mock.MockCursor	DataSetObserver	
+------------
+***android:4->android:1
+accessibilityservice.AccessibilityService	accessibilityservice.AccessibilityServiceInfo	
+gesture.GestureOverlayView	gesture.Gesture	
+gesture.GestureOverlayView$OnGesturePerformedListener	gesture.Gesture	
+webkit.WebView	webkit.WebBackForwardList	
+***android:4->android.content.res:1
+test.mock.MockApplication	Configuration	
+***android:4->android.os:1
+webkit.WebChromeClient	Message	
+webkit.WebView	Message	
+webkit.WebViewClient	Message	
+***android:4->android.graphics:1
+appwidget.AppWidgetHostView	Canvas	
+gesture.GestureOverlayView	Path	
+gesture.GestureOverlayView	Canvas	
+webkit.WebChromeClient	Bitmap	
+webkit.WebView	Rect	
+webkit.WebView	Bitmap	
+webkit.WebView	Picture	
+webkit.WebView	Canvas	
+webkit.WebView$PictureListener	Picture	
+webkit.WebViewClient	Bitmap	
+***android:4->android:3
+test.ProviderTestCase2	test.mock.MockContentResolver	
+***android:4->android.widget:3
+appwidget.AppWidgetHostView	FrameLayout$LayoutParams	
+appwidget.AppWidgetHostView	FrameLayout	
+appwidget.AppWidgetHostView	RemoteViews	
+gesture.GestureOverlayView	FrameLayout	
+inputmethodservice.ExtractEditText	TextView	
+webkit.WebView	AbsoluteLayout	
+***android:4->android.app:3
+accessibilityservice.AccessibilityService	Service	
+inputmethodservice.AbstractInputMethodService	Service	
+service.wallpaper.WallpaperService	Service	
+speech.RecognitionService	Service	
+test.mock.MockApplication	Application	
+***android:4->android.os:0
+accessibilityservice.AccessibilityService	IBinder	
+inputmethodservice.AbstractInputMethodService	IBinder	
+service.wallpaper.WallpaperService	IBinder	
+service.wallpaper.WallpaperService$Engine	Bundle	
+speech.RecognitionService	IBinder	
+speech.RecognitionService$Callback	Bundle	
+speech.RecognitionService$Callback	RemoteException	
+webkit.WebView	Bundle	
+***android:4->android.view:1
+accessibilityservice.AccessibilityService	accessibility.AccessibilityEvent	
+gesture.GestureOverlayView	MotionEvent	
+gesture.GestureOverlayView$OnGestureListener	MotionEvent	
+inputmethodservice.AbstractInputMethodService	KeyEvent$DispatcherState	
+inputmethodservice.AbstractInputMethodService	MotionEvent	
+inputmethodservice.AbstractInputMethodService	KeyEvent	
+inputmethodservice.AbstractInputMethodService	KeyEvent$Callback	
+inputmethodservice.AbstractInputMethodService$AbstractInputMethodImpl	inputmethod.InputMethodSession	
+inputmethodservice.AbstractInputMethodService$AbstractInputMethodImpl	inputmethod.InputMethod$SessionCallback	
+inputmethodservice.AbstractInputMethodService$AbstractInputMethodImpl	inputmethod.InputMethod	
+inputmethodservice.AbstractInputMethodService$AbstractInputMethodSessionImpl	inputmethod.InputMethodSession	
+inputmethodservice.AbstractInputMethodService$AbstractInputMethodSessionImpl	MotionEvent	
+inputmethodservice.AbstractInputMethodService$AbstractInputMethodSessionImpl	KeyEvent	
+inputmethodservice.AbstractInputMethodService$AbstractInputMethodSessionImpl	inputmethod.InputMethodSession$EventCallback	
+inputmethodservice.ExtractEditText	inputmethod.ExtractedText	
+opengl.GLSurfaceView	SurfaceHolder$Callback	
+opengl.GLSurfaceView	SurfaceHolder	
+service.wallpaper.WallpaperService$Engine	MotionEvent	
+service.wallpaper.WallpaperService$Engine	SurfaceHolder	
+webkit.WebView	KeyEvent	
+webkit.WebView	inputmethod.EditorInfo	
+webkit.WebView	MotionEvent	
+webkit.WebView	inputmethod.InputConnection	
+webkit.WebView	KeyEvent$Callback	
+webkit.WebViewClient	KeyEvent	
+***android:4->android:0
+webkit.WebChromeClient	webkit.GeolocationPermissions$Callback	
+webkit.WebChromeClient	webkit.GeolocationPermissions	
+webkit.WebChromeClient	webkit.JsResult	
+webkit.WebChromeClient	webkit.WebStorage$QuotaUpdater	
+webkit.WebChromeClient	webkit.ValueCallback	
+webkit.WebChromeClient	webkit.ConsoleMessage	
+webkit.WebChromeClient	webkit.WebStorage	
+webkit.WebChromeClient	webkit.JsPromptResult	
+webkit.WebView	webkit.WebSettings	
+webkit.WebView	webkit.DownloadListener	
+***android:4->android.view:2
+appwidget.AppWidgetHostView	View	
+appwidget.AppWidgetHostView	ViewGroup	
+appwidget.AppWidgetHostView	ViewGroup$LayoutParams	
+gesture.GestureOverlayView	ViewGroup	
+gesture.GestureOverlayView	View	
+inputmethodservice.ExtractEditText	View	
+opengl.GLSurfaceView	View	
+webkit.WebChromeClient	View	
+webkit.WebView	ViewTreeObserver$OnGlobalFocusChangeListener	
+webkit.WebView	ViewGroup$LayoutParams	
+webkit.WebView	View	
+webkit.WebView	ViewTreeObserver	
+webkit.WebView	ViewGroup$OnHierarchyChangeListener	
+webkit.WebView	ViewParent	
+webkit.WebView	ViewGroup	
+***android:4->android.content:1
+test.mock.MockApplication	ComponentCallbacks	
+***android:4->android.net:0
+test.IsolatedContext	Uri	
+webkit.WebView	http.SslCertificate	
+webkit.WebViewClient	http.SslError	
+***android:4->android.content:2
+accessibilityservice.AccessibilityService	Intent	
+appwidget.AppWidgetHost	Context	
+appwidget.AppWidgetHostView	Context	
+gesture.GestureOverlayView	Context	
+inputmethodservice.AbstractInputMethodService	Intent	
+inputmethodservice.ExtractEditText	Context	
+opengl.GLSurfaceView	Context	
+service.wallpaper.WallpaperService	Intent	
+speech.RecognitionService	Intent	
+test.IsolatedContext	Intent	
+test.IsolatedContext	Context	
+test.IsolatedContext	BroadcastReceiver	
+test.IsolatedContext	ContentResolver	
+test.IsolatedContext	IntentFilter	
+test.IsolatedContext	ServiceConnection	
+test.ProviderTestCase2	ContentProvider	
+test.ProviderTestCase2	ContentResolver	
+test.ProviderTestCase2	Context	
+test.RenamingDelegatingContext	Context	
+test.RenamingDelegatingContext	ContentProvider	
+webkit.WebView	Context	
+***android:4->android.database:2
+test.RenamingDelegatingContext	sqlite.SQLiteDatabase	
+test.RenamingDelegatingContext	sqlite.SQLiteDatabase$CursorFactory	
+***android:4->android:2
+appwidget.AppWidgetHost	appwidget.AppWidgetProviderInfo	
+appwidget.AppWidgetHostView	appwidget.AppWidgetProviderInfo	
+test.ProviderTestCase2	test.AndroidTestCase	
+webkit.WebView	webkit.PluginList	
+webkit.WebViewClient	webkit.SslErrorHandler	
+webkit.WebViewClient	webkit.HttpAuthHandler	
+***android:4->android.widget:4
+inputmethodservice.ExtractEditText	EditText	
+***android:4->android.content:3
+test.IsolatedContext	ContextWrapper	
+test.RenamingDelegatingContext	ContextWrapper	
+***android:4->android.util:0
+appwidget.AppWidgetHostView	SparseArray	
+appwidget.AppWidgetHostView	AttributeSet	
+gesture.GestureOverlayView	AttributeSet	
+inputmethodservice.ExtractEditText	AttributeSet	
+opengl.GLSurfaceView	AttributeSet	
+webkit.WebView	AttributeSet	
+***android:4->android.view:3
+opengl.GLSurfaceView	SurfaceView	
+------------
+***android:5->android:4
+inputmethodservice.InputMethodService	inputmethodservice.AbstractInputMethodService$AbstractInputMethodImpl	
+inputmethodservice.InputMethodService	inputmethodservice.AbstractInputMethodService	
+inputmethodservice.InputMethodService	inputmethodservice.AbstractInputMethodService$AbstractInputMethodSessionImpl	
+inputmethodservice.InputMethodService$InputMethodImpl	inputmethodservice.AbstractInputMethodService	
+inputmethodservice.InputMethodService$InputMethodImpl	inputmethodservice.AbstractInputMethodService$AbstractInputMethodImpl	
+inputmethodservice.InputMethodService$InputMethodSessionImpl	inputmethodservice.AbstractInputMethodService$AbstractInputMethodSessionImpl	
+inputmethodservice.InputMethodService$InputMethodSessionImpl	inputmethodservice.AbstractInputMethodService	
+test.ProviderTestCase	test.IsolatedContext	
+***android:5->android.content:3
+inputmethodservice.InputMethodService	ContextWrapper	
+***android:5->android:3
+test.ProviderTestCase	test.mock.MockContentResolver	
+***android:5->android.widget:5
+preference.PreferenceScreen	ListView	
+***android:5->android.content:2
+inputmethodservice.InputMethodService	Context	
+preference.Preference	Intent	
+preference.Preference	Context	
+preference.PreferenceGroup	Context	
+preference.PreferenceManager	Context	
+preference.PreferenceManager$OnActivityResultListener	Intent	
+preference.PreferenceScreen	Context	
+test.AndroidTestRunner	Context	
+test.InstrumentationTestCase	Intent	
+test.ProviderTestCase	ContentResolver	
+test.ProviderTestCase	ContentProvider	
+test.ProviderTestCase	Context	
+***android:5->android.content:0
+preference.Preference	SharedPreferences$Editor	
+preference.Preference	SharedPreferences	
+preference.PreferenceManager	SharedPreferences	
+***android:5->android.content.res:1
+inputmethodservice.InputMethodService	Configuration	
+preference.Preference	TypedArray	
+***android:5->android.graphics:1
+inputmethodservice.InputMethodService	Rect	
+inputmethodservice.InputMethodService$InputMethodSessionImpl	Rect	
+***android:5->android.net:0
+test.SyncBaseInstrumentation	Uri	
+***android:5->android.os:0
+inputmethodservice.InputMethodService	Bundle	
+inputmethodservice.InputMethodService$InputMethodImpl	IBinder	
+inputmethodservice.InputMethodService$InputMethodSessionImpl	Bundle	
+preference.Preference	Bundle	
+preference.Preference	Parcelable	
+preference.Preference$BaseSavedState	Parcel	
+preference.Preference$BaseSavedState	Parcelable$Creator	
+preference.Preference$BaseSavedState	Parcelable	
+preference.PreferenceGroup	Bundle	
+preference.PreferenceScreen	Parcelable	
+test.InstrumentationTestCase	Bundle	
+***android:5->android.app:3
+inputmethodservice.InputMethodService	Service	
+***android:5->android.view:2
+inputmethodservice.InputMethodService	LayoutInflater	
+inputmethodservice.InputMethodService	View	
+inputmethodservice.InputMethodService	Window	
+preference.Preference	View	
+preference.Preference	ViewGroup	
+preference.PreferenceScreen	View	
+***android:5->android.app:5
+inputmethodservice.InputMethodService	Dialog	
+preference.PreferenceScreen	Dialog	
+test.ActivityTestCase	Activity	
+test.AndroidTestRunner	Instrumentation	
+test.InstrumentationTestCase	Instrumentation	
+test.InstrumentationTestCase	Activity	
+test.InstrumentationTestSuite	Instrumentation	
+***android:5->android.widget:3
+preference.PreferenceScreen	AdapterView	
+preference.PreferenceScreen	AdapterView$OnItemClickListener	
+***android:5->android.util:0
+preference.Preference	AttributeSet	
+preference.PreferenceGroup	AttributeSet	
+preference.PreferenceScreen	AttributeSet	
+***android:5->android.widget:2
+preference.PreferenceScreen	ListAdapter	
+***android:5->android.content:1
+inputmethodservice.InputMethodService	ComponentCallbacks	
+preference.PreferenceScreen	DialogInterface	
+preference.PreferenceScreen	DialogInterface$OnDismissListener	
+***android:5->android.view:1
+inputmethodservice.InputMethodService	inputmethod.InputConnection	
+inputmethodservice.InputMethodService	inputmethod.CompletionInfo	
+inputmethodservice.InputMethodService	KeyEvent$Callback	
+inputmethodservice.InputMethodService	MotionEvent	
+inputmethodservice.InputMethodService	KeyEvent	
+inputmethodservice.InputMethodService	inputmethod.InputBinding	
+inputmethodservice.InputMethodService	inputmethod.ExtractedText	
+inputmethodservice.InputMethodService	inputmethod.EditorInfo	
+inputmethodservice.InputMethodService$InputMethodImpl	inputmethod.EditorInfo	
+inputmethodservice.InputMethodService$InputMethodImpl	inputmethod.InputBinding	
+inputmethodservice.InputMethodService$InputMethodImpl	inputmethod.InputConnection	
+inputmethodservice.InputMethodService$InputMethodImpl	inputmethod.InputMethod	
+inputmethodservice.InputMethodService$InputMethodSessionImpl	inputmethod.ExtractedText	
+inputmethodservice.InputMethodService$InputMethodSessionImpl	inputmethod.InputMethodSession	
+inputmethodservice.InputMethodService$InputMethodSessionImpl	inputmethod.CompletionInfo	
+preference.Preference$BaseSavedState	AbsSavedState	
+***android:5->android.os:1
+inputmethodservice.InputMethodService$InputMethodImpl	ResultReceiver	
+------------
+***android:6->android.view:2
+preference.CheckBoxPreference	View	
+preference.DialogPreference	View	
+test.TouchUtils	ViewGroup	
+test.TouchUtils	View	
+***android:6->android:5
+preference.CheckBoxPreference	preference.Preference	
+preference.DialogPreference	preference.PreferenceManager$OnActivityDestroyListener	
+preference.DialogPreference	preference.PreferenceManager	
+preference.DialogPreference	preference.Preference	
+preference.PreferenceCategory	preference.PreferenceGroup	
+preference.PreferenceCategory	preference.Preference	
+preference.RingtonePreference	preference.Preference	
+preference.RingtonePreference	preference.PreferenceManager	
+preference.RingtonePreference	preference.PreferenceManager$OnActivityResultListener	
+test.ActivityInstrumentationTestCase	test.InstrumentationTestCase	
+test.ActivityInstrumentationTestCase	test.ActivityTestCase	
+test.ActivityInstrumentationTestCase2	test.InstrumentationTestCase	
+test.ActivityInstrumentationTestCase2	test.ActivityTestCase	
+test.ActivityUnitTestCase	test.ActivityTestCase	
+test.ActivityUnitTestCase	test.InstrumentationTestCase	
+test.InstrumentationTestRunner	test.AndroidTestRunner	
+test.SingleLaunchActivityTestCase	test.InstrumentationTestCase	
+test.TouchUtils	test.InstrumentationTestCase	
+***android:6->android:0
+test.InstrumentationTestRunner	test.TestSuiteProvider	
+***android:6->android.content.res:1
+preference.CheckBoxPreference	TypedArray	
+preference.RingtonePreference	TypedArray	
+***android:6->android.app:3
+test.ActivityUnitTestCase	Application	
+***android:6->android.graphics:1
+preference.DialogPreference	drawable.Drawable	
+***android:6->android.util:0
+preference.CheckBoxPreference	AttributeSet	
+preference.DialogPreference	AttributeSet	
+preference.PreferenceCategory	AttributeSet	
+preference.RingtonePreference	AttributeSet	
+***android:6->android.content:2
+preference.CheckBoxPreference	Context	
+preference.DialogPreference	Context	
+preference.PreferenceCategory	Context	
+preference.RingtonePreference	Context	
+preference.RingtonePreference	Intent	
+test.ActivityInstrumentationTestCase2	Intent	
+test.ActivityUnitTestCase	Intent	
+test.ActivityUnitTestCase	Context	
+***android:6->android.content:1
+preference.DialogPreference	DialogInterface$OnClickListener	
+preference.DialogPreference	DialogInterface	
+preference.DialogPreference	DialogInterface$OnDismissListener	
+***android:6->android.app:5
+preference.DialogPreference	Dialog	
+test.ActivityInstrumentationTestCase	Activity	
+test.ActivityInstrumentationTestCase2	Activity	
+test.ActivityUnitTestCase	Activity	
+test.InstrumentationTestRunner	Instrumentation	
+test.SingleLaunchActivityTestCase	Activity	
+test.TouchUtils	Activity	
+***android:6->android.net:0
+preference.RingtonePreference	Uri	
+***android:6->android.os:0
+preference.CheckBoxPreference	Parcelable	
+preference.DialogPreference	Parcelable	
+preference.DialogPreference	Bundle	
+test.ActivityUnitTestCase	Bundle	
+test.InstrumentationTestRunner	Bundle	
+***android:6->android.app:6
+preference.DialogPreference	AlertDialog	
+preference.DialogPreference	AlertDialog$Builder	
+------------
+***android:7->android.view:2
+preference.EditTextPreference	View	
+preference.PreferenceActivity	Window$Callback	
+***android:7->android:5
+preference.EditTextPreference	preference.Preference	
+preference.ListPreference	preference.Preference	
+preference.PreferenceActivity	preference.PreferenceScreen	
+preference.PreferenceActivity	preference.PreferenceManager	
+preference.PreferenceActivity	preference.Preference	
+***android:7->android.widget:4
+preference.EditTextPreference	EditText	
+***android:7->android.os:0
+preference.EditTextPreference	Parcelable	
+preference.ListPreference	Parcelable	
+preference.PreferenceActivity	Bundle	
+***android:7->android.app:6
+preference.ListPreference	AlertDialog$Builder	
+preference.ListPreference	AlertDialog	
+preference.PreferenceActivity	ListActivity	
+***android:7->android.util:0
+preference.EditTextPreference	AttributeSet	
+preference.ListPreference	AttributeSet	
+***android:7->android:6
+preference.EditTextPreference	preference.DialogPreference	
+preference.ListPreference	preference.DialogPreference	
+***android:7->android.content.res:1
+preference.EditTextPreference	TypedArray	
+preference.ListPreference	TypedArray	
+***android:7->android.content:2
+preference.EditTextPreference	Context	
+preference.ListPreference	Context	
+preference.PreferenceActivity	Intent	
+***android:7->android.app:5
+preference.PreferenceActivity	Activity	

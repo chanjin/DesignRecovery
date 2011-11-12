@@ -1,0 +1,39 @@
+digraph Trace_sdg { 
+node [shape=plaintext, fontname=Skia, fontsize=20];
+edge [fontname=Skia, fontsize = 10];
+11[ label=".framework.TestResult"];
+10[ label=".framework.Test"];
+9[ label=".framework.TestListener"];
+8[ label=".framework.TestCase"];
+7[ label=".framework.Protectable"];
+6[ label=".framework.TestResult$1"];
+5[ label=".framework.TestSuite"];
+4[ label=".samples.VectorTest"];
+3[ label=".textui.TestRunner"];
+2[ label=".runner.BaseTestRunner"];
+1[ label=".textui.ResultPrinter"];
+0[ label=".framework.Assert"];
+4->5[color="black", arrowhead="vee", label = "Init: 1"];
+5->8[color="black", arrowhead="vee", label = "CallDep: 20-27-34-...55(6)"];
+4->2[color="black", arrowhead="vee", label = "CallDep: 109"];
+4->3[color="black", arrowhead="vee", label = "CallDep: 114"];
+3->1[color="black", arrowhead="vee", label = "CallDep,Init: 115-116-117-...283(6)"];
+3->11[color="black", arrowhead="vee", label = "CallDep,Init: 123-124"];
+3->10[color="black", arrowhead="vee", label = "CallDep: 125"];
+5->10[color="red",  arrowhead="odot", style="dotted", label = "CallDep,Overrides: 125-129-154-...260(7)"];
+5->11[color="black", arrowhead="vee", label = "CallDep: 127-152-179-...258(6)"];
+8->10[color="red",  arrowhead="odot", style="dotted", label = "Overrides: 129-132-154-...263(12)"];
+8->11[color="black", arrowhead="vee", label = "CallDep: 130-155-182-...261(6)"];
+11->10[color="black", arrowhead="vee", label = "CallDep: 132-157-184-...263(6)"];
+11->9[color="black", arrowhead="vee", label = "CallDep: 134-151-159-...282(12)"];
+1->9[color="red",  arrowhead="odot", style="dotted", label = "Overrides: 134-151-159-...282(12)"];
+11->6[color="black", arrowhead="vee", label = "Init: 136-161-188-...267(6)"];
+11->7[color="black", arrowhead="vee", label = "CallDep: 138-163-190-...269(6)"];
+6->7[color="red",  arrowhead="odot", style="dotted", label = "Overrides: 138-163-190-...269(6)"];
+6->8[color="black", arrowhead="vee", label = "CallDep: 139-164-191-...270(6)"];
+4->8[color="red",  arrowhead="odot", style="dotted", label = "Overrides: 140-165-192-...271(6)"];
+8->0[color="black", arrowhead="vee", label = "CallDep: 142-167-194-...273(6)"];
+8->4[color="black", arrowhead="vee", label = "CallDep: 145-170-197-...276(6)"];
+4->0[color="black", arrowhead="vee", label = "CallDep: 146-171-173-...277(9)"];
+1->11[color="black", arrowhead="vee", label = "CallDep: 289-290-293-...304(7)"]
+}

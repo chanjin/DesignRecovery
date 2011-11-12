@@ -1,0 +1,44 @@
+digraph classfile_2_org_apache_bcel_tdg { 
+node [shape=plaintext, fontname=Skia, fontsize=20];
+edge [fontname=Skia, fontsize = 10];
+15[ label="Constants(0)"];
+14[ label="classfile.Attribute(1)"];
+15[ label="Constants(0)"];
+12[ label="classfile.Utility(1)"];
+15[ label="Constants(0)"];
+10[ label="classfile.LocalVariable(1)"];
+15[ label="Constants(0)"];
+8[ label="classfile.ConstantPool(1)"];
+15[ label="Constants(0)"];
+6[ label="classfile.Constant(1)"];
+15[ label="Constants(0)"];
+4[ label="classfile.Deprecated(1)"];
+15[ label="Constants(0)"];
+2[ label="classfile.CodeException(1)"];
+15[ label="Constants(0)"];
+0[ label="classfile.StackMapType(1)"];
+12->8[color="black", arrowhead="vee", label = "S,C"];
+12->10[color="black", arrowhead="vee", label = "C"];
+12->6[color="black", arrowhead="vee", label = "C"];
+12->15[color="black", arrowhead="vee", label = "C"];
+14->8[color="black", arrowhead="vee", label = "S,C"];
+14->4[color="black", arrowhead="vee", label = "C"];
+14->6[color="black", arrowhead="vee", label = "C"];
+14->15[color="black", arrowhead="vee", label = "C"];
+8->6[color="black", arrowhead="vee", label = "S,C"];
+8->12[color="black", arrowhead="vee", label = "C"];
+8->15[color="black", arrowhead="vee", label = "C"];
+4->8[color="black", arrowhead="vee", label = "S,C"];
+4->15[color="black", arrowhead="vee", label = "C"];
+4->14[color="red",  arrowhead="odot", style="dotted", label = "C,S,O"];
+0->8[color="black", arrowhead="vee", label = "S,C"];
+0->15[color="black", arrowhead="vee", label = "C"];
+2->8[color="black", arrowhead="vee", label = "S,C"];
+2->15[color="black", arrowhead="vee", label = "P,S,C"];
+2->12[color="black", arrowhead="vee", label = "C"];
+10->8[color="black", arrowhead="vee", label = "S,C"];
+10->15[color="black", arrowhead="vee", label = "P,S,C"];
+10->12[color="black", arrowhead="vee", label = "C"];
+10->6[color="black", arrowhead="vee", label = "C"];
+6->15[color="black", arrowhead="vee", label = "C"]
+}

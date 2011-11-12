@@ -1,0 +1,67 @@
+package experiments
+import projects._
+import module._
+import java.io.File
+import constructor._
+import constructor._
+
+
+
+abstract class PackageCycleAnalysis extends PackageViolationAnalysis {
+
+	util.FileOut.removeFiles(project.getHomePath, "dot")
+	def run() : (TypeStructure, PackageStructure, LayeredPackageStructure) = {
+		println("Start analysis")
+		projects.Project.proj = project
+		val prefix = project.prefix
+		Graph2Dot.prefix = prefix
+		if ( !(new File(project.getHomePath + "TypeStructure.lci")).exists ) {
+			println("generate layer class information")
+			(new DepGraphConstructor).loadGraph(projects.Project.get)
+		}
+		
+		val dgs = GraphFile.load(project.getHomePath + "TypeStructure.lci")
+		Graph2Dot.toDot(dgs._2, project.getHomePath + "PDG_Original_No_Simplification")
+		// SCCwithSubtype.run(dgs._1)
+		SCCwithSubtype.runWithStructural(dgs._1)
+		SubtypeStructures.run(dgs._1)
+		
+	  	val pdg = dgs._2.simplifyStructure
+	  	val tdg = dgs._1
+	  	Graph2Dot.toDot(pdg, project.getHomePath + "PDG_Original")
+	  	
+
+		val lpdg = new LayeredPackageStructure(tdg)
+		lpdg.layeringPackages(pdg)
+		lpdg.liftEdges()
+		layerInformation(lpdg)
+		Graph2Dot.toDot(lpdg, project.getHomePath + "LPS_" + lpdg.nodes.size )
+		Graph2File.toFileModule(lpdg, project.getHomePath + "LPS_" + lpdg.nodes.size)
+
+		ModuleIntersection.run(lpdg, SubtypeStructures.getOverridingTypeGraph(tdg), "SubtypeGraph_Layered")
+		
+
+		val clpdg = (new LayeredModuleIcebergs(lpdg)).compact(tdg)
+		Graph2Dot.toDot(clpdg, project.getHomePath + "CLPS_" + clpdg.nodes.size )
+		
+		///////////////////////////
+		
+		analysisSCC(lpdg, pdg, "Initial_")
+		
+		val cycles = analysisPackages(pdg)
+		val dredges = analysisViolations(lpdg, pdg, cycles) // design rule
+		if ( dredges.length > 0 ) 
+			analyzeDesignRuleEdges(lpdg.tdg, dredges)
+		
+		analyzeDesignRuleClasses(lpdg.tdg)
+		
+		val newpdg = makeNewPackageStructure(pdg, lpdg)
+		if ( newpdg != null )
+			Graph2Dot.toDot(newpdg, project.getHomePath + "NEWPDG") // + newpdg.nodes.size )
+		
+			
+		architectureMetrics(tdg, dgs._2, pdg, lpdg, newpdg, clpdg)
+		
+		(tdg, pdg, lpdg)
+	}
+}

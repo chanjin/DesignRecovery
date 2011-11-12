@@ -1,0 +1,56 @@
+package experiments
+
+class AndroidEvolutionStudy extends EvolutionaryCycleAnalysis {
+	override def  getViolationMap: Map[String, List[String]]  = {
+		 Map(
+			/*	 "view" -> List("text"), 
+			"os" -> List("content"), 
+			"content.res" -> List("graphics"),
+			"database" -> List("content"),
+			"hardware" -> List("view"),
+			"net" -> List("content"),
+			"widget" -> List("app"),
+			"content" -> List("accounts", "view")*/
+			)
+	}
+	
+	override def getDesignRuleClass() : List[String] = {
+		// prefix is "android"
+		List[String](
+				/*"accounts.Account", 
+				"view.KeyEvent", "view.SurfaceHolder", 
+				"graphics.Movie", "graphics.drawable.Drawable", 
+				"content.ContentResolver", "content.Context", "content.ContentValues", "content.OperationApplicationException",
+				"app.PendingIntent", "app.LocalActivityManager"*/
+		).map(project.prefix + "." + _)
+	}
+
+	
+	override def getNewPacakgeMap: Map[String, List[List[Int]]] = {
+		Map[String, List[List[Int]]] (
+			//	"text" -> List(List(0, 1, 2), List(3, 4, 5, 6))
+		)
+	}
+	override def getRefactoredEdges: Map[(String, String), (List[Int], List[Int])]  = {
+		Map[(String, String), (List[Int], List[Int])]  (
+/*				("os", "content") ->  (List(2), List(2)),
+				("view", "text") -> (List(1, 2), List(0)),
+				("widget", "text") -> (List(3, 4), List(3)),
+				("content.res", "graphics") -> (List(1), List(1)),
+				("database", "content") -> (List(2, 3), List(0, 1, 2)),
+				("hardware", "view") -> (List(1), List(1)), 
+				("net", "content") -> (List(2), List(2)),
+				("widget", "app") -> (List(3, 5), List(2, 5)),
+				("content", "accounts") -> (List(1, 2), List(1)),
+				("content", "view") -> (List(1), List(1)),
+				("media", "app") -> (List(5), List(5))*/
+		)
+	}	
+}
+
+object AndroidEvolutionStudy {
+	projects.Project.proj = new projects.AndroidEvolutionCase
+	def main(args : Array[String]) : Unit = {
+		(new AndroidEvolutionStudy).run
+	}
+}

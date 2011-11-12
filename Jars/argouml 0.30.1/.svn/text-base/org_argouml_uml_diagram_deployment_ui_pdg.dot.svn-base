@@ -1,0 +1,8 @@
+digraph org_argouml_uml_diagram_deployment_ui_pdg { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+1[ label="org.argouml.uml.diagram.deployment.ui:1(18)"];
+0[ label="org.argouml.uml.diagram.static_structure.ui:1(45)"];
+0->1[color="black", arrowhead="vee", label = "5:0:5"];
+1->0[color="black", arrowhead="vee", label = "5:0:5"]
+}

@@ -1,0 +1,22 @@
+digraph RuleEdge_SCC__content__content_pm { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+6[ label="android.content.pm:2(17)\n2(17)"];
+5[ label="android.content.pm:3(1)\n3(1)"];
+4[ label="android.content:1(11)\n1(11)"];
+3[ label="android.content.pm:1(4)\n1(4)"];
+2[ label="android.content:2(22)\n2(22)"];
+1[ label="android.content:0(18)\n0(18)"];
+0[ label="android.content:3(3)\n3(3)"];
+0->2[color="red",  arrowhead="odot", style="dotted", label = "11:2:10"];
+0->6[color="black", arrowhead="vee", label = "3:0:3"];
+0->1[color="black", arrowhead="vee", label = "1:0:1"];
+0->4[color="black", arrowhead="vee", label = "1:0:1"];
+2->6[color="black", arrowhead="vee", label = "7:0:6"];
+2->1[color="black", arrowhead="vee", label = "7:0:4"];
+2->4[color="red",  arrowhead="odot", style="dotted", label = "14:1:5"];
+5->2[color="red",  arrowhead="odot", style="dotted", label = "1:1:1"];
+5->6[color="black", arrowhead="vee", label = "1:0:1"];
+6->2[color="black", arrowhead="vee", label = "4:0:3"];
+6->3[color="black", arrowhead="vee", label = "4:0:3"]
+}

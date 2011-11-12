@@ -1,0 +1,31 @@
+
+project  {
+	name = "struts2"
+	rootpath = "Jars/struts 2.1.8.1/struts2-core-2.1.8.1.jar"
+	outputpath = "Jars/struts 2.1.8.1"
+	prefix = "org.apache.struts2"
+	
+	additionalJars = ( )
+	removeFewerEdges = "false"
+	retainPackages = ("views", "dispatcher", "components")
+}
+
+rule violation {
+	"components" -> ("views.jsp")
+	"config" -> ("dispatcher")
+	"util" -> ("dispatcher")
+}
+
+rule globalTypes {
+	
+}
+
+rule ignore {
+	"components": 1,2 ->  "views.jsp": 0, 1
+	"config": 1 -> "dispatcher": 0
+}
+
+action separation {
+	"." -> ((0), (1, 2, 3, 4, 5))
+	"views.jsp" -> ((0, 1), ( 2, 3, 4, 5, 6))
+}

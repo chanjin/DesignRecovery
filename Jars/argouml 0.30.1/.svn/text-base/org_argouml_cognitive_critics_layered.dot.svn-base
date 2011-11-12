@@ -1,0 +1,52 @@
+digraph org_argouml_cognitive_critics_layered { 
+fontname=Skia; 
+ fontsize=16; 
+edge [fontname=Skia, fontsize = 10];subgraph cluster3	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.cognitive:1(30)";
+27[ label="Translator"];
+12[ label="NotSnoozedCM"];
+10[ label="ToDoItem"];
+17[ label="Agency"];
+19[ label="ListSet"];
+29[ label="Critic"];
+}
+ subgraph cluster2	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.cognitive.critics:0(3)";
+style=filled;
+13[ label="SnoozeOrder"];
+9[ label="Wizard"];
+11[ label="WizardItem"];
+}
+ subgraph cluster1	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.cognitive.critics:1(5)";
+style=filled;
+26[ label="CriticBrowserDialog"];
+14[ label="TableModelCritics$1"];
+28[ label="TableCritics"];
+22[ label="TableModelCritics"];
+}
+ subgraph cluster0	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.cognitive.critics:3(1)";
+style=filled;
+0[ label="ActionOpenCritics"];
+}
+0->26[color="black", arrowhead="vee", label = "C"];
+29->11[color="black", arrowhead="vee", label = "C"];
+29->13[color="black", arrowhead="vee", label = "S"];
+29->9[color="black", arrowhead="vee", label = "S"];
+10->9[color="black", arrowhead="vee", label = "S"];
+10->11[color="red",  arrowhead="odot", style="dotted", label = "O: "];
+12->13[color="black", arrowhead="vee", label = "C"];
+14->29[color="black", arrowhead="vee", label = "S"];
+22->17[color="black", arrowhead="vee", label = "C"];
+22->19[color="black", arrowhead="vee", label = "C"];
+22->29[color="black", arrowhead="vee", label = "S"];
+22->27[color="black", arrowhead="vee", label = "C"];
+26->29[color="black", arrowhead="vee", label = "S"];
+26->27[color="black", arrowhead="vee", label = "C"];
+28->29[color="black", arrowhead="vee", label = "S"]
+}

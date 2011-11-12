@@ -1,0 +1,35 @@
+package experiments
+
+import module._
+
+class JUnit3Study extends PackageCycleAnalysis {
+	override def getViolationMap: Map[String, List[String]]= {
+		Map[String, List[String]](	)
+
+	}
+	
+}
+
+object JUnit3Study {
+	def main(args : Array[String]) : Unit = {
+		projects.Project.proj = (new projects.JUnit3Case)
+		val (tdg: TypeStructure, pdg, lpdg: LayeredPackageStructure) = (new JUnit3Study).run
+		//return
+		
+		val pkgs = List("junit.framework", "junit.runner", "junit.textui")
+		Graph2Dot.toDot(lpdg, projects.Project.proj.getHomePath + "lpdg_subset", 
+				lpdg.nodes.values.filter(n => pkgs.contains(n.asInstanceOf[ModuleNode].packageName)).toList)
+		
+		
+		import trace._
+		val traceAnalyzer = new TraceAnalyzer(tdg)
+		traceAnalyzer.run(projects.Project.get.getHomePath + "/Method.log", 
+				projects.Project.get.getHomePath+ "/Call.log", lpdg)
+		
+		Graph2Dot.toDotType(tdg, projects.Project.get.getHomePath + "TDG")
+		val mns = lpdg.getNodesWithPrefix(List[String]("junit.framework")).map(_.asInstanceOf[ModuleNode])
+		val tns = tdg.nodes.values.filter(t => t.value.startsWith("junit.framework")).toList
+		val edges = tdg.edges.filter(e => tns.contains(e.getSource) && tns.contains(e.getTarget))
+		Graph2Dot.toDotTypeGrouped(mns, edges,projects.Project.get.getHomePath + "TDG_framework")
+	}
+}

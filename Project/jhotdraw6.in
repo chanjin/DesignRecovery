@@ -1,0 +1,35 @@
+
+project  {
+	name = "jhotdraw6"
+	rootpath = "Jars/jhotdraw 6.0 b1/jhotdraw.jar"
+	outputpath = "Jars/jhotdraw 6.0 b1"
+	prefix =  ""
+	reanalysis = "false"
+	additionalJars = ( )
+	removeFewerEdges = "false"
+}
+
+rule violation {
+	"standard" -> ("contrib", "contrib.dnd")
+	"contrib" -> ("application")
+	"application" -> ("contrib")
+	"framework" -> ("util", "standard")
+	"util" -> ("standard")
+	"contrib.dnd" -> ("standard")
+}
+
+rule globalTypes {
+
+}
+
+rule ignore {
+	"standard": -1 -> "contrib": 0
+	"standard": -1 -> "contrib.dnd":2
+	"contrib": 4 ->  "application": 4
+}
+
+action separation {
+	"standard" -> ((0, 1), (2), (3, 4))
+	"util" -> ((0), (1), (2))
+	"contrib" -> ((0, 1, 2, 3, 4), (5))
+}

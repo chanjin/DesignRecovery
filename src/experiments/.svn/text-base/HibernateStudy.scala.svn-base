@@ -1,0 +1,18 @@
+package experiments
+import projects._
+
+class HibernateStudy extends PackageCycleAnalysis {
+
+	override def getViolationMap: Map[String, List[String]] = {
+			Map[String, List[String]](
+				)
+	}
+	
+}
+
+object HibernateStudy {
+	def main(args : Array[String]) : Unit = {
+		projects.Project.proj = (new HibernateCase)
+		(new HibernateStudy).run
+	}
+}

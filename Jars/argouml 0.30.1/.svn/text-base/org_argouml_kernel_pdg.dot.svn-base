@@ -1,0 +1,12 @@
+digraph org_argouml_kernel_pdg { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+2[ label="org.argouml.uml.diagram:14(129)\n.(31),activity(1),activity.layout(1),activity.ui(16),collaboration(1),collaboration.ui(10),deployment(1),layout(6),state(3),state.ui(31),static_structure(1),static_structure.layout(11),use_case(1),use_case.ui(15)"];
+1[ label="org.argouml.notation:5(86)\n.(17),providers(20),providers.java(7),providers.uml(39),ui(3)"];
+0[ label="org.argouml.kernel:1(42)"];
+0->1[color="black", arrowhead="vee", label = "24:0:4"];
+0->2[color="black", arrowhead="vee", label = "15:0:5"];
+1->0[color="black", arrowhead="vee", label = "20:0:3"];
+2->0[color="red",  arrowhead="odot", style="dotted", label = "18:4:9"];
+2->1[color="black", arrowhead="vee", label = "15:0:5"]
+}

@@ -1,0 +1,26 @@
+digraph org_argouml_ui_2_ui { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+6[ label="org.argouml.cognitive.ui:1(24)"];
+5[ label="org.argouml.ui:2(120)"];
+4[ label="org.argouml.ui:9(59)"];
+3[ label="org.argouml.ui:0(71)"];
+2[ label="org.argouml.cognitive.ui:3(5)"];
+1[ label="org.argouml.cognitive.ui:2(1)"];
+0[ label="org.argouml.cognitive.ui:9(15)"];
+0->1[color="black", arrowhead="vee", label = "2:0:1"];
+0->5[color="red",  arrowhead="odot", style="dotted", label = "2:2:1"];
+0->6[color="black", arrowhead="vee", label = "19:0:15"];
+0->3[color="red",  arrowhead="odot", style="dotted", label = "6:3:4"];
+0->4[color="black", arrowhead="vee", label = "4:0:2"];
+0->2[color="black", arrowhead="vee", label = "2:0:2"];
+1->5[color="black", arrowhead="vee", label = "1:0:1"];
+2->6[color="black", arrowhead="vee", label = "4:0:4"];
+2->5[color="red",  arrowhead="odot", style="dotted", label = "5:5:1"];
+2->1[color="black", arrowhead="vee", label = "1:0:1"];
+4->5[color="red",  arrowhead="odot", style="dotted", label = "15:1:10"];
+4->3[color="red",  arrowhead="odot", style="dotted", label = "52:4:29"];
+4->2[color="black", arrowhead="vee", label = "6:0:3"];
+5->3[color="red",  arrowhead="odot", style="dotted", label = "99:81:7"];
+6->3[color="red",  arrowhead="odot", style="dotted", label = "1:1:1"]
+}

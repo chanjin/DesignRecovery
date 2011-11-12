@@ -1,0 +1,7 @@
+digraph org_jhotdraw_standard_2_contrib_tdg { 
+node [shape=plaintext, fontname=Skia, fontsize=20];
+edge [fontname=Skia, fontsize = 10];
+1[ label=".contrib.AutoscrollHelper(0)"];
+0[ label=".standard.StandardDrawingView$ASH(3)"];
+0->1[color="red",  arrowhead="odot", style="dotted", label = ""]
+}

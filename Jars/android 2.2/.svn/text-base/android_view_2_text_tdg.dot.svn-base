@@ -1,0 +1,14 @@
+digraph android_view_2_text_tdg { 
+node [shape=plaintext, fontname=Skia, fontsize=20];
+edge [fontname=Skia, fontsize = 10];
+5[ label=".text.InputType(0)"];
+4[ label=".view.inputmethod.EditorInfo(1)"];
+3[ label=".text.Spannable(0)"];
+2[ label=".view.inputmethod.BaseInputConnection(2)"];
+1[ label=".text.Editable(0)"];
+2[ label=".view.inputmethod.BaseInputConnection(2)"];
+2->3[color="black", arrowhead="vee", label = ""];
+2->1[color="black", arrowhead="vee", label = ""];
+1->3[color="black", arrowhead="vee", label = ""];
+4->5[color="black", arrowhead="vee", label = ""]
+}

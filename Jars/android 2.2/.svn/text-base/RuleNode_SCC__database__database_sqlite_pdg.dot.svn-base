@@ -1,0 +1,8 @@
+digraph RuleNode_SCC__database__database_sqlite_pdg { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+1[ label="android.database(23)"];
+0[ label="android.database.sqlite(19)"];
+0->1[color="red",  arrowhead="odot", style="dotted", label = "12:4:7"];
+1->0[color="red",  arrowhead="odot", style="dotted", label = "5:1:4"]
+}

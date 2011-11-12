@@ -1,0 +1,39 @@
+digraph Trace_sdg_Layered_tdg { 
+node [shape=plaintext, fontname=Skia, fontsize=20];
+edge [fontname=Skia, fontsize = 10];
+11[ label=".framework.TestResult"];
+10[ label=".framework.Test"];
+9[ label=".framework.TestListener"];
+8[ label=".framework.TestCase"];
+7[ label=".framework.Protectable"];
+6[ label=".framework.TestResult$1"];
+5[ label=".framework.TestSuite"];
+4[ label=".samples.VectorTest"];
+3[ label=".textui.TestRunner"];
+2[ label=".runner.BaseTestRunner"];
+1[ label=".textui.ResultPrinter"];
+0[ label=".framework.Assert"];
+1->11[color="black", arrowhead="vee", label = "S"];
+4->0[color="black", arrowhead="vee", label = "S"];
+8->4[color="black", arrowhead="vee", label = "S"];
+8->0[color="black", arrowhead="vee", label = "S"];
+4->8[color="red",  arrowhead="odot", style="dotted", label = "O"];
+6->8[color="black", arrowhead="vee", label = "S"];
+6->7[color="red",  arrowhead="odot", style="dotted", label = "O"];
+11->7[color="black", arrowhead="vee", label = "S"];
+11->6[color="black", arrowhead="vee", label = "S"];
+1->9[color="red",  arrowhead="odot", style="dotted", label = "O"];
+11->9[color="black", arrowhead="vee", label = "S"];
+11->10[color="black", arrowhead="vee", label = "S"];
+8->11[color="black", arrowhead="vee", label = "S"];
+8->10[color="red",  arrowhead="odot", style="dotted", label = "O"];
+5->11[color="black", arrowhead="vee", label = "S"];
+5->10[color="red",  arrowhead="odot", style="dotted", label = "O"];
+3->10[color="black", arrowhead="vee", label = "S"];
+3->11[color="black", arrowhead="vee", label = "S"];
+3->1[color="black", arrowhead="vee", label = "S"];
+4->3[color="black", arrowhead="vee", label = "S"];
+4->2[color="black", arrowhead="vee", label = "S"];
+5->8[color="black", arrowhead="vee", label = "S"];
+4->5[color="black", arrowhead="vee", label = "S"]
+}

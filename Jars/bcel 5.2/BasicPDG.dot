@@ -1,0 +1,38 @@
+digraph BasicPDG { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+7[ label="org.apache.bcel.verifier(19)"];
+6[ label="org.apache.bcel(4)"];
+5[ label="org.apache.bcel.generic(229)"];
+4[ label="org.apache.bcel.classfile(56)"];
+3[ label="org.apache.bcel.util(29)"];
+2[ label="org.apache.bcel.verifier.statics(14)"];
+1[ label="org.apache.bcel.verifier.structurals(18)"];
+0[ label="org.apache.bcel.verifier.exc(14)"];
+1->5[color="red",  arrowhead="odot", style="dotted", label = "401:5:183"];
+1->4[color="black", arrowhead="vee", label = "19:0:12"];
+1->6[color="black", arrowhead="vee", label = "3:0:2"];
+1->0[color="black", arrowhead="vee", label = "15:0:3"];
+1->7[color="red",  arrowhead="odot", style="dotted", label = "6:1:4"];
+2->0[color="black", arrowhead="vee", label = "20:0:9"];
+2->5[color="red",  arrowhead="odot", style="dotted", label = "65:2:48"];
+2->4[color="red",  arrowhead="odot", style="dotted", label = "124:8:38"];
+2->6[color="black", arrowhead="vee", label = "6:0:2"];
+2->7[color="red",  arrowhead="odot", style="dotted", label = "16:3:4"];
+3->4[color="red",  arrowhead="odot", style="dotted", label = "79:2:28"];
+3->6[color="black", arrowhead="vee", label = "9:0:2"];
+3->5[color="red",  arrowhead="odot", style="dotted", label = "40:2:32"];
+4->3[color="red",  arrowhead="odot", style="dotted", label = "12:4:5"];
+4->5[color="black", arrowhead="vee", label = "3:0:1"];
+4->6[color="black", arrowhead="vee", label = "8:0:1"];
+5->4[color="black", arrowhead="vee", label = "77:0:31"];
+5->6[color="black", arrowhead="vee", label = "35:0:3"];
+5->3[color="red",  arrowhead="odot", style="dotted", label = "25:3:2"];
+6->3[color="black", arrowhead="vee", label = "4:0:4"];
+6->4[color="black", arrowhead="vee", label = "1:0:1"];
+7->4[color="black", arrowhead="vee", label = "8:0:2"];
+7->6[color="black", arrowhead="vee", label = "4:0:1"];
+7->5[color="black", arrowhead="vee", label = "2:0:2"];
+7->1[color="black", arrowhead="vee", label = "1:0:1"];
+7->2[color="black", arrowhead="vee", label = "3:0:3"]
+}

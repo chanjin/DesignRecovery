@@ -1,0 +1,14 @@
+digraph LMSEdgesIgnore_SPDG { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+3[ label="org.apache.bcel(69)\n(verifier(19), verifier.exc(14), verifier.statics(14),\nverifier.structurals(18),24)"];
+2[ label="org.apache.bcel.util(29)"];
+1[ label="org.apache.bcel.classfile(56)"];
+0[ label="org.apache.bcel.generic(229)"];
+0->1[color="black", arrowhead="vee", label = "77:0:31"];
+2->1[color="red",  arrowhead="odot", style="dotted", label = "79:2:28"];
+2->3[color="black", arrowhead="vee", label = "9:0:2"];
+2->0[color="red",  arrowhead="odot", style="dotted", label = "40:2:32"];
+3->1[color="red",  arrowhead="odot", style="dotted", label = "152:8:38"];
+3->0[color="red",  arrowhead="odot", style="dotted", label = "468:7:183"]
+}

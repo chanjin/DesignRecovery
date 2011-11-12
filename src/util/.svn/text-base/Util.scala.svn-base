@@ -1,0 +1,15 @@
+package util
+
+object Util {
+	def isFromJar(path: String): Boolean = path.endsWith(".jar")
+	
+	
+	import java.text.NumberFormat
+   	val nfpct = NumberFormat.getPercentInstance()
+   	nfpct.setMinimumFractionDigits(1);
+   	val nfnum = NumberFormat.getNumberInstance()
+   	nfnum.setMinimumFractionDigits(2)
+   	
+   	def percentage(t: Long, total: Long) : String = nfpct.format(t.asInstanceOf[Double] / total.asInstanceOf[Double])
+
+}

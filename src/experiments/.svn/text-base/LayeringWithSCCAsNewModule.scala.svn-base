@@ -1,0 +1,28 @@
+package experiments
+
+import module._
+import constructor._
+
+object LayeringWithSCCAsNewModule  {
+	
+	private def layeringWithSCC(tdg: TypeStructure, pdg: PackageStructure) = {
+		/*val clpdg2 = clpdg1.mergeIfNocycle
+		    clpdg2.toDot("CompactLPM2")*/
+	
+		var lpdgscc = new LayeredPackageStructure(tdg)
+		lpdgscc.layeringPackagesWithSccs(pdg)
+		lpdgscc.liftEdges()
+		Graph2Dot.toDot(lpdgscc, "LPMSCC")
+
+	
+		val clpdgscc = (new LayeredModuleIcebergs(lpdgscc)).compact(tdg)
+		Graph2Dot.toDot(clpdgscc, "CLPSCC")
+	
+		//clpdgscc.mergeIceburgs.mergeFallthrough.toDot("CLPSCC1")
+	}
+	
+	def main(args: Array[String]) = {
+		val dgs = GraphFile.load(projects.Project.get.getHomePath +"TypeStructure.lci")
+		layeringWithSCC(dgs._1, dgs._2)
+	}
+}

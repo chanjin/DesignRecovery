@@ -1,0 +1,8 @@
+digraph org_jhotdraw_contrib_dnd_pdg { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+1[ label="org.jhotdraw.standard:1(103)"];
+0[ label="org.jhotdraw.contrib.dnd:1(10)"];
+0->1[color="red",  arrowhead="odot", style="dotted", label = "11:1:7"];
+1->0[color="red",  arrowhead="odot", style="dotted", label = "4:2:3"]
+}

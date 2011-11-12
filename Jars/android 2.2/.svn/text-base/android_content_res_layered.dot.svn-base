@@ -1,0 +1,65 @@
+digraph android_content_res_layered { 
+fontname=Skia; 
+ fontsize=16; 
+edge [fontname=Skia, fontsize = 10];
+node [shape=plaintext, fontname=Skia, fontsize=18];
+subgraph cluster2	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.graphics:3(104)\n.(74),drawable(24),drawable.shapes(6)";
+43[ label="Drawable"];
+36[ label="ScaleDrawable"];
+34[ label="AnimationDrawable"];
+32[ label="LevelListDrawable"];
+30[ label="GradientDrawable"];
+28[ label="Drawable$ConstantState"];
+26[ label="StateListDrawable"];
+24[ label="NinePatchDrawable"];
+22[ label="BitmapDrawable"];
+20[ label="ClipDrawable"];
+18[ label="InsetDrawable"];
+16[ label="ColorDrawable"];
+14[ label="ShapeDrawable"];
+12[ label="LayerDrawable"];
+10[ label="RotateDrawable"];
+8[ label="PaintDrawable"];
+6[ label="Typeface"];
+4[ label="BitmapFactory"];
+45[ label="Movie"];
+}
+ subgraph cluster1	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.content.res:0(1)";
+3[ label="XmlResourceParser"];
+}
+ subgraph cluster0	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.content.res:1(11)";
+40[ label="TypedArray"];
+44[ label="Resources"];
+7[ label="AssetManager"];
+}
+;
+7->3[color="black", arrowhead="vee", label = ""];
+44->3[color="black", arrowhead="vee", label = ""];
+4->44[color="black", arrowhead="vee", label = ""];
+6->7[color="black", arrowhead="vee", label = ""];
+8->44[color="black", arrowhead="vee", label = ""];
+10->44[color="black", arrowhead="vee", label = ""];
+12->44[color="black", arrowhead="vee", label = ""];
+14->44[color="black", arrowhead="vee", label = ""];
+16->44[color="black", arrowhead="vee", label = ""];
+18->44[color="black", arrowhead="vee", label = ""];
+20->44[color="black", arrowhead="vee", label = ""];
+22->44[color="black", arrowhead="vee", label = ""];
+24->44[color="black", arrowhead="vee", label = ""];
+26->44[color="black", arrowhead="vee", label = ""];
+28->44[color="black", arrowhead="vee", label = ""];
+30->44[color="black", arrowhead="vee", label = ""];
+32->44[color="black", arrowhead="vee", label = ""];
+34->44[color="black", arrowhead="vee", label = ""];
+36->44[color="black", arrowhead="vee", label = ""];
+43->44[color="black", arrowhead="vee", label = ""];
+40->43[color="black", arrowhead="vee", label = ""];
+44->43[color="black", arrowhead="vee", label = ""];
+44->45[color="black", arrowhead="vee", label = ""]
+}

@@ -1,0 +1,8 @@
+digraph org_apache_hadoop_conf_pdg { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+1[ label="org.apache.hadoop.conf:1(6)"];
+0[ label="org.apache.hadoop.io:7(217)\n.(94),compress(22),compress.bzip2(8),compress.zlib\n(9),file.tfile(56),retry(14),serializer(14)"];
+0->1[color="red",  arrowhead="odot", style="dotted", label = "57:4:3"];
+1->0[color="red",  arrowhead="odot", style="dotted", label = "3:1:3"]
+}

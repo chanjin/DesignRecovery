@@ -1,0 +1,39 @@
+digraph org_apache_bcel_2_generic { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+8[ label="org.apache.bcel.generic:0(6)"];
+7[ label="org.apache.bcel:1(5)"];
+6[ label="org.apache.bcel.generic:1(9)"];
+5[ label="org.apache.bcel:2(7)"];
+4[ label="org.apache.bcel:4(31)"];
+3[ label="org.apache.bcel.generic:2(205)"];
+2[ label="org.apache.bcel:3(3)"];
+1[ label="org.apache.bcel:0(23)"];
+0[ label="org.apache.bcel.generic:3(9)"];
+0->3[color="red",  arrowhead="odot", style="dotted", label = "261:7:185"];
+0->6[color="black", arrowhead="vee", label = "10:0:6"];
+0->8[color="black", arrowhead="vee", label = "10:0:6"];
+2->3[color="black", arrowhead="vee", label = "20:0:15"];
+2->1[color="black", arrowhead="vee", label = "5:0:2"];
+2->6[color="black", arrowhead="vee", label = "1:0:1"];
+2->8[color="black", arrowhead="vee", label = "1:0:1"];
+2->5[color="red",  arrowhead="odot", style="dotted", label = "2:1:1"];
+3->8[color="red",  arrowhead="odot", style="dotted", label = "129:30:6"];
+3->1[color="black", arrowhead="vee", label = "31:0:2"];
+3->6[color="red",  arrowhead="odot", style="dotted", label = "88:3:6"];
+4->1[color="red",  arrowhead="odot", style="dotted", label = "43:6:16"];
+4->5[color="black", arrowhead="vee", label = "23:0:7"];
+4->6[color="black", arrowhead="vee", label = "26:0:5"];
+4->7[color="black", arrowhead="vee", label = "13:0:2"];
+4->3[color="red",  arrowhead="odot", style="dotted", label = "392:3:174"];
+4->2[color="black", arrowhead="vee", label = "3:0:2"];
+4->0[color="red",  arrowhead="odot", style="dotted", label = "5:3:2"];
+5->3[color="black", arrowhead="vee", label = "5:0:3"];
+5->6[color="red",  arrowhead="odot", style="dotted", label = "13:1:4"];
+5->1[color="black", arrowhead="vee", label = "5:0:3"];
+6->7[color="black", arrowhead="vee", label = "2:0:1"];
+6->8[color="black", arrowhead="vee", label = "2:0:1"];
+6->1[color="black", arrowhead="vee", label = "2:0:1"];
+7->6[color="black", arrowhead="vee", label = "5:0:2"];
+7->1[color="black", arrowhead="vee", label = "3:0:2"]
+}

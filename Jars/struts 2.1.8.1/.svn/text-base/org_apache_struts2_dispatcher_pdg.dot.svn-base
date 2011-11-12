@@ -1,0 +1,8 @@
+digraph org_apache_struts2_dispatcher_pdg { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+1[ label="org.apache.struts2:13(171)\n.(5),impl(3),interceptor(30),interceptor.debugging\n(6),interceptor.validation(3),servlet.interceptor(\n1),views(3),views.annotations(3),views.freemarker(\n7),views.freemarker.tags(45),views.velocity(3),vie\nws.velocity.components(39),views.xslt(23)"];
+0[ label="org.apache.struts2.dispatcher:6(43)\n.(27),multipart(4),ng(4),ng.filter(4),ng.listener(\n2),ng.servlet(2)"];
+0->1[color="black", arrowhead="vee", label = "14:0:4"];
+1->0[color="red",  arrowhead="odot", style="dotted", label = "1:1:1"]
+}

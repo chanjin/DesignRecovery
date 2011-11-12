@@ -1,0 +1,58 @@
+digraph CLPS_12 { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+11[ label="org.apache.bcel.generic:0(6)\n0(6)"];
+10[ label="org.apache.bcel.util:1(11)\n1(11)"];
+9[ label="org.apache.bcel:1(5)\n1(5)"];
+8[ label="org.apache.bcel.generic:1(9)\n1(9)"];
+7[ label="org.apache.bcel.classfile:2(2)\n2(2)"];
+6[ label="org.apache.bcel.util:4(6)\n2(4),4(2)"];
+5[ label="org.apache.bcel.classfile:1(52)\n1(52)"];
+4[ label="org.apache.bcel:3(41)\n2(7),3(3),4(31)"];
+3[ label="org.apache.bcel.classfile:0(2)\n0(2)"];
+2[ label="org.apache.bcel:0(23)\n0(23)"];
+1[ label="org.apache.bcel.generic:3(214)\n2(205),3(9)"];
+0[ label="org.apache.bcel.util:0(12)\n0(12)"];
+1->0[color="red",  arrowhead="odot", style="dotted", label = "25:3:2"];
+1->11[color="red",  arrowhead="odot", style="dotted", label = "139:30:6"];
+1->8[color="red",  arrowhead="odot", style="dotted", label = "98:3:6"];
+1->5[color="black", arrowhead="vee", label = "69:0:29"];
+1->3[color="black", arrowhead="vee", label = "4:0:1"];
+1->2[color="black", arrowhead="vee", label = "31:0:2"];
+4->1[color="red",  arrowhead="odot", style="dotted", label = "422:6:177"];
+4->2[color="red",  arrowhead="odot", style="dotted", label = "53:6:16"];
+4->5[color="red",  arrowhead="odot", style="dotted", label = "141:4:35"];
+4->7[color="red",  arrowhead="odot", style="dotted", label = "7:4:2"];
+4->8[color="red",  arrowhead="odot", style="dotted", label = "40:1:5"];
+4->11[color="black", arrowhead="vee", label = "1:0:1"];
+4->9[color="black", arrowhead="vee", label = "13:0:2"];
+4->3[color="black", arrowhead="vee", label = "3:0:1"];
+5->2[color="black", arrowhead="vee", label = "8:0:1"];
+5->0[color="red",  arrowhead="odot", style="dotted", label = "9:4:2"];
+5->8[color="black", arrowhead="vee", label = "3:0:1"];
+5->3[color="black", arrowhead="vee", label = "12:0:2"];
+5->10[color="black", arrowhead="vee", label = "3:0:3"];
+6->1[color="red",  arrowhead="odot", style="dotted", label = "33:2:27"];
+6->5[color="red",  arrowhead="odot", style="dotted", label = "18:1:11"];
+6->8[color="black", arrowhead="vee", label = "5:0:3"];
+6->9[color="black", arrowhead="vee", label = "1:0:1"];
+6->2[color="black", arrowhead="vee", label = "3:0:1"];
+6->7[color="red",  arrowhead="odot", style="dotted", label = "1:1:1"];
+6->11[color="black", arrowhead="vee", label = "2:0:2"];
+6->10[color="red",  arrowhead="odot", style="dotted", label = "3:1:2"];
+6->0[color="black", arrowhead="vee", label = "1:0:1"];
+7->5[color="red",  arrowhead="odot", style="dotted", label = "68:2:35"];
+8->5[color="black", arrowhead="vee", label = "3:0:2"];
+8->2[color="black", arrowhead="vee", label = "2:0:1"];
+8->9[color="black", arrowhead="vee", label = "2:0:1"];
+8->3[color="black", arrowhead="vee", label = "1:0:1"];
+8->11[color="black", arrowhead="vee", label = "2:0:1"];
+9->8[color="black", arrowhead="vee", label = "5:0:2"];
+9->10[color="black", arrowhead="vee", label = "2:0:2"];
+9->5[color="black", arrowhead="vee", label = "1:0:1"];
+9->0[color="black", arrowhead="vee", label = "2:0:2"];
+9->2[color="black", arrowhead="vee", label = "3:0:2"];
+10->5[color="black", arrowhead="vee", label = "60:0:26"];
+10->2[color="black", arrowhead="vee", label = "5:0:1"];
+10->0[color="black", arrowhead="vee", label = "3:0:2"]
+}

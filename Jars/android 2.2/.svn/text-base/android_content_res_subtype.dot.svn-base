@@ -1,0 +1,92 @@
+digraph android_content_res_subtype { 
+fontname=Skia; 
+ fontsize=16; 
+edge [fontname=Skia, fontsize = 10];
+node [shape=plaintext, fontname=Skia, fontsize=18];
+subgraph cluster4	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.graphics:1(46)";
+65[ label="Shape"];
+71[ label="Drawable$Callback"];
+11[ label="Drawable$ConstantState"];
+69[ label="Drawable"];
+}
+ subgraph cluster3	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.graphics:2(17)";
+64[ label="PathShape"];
+61[ label="RectShape"];
+10[ label="DrawableContainer$DrawableContainerState"];
+25[ label="LayerDrawable"];
+51[ label="ShapeDrawable"];
+52[ label="ColorDrawable"];
+8[ label="NinePatchDrawable"];
+58[ label="DrawableContainer"];
+12[ label="PictureDrawable"];
+48[ label="RotateDrawable"];
+40[ label="ScaleDrawable"];
+70[ label="InsetDrawable"];
+54[ label="GradientDrawable"];
+22[ label="ClipDrawable"];
+66[ label="BitmapDrawable"];
+}
+ subgraph cluster2	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.graphics:3(8)";
+26[ label="TransitionDrawable"];
+32[ label="AnimationDrawable"];
+36[ label="LevelListDrawable"];
+62[ label="ArcShape"];
+44[ label="RoundRectShape"];
+6[ label="StateListDrawable"];
+18[ label="OvalShape"];
+50[ label="PaintDrawable"];
+}
+ subgraph cluster1	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.content.res:0(1)";
+;
+}
+ subgraph cluster0	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.content.res:1(11)";
+;
+}
+;
+25->69[color="red",  arrowhead="odot", style="dotted", label = ""];
+25->71[color="red",  arrowhead="odot", style="dotted", label = ""];
+6->58[color="red",  arrowhead="odot", style="dotted", label = ""];
+6->69[color="red",  arrowhead="odot", style="dotted", label = ""];
+8->69[color="red",  arrowhead="odot", style="dotted", label = ""];
+10->11[color="red",  arrowhead="odot", style="dotted", label = ""];
+12->69[color="red",  arrowhead="odot", style="dotted", label = ""];
+61->65[color="red",  arrowhead="odot", style="dotted", label = ""];
+18->61[color="red",  arrowhead="odot", style="dotted", label = ""];
+18->65[color="red",  arrowhead="odot", style="dotted", label = ""];
+22->69[color="red",  arrowhead="odot", style="dotted", label = ""];
+22->71[color="red",  arrowhead="odot", style="dotted", label = ""];
+26->25[color="red",  arrowhead="odot", style="dotted", label = ""];
+26->69[color="red",  arrowhead="odot", style="dotted", label = ""];
+51->69[color="red",  arrowhead="odot", style="dotted", label = ""];
+32->58[color="red",  arrowhead="odot", style="dotted", label = ""];
+32->69[color="red",  arrowhead="odot", style="dotted", label = ""];
+36->58[color="red",  arrowhead="odot", style="dotted", label = ""];
+36->69[color="red",  arrowhead="odot", style="dotted", label = ""];
+40->69[color="red",  arrowhead="odot", style="dotted", label = ""];
+40->71[color="red",  arrowhead="odot", style="dotted", label = ""];
+44->61[color="red",  arrowhead="odot", style="dotted", label = ""];
+44->65[color="red",  arrowhead="odot", style="dotted", label = ""];
+48->69[color="red",  arrowhead="odot", style="dotted", label = ""];
+48->71[color="red",  arrowhead="odot", style="dotted", label = ""];
+50->51[color="red",  arrowhead="odot", style="dotted", label = ""];
+52->69[color="red",  arrowhead="odot", style="dotted", label = ""];
+54->69[color="red",  arrowhead="odot", style="dotted", label = ""];
+58->69[color="red",  arrowhead="odot", style="dotted", label = ""];
+58->71[color="red",  arrowhead="odot", style="dotted", label = ""];
+62->61[color="red",  arrowhead="odot", style="dotted", label = ""];
+62->65[color="red",  arrowhead="odot", style="dotted", label = ""];
+64->65[color="red",  arrowhead="odot", style="dotted", label = ""];
+66->69[color="red",  arrowhead="odot", style="dotted", label = ""];
+70->69[color="red",  arrowhead="odot", style="dotted", label = ""];
+70->71[color="red",  arrowhead="odot", style="dotted", label = ""]
+}

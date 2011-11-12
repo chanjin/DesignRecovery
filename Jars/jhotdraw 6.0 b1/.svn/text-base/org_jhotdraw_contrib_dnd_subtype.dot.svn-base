@@ -1,0 +1,153 @@
+digraph org_jhotdraw_contrib_dnd_subtype { 
+fontname=Skia; 
+ fontsize=16; 
+edge [fontname=Skia, fontsize = 10];
+node [shape=plaintext, fontname=Skia, fontsize=18];
+subgraph cluster6	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="org.jhotdraw.standard:0(3)";
+;
+}
+ subgraph cluster5	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="org.jhotdraw.standard:1(29)";
+91[ label="AbstractHandle"];
+69[ label="AbstractLocator"];
+103[ label="AbstractCommand"];
+95[ label="AbstractConnector"];
+97[ label="AbstractTool"];
+}
+ subgraph cluster4	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="org.jhotdraw.standard:2(54)";
+102[ label="SendToBackCommand"];
+4[ label="NorthEastHandle"];
+64[ label="RelativeLocator"];
+2[ label="ConnectionTool"];
+72[ label="AlignCommand$4"];
+62[ label="SelectionTool"];
+96[ label="HandleTracker"];
+82[ label="CreationTool"];
+50[ label="CopyCommand"];
+56[ label="ChangeConnectionHandle"];
+18[ label="ResizeHandle"];
+46[ label="SelectAreaTracker"];
+76[ label="AlignCommand$2"];
+70[ label="AlignCommand$6"];
+92[ label="DuplicateCommand"];
+105[ label="SendToBackCommand$UndoActivity"];
+80[ label="AlignCommand$1"];
+68[ label="OffsetLocator"];
+60[ label="AlignCommand"];
+24[ label="NorthWestHandle"];
+58[ label="SelectAllCommand"];
+54[ label="DragTracker"];
+74[ label="AlignCommand$5"];
+36[ label="SouthHandle"];
+10[ label="WestHandle"];
+14[ label="NullTool"];
+40[ label="ToggleGridCommand"];
+8[ label="ActionTool"];
+30[ label="LocatorConnector"];
+44[ label="SouthEastHandle"];
+0[ label="ChangeAttributeCommand"];
+84[ label="EastHandle"];
+100[ label="PasteCommand"];
+34[ label="NorthHandle"];
+16[ label="NullHandle"];
+94[ label="ChopBoxConnector"];
+52[ label="CutCommand"];
+87[ label="ChangeConnectionHandle$UndoActivity"];
+32[ label="DeleteCommand"];
+81[ label="AlignCommand$Alignment"];
+20[ label="SouthWestHandle"];
+67[ label="AbstractFigure"];
+78[ label="AlignCommand$3"];
+89[ label="LocatorHandle"];
+}
+ subgraph cluster3	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="org.jhotdraw.standard:3(15)";
+38[ label="StandardDrawingView$1"];
+98[ label="BringToFrontCommand"];
+104[ label="BringToFrontCommand$UndoActivity"];
+66[ label="CompositeFigure"];
+86[ label="ChangeConnectionEndHandle$UndoActivity"];
+26[ label="StandardDrawingView"];
+22[ label="ChangeConnectionStartHandle$UndoActivity"];
+42[ label="ChangeConnectionStartHandle"];
+90[ label="ConnectionHandle"];
+12[ label="DecoratorFigure"];
+28[ label="ChangeConnectionEndHandle"];
+}
+ subgraph cluster2	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="org.jhotdraw.contrib.dnd:0(2)";
+27[ label="DNDInterface"];
+}
+ subgraph cluster1	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="org.jhotdraw.contrib.dnd:1(1)";
+;
+}
+ subgraph cluster0	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="org.jhotdraw.contrib.dnd:2(7)";
+39[ label="DNDHelper"];
+48[ label="DragNDropTool"];
+}
+;
+0->103[color="red",  arrowhead="odot", style="dotted", label = ""];
+2->97[color="red",  arrowhead="odot", style="dotted", label = ""];
+4->91[color="red",  arrowhead="odot", style="dotted", label = ""];
+89->91[color="red",  arrowhead="odot", style="dotted", label = ""];
+8->97[color="red",  arrowhead="odot", style="dotted", label = ""];
+10->91[color="red",  arrowhead="odot", style="dotted", label = ""];
+12->67[color="red",  arrowhead="odot", style="dotted", label = ""];
+14->97[color="red",  arrowhead="odot", style="dotted", label = ""];
+16->91[color="red",  arrowhead="odot", style="dotted", label = ""];
+18->91[color="red",  arrowhead="odot", style="dotted", label = ""];
+20->91[color="red",  arrowhead="odot", style="dotted", label = ""];
+22->87[color="red",  arrowhead="odot", style="dotted", label = ""];
+24->91[color="red",  arrowhead="odot", style="dotted", label = ""];
+26->27[color="red",  arrowhead="odot", style="dotted", label = ""];
+28->56[color="red",  arrowhead="odot", style="dotted", label = ""];
+30->95[color="red",  arrowhead="odot", style="dotted", label = ""];
+32->103[color="red",  arrowhead="odot", style="dotted", label = ""];
+34->91[color="red",  arrowhead="odot", style="dotted", label = ""];
+36->91[color="red",  arrowhead="odot", style="dotted", label = ""];
+38->39[color="red",  arrowhead="odot", style="dotted", label = ""];
+40->103[color="red",  arrowhead="odot", style="dotted", label = ""];
+42->56[color="red",  arrowhead="odot", style="dotted", label = ""];
+44->91[color="red",  arrowhead="odot", style="dotted", label = ""];
+46->97[color="red",  arrowhead="odot", style="dotted", label = ""];
+48->97[color="red",  arrowhead="odot", style="dotted", label = ""];
+50->103[color="red",  arrowhead="odot", style="dotted", label = ""];
+52->103[color="red",  arrowhead="odot", style="dotted", label = ""];
+54->97[color="red",  arrowhead="odot", style="dotted", label = ""];
+56->91[color="red",  arrowhead="odot", style="dotted", label = ""];
+58->103[color="red",  arrowhead="odot", style="dotted", label = ""];
+60->103[color="red",  arrowhead="odot", style="dotted", label = ""];
+62->97[color="red",  arrowhead="odot", style="dotted", label = ""];
+64->69[color="red",  arrowhead="odot", style="dotted", label = ""];
+66->67[color="red",  arrowhead="odot", style="dotted", label = ""];
+68->69[color="red",  arrowhead="odot", style="dotted", label = ""];
+70->81[color="red",  arrowhead="odot", style="dotted", label = ""];
+72->81[color="red",  arrowhead="odot", style="dotted", label = ""];
+74->81[color="red",  arrowhead="odot", style="dotted", label = ""];
+76->81[color="red",  arrowhead="odot", style="dotted", label = ""];
+78->81[color="red",  arrowhead="odot", style="dotted", label = ""];
+80->81[color="red",  arrowhead="odot", style="dotted", label = ""];
+82->97[color="red",  arrowhead="odot", style="dotted", label = ""];
+84->91[color="red",  arrowhead="odot", style="dotted", label = ""];
+86->87[color="red",  arrowhead="odot", style="dotted", label = ""];
+90->89[color="red",  arrowhead="odot", style="dotted", label = ""];
+90->91[color="red",  arrowhead="odot", style="dotted", label = ""];
+92->103[color="red",  arrowhead="odot", style="dotted", label = ""];
+94->95[color="red",  arrowhead="odot", style="dotted", label = ""];
+96->97[color="red",  arrowhead="odot", style="dotted", label = ""];
+98->103[color="red",  arrowhead="odot", style="dotted", label = ""];
+100->103[color="red",  arrowhead="odot", style="dotted", label = ""];
+102->103[color="red",  arrowhead="odot", style="dotted", label = ""];
+104->105[color="red",  arrowhead="odot", style="dotted", label = ""]
+}

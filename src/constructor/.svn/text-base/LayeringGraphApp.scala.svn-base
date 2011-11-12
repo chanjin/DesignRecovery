@@ -1,0 +1,52 @@
+package constructor
+
+import scala.io.Source._
+
+import module._
+import module.algorithm._
+import util._
+import projects._
+
+
+class DepGraphConstructor {
+	var tdg : TypeStructure = null
+	var pdg :  PackageStructure = null
+
+
+	// when input path equals output path
+	def loadGraph(project: ProjectCase) : Unit = {
+		loadGraph(project, project.rootpath) 
+	}
+	
+	def loadGraph(project: ProjectCase, inputpath: String) : Unit = {
+		val dgs = GraphConstructor.constructTypeStructure(inputpath)
+		tdg =dgs._1; pdg = dgs._2
+		
+		if ( project.fewerEdgeRemove ) 
+			pdg.removeEdges(pdg.getEdgesUnderThreshold)
+		
+		pdg = ( if ( project.prefixes.length == 0 ) pdg.simplifyStructure 
+				else pdg.retainPackages(project.prefixes).simplifyStructure)
+		// change tdg
+		tdg = pdg.tdg
+		
+		constructor.GraphFile.store(project.getHomePath +"TypeStructure.lci", constructor.GraphFile.storeTypeGraph(tdg))
+		//GraphFile.store("TypeStructure.dot" , GraphFile.storeTypeGraphToDot(tdg))
+	}
+	
+}
+
+object LayeringGraphApp extends Application  {
+
+	
+	def constructBasicGraphs: (TypeStructure, PackageStructure) = {
+		val constructor = new DepGraphConstructor
+		constructor.loadGraph(projects.Project.get)		
+		(constructor.tdg, constructor.pdg)
+	}
+	
+	println("Start layering ...")
+	constructBasicGraphs
+}
+
+

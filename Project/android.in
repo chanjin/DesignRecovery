@@ -1,0 +1,56 @@
+
+project  {
+	name = "android2_2"
+	rootpath = "Jars/android 2.2/android.jar"
+	outputpath = "Jars/android 2.2"
+	prefix = "android"
+	reanalysis = "false"
+	
+	additionalJars = ( )
+	removeFewerEdges = "false"
+	excludeTypes = ("java[.].*", "junit[.].*", "org.xml.*", "org.json.*", "dalvik[.].*", "org.w3c.*", "javax.*", "org.apache[.].*", "android.test.*")
+}
+
+rule violation {
+	"view" -> ("text") 
+	"os" -> ("content") 
+	"content.res" -> ("graphics")
+	"database" -> ("content")
+	"hardware" -> ("view")
+	"net" -> ("content")
+	"widget" -> ("app", "text")
+	"content" -> ("accounts", "view")
+	"text" -> ("widget")
+}
+
+rule globalTypes {
+	"accounts.Account" 
+	"view.KeyEvent" 
+	"view.SurfaceHolder" 
+	"graphics.Movie" 
+	"graphics.drawable.Drawable" 
+	"content.ContentResolver" 
+	"content.Context" 
+	"content.ContentValues" 
+	"content.OperationApplicationException"
+	"app.PendingIntent"
+	"app.LocalActivityManager"
+}
+
+rule ignore {
+	"os": 2 -> "content" : 2
+	"view": 1, 2 -> "text": 0
+	"widget": 3, 4 ->  "text": 3
+	"content.res": 1 -> "graphics" : 1
+	"database": 2, 3 -> "content": 0, 1, 2
+	"hardware": 1 -> "view" : 1  
+	"net": 2 ->  "content": 2
+	"widget": 3, 5 -> "app": 2, 5
+	"content": 1, 2 -> "accounts": 1
+	"content": 1 -> "view": 1
+	"media": 5 -> "app": 5
+}
+
+action separation {
+	"text" -> ((0, 1, 2), (3, 4, 5, 6))
+}

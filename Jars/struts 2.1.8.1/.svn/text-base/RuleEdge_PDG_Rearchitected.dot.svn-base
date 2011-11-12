@@ -1,0 +1,6 @@
+digraph RuleEdge_PDG_Rearchitected { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+0[ label="org.apache.struts2:28(413)\n.(5),components(64),components.template(12),config\n(13),dispatcher(27),dispatcher.mapper(13),dispatch\ner.multipart(4),dispatcher.ng(4),dispatcher.ng.fil\nter(4),dispatcher.ng.listener(2),dispatcher.ng.ser\nvlet(2),impl(3),interceptor(30),interceptor.debugg\ning(6),interceptor.validation(3),servlet.intercept\nor(1),util(34),views(3),views.annotations(3),views\n.freemarker(7),views.freemarker.tags(45),views.jsp\n(21),views.jsp.iterator(5),views.jsp.ui(34),views.\nutil(3),views.velocity(3),views.velocity.component\ns(39),views.xslt(23)"];
+
+}

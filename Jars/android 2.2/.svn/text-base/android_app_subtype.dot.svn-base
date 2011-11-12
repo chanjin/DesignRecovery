@@ -1,0 +1,136 @@
+digraph android_app_subtype { 
+fontname=Skia; 
+ fontsize=16; 
+edge [fontname=Skia, fontsize = 10];
+node [shape=plaintext, fontname=Skia, fontsize=18];
+subgraph cluster10	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.widget:2(11)";
+47[ label="ListAdapter"];
+49[ label="Adapter"];
+31[ label="WrapperListAdapter"];
+45[ label="SpinnerAdapter"];
+41[ label="ExpandableListAdapter"];
+}
+ subgraph cluster9	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.widget:3(47)";
+27[ label="ProgressBar"];
+25[ label="AdapterView"];
+48[ label="BaseAdapter"];
+17[ label="TimePicker$OnTimeChangedListener"];
+40[ label="BaseExpandableListAdapter"];
+63[ label="ViewAnimator"];
+61[ label="DatePicker$OnDateChangedListener"];
+39[ label="TextView"];
+28[ label="SimpleExpandableListAdapter"];
+}
+ subgraph cluster8	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.widget:5(25)";
+57[ label="MultiAutoCompleteTextView$Tokenizer"];
+23[ label="ListView"];
+8[ label="Gallery"];
+62[ label="TextSwitcher"];
+38[ label="ToggleButton"];
+26[ label="RatingBar"];
+34[ label="HeaderViewListAdapter"];
+56[ label="MultiAutoCompleteTextView$CommaTokenizer"];
+0[ label="GridView"];
+}
+ subgraph cluster7	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.widget:6(6)";
+73[ label="ExpandableListView$OnGroupCollapseListener"];
+24[ label="ExpandableListView"];
+75[ label="ExpandableListView$OnChildClickListener"];
+71[ label="ExpandableListView$OnGroupExpandListener"];
+}
+ subgraph cluster6	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.app:0(10)";
+43[ label="BackupHelper"];
+}
+ subgraph cluster5	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.app:2(22)";
+18[ label="FileBackupHelper"];
+42[ label="SharedPreferencesBackupHelper"];
+}
+ subgraph cluster4	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.app:3(6)";
+51[ label="BackupAgent"];
+37[ label="Service"];
+}
+ subgraph cluster3	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.app:4(2)";
+50[ label="BackupAgentHelper"];
+36[ label="IntentService"];
+}
+ subgraph cluster2	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.app:5(6)";
+65[ label="Dialog"];
+77[ label="Activity"];
+}
+ subgraph cluster1	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.app:6(9)";
+76[ label="ListActivity"];
+6[ label="AliasActivity"];
+16[ label="TimePickerDialog"];
+60[ label="DatePickerDialog"];
+66[ label="ActivityGroup"];
+64[ label="AlertDialog"];
+}
+ subgraph cluster0	{  
+node [shape=plaintext, fontname=Skia, fontsize=16];
+label="android.app:7(6)";
+12[ label="TabActivity"];
+74[ label="ExpandableListActivity"];
+4[ label="ProgressDialog"];
+54[ label="LauncherActivity"];
+}
+;
+0->25[color="red",  arrowhead="odot", style="dotted", label = ""];
+4->64[color="red",  arrowhead="odot", style="dotted", label = ""];
+4->65[color="red",  arrowhead="odot", style="dotted", label = ""];
+6->77[color="red",  arrowhead="odot", style="dotted", label = ""];
+8->25[color="red",  arrowhead="odot", style="dotted", label = ""];
+12->66[color="red",  arrowhead="odot", style="dotted", label = ""];
+12->77[color="red",  arrowhead="odot", style="dotted", label = ""];
+16->65[color="red",  arrowhead="odot", style="dotted", label = ""];
+16->17[color="red",  arrowhead="odot", style="dotted", label = ""];
+18->43[color="red",  arrowhead="odot", style="dotted", label = ""];
+23->25[color="red",  arrowhead="odot", style="dotted", label = ""];
+24->23[color="red",  arrowhead="odot", style="dotted", label = ""];
+24->25[color="red",  arrowhead="odot", style="dotted", label = ""];
+26->27[color="red",  arrowhead="odot", style="dotted", label = ""];
+28->41[color="red",  arrowhead="odot", style="dotted", label = ""];
+34->31[color="red",  arrowhead="odot", style="dotted", label = ""];
+34->47[color="red",  arrowhead="odot", style="dotted", label = ""];
+34->49[color="red",  arrowhead="odot", style="dotted", label = ""];
+36->37[color="red",  arrowhead="odot", style="dotted", label = ""];
+38->39[color="red",  arrowhead="odot", style="dotted", label = ""];
+40->41[color="red",  arrowhead="odot", style="dotted", label = ""];
+42->43[color="red",  arrowhead="odot", style="dotted", label = ""];
+48->45[color="red",  arrowhead="odot", style="dotted", label = ""];
+48->47[color="red",  arrowhead="odot", style="dotted", label = ""];
+48->49[color="red",  arrowhead="odot", style="dotted", label = ""];
+50->51[color="red",  arrowhead="odot", style="dotted", label = ""];
+54->76[color="red",  arrowhead="odot", style="dotted", label = ""];
+54->77[color="red",  arrowhead="odot", style="dotted", label = ""];
+56->57[color="red",  arrowhead="odot", style="dotted", label = ""];
+60->65[color="red",  arrowhead="odot", style="dotted", label = ""];
+60->61[color="red",  arrowhead="odot", style="dotted", label = ""];
+62->63[color="red",  arrowhead="odot", style="dotted", label = ""];
+64->65[color="red",  arrowhead="odot", style="dotted", label = ""];
+66->77[color="red",  arrowhead="odot", style="dotted", label = ""];
+74->77[color="red",  arrowhead="odot", style="dotted", label = ""];
+74->71[color="red",  arrowhead="odot", style="dotted", label = ""];
+74->73[color="red",  arrowhead="odot", style="dotted", label = ""];
+74->75[color="red",  arrowhead="odot", style="dotted", label = ""];
+76->77[color="red",  arrowhead="odot", style="dotted", label = ""]
+}

@@ -1,0 +1,111 @@
+package module;
+
+import module.algorithm._
+
+class PackageNode(value: String) extends ModuleNode(value) {
+	var modules = List[ModuleNode]()
+	def addModules(ms:  List[ModuleNode]) = { modules = ms ::: modules }
+ 	override def toString = value + ( if ( modules.length > 0 ) ":" + modules.length else "") + "(" + types.length + ")"
+ 	override def toDot: String = {
+ 		if ( modules.length == 0 ) return toString
+ 		val mynode = modules.filter(_.value == this.value).head
+		def suffixes = modules.remove(_ == mynode).sort((m1, m2) => m1.toString.compareTo(m2.toString) < 0).map(m => (if (m.toString.startsWith(value) ) m.toString.substring(value.length+1) else m.toString))
+		
+		var dotstr = toString 
+		if ( suffixes.length > 0 ) {
+			var internals =  "." + "(" + mynode.types.length + ")," + suffixes.mkString(",")
+			val size = 50
+			var formatted = new String
+			var start = 0
+			var remains = internals.length
+			var last = false
+			//println(internals)
+			do {
+				last = ( size >= remains )
+				formatted = formatted + internals.substring(start, start + (if ( !last ) size else remains) ) + (if ( !last ) "\\n" else "")
+				remains = remains - size
+				start = start + (if (!last ) size else remains)
+				//println("** " + formatted + ":" + start + ":" + remains)
+			} while ( !last  )
+			dotstr + "\\n" + formatted
+	 	}
+		else 
+			dotstr
+	}
+ 	override def packageName = value
+}
+
+class PackageStructure(graph: TypeStructure) extends ModuleStructure(graph) {
+	def addNode(mvalue: String) = { //mvalue - package name
+		  if ( !nodes.contains(mvalue) ) 
+			  nodes = Map(mvalue -> new PackageNode(mvalue)) ++ nodes
+		  nodes(mvalue).asInstanceOf[ModuleNode]
+	}
+ 
+	def addNode(mvalue: String, ms: List[ModuleNode]) = {
+		 if ( !nodes.contains(mvalue) ) {
+			 val pkgnode = new PackageNode(mvalue)
+			 pkgnode.addModules(ms)
+			  nodes = Map(mvalue -> pkgnode) ++ nodes
+			  for ( t <- ms.flatMap(_.types) ) addTypeNode(pkgnode, t.value)
+		 }
+		  nodes(mvalue).asInstanceOf[PackageNode]
+	}
+	
+ 
+	def removePackages(pkgs: List[String]) = {
+		var ms = List[ModuleNode]()
+		for ( ps <- pkgs ) 
+			ms = nodes(ps).asInstanceOf[ModuleNode] :: ms
+
+		removeNodes(ms)
+		ms.flatMap(_.types)
+	}
+	
+	def simplifyStructure: PackageStructure = {
+		val simplifier = new MyIceburgFallthrough(this) 
+		simplifier.constructPDG(tdg)
+	}
+
+	def retainPackages(prefixes: List[String]): PackageStructure = {
+		def hasPackagePrefix(pname: String): Boolean = prefixes.exists(pname.startsWith(_))
+		var pdg = new PackageStructure(tdg)
+		var types2remove = List[TypeNode]()
+		nodes.values.foreach(n => {
+			val modtypes = n.asInstanceOf[ModuleNode].types
+			if (  hasPackagePrefix(n.value) ) {
+				val pkg = pdg.addNode(n.value)
+				modtypes.foreach(t => pdg.addTypeNode(pkg, t.value))
+			}
+			else 
+				types2remove = modtypes ::: types2remove
+		})
+		tdg.removeNodes(types2remove)
+		
+		pdg.liftEdges
+		pdg
+	}
+	
+	def getSubPackageStructure(tdg: TypeStructure, missing: Map[String, String]) = {
+		
+		val types2retain = tdg.nodes.values.toList.map(_.value)
+		var pdg = new PackageStructure(tdg)
+		nodes.values.foreach(p =>{
+			val pkg = pdg.addNode(p.value)
+			val types = p.asInstanceOf[ModuleNode].types.map(_.value)
+			//println(types2retain.filter(t => !types.contains(t)))
+			types.filter(t => types2retain.contains(t)).foreach(nt => pdg.addTypeNode(pkg, nt))
+		})
+		
+		
+		
+		missing.foreach( ah => { 
+			val pkg = pdg.nodes(ah._2).asInstanceOf[ModuleNode]
+			pdg.addTypeNode(pkg, ah._1)
+		} )
+
+		
+		pdg.liftEdges
+		pdg
+	}
+}

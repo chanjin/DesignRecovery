@@ -1,0 +1,17 @@
+package experiments
+
+class SpringStudy extends PackageCycleAnalysis {
+	override def  getViolationMap: Map[String, List[String]]  = {
+		 Map[String, List[String]](
+				)
+
+	}
+	
+}
+
+object SpringStudy {
+	def main(args : Array[String]) : Unit = {
+			projects.Project.proj = (new projects.SpringCase)
+		(new SpringStudy).run
+	}
+}

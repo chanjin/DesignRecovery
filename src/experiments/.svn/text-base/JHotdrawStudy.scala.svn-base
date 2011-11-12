@@ -1,0 +1,42 @@
+package experiments
+
+
+class JHotdrawStudy  extends PackageCycleAnalysis {
+	override def  getViolationMap: Map[String, List[String]]  = {
+		Map[String, List[String]](
+				"standard" -> List("contrib", "contrib.dnd"),
+				"contrib" -> List("application"),
+				"application" -> List("contrib"),
+				"framework" -> List("util", "standard"),
+				"util" -> List("standard"),
+				"contrib.dnd" -> List("standard")
+				)
+	}
+	
+	override def getNewPacakgeMap: Map[String, List[List[Int]]] = {
+		Map[String, List[List[Int]]] (
+				"standard" -> List(List(0, 1), List(2), List(3, 4)),
+				"util" -> List(List(0), List(1), List(2)),
+				"contrib" -> List(List(0, 1, 2, 3, 4), List(5))
+				//"contrib" -> List(List(0, 1, 2), List(3, 4, 5))
+	//			"util" -> List(List(0), List(1,2,4)),
+
+		)
+	}
+	
+	override def getRefactoredEdges: Map[(String, String), (List[Int], List[Int])] = {
+		Map[(String, String), (List[Int], List[Int])]  (
+		//		"classfile" -> List(("util", List(1, 2,  4)), ("generic", List(1))),
+				("standard", "contrib") -> (List(-1), List(0)), 
+				("standard", "contrib.dnd") -> (List(-1), List(2)),
+				("contrib", "application") -> (List(4), List(4))
+		)
+	}
+}
+
+object JHotdrawStudy {
+	def main(args : Array[String]) : Unit = {
+		projects.Project.proj = (new projects.JHotdrawCase)
+		(new JHotdrawStudy).run
+	}
+}

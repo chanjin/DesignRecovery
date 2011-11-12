@@ -1,0 +1,35 @@
+digraph android_app_2_widget { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+8[ label="android.app:7(6)"];
+7[ label="android.widget:3(47)"];
+6[ label="android.widget:5(25)"];
+5[ label="android.app:2(22)"];
+4[ label="android.app:5(6)"];
+3[ label="android.app:6(9)"];
+2[ label="android.widget:6(6)"];
+1[ label="android.app:3(6)"];
+0[ label="android.widget:2(11)"];
+1->5[color="black", arrowhead="vee", label = "2:0:2"];
+1->7[color="black", arrowhead="vee", label = "1:0:1"];
+2->0[color="black", arrowhead="vee", label = "3:0:3"];
+2->7[color="red",  arrowhead="odot", style="dotted", label = "2:1:2"];
+2->6[color="red",  arrowhead="odot", style="dotted", label = "1:1:1"];
+3->7[color="red",  arrowhead="odot", style="dotted", label = "9:2:7"];
+3->6[color="black", arrowhead="vee", label = "2:0:1"];
+3->4[color="red",  arrowhead="odot", style="dotted", label = "7:6:3"];
+3->0[color="black", arrowhead="vee", label = "2:0:1"];
+4->1[color="black", arrowhead="vee", label = "2:0:1"];
+4->5[color="black", arrowhead="vee", label = "1:0:1"];
+6->0[color="red",  arrowhead="odot", style="dotted", label = "7:3:3"];
+6->7[color="red",  arrowhead="odot", style="dotted", label = "12:6:7"];
+6->4[color="black", arrowhead="vee", label = "1:0:1"];
+7->0[color="red",  arrowhead="odot", style="dotted", label = "7:5:5"];
+7->5[color="black", arrowhead="vee", label = "1:0:1"];
+8->6[color="black", arrowhead="vee", label = "2:0:2"];
+8->4[color="red",  arrowhead="odot", style="dotted", label = "4:4:2"];
+8->3[color="red",  arrowhead="odot", style="dotted", label = "3:3:3"];
+8->0[color="black", arrowhead="vee", label = "1:0:1"];
+8->2[color="red",  arrowhead="odot", style="dotted", label = "4:3:4"];
+8->7[color="black", arrowhead="vee", label = "1:0:1"]
+}

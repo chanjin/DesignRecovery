@@ -1,0 +1,19 @@
+digraph RuleEdge_SCC__verifier__verifier_statics__verifier_structurals { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+5[ label="org.apache.bcel.verifier:0(4)\n0(4)"];
+4[ label="org.apache.bcel.verifier:3(15)\n3(15)"];
+3[ label="org.apache.bcel.verifier.statics:2(6)\n0(5),2(1)"];
+2[ label="org.apache.bcel.verifier.statics:3(8)\n3(8)"];
+1[ label="org.apache.bcel.verifier.structurals:3(8)\n3(8)"];
+0[ label="org.apache.bcel.verifier.structurals:1(10)\n0(1),1(7),2(2)"];
+1->0[color="black", arrowhead="vee", label = "25:0:8"];
+1->5[color="red",  arrowhead="odot", style="dotted", label = "3:1:2"];
+1->4[color="black", arrowhead="vee", label = "3:0:2"];
+2->5[color="red",  arrowhead="odot", style="dotted", label = "8:3:2"];
+2->3[color="black", arrowhead="vee", label = "4:0:3"];
+2->4[color="black", arrowhead="vee", label = "8:0:2"];
+4->5[color="red",  arrowhead="odot", style="dotted", label = "7:2:2"];
+4->1[color="black", arrowhead="vee", label = "1:0:1"];
+4->2[color="black", arrowhead="vee", label = "3:0:3"]
+}

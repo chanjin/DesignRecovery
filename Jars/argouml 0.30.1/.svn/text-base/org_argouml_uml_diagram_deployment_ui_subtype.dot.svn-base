@@ -1,0 +1,80 @@
+digraph org_argouml_uml_diagram_deployment_ui_subtype { 
+fontname=Skia; 
+ fontsize=16; 
+edge [fontname=Skia, fontsize = 10];subgraph cluster9	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.uml.diagram.static_structure.ui:3(2)";
+style=filled;
+;
+}
+ subgraph cluster8	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.uml.diagram.static_structure.ui:7(14)";
+style=filled;
+;
+}
+ subgraph cluster7	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.uml.diagram.static_structure.ui:9(14)";
+style=filled;
+10[ label="FigEnumeration"];
+12[ label="FigClass"];
+0[ label="FigInterface"];
+9[ label="FigDataType"];
+13[ label="FigClassifierBox"];
+6[ label="FigSignal"];
+4[ label="FigException"];
+}
+ subgraph cluster6	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.uml.diagram.deployment.ui:0(1)";
+style=filled;
+;
+}
+ subgraph cluster5	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.uml.diagram.deployment.ui:1(5)";
+style=filled;
+;
+}
+ subgraph cluster4	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.uml.diagram.deployment.ui:4(1)";
+style=filled;
+;
+}
+ subgraph cluster3	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.uml.diagram.deployment.ui:7(5)";
+style=filled;
+3[ label="AbstractFigNode"];
+15[ label="AbstractFigComponent"];
+}
+ subgraph cluster2	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.uml.diagram.deployment.ui:8(2)";
+style=filled;
+14[ label="FigComponentInstance"];
+2[ label="FigNodeInstance"];
+}
+ subgraph cluster1	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.uml.diagram.deployment.ui:9(1)";
+style=filled;
+;
+}
+ subgraph cluster0	{  
+node [shape=plaintext, fontname=Skia, fontsize=10];
+label="org.argouml.uml.diagram.deployment.ui:10(3)";
+style=filled;
+;
+}
+0->13[color="red",  arrowhead="odot", style="dotted", label = "I,O: "];
+2->3[color="red",  arrowhead="odot", style="dotted", label = "I,O: "];
+4->6[color="red",  arrowhead="odot", style="dotted", label = "I,O: "];
+6->13[color="red",  arrowhead="odot", style="dotted", label = "I,O: "];
+10->9[color="red",  arrowhead="odot", style="dotted", label = "I,O: "];
+10->13[color="red",  arrowhead="odot", style="dotted", label = "O: "];
+12->13[color="red",  arrowhead="odot", style="dotted", label = "I,O: "];
+14->15[color="red",  arrowhead="odot", style="dotted", label = "I,O: "]
+}

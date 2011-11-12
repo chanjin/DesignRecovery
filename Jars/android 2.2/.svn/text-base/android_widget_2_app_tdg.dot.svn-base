@@ -1,0 +1,10 @@
+digraph android_widget_2_app_tdg { 
+node [shape=plaintext, fontname=Skia, fontsize=20];
+edge [fontname=Skia, fontsize = 10];
+3[ label=".app.PendingIntent(2)"];
+2[ label=".widget.RemoteViews(3)"];
+1[ label=".app.LocalActivityManager(5)"];
+0[ label=".widget.TabHost(5)"];
+0->1[color="black", arrowhead="vee", label = ""];
+2->3[color="black", arrowhead="vee", label = ""]
+}

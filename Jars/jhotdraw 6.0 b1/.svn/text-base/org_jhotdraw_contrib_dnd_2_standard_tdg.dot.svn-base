@@ -1,0 +1,45 @@
+digraph org_jhotdraw_contrib_dnd_2_standard_tdg { 
+node [shape=plaintext, fontname=Skia, fontsize=20];
+edge [fontname=Skia, fontsize = 10];
+21[ label=".standard.DeleteFromDrawingVisitor(1)"];
+20[ label=".contrib.dnd.JHDDropTargetListener$AddUndoActivity(2)"];
+19[ label=".standard.FigureEnumerator(1)"];
+20[ label=".contrib.dnd.JHDDropTargetListener$AddUndoActivity(2)"];
+21[ label=".standard.DeleteFromDrawingVisitor(1)"];
+16[ label=".contrib.dnd.JHDDragSourceListener(2)"];
+21[ label=".standard.DeleteFromDrawingVisitor(1)"];
+14[ label=".contrib.dnd.JHDDragSourceListener$RemoveUndoActivity(2)"];
+19[ label=".standard.FigureEnumerator(1)"];
+14[ label=".contrib.dnd.JHDDragSourceListener$RemoveUndoActivity(2)"];
+11[ label=".standard.AbstractTool(1)"];
+10[ label=".contrib.dnd.DragNDropTool(2)"];
+9[ label=".standard.AWTCursor(0)"];
+10[ label=".contrib.dnd.DragNDropTool(2)"];
+7[ label=".standard.HandleTracker(2)"];
+10[ label=".contrib.dnd.DragNDropTool(2)"];
+5[ label=".standard.SelectAreaTracker(2)"];
+10[ label=".contrib.dnd.DragNDropTool(2)"];
+3[ label=".standard.DragTracker(2)"];
+10[ label=".contrib.dnd.DragNDropTool(2)"];
+19[ label=".standard.FigureEnumerator(1)"];
+0[ label=".contrib.dnd.DNDFigures(1)"];
+16->14[color="black", arrowhead="vee", label = ""];
+16->21[color="black", arrowhead="vee", label = ""];
+16->0[color="black", arrowhead="vee", label = ""];
+5->11[color="red",  arrowhead="odot", style="dotted", label = ""];
+10->11[color="red",  arrowhead="odot", style="dotted", label = ""];
+10->7[color="black", arrowhead="vee", label = ""];
+10->5[color="black", arrowhead="vee", label = ""];
+10->9[color="black", arrowhead="vee", label = ""];
+10->3[color="black", arrowhead="vee", label = ""];
+3->11[color="red",  arrowhead="odot", style="dotted", label = ""];
+11->9[color="black", arrowhead="vee", label = ""];
+20->21[color="black", arrowhead="vee", label = ""];
+20->19[color="black", arrowhead="vee", label = ""];
+0->19[color="black", arrowhead="vee", label = ""];
+14->21[color="black", arrowhead="vee", label = ""];
+14->19[color="black", arrowhead="vee", label = ""];
+14->16[color="black", arrowhead="vee", label = ""];
+21->19[color="black", arrowhead="vee", label = ""];
+7->11[color="red",  arrowhead="odot", style="dotted", label = ""]
+}

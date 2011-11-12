@@ -1,0 +1,67 @@
+package module
+import util._
+class DepMetrics (dg: DependencyGraph){
+	val nodeCount = dg.nodes.size
+	val edgeCount = dg.edges.length
+	val edgeDensity = Util.percentage(edgeCount.asInstanceOf[Long],  (nodeCount * (nodeCount - 1)).asInstanceOf[Long])
+	
+	val sccs = dg.detectSCC
+	val sccAllNodes = sccs.flatMap(scc => scc)
+	val maxSccNodes = sccs.foldLeft(List[NodeElem]())((max, scc) => if ( scc.length > max.length ) scc else max)
+	val edgeDensitySccs = sccs.map(scc => {
+		Util.percentage(dg.getEdges(scc).length.asInstanceOf[Long], ( scc.length * (scc.length - 1) )) + "(" + dg.getEdges(scc).length + ", " + scc.length +")" 
+		//+ "\n" + dg.getEdges(scc)
+	})
+	
+	val knows = Map[TypeNode, Int]()
+	
+	override def toString: String = {
+		List[(String, String)](
+			("# Nodes", nodeCount.toString),
+			("# Edges", edgeCount.toString) ,
+			("Edge density", edgeDensity.toString),
+			("# SCC", sccs.length.toString),
+			("Nodes in SCCs", sccAllNodes.length.toString),
+			("#Nodes in SCC", sccs.map(_.length).mkString(", ")),
+			("Max SCC nodes", maxSccNodes.length.toString),
+			("Edge Density in SCC", edgeDensitySccs.mkString(","))
+			).map(str => str._1 + " - " + str._2).mkString("\n") 
+		
+	}
+}
+
+class TypeDepMetrics(tdg: TypeStructure) extends DepMetrics(tdg) {
+	val ts: TypeStructure = tdg
+	val subtypeCount = ts.edges.filter(_.isSubtypeEdge).length
+	val subtypeRatio = Util.percentage(subtypeCount.asInstanceOf[Long], edgeCount.asInstanceOf[Long])
+	override def toString : String = {
+		super.toString + "\n" +
+		List[(String, String)](
+				("# Subtype Edges", subtypeCount.toString),
+				("SubtypeEdge Ratio", subtypeRatio.toString)
+		).map(str => str._1 + " - " + str._2).mkString("\n")
+	}
+}
+
+class ModuleDepMetrics(ms: ModuleStructure) extends DepMetrics (ms) {
+	def moduleScc: String = {
+		sccs.map(scc => scc.length + "(" + 
+				scc.foldLeft(0)( (count, m) => count + m.asInstanceOf[ModuleNode].types.length) + ")" ).mkString(", ")  
+	}
+	
+	def interfaces: String = {
+		val interfaceTypesCount = ms.nodes.values.foldLeft( (0, 0) )((count, n) => 
+			(count._1 + n.asInstanceOf[ModuleNode].interfaceTypes.length, count._2 + n.asInstanceOf[ModuleNode].types.length))
+			
+		Util.percentage(interfaceTypesCount._1, interfaceTypesCount._2) + "(" + interfaceTypesCount._1 + ", " + interfaceTypesCount._2 + ")" + " - " +
+		ms.nodes.values.map(n => n.asInstanceOf[ModuleNode].interfaceTypes.length).mkString(",")
+	}
+	
+	override def toString : String = {
+		super.toString + "\n" +
+		List[(String, String)](
+				("# Interface Types in each module", interfaces),
+				("# Nodes in SCC", moduleScc)
+		).map(str => str._1 + " - " + str._2).mkString("\n")
+	}
+}

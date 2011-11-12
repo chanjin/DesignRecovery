@@ -1,0 +1,22 @@
+package experiments;
+import projects._
+
+class WalaStudy  extends PackageCycleAnalysis {
+
+	override def getViolationMap: Map[String, List[String]] = {
+			Map[String, List[String]]( "classLoader" -> List("cfg", "analysis.typeInference"),
+					"ipa.modref" -> List("ipa.slicer"),
+					"ssa" -> List("ipa.summaries"), 
+					"util.ref" -> List("ipa.cha", "ipa.callgraph", "ssa"),
+					"util" -> List("ipa.callgraph.impl")
+				)
+	}
+	
+}
+
+object WalaStudy {
+	def main(args : Array[String]) : Unit = {
+		projects.Project.proj = (new WalaCase)
+		(new WalaStudy).run
+	}
+}
