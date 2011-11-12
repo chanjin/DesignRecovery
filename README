@@ -1,0 +1,18 @@
+Project structure
+1. src - scala & java files
+2. Jars - .jar files & .class files to use for experiements
+3. Project - configuration files in which input files, output directory, and some setting values are described
+
+Prerequisites
+1. install scala plugin - refer to http://www.scala-ide.org/ & install appropriate version of scala plugin
+2. edit .in file in Project directory
+3. select src/experiments/Main.scala
+4. Run as Scala application
+5. Type in file in Console Tab - e.g. Project/bcel.in
+6. You can find the result of basic analysis in outputpath that is decribed in .in file
+7. if you want to change outputpath or something, you can edit .in file and reanalysis - e.g. type 'y'
+8. Next (if you type 'n'), you can find the result of further analysis by rules and actions of violaiton, globalTypes and separation
+9. violation: the relation between packages is considered as a violation, so that you can find violation dependencies in outputpath directory (type dependencies, layer module dependencies)
+10. ignore: dependencies in ignore are exempted in analysis, so that you can find LMSEdgesIgnore_xxx graphs 
+11. separation: separation of package into specified layer module groups - see RestructureFinalPDG.dot
+
