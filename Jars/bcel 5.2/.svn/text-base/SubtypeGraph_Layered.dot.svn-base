@@ -1,6 +1,0 @@
-digraph SubtypeGraph_Layered { 
- node [shape=plaintext, fontname=Skia, fontsize=16] 
-edge [fontname=Skia, fontsize = 10];
-;
-
-}

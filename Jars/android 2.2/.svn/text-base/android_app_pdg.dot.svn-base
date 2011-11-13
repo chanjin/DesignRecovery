@@ -1,8 +1,0 @@
-digraph android_app_pdg { 
- node [shape=plaintext, fontname=Skia, fontsize=16] 
-edge [fontname=Skia, fontsize = 10];
-1[ label="android.widget:1(135)"];
-0[ label="android.app:3(61)\n.(47),admin(3),backup(11)"];
-0->1[color="red",  arrowhead="odot", style="dotted", label = "22:5:17"];
-1->0[color="black", arrowhead="vee", label = "2:0:2"]
-}

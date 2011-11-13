@@ -1,8 +1,0 @@
-digraph org_jhotdraw_application_pdg { 
- node [shape=plaintext, fontname=Skia, fontsize=16] 
-edge [fontname=Skia, fontsize = 10];
-1[ label="org.jhotdraw.application:1(12)"];
-0[ label="org.jhotdraw.contrib:3(120)\n.(69),html(38),zoom(13)"];
-0->1[color="red",  arrowhead="odot", style="dotted", label = "4:2:1"];
-1->0[color="red",  arrowhead="odot", style="dotted", label = "6:1:4"]
-}

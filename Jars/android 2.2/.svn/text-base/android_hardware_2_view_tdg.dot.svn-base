@@ -1,7 +1,0 @@
-digraph android_hardware_2_view_tdg { 
-node [shape=plaintext, fontname=Skia, fontsize=20];
-edge [fontname=Skia, fontsize = 10];
-1[ label=".view.SurfaceHolder(1)"];
-0[ label=".hardware.Camera(1)"];
-0->1[color="black", arrowhead="vee", label = ""]
-}

@@ -1,8 +1,0 @@
-digraph RuleEdge_SCC__dispatcher__dispatcher_ng_pdg { 
- node [shape=plaintext, fontname=Skia, fontsize=16] 
-edge [fontname=Skia, fontsize = 10];
-1[ label="org.apache.struts2.dispatcher(27)"];
-0[ label="org.apache.struts2.dispatcher.ng(4)"];
-0->1[color="black", arrowhead="vee", label = "5:0:2"];
-1->0[color="black", arrowhead="vee", label = "3:0:1"]
-}

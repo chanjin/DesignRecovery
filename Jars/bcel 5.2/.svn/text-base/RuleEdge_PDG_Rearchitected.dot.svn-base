@@ -1,6 +1,0 @@
-digraph RuleEdge_PDG_Rearchitected { 
- node [shape=plaintext, fontname=Skia, fontsize=16] 
-edge [fontname=Skia, fontsize = 10];
-0[ label="org.apache.bcel:8(383)\n.(4),classfile(56),generic(229),util(29),verifier(\n19),verifier.exc(14),verifier.statics(14),verifier\n.structurals(18)"];
-
-}

@@ -1,8 +1,0 @@
-digraph android_net_pdg { 
- node [shape=plaintext, fontname=Skia, fontsize=16] 
-edge [fontname=Skia, fontsize = 10];
-1[ label="android.net:3(39)\n.(22),http(4),wifi(13)"];
-0[ label="android.content:2(76)\n.(54),pm(22)"];
-0->1[color="black", arrowhead="vee", label = "18:0:2"];
-1->0[color="black", arrowhead="vee", label = "4:0:2"]
-}

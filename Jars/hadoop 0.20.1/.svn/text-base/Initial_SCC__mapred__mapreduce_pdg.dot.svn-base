@@ -1,8 +1,0 @@
-digraph Initial_SCC__mapred__mapreduce_pdg { 
- node [shape=plaintext, fontname=Skia, fontsize=16] 
-edge [fontname=Skia, fontsize = 10];
-1[ label="org.apache.hadoop.mapreduce:6(57)\n.(28),lib.input(9),lib.map(8),lib.output(9),lib.pa\nrtition(1),lib.reduce(2)"];
-0[ label="org.apache.hadoop.mapred:8(460)\n.(329),jobcontrol(2),join(33),lib(52),lib.aggregat\ne(18),lib.db(8),pipes(17),tools(1)"];
-0->1[color="red",  arrowhead="odot", style="dotted", label = "92:13:19"];
-1->0[color="black", arrowhead="vee", label = "18:0:12"]
-}

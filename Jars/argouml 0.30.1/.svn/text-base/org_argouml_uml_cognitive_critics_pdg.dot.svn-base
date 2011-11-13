@@ -1,8 +1,0 @@
-digraph org_argouml_uml_cognitive_critics_pdg { 
- node [shape=plaintext, fontname=Skia, fontsize=16] 
-edge [fontname=Skia, fontsize = 10];
-1[ label="org.argouml.uml.cognitive.critics:1(115)"];
-0[ label="org.argouml.profile:4(38)\n.(24),init(3),internal(9),internal.ui(2)"];
-0->1[color="black", arrowhead="vee", label = "34:0:34"];
-1->0[color="red",  arrowhead="odot", style="dotted", label = "2:2:1"]
-}

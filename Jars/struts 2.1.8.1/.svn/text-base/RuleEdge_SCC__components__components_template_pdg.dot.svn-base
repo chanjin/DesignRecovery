@@ -1,8 +1,0 @@
-digraph RuleEdge_SCC__components__components_template_pdg { 
- node [shape=plaintext, fontname=Skia, fontsize=16] 
-edge [fontname=Skia, fontsize = 10];
-1[ label="org.apache.struts2.components(64)"];
-0[ label="org.apache.struts2.components.template(12)"];
-0->1[color="black", arrowhead="vee", label = "5:0:2"];
-1->0[color="black", arrowhead="vee", label = "7:0:4"]
-}

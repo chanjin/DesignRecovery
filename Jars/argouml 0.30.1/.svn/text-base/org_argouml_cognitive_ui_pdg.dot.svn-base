@@ -1,8 +1,0 @@
-digraph org_argouml_cognitive_ui_pdg { 
- node [shape=plaintext, fontname=Skia, fontsize=16] 
-edge [fontname=Skia, fontsize = 10];
-1[ label="org.argouml.ui:4(311)\n.(133),cmd(36),explorer(52),explorer.rules(90)"];
-0[ label="org.argouml.cognitive.ui:1(47)"];
-0->1[color="red",  arrowhead="odot", style="dotted", label = "19:11:8"];
-1->0[color="black", arrowhead="vee", label = "6:0:3"]
-}

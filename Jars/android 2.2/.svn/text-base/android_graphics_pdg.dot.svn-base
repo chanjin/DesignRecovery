@@ -1,8 +1,0 @@
-digraph android_graphics_pdg { 
- node [shape=plaintext, fontname=Skia, fontsize=16] 
-edge [fontname=Skia, fontsize = 10];
-1[ label="android.content.res:1(12)"];
-0[ label="android.graphics:3(104)\n.(74),drawable(24),drawable.shapes(6)"];
-0->1[color="black", arrowhead="vee", label = "18:0:2"];
-1->0[color="black", arrowhead="vee", label = "3:0:2"]
-}
