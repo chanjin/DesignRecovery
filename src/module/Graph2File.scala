@@ -43,8 +43,8 @@ object Graph2File {
             val typesInner = mn.types.filter(_.value.contains("$")).sort(_.value < _.value).toList
 
             n.value + "(" + (types.size + typesInner.size) + ")\n" +
-                types.map(t => t.value.mkString(", ")) + "\n\t" +
-                typesInner.map(t => t.value.substring(if (mn.packageName.length > 0) mn.packageName.length + 1 else 0)).mkString(", ")
+                types.map(t => t.value.substring(if (mn.packageName.length > 0) mn.packageName.length + 1 else 0)) + "\n\t" +
+                typesInner.map(t => t.value.substring(if (mn.packageName.length > 0) mn.packageName.length + 1 else 0)) + "\n"
         })
 
         val mnsStr = mns.map(n => {

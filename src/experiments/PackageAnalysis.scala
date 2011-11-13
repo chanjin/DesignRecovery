@@ -54,9 +54,12 @@ object PackageAnalysis {
 
         Project.results += (Type -> tdg)
         Project.results += (PackageNoSimplification -> pdg)
+        println("PDG has following cycles")
+        println("------")
+        pdg.detectSCC.foreach(lstcycle => println(lstcycle.mkString(",")))
+        println("------")
         Graph2Dot.toDot(pdg, "BasicPDG")
         PackageHierarchy.getHiearchy(pdg).toDotPackageHierarchy("BasicPHG")
-
         SCCwithSubtype.run(tdg)
         Graph2Dot.toDotType(TypeStructure.getNewTypeStrcuture(tdg, TypeDepKind.OverridingDep), "BasicSubtypeGraph")
 
