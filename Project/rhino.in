@@ -1,0 +1,29 @@
+
+project  {
+	name = "rhino"
+	rootpath = "Jars/rhino 1.7r3/js.jar"
+	outputpath = "Jars/rhino 1.7r3/out"
+	prefix =  "org.mozilla"
+	
+	additionalJars = ( )
+	removeFewerEdges = "false"
+	reanalysis = "true"
+	retainPackages = ( "javascript.ast", "javascript.debug", "javascript.json", "javascript.xml", "classfile" )
+	
+}
+
+rule violation {
+
+}
+
+rule globalTypes {
+
+}
+
+rule ignore {
+
+}
+
+action separation {
+
+}
