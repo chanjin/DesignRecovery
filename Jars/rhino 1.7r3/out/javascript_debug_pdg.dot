@@ -1,0 +1,8 @@
+digraph javascript_debug_pdg { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+1[ label="org.mozilla.javascript(337)\n(annotations(5), commonjs.module(5), commonjs.module.provider(15),\njdk13(2), jdk15(1), optimizer(14), regexp(12),\nserialize(3), tools(2), tools.debugger(42),\ntools.debugger.treetable(11), tools.idswitch(6),\ntools.jsc(1), tools.shell(27), xmlimpl(24),40)"];
+0[ label="org.mozilla.javascript.debug(4)"];
+0->1[color="black", arrowhead="vee", label = "3:0:2"];
+1->0[color="red",  arrowhead="odot", style="dotted", label = "62:6:4"]
+}

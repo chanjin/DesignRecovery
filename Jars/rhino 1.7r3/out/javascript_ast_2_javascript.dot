@@ -1,0 +1,18 @@
+digraph javascript_ast_2_javascript { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+4[ label="org.mozilla.javascript:1(177)"];
+3[ label="org.mozilla.javascript:2(64)"];
+2[ label="org.mozilla.javascript.ast:0(3)"];
+1[ label="org.mozilla.javascript.ast:1(68)"];
+0[ label="org.mozilla.javascript:0(47)"];
+1->0[color="black", arrowhead="vee", label = "58:0:2"];
+1->4[color="red",  arrowhead="odot", style="dotted", label = "66:8:5"];
+1->2[color="red",  arrowhead="odot", style="dotted", label = "4:2:3"];
+3->0[color="red",  arrowhead="odot", style="dotted", label = "44:1:19"];
+3->4[color="red",  arrowhead="odot", style="dotted", label = "284:59:60"];
+3->1[color="black", arrowhead="vee", label = "11:0:5"];
+4->0[color="red",  arrowhead="odot", style="dotted", label = "92:6:23"];
+4->1[color="black", arrowhead="vee", label = "153:0:63"];
+4->2[color="black", arrowhead="vee", label = "2:0:1"]
+}

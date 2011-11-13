@@ -1,0 +1,8 @@
+digraph javascript_2_javascript_json { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+1[ label="org.mozilla.javascript:1(177)"];
+0[ label="org.mozilla.javascript.json:1(2)"];
+0->1[color="black", arrowhead="vee", label = "3:0:3"];
+1->0[color="black", arrowhead="vee", label = "2:0:2"]
+}

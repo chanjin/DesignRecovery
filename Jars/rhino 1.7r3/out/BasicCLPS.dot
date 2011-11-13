@@ -1,0 +1,24 @@
+digraph BasicCLPS { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+6[ label="org.mozilla.javascript:1(386)\n(javascript:0(47), javascript:2(64), javascript:3(49),\njavascript:3(49),16)"];
+5[ label="org.mozilla.javascript.json:1(2)"];
+4[ label="org.mozilla.javascript.ast:1(71)\njavascript.ast:0(3)"];
+3[ label="org.mozilla.javascript.xml:1(18)\n(javascript.xml:0(1), javascript.xml:2(13),21)"];
+2[ label="org.mozilla.classfile:1(11)\nclassfile:0(3)"];
+1[ label="org.mozilla.javascript.debug:0(2)"];
+0[ label="org.mozilla.javascript.debug:1(2)"];
+0->6[color="black", arrowhead="vee", label = "3:0:2"];
+0->1[color="black", arrowhead="vee", label = "1:0:1"];
+2->6[color="black", arrowhead="vee", label = "5:0:3"];
+3->6[color="red",  arrowhead="odot", style="dotted", label = "99:24:20"];
+3->1[color="black", arrowhead="vee", label = "7:0:1"];
+4->6[color="red",  arrowhead="odot", style="dotted", label = "124:8:7"];
+5->6[color="black", arrowhead="vee", label = "3:0:3"];
+6->4[color="black", arrowhead="vee", label = "166:0:64"];
+6->2[color="black", arrowhead="vee", label = "9:0:3"];
+6->0[color="red",  arrowhead="odot", style="dotted", label = "8:2:2"];
+6->3[color="red",  arrowhead="odot", style="dotted", label = "14:4:3"];
+6->1[color="red",  arrowhead="odot", style="dotted", label = "55:4:2"];
+6->5[color="black", arrowhead="vee", label = "2:0:2"]
+}

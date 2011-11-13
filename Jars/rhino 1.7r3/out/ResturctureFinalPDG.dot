@@ -1,0 +1,21 @@
+digraph ResturctureFinalPDG { 
+ node [shape=plaintext, fontname=Skia, fontsize=16] 
+edge [fontname=Skia, fontsize = 10];
+5[ label="org.mozilla.javascript.ast(71)"];
+4[ label="org.mozilla.javascript(337)"];
+3[ label="org.mozilla.javascript.xml(18)"];
+2[ label="org.mozilla.classfile(11)"];
+1[ label="org.mozilla.javascript.debug(4)"];
+0[ label="org.mozilla.javascript.json(2)"];
+0->4[color="black", arrowhead="vee", label = "3:0:3"];
+1->4[color="black", arrowhead="vee", label = "3:0:2"];
+2->4[color="black", arrowhead="vee", label = "5:0:3"];
+3->4[color="red",  arrowhead="odot", style="dotted", label = "99:24:20"];
+3->1[color="black", arrowhead="vee", label = "7:0:1"];
+4->1[color="red",  arrowhead="odot", style="dotted", label = "62:6:4"];
+4->5[color="black", arrowhead="vee", label = "166:0:64"];
+4->2[color="black", arrowhead="vee", label = "9:0:3"];
+4->3[color="red",  arrowhead="odot", style="dotted", label = "14:4:3"];
+4->0[color="black", arrowhead="vee", label = "2:0:2"];
+5->4[color="red",  arrowhead="odot", style="dotted", label = "124:8:7"]
+}

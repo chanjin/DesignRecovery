@@ -1,0 +1,17 @@
+digraph BasicSPHG { 
+node [shape=plaintext, fontname=Skia, fontsize=20];
+edge [fontname=Skia, fontsize = 10];
+6[ label="javascript.ast"];
+5[ label="javascript"];
+4[ label="javascript.xml"];
+3[ label="-"];
+2[ label="classfile"];
+1[ label="javascript.debug"];
+0[ label="javascript.json"];
+3->5[color="black", arrowhead="vee", label = ""];
+5->6[color="black", arrowhead="vee", label = ""];
+5->4[color="black", arrowhead="vee", label = ""];
+5->1[color="black", arrowhead="vee", label = ""];
+5->0[color="black", arrowhead="vee", label = ""];
+3->2[color="black", arrowhead="vee", label = ""]
+}

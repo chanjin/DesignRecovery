@@ -1,0 +1,1237 @@
+org.mozilla.classfile:0(3)
+List(ByteCode, ExceptionTableEntry, FieldOrMethodRef)
+	List()
+
+org.mozilla.classfile:1(8)
+List(ClassFileField, ClassFileMethod, ClassFileWriter, ConstantPool, SuperBlock, TypeInfo)
+	List(ClassFileWriter$ClassFileFormatException, ClassFileWriter$StackMapTable)
+
+org.mozilla.javascript.ast:0(3)
+List(DestructuringForm, ParseProblem)
+	List(ParseProblem$Type)
+
+org.mozilla.javascript.ast:1(68)
+List(ArrayComprehension, ArrayComprehensionLoop, ArrayLiteral, Assignment, AstNode, AstRoot, Block, BreakStatement, CatchClause, Comment, ConditionalExpression, ContinueStatement, DoLoop, ElementGet, EmptyExpression, ErrorCollector, ErrorNode, ExpressionStatement, ForInLoop, ForLoop, FunctionCall, FunctionNode, IdeErrorReporter, IfStatement, InfixExpression, Jump, KeywordLiteral, Label, LabeledStatement, LetNode, Loop, Name, NewExpression, NodeVisitor, NumberLiteral, ObjectLiteral, ObjectProperty, ParenthesizedExpression, PropertyGet, RegExpLiteral, ReturnStatement, Scope, ScriptNode, StringLiteral, SwitchCase, SwitchStatement, Symbol, ThrowStatement, TryStatement, UnaryExpression, VariableDeclaration, VariableInitializer, WhileLoop, WithStatement, XmlDotQuery, XmlElemRef, XmlExpression, XmlFragment, XmlLiteral, XmlMemberGet, XmlPropRef, XmlRef, XmlString, Yield)
+	List(AstNode$DebugPrintVisitor, AstNode$PositionComparator, AstRoot$1, FunctionNode$Form)
+
+org.mozilla.javascript.debug:0(2)
+List(DebuggableObject, DebuggableScript)
+	List()
+
+org.mozilla.javascript.debug:1(2)
+List(DebugFrame, Debugger)
+	List()
+
+org.mozilla.javascript.json:1(2)
+List(JsonParser)
+	List(JsonParser$ParseException)
+
+org.mozilla.javascript.xml:0(1)
+List(impl.xmlbeans.LogicalEquality)
+	List()
+
+org.mozilla.javascript.xml:1(4)
+List(XMLLib, XMLObject)
+	List(XMLLib$Factory, XMLLib$Factory$1)
+
+org.mozilla.javascript.xml:2(13)
+List(impl.xmlbeans.Namespace, impl.xmlbeans.NamespaceHelper, impl.xmlbeans.QName, impl.xmlbeans.XML, impl.xmlbeans.XMLCtor, impl.xmlbeans.XMLLibImpl, impl.xmlbeans.XMLList, impl.xmlbeans.XMLName, impl.xmlbeans.XMLObjectImpl, impl.xmlbeans.XMLWithScope)
+	List(impl.xmlbeans.XML$NamespaceDeclarations, impl.xmlbeans.XML$XScriptAnnotation, impl.xmlbeans.XMLList$AnnotationList)
+
+org.mozilla.javascript:0(47)
+List(ClassDefinitionException, ClassShutter, DToA, GeneratedClassLoader, Icode, NotAFunctionException, ObjArray, PropertyException, ScriptStackElement, Token, Undefined, Wrapper, annotations.JSConstructor, annotations.JSFunction, annotations.JSGetter, annotations.JSSetter, annotations.JSStaticFunction, commonjs.module.provider.ModuleSource, commonjs.module.provider.ParsedContentType, commonjs.module.provider.UrlConnectionExpiryCalculator, commonjs.module.provider.UrlConnectionSecurityDomainProvider, optimizer.DataFlowBitSet, regexp.REBackTrackData, regexp.RECharSet, regexp.RECompiled, regexp.REGlobalData, regexp.RENode, regexp.REProgState, regexp.SubString, tools.debugger.JSInternalConsole, tools.debugger.MessageDialogWrapper, tools.debugger.SourceProvider, tools.debugger.treetable.AbstractCellEditor, tools.debugger.treetable.TreeTableModel, tools.debugger.treetable.TreeTableModelAdapter, tools.idswitch.CodePrinter, tools.idswitch.FileBody, tools.idswitch.IdValuePair, tools.shell.ConsoleTextArea, tools.shell.ConsoleWrite, tools.shell.ConsoleWriter)
+	List(Token$CommentType, tools.debugger.JSInternalConsole$1, tools.debugger.treetable.TreeTableModelAdapter$1, tools.debugger.treetable.TreeTableModelAdapter$2, tools.debugger.treetable.TreeTableModelAdapter$3, tools.idswitch.FileBody$ReplaceItem)
+
+org.mozilla.javascript:1(177)
+List(Arguments, BaseFunction, BeanProperty, BoundFunction, Callable, ClassCache, CodeGenerator, CompilerEnvirons, ConstProperties, Context, ContextAction, ContextFactory, ContextListener, ContinuationPending, Decompiler, DefaultErrorReporter, DefiningClassLoader, EcmaError, ErrorReporter, Evaluator, EvaluatorException, FieldAndMethods, Function, FunctionObject, IRFactory, IdFunctionCall, IdFunctionObject, IdScriptableObject, ImporterTopLevel, InterfaceAdapter, InterpretedFunction, Interpreter, InterpreterData, JavaAdapter, JavaMembers, JavaScriptException, Kit, LazilyLoadedCtor, MemberBox, NativeArray, NativeBoolean, NativeCall, NativeContinuation, NativeDate, NativeError, NativeFunction, NativeGenerator, NativeGlobal, NativeIterator, NativeJSON, NativeJavaArray, NativeJavaClass, NativeJavaConstructor, NativeJavaMethod, NativeJavaObject, NativeJavaPackage, NativeMath, NativeNumber, NativeObject, NativeScript, NativeString, NativeWith, Node, NodeTransformer, ObjToIntMap, Parser, PolicySecurityController, Ref, RefCallable, RegExpProxy, RhinoException, RhinoSecurityManager, Script, ScriptRuntime, Scriptable, ScriptableObject, SecureCaller, SecurityController, SecurityUtilities, SpecialRef, TokenStream, TopLevel, UintMap, UniqueTag, VMBridge, WrapFactory, WrappedException, commonjs.module.ModuleScope, commonjs.module.ModuleScript, commonjs.module.ModuleScriptProvider, commonjs.module.provider.DefaultUrlConnectionExpiryCalculator, commonjs.module.provider.ModuleSourceProvider, optimizer.Block, optimizer.OptFunctionNode, optimizer.Optimizer, regexp.CompilerState, regexp.GlobData, serialize.ScriptableInputStream, serialize.ScriptableOutputStream, tools.SourceReader, tools.debugger.ScopeProvider, tools.debugger.treetable.JTreeTable, tools.shell.FlexibleCompletor, tools.shell.QuitAction, tools.shell.SecurityProxy, tools.shell.ShellLine)
+	List(Context$1, Context$2, Context$ClassShutterSetter, ContextFactory$1, ContextFactory$1GlobalSetterImpl, ContextFactory$GlobalSetter, ContextFactory$Listener, IdScriptableObject$PrototypeValues, InterfaceAdapter$1, Interpreter$1, Interpreter$CallFrame, Interpreter$ContinuationJump, Interpreter$GeneratorState, JavaAdapter$1, JavaAdapter$2, JavaAdapter$JavaAdapterSignature, JavaMembers$MethodSignature, Kit$ComplexKey, LazilyLoadedCtor$1, NativeArray$1, NativeArray$2, NativeArray$3, NativeGenerator$CloseGeneratorAction, NativeGenerator$CloseGeneratorAction$1, NativeGenerator$GeneratorClosedException, NativeIterator$StopIteration, NativeIterator$WrappedJavaIterator, NativeJSON$StringifyState, NativeObject$EntrySet, NativeObject$EntrySet$1, NativeObject$EntrySet$1$1, NativeObject$KeySet, NativeObject$KeySet$1, NativeObject$ValueCollection, NativeObject$ValueCollection$1, Node$1, Node$NodeIterator, Node$PropListItem, ObjToIntMap$Iterator, Parser$1, Parser$ConditionData, Parser$ParserException, Parser$PerFunctionVariables, PolicySecurityController$1, PolicySecurityController$2, PolicySecurityController$3, PolicySecurityController$Loader, PolicySecurityController$SecureCaller, ScriptRuntime$1, ScriptRuntime$DefaultMessageProvider, ScriptRuntime$IdEnumeration, ScriptRuntime$MessageProvider, ScriptRuntime$NoSuchMethodShim, ScriptableObject$GetterSlot, ScriptableObject$Slot, SecureCaller$1, SecureCaller$2, SecureCaller$3, SecureCaller$SecureClassLoaderImpl, SecurityController$1, SecurityUtilities$1, SecurityUtilities$2, SecurityUtilities$3, TopLevel$Builtins, optimizer.Block$1, optimizer.Block$FatBlock, serialize.ScriptableOutputStream$PendingLookup, tools.debugger.treetable.JTreeTable$ListToTreeSelectionModelWrapper, tools.debugger.treetable.JTreeTable$ListToTreeSelectionModelWrapper$ListSelectionHandler, tools.debugger.treetable.JTreeTable$TreeTableCellEditor, tools.debugger.treetable.JTreeTable$TreeTableCellRenderer)
+
+org.mozilla.javascript:2(64)
+List(Delegator, NativeJavaTopPackage, commonjs.module.Require, commonjs.module.RequireBuilder, commonjs.module.provider.CachingModuleScriptProviderBase, commonjs.module.provider.ModuleSourceProviderBase, commonjs.module.provider.MultiModuleScriptProvider, jdk13.VMBridge_jdk13, optimizer.BodyCodegen, optimizer.ClassCompiler, optimizer.Codegen, optimizer.OptRuntime, optimizer.OptTransformer, regexp.NativeRegExp, regexp.NativeRegExpCtor, regexp.RegExpImpl, tools.ToolErrorReporter, tools.debugger.Dim, tools.debugger.GuiCallback, tools.debugger.MyTreeTable, tools.debugger.VariableModel, tools.idswitch.Main, tools.idswitch.SwitchGenerator, tools.jsc.Main, tools.shell.Environment, tools.shell.Runner, tools.shell.ShellContextFactory, xmlimpl.Namespace, xmlimpl.QName, xmlimpl.XML, xmlimpl.XMLCtor, xmlimpl.XMLLibImpl, xmlimpl.XMLList, xmlimpl.XMLName, xmlimpl.XMLObjectImpl, xmlimpl.XMLWithScope, xmlimpl.XmlNode, xmlimpl.XmlProcessor)
+	List(commonjs.module.provider.CachingModuleScriptProviderBase$CachedModuleScript, jdk13.VMBridge_jdk13$1, optimizer.BodyCodegen$FinallyReturnPoint, optimizer.OptRuntime$1, optimizer.OptRuntime$GeneratorState, tools.debugger.Dim$1, tools.debugger.Dim$ContextData, tools.debugger.Dim$DimIProxy, tools.debugger.Dim$FunctionSource, tools.debugger.Dim$SourceInfo, tools.debugger.Dim$StackFrame, tools.debugger.VariableModel$1, tools.debugger.VariableModel$VariableNode, xmlimpl.XmlNode$Filter, xmlimpl.XmlNode$Filter$1, xmlimpl.XmlNode$Filter$2, xmlimpl.XmlNode$Filter$3, xmlimpl.XmlNode$Filter$4, xmlimpl.XmlNode$Filter$5, xmlimpl.XmlNode$InternalList, xmlimpl.XmlNode$Namespace, xmlimpl.XmlNode$Namespaces, xmlimpl.XmlNode$QName, xmlimpl.XmlNode$XmlNodeUserDataHandler, xmlimpl.XmlProcessor$1, xmlimpl.XmlProcessor$RhinoSAXErrorHandler)
+
+org.mozilla.javascript:3(49)
+List(Synchronizer, commonjs.module.provider.SoftCachingModuleScriptProvider, commonjs.module.provider.StrongCachingModuleScriptProvider, commonjs.module.provider.UrlModuleSourceProvider, jdk15.VMBridge_jdk15, tools.debugger.ContextWindow, tools.debugger.EvalTextArea, tools.debugger.EvalWindow, tools.debugger.Evaluator, tools.debugger.FileHeader, tools.debugger.FilePopupMenu, tools.debugger.FileTextArea, tools.debugger.FileWindow, tools.debugger.FindFunction, tools.debugger.Main, tools.debugger.Menubar, tools.debugger.MoreWindows, tools.debugger.MyTableModel, tools.debugger.RunProxy, tools.debugger.SwingGui, tools.shell.Global, tools.shell.JSConsole, tools.shell.JavaPolicySecurity, tools.shell.Main, tools.shell.PipeThread)
+	List(commonjs.module.provider.SoftCachingModuleScriptProvider$ScriptReference, commonjs.module.provider.UrlModuleSourceProvider$URLValidator, tools.debugger.ContextWindow$1, tools.debugger.ContextWindow$1$1, tools.debugger.ContextWindow$2, tools.debugger.FindFunction$1, tools.debugger.FindFunction$MouseHandler, tools.debugger.Main$IProxy, tools.debugger.MoreWindows$1, tools.debugger.MoreWindows$MouseHandler, tools.debugger.SwingGui$1, tools.debugger.SwingGui$2, tools.shell.Global$1, tools.shell.JSConsole$1, tools.shell.JSConsole$2, tools.shell.JavaPolicySecurity$1, tools.shell.JavaPolicySecurity$2, tools.shell.JavaPolicySecurity$3, tools.shell.JavaPolicySecurity$ContextPermissions, tools.shell.JavaPolicySecurity$ContextPermissions$1, tools.shell.JavaPolicySecurity$Loader, tools.shell.Main$IProxy, tools.shell.Main$ScriptCache, tools.shell.Main$ScriptReference)
+
+org.mozilla.classfile:1	org.mozilla.javascript:1
+org.mozilla.classfile:1	org.mozilla.classfile:0
+org.mozilla.classfile:1	org.mozilla.javascript:0
+
+org.mozilla.javascript.ast:1	org.mozilla.javascript:1
+org.mozilla.javascript.ast:1	org.mozilla.javascript:0
+org.mozilla.javascript.ast:1	org.mozilla.javascript.ast:0
+
+org.mozilla.javascript.debug:1	org.mozilla.javascript:1
+org.mozilla.javascript.debug:1	org.mozilla.javascript.debug:0
+org.mozilla.javascript.json:1	org.mozilla.javascript:1
+
+org.mozilla.javascript.xml:1	org.mozilla.javascript:1
+org.mozilla.javascript.xml:1	org.mozilla.javascript.debug:0
+org.mozilla.javascript.xml:2	org.mozilla.javascript.xml:1
+org.mozilla.javascript.xml:2	org.mozilla.javascript.xml:0
+org.mozilla.javascript.xml:2	org.mozilla.javascript:1
+org.mozilla.javascript.xml:2	org.mozilla.javascript:0
+org.mozilla.javascript.xml:2	org.mozilla.javascript.debug:0
+org.mozilla.javascript:0	org.mozilla.javascript.debug:0
+org.mozilla.javascript:1	org.mozilla.javascript.debug:0
+org.mozilla.javascript:1	org.mozilla.javascript.xml:1
+org.mozilla.javascript:1	org.mozilla.classfile:1
+org.mozilla.javascript:1	org.mozilla.javascript.debug:1
+org.mozilla.javascript:1	org.mozilla.classfile:0
+org.mozilla.javascript:1	org.mozilla.javascript.ast:0
+org.mozilla.javascript:1	org.mozilla.javascript.ast:1
+org.mozilla.javascript:1	org.mozilla.javascript:0
+org.mozilla.javascript:1	org.mozilla.javascript.json:1
+org.mozilla.javascript:2	org.mozilla.javascript:0
+org.mozilla.javascript:2	org.mozilla.classfile:1
+org.mozilla.javascript:2	org.mozilla.javascript.ast:1
+org.mozilla.javascript:2	org.mozilla.javascript.xml:1
+org.mozilla.javascript:2	org.mozilla.javascript:1
+org.mozilla.javascript:2	org.mozilla.javascript.debug:1
+org.mozilla.javascript:2	org.mozilla.classfile:0
+org.mozilla.javascript:2	org.mozilla.javascript.debug:0
+org.mozilla.javascript:3	org.mozilla.javascript:1
+org.mozilla.javascript:3	org.mozilla.javascript:0
+org.mozilla.javascript:3	org.mozilla.javascript:2
+org.mozilla.javascript:3	org.mozilla.javascript.debug:0
+-----------
+
+------------
+***org.mozilla.classfile:1->org.mozilla.javascript:1
+org.mozilla.classfile.ClassFileWriter	org.mozilla.javascript.UintMap	S,C
+org.mozilla.classfile.ClassFileWriter$StackMapTable	org.mozilla.javascript.UintMap	C
+org.mozilla.classfile.ConstantPool	org.mozilla.javascript.ObjToIntMap	S,C
+org.mozilla.classfile.ConstantPool	org.mozilla.javascript.UintMap	S,C
+***org.mozilla.classfile:1->org.mozilla.classfile:0
+org.mozilla.classfile.ClassFileWriter	org.mozilla.classfile.ExceptionTableEntry	S,C
+org.mozilla.classfile.ClassFileWriter	org.mozilla.classfile.ByteCode	C
+org.mozilla.classfile.ClassFileWriter$StackMapTable	org.mozilla.classfile.ExceptionTableEntry	C
+org.mozilla.classfile.ClassFileWriter$StackMapTable	org.mozilla.classfile.ByteCode	C
+org.mozilla.classfile.ClassFileWriter$StackMapTable	org.mozilla.classfile.FieldOrMethodRef	C
+org.mozilla.classfile.ConstantPool	org.mozilla.classfile.FieldOrMethodRef	C
+***org.mozilla.classfile:1->org.mozilla.javascript:0
+org.mozilla.classfile.ClassFileWriter	org.mozilla.javascript.ObjArray	S,C
+------------
+
+------------
+***org.mozilla.javascript.ast:1->org.mozilla.javascript:1
+org.mozilla.javascript.ast.ArrayComprehension	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.ArrayComprehensionLoop	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.ArrayLiteral	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.Assignment	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.AstNode	org.mozilla.javascript.Kit	C
+org.mozilla.javascript.ast.AstNode	org.mozilla.javascript.Node	C,S,O
+org.mozilla.javascript.ast.AstRoot	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.Block	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.BreakStatement	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.CatchClause	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.Comment	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.ConditionalExpression	org.mozilla.javascript.Node	C,S,O
+org.mozilla.javascript.ast.ContinueStatement	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.DoLoop	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.ElementGet	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.EmptyExpression	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.ErrorCollector	org.mozilla.javascript.ErrorReporter	C,S,O
+org.mozilla.javascript.ast.ErrorCollector	org.mozilla.javascript.EvaluatorException	S,C
+org.mozilla.javascript.ast.ErrorNode	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.ExpressionStatement	org.mozilla.javascript.Node	C,S,O
+org.mozilla.javascript.ast.ForInLoop	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.ForLoop	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.FunctionCall	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.FunctionNode	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.IdeErrorReporter	org.mozilla.javascript.ErrorReporter	P,S,C
+org.mozilla.javascript.ast.IfStatement	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.InfixExpression	org.mozilla.javascript.Node	C,S,O
+org.mozilla.javascript.ast.Jump	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.KeywordLiteral	org.mozilla.javascript.Node	C,S,O
+org.mozilla.javascript.ast.Label	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.LabeledStatement	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.LetNode	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.Loop	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.Name	org.mozilla.javascript.Node	C,S,O
+org.mozilla.javascript.ast.NewExpression	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.NumberLiteral	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.ObjectLiteral	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.ObjectProperty	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.ParenthesizedExpression	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.PropertyGet	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.RegExpLiteral	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.ReturnStatement	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.Scope	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.ScriptNode	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.StringLiteral	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.StringLiteral	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.ast.SwitchCase	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.SwitchStatement	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.Symbol	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.ThrowStatement	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.TryStatement	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.UnaryExpression	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.VariableDeclaration	org.mozilla.javascript.Node	C,S,O
+org.mozilla.javascript.ast.VariableInitializer	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.WhileLoop	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.WithStatement	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.XmlDotQuery	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.XmlElemRef	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.XmlExpression	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.XmlFragment	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.XmlLiteral	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.XmlMemberGet	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.XmlPropRef	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.XmlRef	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.XmlString	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.ast.Yield	org.mozilla.javascript.Node	S,C
+***org.mozilla.javascript.ast:1->org.mozilla.javascript:0
+org.mozilla.javascript.ast.ArrayComprehension	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.ArrayLiteral	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.AstNode	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.AstNode$DebugPrintVisitor	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.AstRoot	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.AstRoot$1	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.Block	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.BreakStatement	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.CatchClause	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.Comment	org.mozilla.javascript.Token$CommentType	S,C
+org.mozilla.javascript.ast.Comment	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.ConditionalExpression	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.ContinueStatement	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.DoLoop	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.ElementGet	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.EmptyExpression	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.ErrorNode	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.ExpressionStatement	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.ForInLoop	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.ForLoop	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.FunctionCall	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.FunctionNode	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.IfStatement	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.InfixExpression	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.Jump	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.KeywordLiteral	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.Label	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.LabeledStatement	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.LetNode	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.Name	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.NewExpression	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.NumberLiteral	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.ObjectLiteral	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.ObjectProperty	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.ParenthesizedExpression	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.PropertyGet	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.RegExpLiteral	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.ReturnStatement	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.Scope	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.ScriptNode	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.StringLiteral	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.SwitchCase	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.SwitchStatement	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.Symbol	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.ThrowStatement	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.TryStatement	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.UnaryExpression	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.VariableDeclaration	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.VariableInitializer	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.WhileLoop	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.WithStatement	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.XmlDotQuery	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.XmlElemRef	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.XmlFragment	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.XmlLiteral	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.XmlMemberGet	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.XmlPropRef	org.mozilla.javascript.Token	C
+org.mozilla.javascript.ast.Yield	org.mozilla.javascript.Token	C
+***org.mozilla.javascript.ast:1->org.mozilla.javascript.ast:0
+org.mozilla.javascript.ast.ArrayLiteral	org.mozilla.javascript.ast.DestructuringForm	C,S,P,O
+org.mozilla.javascript.ast.ErrorCollector	org.mozilla.javascript.ast.ParseProblem$Type	C
+org.mozilla.javascript.ast.ErrorCollector	org.mozilla.javascript.ast.ParseProblem	C
+org.mozilla.javascript.ast.ObjectLiteral	org.mozilla.javascript.ast.DestructuringForm	C,S,P,O
+------------
+
+------------
+***org.mozilla.javascript.debug:1->org.mozilla.javascript:1
+org.mozilla.javascript.debug.DebugFrame	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.debug.DebugFrame	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.debug.Debugger	org.mozilla.javascript.Context	S,C
+***org.mozilla.javascript.debug:1->org.mozilla.javascript.debug:0
+org.mozilla.javascript.debug.Debugger	org.mozilla.javascript.debug.DebuggableScript	S,C
+------------
+***org.mozilla.javascript.json:1->org.mozilla.javascript:1
+org.mozilla.javascript.json.JsonParser	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.json.JsonParser	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.json.JsonParser	org.mozilla.javascript.Scriptable	S,C
+------------
+
+------------
+***org.mozilla.javascript.xml:1->org.mozilla.javascript:1
+org.mozilla.javascript.xml.XMLLib	org.mozilla.javascript.EvaluatorException	C
+org.mozilla.javascript.xml.XMLLib	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.xml.XMLLib	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.xml.XMLLib	org.mozilla.javascript.Ref	S,C
+org.mozilla.javascript.xml.XMLLib	org.mozilla.javascript.ScriptableObject	C
+org.mozilla.javascript.xml.XMLLib	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.xml.XMLObject	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.xml.XMLObject	org.mozilla.javascript.IdFunctionCall	S,C
+org.mozilla.javascript.xml.XMLObject	org.mozilla.javascript.ScriptableObject	C,S,O
+org.mozilla.javascript.xml.XMLObject	org.mozilla.javascript.Ref	S,C
+org.mozilla.javascript.xml.XMLObject	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.xml.XMLObject	org.mozilla.javascript.ConstProperties	S,C
+org.mozilla.javascript.xml.XMLObject	org.mozilla.javascript.IdScriptableObject	S,C
+org.mozilla.javascript.xml.XMLObject	org.mozilla.javascript.NativeWith	S,C
+***org.mozilla.javascript.xml:1->org.mozilla.javascript.debug:0
+org.mozilla.javascript.xml.XMLObject	org.mozilla.javascript.debug.DebuggableObject	S,C
+------------
+***org.mozilla.javascript.xml:2->org.mozilla.javascript.xml:1
+org.mozilla.javascript.xml.impl.xmlbeans.XML	org.mozilla.javascript.xml.XMLObject	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.XMLLibImpl	org.mozilla.javascript.xml.XMLLib	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.XMLLibImpl	org.mozilla.javascript.xml.XMLObject	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLList	org.mozilla.javascript.xml.XMLObject	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.XMLObjectImpl	org.mozilla.javascript.xml.XMLLib	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLObjectImpl	org.mozilla.javascript.xml.XMLObject	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.XMLWithScope	org.mozilla.javascript.xml.XMLObject	S,C
+***org.mozilla.javascript.xml:2->org.mozilla.javascript.xml:0
+org.mozilla.javascript.xml.impl.xmlbeans.XML	org.mozilla.javascript.xml.impl.xmlbeans.LogicalEquality	C
+***org.mozilla.javascript.xml:2->org.mozilla.javascript:1
+org.mozilla.javascript.xml.impl.xmlbeans.Namespace	org.mozilla.javascript.IdFunctionCall	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.Namespace	org.mozilla.javascript.ConstProperties	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.Namespace	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.xml.impl.xmlbeans.Namespace	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.Namespace	org.mozilla.javascript.IdScriptableObject	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.Namespace	org.mozilla.javascript.Scriptable	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.Namespace	org.mozilla.javascript.IdFunctionObject	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.Namespace	org.mozilla.javascript.EcmaError	C
+org.mozilla.javascript.xml.impl.xmlbeans.Namespace	org.mozilla.javascript.ScriptableObject	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.QName	org.mozilla.javascript.EcmaError	C
+org.mozilla.javascript.xml.impl.xmlbeans.QName	org.mozilla.javascript.ScriptableObject	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.QName	org.mozilla.javascript.IdFunctionObject	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.QName	org.mozilla.javascript.Scriptable	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.QName	org.mozilla.javascript.ConstProperties	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.QName	org.mozilla.javascript.IdFunctionCall	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.QName	org.mozilla.javascript.IdScriptableObject	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.QName	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.QName	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.xml.impl.xmlbeans.XML	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.xml.impl.xmlbeans.XML	org.mozilla.javascript.ConstProperties	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XML	org.mozilla.javascript.IdScriptableObject	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XML	org.mozilla.javascript.ScriptableObject	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.XML	org.mozilla.javascript.EcmaError	C
+org.mozilla.javascript.xml.impl.xmlbeans.XML	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XML	org.mozilla.javascript.IdFunctionCall	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XML	org.mozilla.javascript.Scriptable	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.XMLCtor	org.mozilla.javascript.IdFunctionCall	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.XMLCtor	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLCtor	org.mozilla.javascript.Callable	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLCtor	org.mozilla.javascript.ScriptableObject	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLCtor	org.mozilla.javascript.IdFunctionObject	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLCtor	org.mozilla.javascript.BaseFunction	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.XMLCtor	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLCtor	org.mozilla.javascript.ConstProperties	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLCtor	org.mozilla.javascript.Function	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLCtor	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLCtor	org.mozilla.javascript.IdScriptableObject	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.XMLLibImpl	org.mozilla.javascript.Kit	C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLLibImpl	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLLibImpl	org.mozilla.javascript.Node	C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLLibImpl	org.mozilla.javascript.EcmaError	C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLLibImpl	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLLibImpl	org.mozilla.javascript.Ref	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLLibImpl	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLList	org.mozilla.javascript.IdFunctionCall	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLList	org.mozilla.javascript.Scriptable	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.XMLList	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLList	org.mozilla.javascript.Function	C,S,P,O
+org.mozilla.javascript.xml.impl.xmlbeans.XMLList	org.mozilla.javascript.EcmaError	C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLList	org.mozilla.javascript.ConstProperties	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLList	org.mozilla.javascript.ScriptableObject	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.XMLList	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLList	org.mozilla.javascript.Callable	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.XMLList	org.mozilla.javascript.IdScriptableObject	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLName	org.mozilla.javascript.Ref	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.XMLName	org.mozilla.javascript.Kit	C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLName	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLName	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLObjectImpl	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLObjectImpl	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLObjectImpl	org.mozilla.javascript.ConstProperties	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLObjectImpl	org.mozilla.javascript.IdScriptableObject	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.XMLObjectImpl	org.mozilla.javascript.EcmaError	C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLObjectImpl	org.mozilla.javascript.NativeWith	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLObjectImpl	org.mozilla.javascript.IdFunctionCall	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.XMLObjectImpl	org.mozilla.javascript.Kit	C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLObjectImpl	org.mozilla.javascript.Ref	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLObjectImpl	org.mozilla.javascript.ScriptableObject	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.XMLObjectImpl	org.mozilla.javascript.Node	C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLObjectImpl	org.mozilla.javascript.IdFunctionObject	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLObjectImpl	org.mozilla.javascript.Scriptable	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.XMLWithScope	org.mozilla.javascript.IdFunctionCall	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLWithScope	org.mozilla.javascript.NativeWith	C,S,O
+org.mozilla.javascript.xml.impl.xmlbeans.XMLWithScope	org.mozilla.javascript.Scriptable	S,C
+***org.mozilla.javascript.xml:2->org.mozilla.javascript:0
+org.mozilla.javascript.xml.impl.xmlbeans.Namespace	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.xml.impl.xmlbeans.NamespaceHelper	org.mozilla.javascript.ObjArray	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.QName	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.xml.impl.xmlbeans.XML	org.mozilla.javascript.Wrapper	C
+org.mozilla.javascript.xml.impl.xmlbeans.XML	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.xml.impl.xmlbeans.XML	org.mozilla.javascript.ObjArray	C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLCtor	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLLibImpl	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLList	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLName	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLObjectImpl	org.mozilla.javascript.Undefined	C
+***org.mozilla.javascript.xml:2->org.mozilla.javascript.debug:0
+org.mozilla.javascript.xml.impl.xmlbeans.Namespace	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.QName	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XML	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLCtor	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLList	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.xml.impl.xmlbeans.XMLObjectImpl	org.mozilla.javascript.debug.DebuggableObject	S,C
+------------
+***org.mozilla.javascript:0->org.mozilla.javascript.debug:0
+org.mozilla.javascript.tools.debugger.SourceProvider	org.mozilla.javascript.debug.DebuggableScript	S,C
+------------
+***org.mozilla.javascript:1->org.mozilla.javascript.debug:0
+org.mozilla.javascript.Arguments	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.BaseFunction	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.BoundFunction	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.Context	org.mozilla.javascript.debug.DebuggableScript	S,C
+org.mozilla.javascript.FieldAndMethods	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.FunctionObject	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.IdFunctionObject	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.IdScriptableObject	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.ImporterTopLevel	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.InterpretedFunction	org.mozilla.javascript.debug.DebuggableScript	S,C
+org.mozilla.javascript.InterpretedFunction	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.Interpreter	org.mozilla.javascript.debug.DebuggableScript	C
+org.mozilla.javascript.InterpreterData	org.mozilla.javascript.debug.DebuggableScript	C,S,P,O
+org.mozilla.javascript.NativeArray	org.mozilla.javascript.debug.DebuggableObject	C,S,O
+org.mozilla.javascript.NativeBoolean	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.NativeCall	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.NativeContinuation	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.NativeDate	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.NativeError	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.NativeFunction	org.mozilla.javascript.debug.DebuggableScript	S,C
+org.mozilla.javascript.NativeFunction	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.NativeGenerator	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.NativeIterator	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.NativeIterator$StopIteration	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.NativeJSON	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.NativeJavaConstructor	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.NativeJavaMethod	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.NativeJavaPackage	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.NativeMath	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.NativeNumber	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.NativeObject	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.NativeScript	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.NativeString	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.ScriptRuntime$1	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.ScriptableObject	org.mozilla.javascript.debug.DebuggableObject	C,S,P,O
+org.mozilla.javascript.TopLevel	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.commonjs.module.ModuleScope	org.mozilla.javascript.debug.DebuggableObject	S,C
+***org.mozilla.javascript:1->org.mozilla.javascript.xml:1
+org.mozilla.javascript.Context	org.mozilla.javascript.xml.XMLLib$Factory	S,C
+org.mozilla.javascript.Context	org.mozilla.javascript.xml.XMLLib	S,C
+org.mozilla.javascript.ContextFactory	org.mozilla.javascript.xml.XMLLib	C
+org.mozilla.javascript.ContextFactory	org.mozilla.javascript.xml.XMLLib$Factory	S,C
+org.mozilla.javascript.NativeGlobal	org.mozilla.javascript.xml.XMLLib	C
+org.mozilla.javascript.ScriptRuntime	org.mozilla.javascript.xml.XMLLib$Factory	C
+org.mozilla.javascript.ScriptRuntime	org.mozilla.javascript.xml.XMLLib	S,C
+org.mozilla.javascript.ScriptRuntime	org.mozilla.javascript.xml.XMLObject	C
+***org.mozilla.javascript:1->org.mozilla.classfile:1
+org.mozilla.javascript.JavaAdapter	org.mozilla.classfile.ClassFileWriter	S,C
+org.mozilla.javascript.PolicySecurityController	org.mozilla.classfile.ClassFileWriter	C
+***org.mozilla.javascript:1->org.mozilla.javascript.debug:1
+org.mozilla.javascript.Context	org.mozilla.javascript.debug.Debugger	S,C
+org.mozilla.javascript.Interpreter	org.mozilla.javascript.debug.DebugFrame	C
+org.mozilla.javascript.Interpreter	org.mozilla.javascript.debug.Debugger	C
+org.mozilla.javascript.Interpreter$CallFrame	org.mozilla.javascript.debug.DebugFrame	S,C
+***org.mozilla.javascript:1->org.mozilla.classfile:0
+org.mozilla.javascript.JavaAdapter	org.mozilla.classfile.ByteCode	C
+org.mozilla.javascript.PolicySecurityController	org.mozilla.classfile.ByteCode	C
+***org.mozilla.javascript:1->org.mozilla.javascript.ast:0
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.DestructuringForm	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.DestructuringForm	C
+***org.mozilla.javascript:1->org.mozilla.javascript.ast:1
+org.mozilla.javascript.CodeGenerator	org.mozilla.javascript.ast.Name	C
+org.mozilla.javascript.CodeGenerator	org.mozilla.javascript.ast.Jump	C
+org.mozilla.javascript.CodeGenerator	org.mozilla.javascript.ast.AstRoot	C
+org.mozilla.javascript.CodeGenerator	org.mozilla.javascript.ast.ScriptNode	S,C
+org.mozilla.javascript.CodeGenerator	org.mozilla.javascript.ast.FunctionNode	C
+org.mozilla.javascript.CompilerEnvirons	org.mozilla.javascript.ast.ErrorCollector	C
+org.mozilla.javascript.Context	org.mozilla.javascript.ast.ScriptNode	C
+org.mozilla.javascript.Context	org.mozilla.javascript.ast.AstRoot	C
+org.mozilla.javascript.Decompiler	org.mozilla.javascript.ast.FunctionNode	C
+org.mozilla.javascript.Evaluator	org.mozilla.javascript.ast.ScriptNode	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.FunctionCall	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.VariableInitializer	C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.VariableDeclaration	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.Loop	C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.ParenthesizedExpression	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.Assignment	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.Scope	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.LetNode	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.ObjectProperty	C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.XmlLiteral	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.XmlElemRef	C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.StringLiteral	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.DoLoop	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.ArrayLiteral	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.InfixExpression	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.XmlFragment	C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.WithStatement	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.Symbol	C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.ReturnStatement	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.ConditionalExpression	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.FunctionNode	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.XmlString	C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.NewExpression	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.AstRoot	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.XmlRef	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.EmptyExpression	C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.ThrowStatement	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.ForInLoop	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.PropertyGet	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.IfStatement	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.Label	C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.WhileLoop	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.ArrayComprehensionLoop	C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.RegExpLiteral	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.BreakStatement	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.Jump	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.Name	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.SwitchCase	C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.XmlMemberGet	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.XmlDotQuery	C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.SwitchStatement	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.ExpressionStatement	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.ObjectLiteral	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.LabeledStatement	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.XmlExpression	C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.Yield	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.Block	C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.ScriptNode	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.ContinueStatement	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.AstNode	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.XmlPropRef	C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.NumberLiteral	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.ArrayComprehension	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.UnaryExpression	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.CatchClause	C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.TryStatement	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.ForLoop	S,C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.ast.ElementGet	S,C
+org.mozilla.javascript.Interpreter	org.mozilla.javascript.ast.FunctionNode	C
+org.mozilla.javascript.Interpreter	org.mozilla.javascript.ast.ScriptNode	S,C
+org.mozilla.javascript.Node	org.mozilla.javascript.ast.Jump	C
+org.mozilla.javascript.Node	org.mozilla.javascript.ast.Scope	S,C
+org.mozilla.javascript.Node	org.mozilla.javascript.ast.NumberLiteral	C
+org.mozilla.javascript.Node	org.mozilla.javascript.ast.ScriptNode	S,C
+org.mozilla.javascript.Node	org.mozilla.javascript.ast.Name	C
+org.mozilla.javascript.NodeTransformer	org.mozilla.javascript.ast.AstRoot	C
+org.mozilla.javascript.NodeTransformer	org.mozilla.javascript.ast.Scope	S,C
+org.mozilla.javascript.NodeTransformer	org.mozilla.javascript.ast.Jump	C
+org.mozilla.javascript.NodeTransformer	org.mozilla.javascript.ast.FunctionNode	C
+org.mozilla.javascript.NodeTransformer	org.mozilla.javascript.ast.ScriptNode	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.XmlDotQuery	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.ArrayComprehensionLoop	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.XmlRef	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.Assignment	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.XmlFragment	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.AstNode	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.TryStatement	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.LetNode	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.NewExpression	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.UnaryExpression	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.SwitchStatement	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.ReturnStatement	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.Comment	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.Scope	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.WithStatement	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.XmlLiteral	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.CatchClause	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.Name	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.FunctionNode	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.ElementGet	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.XmlExpression	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.LabeledStatement	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.BreakStatement	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.Jump	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.PropertyGet	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.ArrayLiteral	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.DoLoop	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.XmlPropRef	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.SwitchCase	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.VariableDeclaration	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.Block	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.EmptyExpression	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.ObjectProperty	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.AstRoot	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.XmlString	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.ForLoop	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.IdeErrorReporter	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.ThrowStatement	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.InfixExpression	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.VariableInitializer	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.ErrorNode	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.WhileLoop	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.FunctionCall	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.ParenthesizedExpression	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.Label	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.Symbol	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.ConditionalExpression	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.StringLiteral	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.IfStatement	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.RegExpLiteral	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.XmlMemberGet	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.ScriptNode	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.ContinueStatement	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.ExpressionStatement	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.KeywordLiteral	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.ObjectLiteral	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.Loop	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.Yield	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.ArrayComprehension	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.ForInLoop	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.XmlElemRef	S,C
+org.mozilla.javascript.Parser	org.mozilla.javascript.ast.NumberLiteral	C
+org.mozilla.javascript.Parser$ConditionData	org.mozilla.javascript.ast.AstNode	S,C
+org.mozilla.javascript.Parser$PerFunctionVariables	org.mozilla.javascript.ast.FunctionNode	S,C
+org.mozilla.javascript.Parser$PerFunctionVariables	org.mozilla.javascript.ast.Scope	S,C
+org.mozilla.javascript.Parser$PerFunctionVariables	org.mozilla.javascript.ast.ScriptNode	S,C
+org.mozilla.javascript.ScriptRuntime	org.mozilla.javascript.ast.FunctionNode	C
+org.mozilla.javascript.optimizer.Block	org.mozilla.javascript.ast.Jump	C
+org.mozilla.javascript.optimizer.Block	org.mozilla.javascript.ast.FunctionNode	C
+org.mozilla.javascript.optimizer.OptFunctionNode	org.mozilla.javascript.ast.ScriptNode	S,C
+org.mozilla.javascript.optimizer.OptFunctionNode	org.mozilla.javascript.ast.FunctionNode	S,C
+org.mozilla.javascript.optimizer.Optimizer	org.mozilla.javascript.ast.FunctionNode	C
+org.mozilla.javascript.optimizer.Optimizer	org.mozilla.javascript.ast.ScriptNode	S,C
+***org.mozilla.javascript:1->org.mozilla.javascript:0
+org.mozilla.javascript.BaseFunction	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.CodeGenerator	org.mozilla.javascript.ObjArray	S,C
+org.mozilla.javascript.CodeGenerator	org.mozilla.javascript.Token	C
+org.mozilla.javascript.CodeGenerator	org.mozilla.javascript.Icode	S,C
+org.mozilla.javascript.Context	org.mozilla.javascript.ObjArray	S,C
+org.mozilla.javascript.Context	org.mozilla.javascript.Token	C
+org.mozilla.javascript.Context	org.mozilla.javascript.GeneratedClassLoader	S,C
+org.mozilla.javascript.Context	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.Context	org.mozilla.javascript.ClassShutter	S,C
+org.mozilla.javascript.Context$2	org.mozilla.javascript.ClassShutter	S,C
+org.mozilla.javascript.Context$ClassShutterSetter	org.mozilla.javascript.ClassShutter	S,C
+org.mozilla.javascript.ContextFactory	org.mozilla.javascript.GeneratedClassLoader	S,C
+org.mozilla.javascript.Decompiler	org.mozilla.javascript.Token	C
+org.mozilla.javascript.DefiningClassLoader	org.mozilla.javascript.GeneratedClassLoader	C,S,P,O
+org.mozilla.javascript.FunctionObject	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.IRFactory	org.mozilla.javascript.Token	C
+org.mozilla.javascript.IdScriptableObject	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.ImporterTopLevel	org.mozilla.javascript.ObjArray	S,C
+org.mozilla.javascript.ImporterTopLevel	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.Interpreter	org.mozilla.javascript.Icode	S,C
+org.mozilla.javascript.Interpreter	org.mozilla.javascript.ObjArray	C
+org.mozilla.javascript.Interpreter	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.Interpreter	org.mozilla.javascript.ScriptStackElement	S,C
+org.mozilla.javascript.Interpreter	org.mozilla.javascript.Token	C
+org.mozilla.javascript.JavaAdapter	org.mozilla.javascript.Wrapper	C
+org.mozilla.javascript.JavaAdapter	org.mozilla.javascript.GeneratedClassLoader	C
+org.mozilla.javascript.JavaAdapter	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.JavaMembers	org.mozilla.javascript.ClassShutter	C
+org.mozilla.javascript.JavaMembers	org.mozilla.javascript.ObjArray	C
+org.mozilla.javascript.NativeArray	org.mozilla.javascript.Wrapper	C
+org.mozilla.javascript.NativeArray	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.NativeArray$1	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.NativeArray$2	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.NativeCall	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.NativeError	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.NativeGenerator	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.NativeGlobal	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.NativeIterator	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.NativeJSON	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.NativeJavaArray	org.mozilla.javascript.Wrapper	C,S,O
+org.mozilla.javascript.NativeJavaArray	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.NativeJavaClass	org.mozilla.javascript.Wrapper	S,C
+org.mozilla.javascript.NativeJavaMethod	org.mozilla.javascript.Wrapper	C
+org.mozilla.javascript.NativeJavaMethod	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.NativeJavaObject	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.NativeJavaObject	org.mozilla.javascript.Wrapper	C,S,P,O
+org.mozilla.javascript.NativeJavaPackage	org.mozilla.javascript.ClassShutter	C
+org.mozilla.javascript.NativeNumber	org.mozilla.javascript.DToA	C
+org.mozilla.javascript.NativeNumber	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.NativeObject	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.NativeScript	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.NativeString	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.Node	org.mozilla.javascript.Token	C
+org.mozilla.javascript.NodeTransformer	org.mozilla.javascript.ObjArray	S,C
+org.mozilla.javascript.NodeTransformer	org.mozilla.javascript.Token	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.Token$CommentType	C
+org.mozilla.javascript.Parser	org.mozilla.javascript.Token	C
+org.mozilla.javascript.PolicySecurityController	org.mozilla.javascript.GeneratedClassLoader	S,C
+org.mozilla.javascript.PolicySecurityController$Loader	org.mozilla.javascript.GeneratedClassLoader	C,S,P,O
+org.mozilla.javascript.RhinoException	org.mozilla.javascript.ScriptStackElement	S,C
+org.mozilla.javascript.ScriptRuntime	org.mozilla.javascript.ClassShutter	C
+org.mozilla.javascript.ScriptRuntime	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.ScriptRuntime	org.mozilla.javascript.Wrapper	C
+org.mozilla.javascript.ScriptRuntime	org.mozilla.javascript.DToA	C
+org.mozilla.javascript.ScriptableObject	org.mozilla.javascript.annotations.JSFunction	C
+org.mozilla.javascript.ScriptableObject	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.ScriptableObject	org.mozilla.javascript.annotations.JSStaticFunction	C
+org.mozilla.javascript.ScriptableObject	org.mozilla.javascript.annotations.JSConstructor	C
+org.mozilla.javascript.ScriptableObject	org.mozilla.javascript.annotations.JSGetter	C
+org.mozilla.javascript.ScriptableObject	org.mozilla.javascript.annotations.JSSetter	C
+org.mozilla.javascript.ScriptableObject	org.mozilla.javascript.Wrapper	C
+org.mozilla.javascript.ScriptableObject$Slot	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.SecurityController	org.mozilla.javascript.GeneratedClassLoader	S,C
+org.mozilla.javascript.TokenStream	org.mozilla.javascript.Token$CommentType	S,C
+org.mozilla.javascript.TokenStream	org.mozilla.javascript.Token	C
+org.mozilla.javascript.VMBridge	org.mozilla.javascript.Wrapper	C
+org.mozilla.javascript.WrapFactory	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.commonjs.module.provider.DefaultUrlConnectionExpiryCalculator	org.mozilla.javascript.commonjs.module.provider.UrlConnectionExpiryCalculator	C,S,P,O
+org.mozilla.javascript.commonjs.module.provider.ModuleSourceProvider	org.mozilla.javascript.commonjs.module.provider.ModuleSource	S,C
+org.mozilla.javascript.optimizer.Block	org.mozilla.javascript.ObjArray	C
+org.mozilla.javascript.optimizer.Block	org.mozilla.javascript.Token	C
+org.mozilla.javascript.optimizer.Block	org.mozilla.javascript.optimizer.DataFlowBitSet	S,C
+org.mozilla.javascript.optimizer.OptFunctionNode	org.mozilla.javascript.Token	C
+org.mozilla.javascript.optimizer.Optimizer	org.mozilla.javascript.ObjArray	S,C
+org.mozilla.javascript.optimizer.Optimizer	org.mozilla.javascript.Token	C
+org.mozilla.javascript.regexp.CompilerState	org.mozilla.javascript.regexp.RENode	S,C
+org.mozilla.javascript.serialize.ScriptableInputStream	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.tools.SourceReader	org.mozilla.javascript.commonjs.module.provider.ParsedContentType	C
+org.mozilla.javascript.tools.debugger.treetable.JTreeTable	org.mozilla.javascript.tools.debugger.treetable.TreeTableModel	S,C
+org.mozilla.javascript.tools.debugger.treetable.JTreeTable	org.mozilla.javascript.tools.debugger.treetable.TreeTableModelAdapter	C
+org.mozilla.javascript.tools.debugger.treetable.JTreeTable$TreeTableCellEditor	org.mozilla.javascript.tools.debugger.treetable.TreeTableModel	C
+org.mozilla.javascript.tools.debugger.treetable.JTreeTable$TreeTableCellEditor	org.mozilla.javascript.tools.debugger.treetable.AbstractCellEditor	C,S,O
+***org.mozilla.javascript:1->org.mozilla.javascript.json:1
+org.mozilla.javascript.NativeJSON	org.mozilla.javascript.json.JsonParser$ParseException	C
+org.mozilla.javascript.NativeJSON	org.mozilla.javascript.json.JsonParser	C
+------------
+***org.mozilla.javascript:2->org.mozilla.javascript:0
+org.mozilla.javascript.NativeJavaTopPackage	org.mozilla.javascript.Wrapper	C
+org.mozilla.javascript.commonjs.module.provider.CachingModuleScriptProviderBase	org.mozilla.javascript.commonjs.module.provider.ModuleSource	C
+org.mozilla.javascript.commonjs.module.provider.ModuleSourceProviderBase	org.mozilla.javascript.commonjs.module.provider.ModuleSource	S,C
+org.mozilla.javascript.optimizer.BodyCodegen	org.mozilla.javascript.Token	C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.javascript.GeneratedClassLoader	C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.javascript.ObjArray	S,C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.javascript.Token	C
+org.mozilla.javascript.optimizer.OptTransformer	org.mozilla.javascript.Token	C
+org.mozilla.javascript.optimizer.OptTransformer	org.mozilla.javascript.ObjArray	S,C
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.regexp.RECharSet	S,C
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.regexp.SubString	C
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.regexp.RECompiled	S,C
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.regexp.REBackTrackData	S,C
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.regexp.REGlobalData	S,C
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.regexp.RENode	S,C
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.regexp.REProgState	S,C
+org.mozilla.javascript.regexp.NativeRegExpCtor	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.regexp.NativeRegExpCtor	org.mozilla.javascript.regexp.SubString	C
+org.mozilla.javascript.regexp.RegExpImpl	org.mozilla.javascript.regexp.SubString	S,C
+org.mozilla.javascript.regexp.RegExpImpl	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.tools.debugger.Dim	org.mozilla.javascript.tools.debugger.SourceProvider	S,C
+org.mozilla.javascript.tools.debugger.Dim	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.tools.debugger.Dim	org.mozilla.javascript.ObjArray	S,C
+org.mozilla.javascript.tools.debugger.Dim$ContextData	org.mozilla.javascript.ObjArray	S,C
+org.mozilla.javascript.tools.debugger.Dim$DimIProxy	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.tools.debugger.MyTreeTable	org.mozilla.javascript.tools.debugger.treetable.TreeTableModelAdapter	C
+org.mozilla.javascript.tools.debugger.MyTreeTable	org.mozilla.javascript.tools.debugger.treetable.TreeTableModel	S,C
+org.mozilla.javascript.tools.debugger.VariableModel	org.mozilla.javascript.tools.debugger.treetable.TreeTableModel	C,S,P,O
+org.mozilla.javascript.tools.idswitch.Main	org.mozilla.javascript.tools.idswitch.CodePrinter	S,C
+org.mozilla.javascript.tools.idswitch.Main	org.mozilla.javascript.tools.idswitch.FileBody	S,C
+org.mozilla.javascript.tools.idswitch.Main	org.mozilla.javascript.tools.idswitch.IdValuePair	C
+org.mozilla.javascript.tools.idswitch.SwitchGenerator	org.mozilla.javascript.tools.idswitch.CodePrinter	S,C
+org.mozilla.javascript.tools.idswitch.SwitchGenerator	org.mozilla.javascript.tools.idswitch.IdValuePair	S,C
+org.mozilla.javascript.xmlimpl.Namespace	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.xmlimpl.QName	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.xmlimpl.XML	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.xmlimpl.XMLCtor	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.xmlimpl.XMLLibImpl	org.mozilla.javascript.Wrapper	C
+org.mozilla.javascript.xmlimpl.XMLLibImpl	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.xmlimpl.XMLList	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.xmlimpl.XMLName	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.xmlimpl.XMLObjectImpl	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.xmlimpl.XmlNode$InternalList	org.mozilla.javascript.Undefined	C
+***org.mozilla.javascript:2->org.mozilla.classfile:1
+org.mozilla.javascript.optimizer.BodyCodegen	org.mozilla.classfile.ClassFileWriter	S,C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.classfile.ClassFileWriter	S,C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.classfile.ClassFileWriter$ClassFileFormatException	C
+***org.mozilla.javascript:2->org.mozilla.javascript.ast:1
+org.mozilla.javascript.optimizer.BodyCodegen	org.mozilla.javascript.ast.Jump	S,C
+org.mozilla.javascript.optimizer.BodyCodegen	org.mozilla.javascript.ast.FunctionNode	C
+org.mozilla.javascript.optimizer.BodyCodegen	org.mozilla.javascript.ast.ScriptNode	S,C
+org.mozilla.javascript.optimizer.ClassCompiler	org.mozilla.javascript.ast.AstRoot	C
+org.mozilla.javascript.optimizer.ClassCompiler	org.mozilla.javascript.ast.FunctionNode	C
+org.mozilla.javascript.optimizer.ClassCompiler	org.mozilla.javascript.ast.ScriptNode	C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.javascript.ast.ScriptNode	S,C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.javascript.ast.FunctionNode	C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.javascript.ast.Name	C
+org.mozilla.javascript.optimizer.OptTransformer	org.mozilla.javascript.ast.FunctionNode	C
+org.mozilla.javascript.optimizer.OptTransformer	org.mozilla.javascript.ast.ScriptNode	S,C
+***org.mozilla.javascript:2->org.mozilla.javascript.xml:1
+org.mozilla.javascript.xmlimpl.XML	org.mozilla.javascript.xml.XMLObject	C,S,O
+org.mozilla.javascript.xmlimpl.XMLLibImpl	org.mozilla.javascript.xml.XMLLib	C,S,O
+org.mozilla.javascript.xmlimpl.XMLLibImpl	org.mozilla.javascript.xml.XMLObject	S,C
+org.mozilla.javascript.xmlimpl.XMLList	org.mozilla.javascript.xml.XMLObject	C,S,O
+org.mozilla.javascript.xmlimpl.XMLObjectImpl	org.mozilla.javascript.xml.XMLObject	C,S,O
+org.mozilla.javascript.xmlimpl.XMLWithScope	org.mozilla.javascript.xml.XMLObject	S,C
+***org.mozilla.javascript:2->org.mozilla.javascript:1
+org.mozilla.javascript.Delegator	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.Delegator	org.mozilla.javascript.Callable	C,S,O
+org.mozilla.javascript.Delegator	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.Delegator	org.mozilla.javascript.Scriptable	C,S,O
+org.mozilla.javascript.Delegator	org.mozilla.javascript.Function	C,S,P,O
+org.mozilla.javascript.Delegator	org.mozilla.javascript.NativeObject	C
+org.mozilla.javascript.NativeJavaTopPackage	org.mozilla.javascript.IdFunctionObject	S,C
+org.mozilla.javascript.NativeJavaTopPackage	org.mozilla.javascript.IdFunctionCall	C,S,P,O
+org.mozilla.javascript.NativeJavaTopPackage	org.mozilla.javascript.EvaluatorException	C
+org.mozilla.javascript.NativeJavaTopPackage	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.NativeJavaTopPackage	org.mozilla.javascript.Callable	C,S,O
+org.mozilla.javascript.NativeJavaTopPackage	org.mozilla.javascript.ScriptableObject	S,C
+org.mozilla.javascript.NativeJavaTopPackage	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.NativeJavaTopPackage	org.mozilla.javascript.Function	C,S,P,O
+org.mozilla.javascript.NativeJavaTopPackage	org.mozilla.javascript.NativeJavaPackage	S,C
+org.mozilla.javascript.NativeJavaTopPackage	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.NativeJavaTopPackage	org.mozilla.javascript.ConstProperties	S,C
+org.mozilla.javascript.commonjs.module.Require	org.mozilla.javascript.IdScriptableObject	S,C
+org.mozilla.javascript.commonjs.module.Require	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.commonjs.module.Require	org.mozilla.javascript.commonjs.module.ModuleScript	S,C
+org.mozilla.javascript.commonjs.module.Require	org.mozilla.javascript.Callable	C,S,O
+org.mozilla.javascript.commonjs.module.Require	org.mozilla.javascript.ConstProperties	S,C
+org.mozilla.javascript.commonjs.module.Require	org.mozilla.javascript.BaseFunction	C,S,O
+org.mozilla.javascript.commonjs.module.Require	org.mozilla.javascript.commonjs.module.ModuleScriptProvider	S,C
+org.mozilla.javascript.commonjs.module.Require	org.mozilla.javascript.commonjs.module.ModuleScope	C
+org.mozilla.javascript.commonjs.module.Require	org.mozilla.javascript.IdFunctionCall	S,C
+org.mozilla.javascript.commonjs.module.Require	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.commonjs.module.Require	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.commonjs.module.Require	org.mozilla.javascript.ScriptableObject	S,C
+org.mozilla.javascript.commonjs.module.Require	org.mozilla.javascript.Function	C,S,O
+org.mozilla.javascript.commonjs.module.Require	org.mozilla.javascript.Script	S,C
+org.mozilla.javascript.commonjs.module.Require	org.mozilla.javascript.JavaScriptException	C
+org.mozilla.javascript.commonjs.module.RequireBuilder	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.commonjs.module.RequireBuilder	org.mozilla.javascript.Script	S,C
+org.mozilla.javascript.commonjs.module.RequireBuilder	org.mozilla.javascript.commonjs.module.ModuleScriptProvider	S,C
+org.mozilla.javascript.commonjs.module.RequireBuilder	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.commonjs.module.provider.CachingModuleScriptProviderBase	org.mozilla.javascript.Script	C
+org.mozilla.javascript.commonjs.module.provider.CachingModuleScriptProviderBase	org.mozilla.javascript.commonjs.module.provider.ModuleSourceProvider	S,C
+org.mozilla.javascript.commonjs.module.provider.CachingModuleScriptProviderBase	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.commonjs.module.provider.CachingModuleScriptProviderBase	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.commonjs.module.provider.CachingModuleScriptProviderBase	org.mozilla.javascript.commonjs.module.ModuleScript	S,C
+org.mozilla.javascript.commonjs.module.provider.CachingModuleScriptProviderBase	org.mozilla.javascript.commonjs.module.ModuleScriptProvider	C,S,P,O
+org.mozilla.javascript.commonjs.module.provider.CachingModuleScriptProviderBase$CachedModuleScript	org.mozilla.javascript.commonjs.module.ModuleScript	S,C
+org.mozilla.javascript.commonjs.module.provider.ModuleSourceProviderBase	org.mozilla.javascript.ScriptableObject	C
+org.mozilla.javascript.commonjs.module.provider.ModuleSourceProviderBase	org.mozilla.javascript.commonjs.module.provider.ModuleSourceProvider	C,S,P,O
+org.mozilla.javascript.commonjs.module.provider.ModuleSourceProviderBase	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.commonjs.module.provider.ModuleSourceProviderBase	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.commonjs.module.provider.MultiModuleScriptProvider	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.commonjs.module.provider.MultiModuleScriptProvider	org.mozilla.javascript.commonjs.module.ModuleScriptProvider	C,S,P,O
+org.mozilla.javascript.commonjs.module.provider.MultiModuleScriptProvider	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.commonjs.module.provider.MultiModuleScriptProvider	org.mozilla.javascript.commonjs.module.ModuleScript	S,C
+org.mozilla.javascript.jdk13.VMBridge_jdk13	org.mozilla.javascript.Kit	C
+org.mozilla.javascript.jdk13.VMBridge_jdk13	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.jdk13.VMBridge_jdk13	org.mozilla.javascript.ContextFactory	S,C
+org.mozilla.javascript.jdk13.VMBridge_jdk13	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.jdk13.VMBridge_jdk13	org.mozilla.javascript.InterfaceAdapter	S,C
+org.mozilla.javascript.jdk13.VMBridge_jdk13	org.mozilla.javascript.VMBridge	C,S,O
+org.mozilla.javascript.jdk13.VMBridge_jdk13$1	org.mozilla.javascript.ContextFactory	S,C
+org.mozilla.javascript.jdk13.VMBridge_jdk13$1	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.jdk13.VMBridge_jdk13$1	org.mozilla.javascript.InterfaceAdapter	S,C
+org.mozilla.javascript.optimizer.BodyCodegen	org.mozilla.javascript.Kit	C
+org.mozilla.javascript.optimizer.BodyCodegen	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.optimizer.BodyCodegen	org.mozilla.javascript.Context	C
+org.mozilla.javascript.optimizer.BodyCodegen	org.mozilla.javascript.optimizer.OptFunctionNode	S,C
+org.mozilla.javascript.optimizer.BodyCodegen	org.mozilla.javascript.NativeGenerator	C
+org.mozilla.javascript.optimizer.BodyCodegen	org.mozilla.javascript.CompilerEnvirons	S,C
+org.mozilla.javascript.optimizer.BodyCodegen	org.mozilla.javascript.EvaluatorException	C
+org.mozilla.javascript.optimizer.BodyCodegen	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.optimizer.ClassCompiler	org.mozilla.javascript.Parser	C
+org.mozilla.javascript.optimizer.ClassCompiler	org.mozilla.javascript.CompilerEnvirons	S,C
+org.mozilla.javascript.optimizer.ClassCompiler	org.mozilla.javascript.JavaAdapter	C
+org.mozilla.javascript.optimizer.ClassCompiler	org.mozilla.javascript.IRFactory	C
+org.mozilla.javascript.optimizer.ClassCompiler	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.optimizer.ClassCompiler	org.mozilla.javascript.ObjToIntMap	C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.javascript.Function	S,C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.javascript.NativeFunction	C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.javascript.CompilerEnvirons	S,C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.javascript.SecurityController	C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.javascript.RhinoException	S,C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.javascript.Kit	C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.javascript.EvaluatorException	C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.javascript.ObjToIntMap	S,C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.javascript.optimizer.Optimizer	C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.javascript.optimizer.OptFunctionNode	S,C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.javascript.Script	S,C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.javascript.Evaluator	C,S,P,O
+org.mozilla.javascript.optimizer.OptRuntime	org.mozilla.javascript.NativeIterator	C
+org.mozilla.javascript.optimizer.OptRuntime	org.mozilla.javascript.Script	S,C
+org.mozilla.javascript.optimizer.OptRuntime	org.mozilla.javascript.JavaScriptException	C
+org.mozilla.javascript.optimizer.OptRuntime	org.mozilla.javascript.ContextAction	C
+org.mozilla.javascript.optimizer.OptRuntime	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.optimizer.OptRuntime	org.mozilla.javascript.Callable	S,C
+org.mozilla.javascript.optimizer.OptRuntime	org.mozilla.javascript.NativeGenerator	C
+org.mozilla.javascript.optimizer.OptRuntime	org.mozilla.javascript.NativeFunction	S,C
+org.mozilla.javascript.optimizer.OptRuntime	org.mozilla.javascript.ScriptRuntime	S,C
+org.mozilla.javascript.optimizer.OptRuntime	org.mozilla.javascript.ContextFactory	C
+org.mozilla.javascript.optimizer.OptRuntime	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.optimizer.OptRuntime$1	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.optimizer.OptRuntime$1	org.mozilla.javascript.ContextAction	C,S,P,O
+org.mozilla.javascript.optimizer.OptRuntime$1	org.mozilla.javascript.Scriptable	C
+org.mozilla.javascript.optimizer.OptRuntime$1	org.mozilla.javascript.Script	S,C
+org.mozilla.javascript.optimizer.OptRuntime$1	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.optimizer.OptRuntime$1	org.mozilla.javascript.ScriptableObject	C
+org.mozilla.javascript.optimizer.OptRuntime$GeneratorState	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.optimizer.OptTransformer	org.mozilla.javascript.Kit	C
+org.mozilla.javascript.optimizer.OptTransformer	org.mozilla.javascript.Node	S,C
+org.mozilla.javascript.optimizer.OptTransformer	org.mozilla.javascript.optimizer.OptFunctionNode	C
+org.mozilla.javascript.optimizer.OptTransformer	org.mozilla.javascript.NodeTransformer	C,S,O
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.Scriptable	C,S,O
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.EvaluatorException	C
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.Kit	C
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.ScriptableObject	C,S,O
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.IdFunctionObject	S,C
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.RegExpProxy	C
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.regexp.CompilerState	S,C
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.EcmaError	C
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.IdFunctionCall	C,S,O
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.BaseFunction	C
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.ConstProperties	S,C
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.TopLevel	C
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.Function	C,S,P,O
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.IdScriptableObject	C,S,O
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.TopLevel$Builtins	C
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.Callable	C,S,O
+org.mozilla.javascript.regexp.NativeRegExpCtor	org.mozilla.javascript.TopLevel	C
+org.mozilla.javascript.regexp.NativeRegExpCtor	org.mozilla.javascript.IdScriptableObject	C,S,O
+org.mozilla.javascript.regexp.NativeRegExpCtor	org.mozilla.javascript.IdFunctionCall	S,C
+org.mozilla.javascript.regexp.NativeRegExpCtor	org.mozilla.javascript.RegExpProxy	C
+org.mozilla.javascript.regexp.NativeRegExpCtor	org.mozilla.javascript.Callable	C,S,O
+org.mozilla.javascript.regexp.NativeRegExpCtor	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.regexp.NativeRegExpCtor	org.mozilla.javascript.TopLevel$Builtins	C
+org.mozilla.javascript.regexp.NativeRegExpCtor	org.mozilla.javascript.Function	C,S,O
+org.mozilla.javascript.regexp.NativeRegExpCtor	org.mozilla.javascript.ConstProperties	S,C
+org.mozilla.javascript.regexp.NativeRegExpCtor	org.mozilla.javascript.BaseFunction	C,S,O
+org.mozilla.javascript.regexp.NativeRegExpCtor	org.mozilla.javascript.ScriptableObject	S,C
+org.mozilla.javascript.regexp.NativeRegExpCtor	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.regexp.NativeRegExpCtor	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.regexp.RegExpImpl	org.mozilla.javascript.Kit	C
+org.mozilla.javascript.regexp.RegExpImpl	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.regexp.RegExpImpl	org.mozilla.javascript.ScriptableObject	C
+org.mozilla.javascript.regexp.RegExpImpl	org.mozilla.javascript.RegExpProxy	C,S,P,O
+org.mozilla.javascript.regexp.RegExpImpl	org.mozilla.javascript.Function	C
+org.mozilla.javascript.regexp.RegExpImpl	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.regexp.RegExpImpl	org.mozilla.javascript.regexp.GlobData	S,C
+org.mozilla.javascript.regexp.RegExpImpl	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.tools.ToolErrorReporter	org.mozilla.javascript.Context	C
+org.mozilla.javascript.tools.ToolErrorReporter	org.mozilla.javascript.EvaluatorException	S,C
+org.mozilla.javascript.tools.ToolErrorReporter	org.mozilla.javascript.EcmaError	C
+org.mozilla.javascript.tools.ToolErrorReporter	org.mozilla.javascript.ErrorReporter	C,S,P,O
+org.mozilla.javascript.tools.ToolErrorReporter	org.mozilla.javascript.SecurityUtilities	C
+org.mozilla.javascript.tools.ToolErrorReporter	org.mozilla.javascript.RhinoException	S,C
+org.mozilla.javascript.tools.ToolErrorReporter	org.mozilla.javascript.JavaScriptException	C
+org.mozilla.javascript.tools.ToolErrorReporter	org.mozilla.javascript.WrappedException	C
+org.mozilla.javascript.tools.debugger.Dim	org.mozilla.javascript.SecurityUtilities	C
+org.mozilla.javascript.tools.debugger.Dim	org.mozilla.javascript.ContextFactory	S,C
+org.mozilla.javascript.tools.debugger.Dim	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.tools.debugger.Dim	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.tools.debugger.Dim	org.mozilla.javascript.ContextFactory$Listener	C
+org.mozilla.javascript.tools.debugger.Dim	org.mozilla.javascript.Callable	C
+org.mozilla.javascript.tools.debugger.Dim	org.mozilla.javascript.Script	C
+org.mozilla.javascript.tools.debugger.Dim	org.mozilla.javascript.Kit	C
+org.mozilla.javascript.tools.debugger.Dim	org.mozilla.javascript.tools.debugger.ScopeProvider	S,C
+org.mozilla.javascript.tools.debugger.Dim	org.mozilla.javascript.ScriptableObject	C
+org.mozilla.javascript.tools.debugger.Dim	org.mozilla.javascript.Scriptable	C
+org.mozilla.javascript.tools.debugger.Dim$ContextData	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.tools.debugger.Dim$DimIProxy	org.mozilla.javascript.Scriptable	C
+org.mozilla.javascript.tools.debugger.Dim$DimIProxy	org.mozilla.javascript.Script	C
+org.mozilla.javascript.tools.debugger.Dim$DimIProxy	org.mozilla.javascript.NativeCall	C
+org.mozilla.javascript.tools.debugger.Dim$DimIProxy	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.tools.debugger.Dim$DimIProxy	org.mozilla.javascript.ContextAction	C,S,P,O
+org.mozilla.javascript.tools.debugger.Dim$DimIProxy	org.mozilla.javascript.tools.debugger.ScopeProvider	C
+org.mozilla.javascript.tools.debugger.Dim$DimIProxy	org.mozilla.javascript.ImporterTopLevel	C
+org.mozilla.javascript.tools.debugger.Dim$DimIProxy	org.mozilla.javascript.ContextFactory$Listener	C,S,P,O
+org.mozilla.javascript.tools.debugger.Dim$DimIProxy	org.mozilla.javascript.ContextFactory	C
+org.mozilla.javascript.tools.debugger.Dim$DimIProxy	org.mozilla.javascript.Kit	C
+org.mozilla.javascript.tools.debugger.Dim$StackFrame	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.tools.debugger.Dim$StackFrame	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.tools.debugger.MyTreeTable	org.mozilla.javascript.tools.debugger.treetable.JTreeTable$TreeTableCellRenderer	C
+org.mozilla.javascript.tools.debugger.MyTreeTable	org.mozilla.javascript.tools.debugger.treetable.JTreeTable$TreeTableCellEditor	C
+org.mozilla.javascript.tools.debugger.MyTreeTable	org.mozilla.javascript.tools.debugger.treetable.JTreeTable	S,C
+org.mozilla.javascript.tools.debugger.MyTreeTable	org.mozilla.javascript.tools.debugger.treetable.JTreeTable$ListToTreeSelectionModelWrapper	C
+org.mozilla.javascript.tools.idswitch.Main	org.mozilla.javascript.EvaluatorException	C
+org.mozilla.javascript.tools.idswitch.SwitchGenerator	org.mozilla.javascript.EvaluatorException	S,C
+org.mozilla.javascript.tools.jsc.Main	org.mozilla.javascript.CompilerEnvirons	S,C
+org.mozilla.javascript.tools.jsc.Main	org.mozilla.javascript.ErrorReporter	C
+org.mozilla.javascript.tools.jsc.Main	org.mozilla.javascript.tools.SourceReader	C
+org.mozilla.javascript.tools.shell.Environment	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.tools.shell.Environment	org.mozilla.javascript.ScriptableObject	C,S,O
+org.mozilla.javascript.tools.shell.Environment	org.mozilla.javascript.ConstProperties	S,C
+org.mozilla.javascript.tools.shell.Environment	org.mozilla.javascript.Scriptable	C,S,O
+org.mozilla.javascript.tools.shell.Runner	org.mozilla.javascript.ContextAction	C,S,P,O
+org.mozilla.javascript.tools.shell.Runner	org.mozilla.javascript.Function	S,C
+org.mozilla.javascript.tools.shell.Runner	org.mozilla.javascript.ContextFactory	S,C
+org.mozilla.javascript.tools.shell.Runner	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.tools.shell.Runner	org.mozilla.javascript.Script	S,C
+org.mozilla.javascript.tools.shell.Runner	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.tools.shell.ShellContextFactory	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.tools.shell.ShellContextFactory	org.mozilla.javascript.ContextFactory	C,S,O
+org.mozilla.javascript.tools.shell.ShellContextFactory	org.mozilla.javascript.ErrorReporter	S,C
+org.mozilla.javascript.xmlimpl.Namespace	org.mozilla.javascript.IdFunctionCall	C,S,O
+org.mozilla.javascript.xmlimpl.Namespace	org.mozilla.javascript.ConstProperties	S,C
+org.mozilla.javascript.xmlimpl.Namespace	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.xmlimpl.Namespace	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.xmlimpl.Namespace	org.mozilla.javascript.IdScriptableObject	C,S,O
+org.mozilla.javascript.xmlimpl.Namespace	org.mozilla.javascript.Scriptable	C,S,O
+org.mozilla.javascript.xmlimpl.Namespace	org.mozilla.javascript.IdFunctionObject	S,C
+org.mozilla.javascript.xmlimpl.Namespace	org.mozilla.javascript.EcmaError	C
+org.mozilla.javascript.xmlimpl.Namespace	org.mozilla.javascript.ScriptableObject	C,S,O
+org.mozilla.javascript.xmlimpl.QName	org.mozilla.javascript.ConstProperties	S,C
+org.mozilla.javascript.xmlimpl.QName	org.mozilla.javascript.IdFunctionCall	C,S,O
+org.mozilla.javascript.xmlimpl.QName	org.mozilla.javascript.IdScriptableObject	C,S,O
+org.mozilla.javascript.xmlimpl.QName	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.xmlimpl.QName	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.xmlimpl.QName	org.mozilla.javascript.IdFunctionObject	S,C
+org.mozilla.javascript.xmlimpl.QName	org.mozilla.javascript.Scriptable	C,S,O
+org.mozilla.javascript.xmlimpl.QName	org.mozilla.javascript.ScriptableObject	C,S,O
+org.mozilla.javascript.xmlimpl.QName	org.mozilla.javascript.EcmaError	C
+org.mozilla.javascript.xmlimpl.XML	org.mozilla.javascript.IdFunctionCall	S,C
+org.mozilla.javascript.xmlimpl.XML	org.mozilla.javascript.Scriptable	C,S,O
+org.mozilla.javascript.xmlimpl.XML	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.xmlimpl.XML	org.mozilla.javascript.EcmaError	C
+org.mozilla.javascript.xmlimpl.XML	org.mozilla.javascript.ConstProperties	S,C
+org.mozilla.javascript.xmlimpl.XML	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.xmlimpl.XML	org.mozilla.javascript.ScriptableObject	C,S,O
+org.mozilla.javascript.xmlimpl.XML	org.mozilla.javascript.IdScriptableObject	S,C
+org.mozilla.javascript.xmlimpl.XMLCtor	org.mozilla.javascript.IdFunctionCall	C,S,O
+org.mozilla.javascript.xmlimpl.XMLCtor	org.mozilla.javascript.Callable	S,C
+org.mozilla.javascript.xmlimpl.XMLCtor	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.xmlimpl.XMLCtor	org.mozilla.javascript.IdScriptableObject	C,S,O
+org.mozilla.javascript.xmlimpl.XMLCtor	org.mozilla.javascript.IdFunctionObject	S,C
+org.mozilla.javascript.xmlimpl.XMLCtor	org.mozilla.javascript.Scriptable	C,S,O
+org.mozilla.javascript.xmlimpl.XMLCtor	org.mozilla.javascript.BaseFunction	C,S,O
+org.mozilla.javascript.xmlimpl.XMLCtor	org.mozilla.javascript.ConstProperties	S,C
+org.mozilla.javascript.xmlimpl.XMLCtor	org.mozilla.javascript.Function	S,C
+org.mozilla.javascript.xmlimpl.XMLCtor	org.mozilla.javascript.ScriptableObject	C,S,O
+org.mozilla.javascript.xmlimpl.XMLCtor	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.xmlimpl.XMLLibImpl	org.mozilla.javascript.Node	C
+org.mozilla.javascript.xmlimpl.XMLLibImpl	org.mozilla.javascript.Kit	C
+org.mozilla.javascript.xmlimpl.XMLLibImpl	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.xmlimpl.XMLLibImpl	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.xmlimpl.XMLLibImpl	org.mozilla.javascript.Ref	S,C
+org.mozilla.javascript.xmlimpl.XMLLibImpl	org.mozilla.javascript.EcmaError	C
+org.mozilla.javascript.xmlimpl.XMLLibImpl	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.xmlimpl.XMLList	org.mozilla.javascript.EcmaError	C
+org.mozilla.javascript.xmlimpl.XMLList	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.xmlimpl.XMLList	org.mozilla.javascript.Function	C,S,P,O
+org.mozilla.javascript.xmlimpl.XMLList	org.mozilla.javascript.IdFunctionCall	S,C
+org.mozilla.javascript.xmlimpl.XMLList	org.mozilla.javascript.Scriptable	C,S,O
+org.mozilla.javascript.xmlimpl.XMLList	org.mozilla.javascript.IdScriptableObject	S,C
+org.mozilla.javascript.xmlimpl.XMLList	org.mozilla.javascript.Callable	C,S,O
+org.mozilla.javascript.xmlimpl.XMLList	org.mozilla.javascript.ConstProperties	S,C
+org.mozilla.javascript.xmlimpl.XMLList	org.mozilla.javascript.ScriptableObject	C,S,O
+org.mozilla.javascript.xmlimpl.XMLList	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.xmlimpl.XMLName	org.mozilla.javascript.Kit	C
+org.mozilla.javascript.xmlimpl.XMLName	org.mozilla.javascript.Ref	C,S,O
+org.mozilla.javascript.xmlimpl.XMLName	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.xmlimpl.XMLName	org.mozilla.javascript.EcmaError	C
+org.mozilla.javascript.xmlimpl.XMLName	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.xmlimpl.XMLObjectImpl	org.mozilla.javascript.Kit	C
+org.mozilla.javascript.xmlimpl.XMLObjectImpl	org.mozilla.javascript.Ref	S,C
+org.mozilla.javascript.xmlimpl.XMLObjectImpl	org.mozilla.javascript.ScriptableObject	C,S,O
+org.mozilla.javascript.xmlimpl.XMLObjectImpl	org.mozilla.javascript.Node	C
+org.mozilla.javascript.xmlimpl.XMLObjectImpl	org.mozilla.javascript.IdFunctionObject	S,C
+org.mozilla.javascript.xmlimpl.XMLObjectImpl	org.mozilla.javascript.Scriptable	C,S,O
+org.mozilla.javascript.xmlimpl.XMLObjectImpl	org.mozilla.javascript.EcmaError	C
+org.mozilla.javascript.xmlimpl.XMLObjectImpl	org.mozilla.javascript.NativeWith	S,C
+org.mozilla.javascript.xmlimpl.XMLObjectImpl	org.mozilla.javascript.IdFunctionCall	C,S,O
+org.mozilla.javascript.xmlimpl.XMLObjectImpl	org.mozilla.javascript.ConstProperties	S,C
+org.mozilla.javascript.xmlimpl.XMLObjectImpl	org.mozilla.javascript.IdScriptableObject	C,S,O
+org.mozilla.javascript.xmlimpl.XMLObjectImpl	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.xmlimpl.XMLObjectImpl	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.xmlimpl.XMLWithScope	org.mozilla.javascript.NativeWith	C,S,O
+org.mozilla.javascript.xmlimpl.XMLWithScope	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.xmlimpl.XMLWithScope	org.mozilla.javascript.IdFunctionCall	S,C
+org.mozilla.javascript.xmlimpl.XmlProcessor	org.mozilla.javascript.EcmaError	C
+org.mozilla.javascript.xmlimpl.XmlProcessor	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.xmlimpl.XmlProcessor$RhinoSAXErrorHandler	org.mozilla.javascript.Context	C
+org.mozilla.javascript.xmlimpl.XmlProcessor$RhinoSAXErrorHandler	org.mozilla.javascript.EcmaError	C
+org.mozilla.javascript.xmlimpl.XmlProcessor$RhinoSAXErrorHandler	org.mozilla.javascript.ScriptRuntime	C
+***org.mozilla.javascript:2->org.mozilla.javascript.debug:1
+org.mozilla.javascript.tools.debugger.Dim	org.mozilla.javascript.debug.Debugger	C
+org.mozilla.javascript.tools.debugger.Dim$DimIProxy	org.mozilla.javascript.debug.DebugFrame	S,C
+org.mozilla.javascript.tools.debugger.Dim$DimIProxy	org.mozilla.javascript.debug.Debugger	C,S,P,O
+org.mozilla.javascript.tools.debugger.Dim$StackFrame	org.mozilla.javascript.debug.DebugFrame	C,S,P,O
+***org.mozilla.javascript:2->org.mozilla.classfile:0
+org.mozilla.javascript.optimizer.BodyCodegen	org.mozilla.classfile.ByteCode	C
+org.mozilla.javascript.optimizer.Codegen	org.mozilla.classfile.ByteCode	C
+***org.mozilla.javascript:2->org.mozilla.javascript.debug:0
+org.mozilla.javascript.NativeJavaTopPackage	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.commonjs.module.Require	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.regexp.NativeRegExp	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.regexp.NativeRegExpCtor	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.tools.debugger.Dim	org.mozilla.javascript.debug.DebuggableObject	C
+org.mozilla.javascript.tools.debugger.Dim	org.mozilla.javascript.debug.DebuggableScript	S,C
+org.mozilla.javascript.tools.debugger.Dim$DimIProxy	org.mozilla.javascript.debug.DebuggableScript	S,C
+org.mozilla.javascript.tools.debugger.Dim$SourceInfo	org.mozilla.javascript.debug.DebuggableScript	S,C
+org.mozilla.javascript.tools.shell.Environment	org.mozilla.javascript.debug.DebuggableObject	C,S,O
+org.mozilla.javascript.xmlimpl.Namespace	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.xmlimpl.QName	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.xmlimpl.XML	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.xmlimpl.XMLCtor	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.xmlimpl.XMLList	org.mozilla.javascript.debug.DebuggableObject	S,C
+org.mozilla.javascript.xmlimpl.XMLObjectImpl	org.mozilla.javascript.debug.DebuggableObject	S,C
+------------
+***org.mozilla.javascript:3->org.mozilla.javascript:1
+org.mozilla.javascript.Synchronizer	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.Synchronizer	org.mozilla.javascript.Callable	C,S,O
+org.mozilla.javascript.Synchronizer	org.mozilla.javascript.Function	C,S,O
+org.mozilla.javascript.Synchronizer	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.commonjs.module.provider.SoftCachingModuleScriptProvider	org.mozilla.javascript.Script	C
+org.mozilla.javascript.commonjs.module.provider.SoftCachingModuleScriptProvider	org.mozilla.javascript.commonjs.module.ModuleScript	S,C
+org.mozilla.javascript.commonjs.module.provider.SoftCachingModuleScriptProvider	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.commonjs.module.provider.SoftCachingModuleScriptProvider	org.mozilla.javascript.commonjs.module.provider.ModuleSourceProvider	S,C
+org.mozilla.javascript.commonjs.module.provider.SoftCachingModuleScriptProvider	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.commonjs.module.provider.SoftCachingModuleScriptProvider	org.mozilla.javascript.commonjs.module.ModuleScriptProvider	C,S,O
+org.mozilla.javascript.commonjs.module.provider.SoftCachingModuleScriptProvider$ScriptReference	org.mozilla.javascript.Script	S,C
+org.mozilla.javascript.commonjs.module.provider.SoftCachingModuleScriptProvider$ScriptReference	org.mozilla.javascript.commonjs.module.ModuleScript	C
+org.mozilla.javascript.commonjs.module.provider.StrongCachingModuleScriptProvider	org.mozilla.javascript.commonjs.module.ModuleScriptProvider	S,C
+org.mozilla.javascript.commonjs.module.provider.StrongCachingModuleScriptProvider	org.mozilla.javascript.commonjs.module.ModuleScript	S,C
+org.mozilla.javascript.commonjs.module.provider.StrongCachingModuleScriptProvider	org.mozilla.javascript.commonjs.module.provider.ModuleSourceProvider	S,C
+org.mozilla.javascript.commonjs.module.provider.UrlModuleSourceProvider	org.mozilla.javascript.commonjs.module.provider.DefaultUrlConnectionExpiryCalculator	C
+org.mozilla.javascript.commonjs.module.provider.UrlModuleSourceProvider	org.mozilla.javascript.commonjs.module.provider.ModuleSourceProvider	S,C
+org.mozilla.javascript.jdk15.VMBridge_jdk15	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.jdk15.VMBridge_jdk15	org.mozilla.javascript.VMBridge	C,S,O
+org.mozilla.javascript.jdk15.VMBridge_jdk15	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.tools.debugger.Main	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.tools.debugger.Main	org.mozilla.javascript.tools.debugger.ScopeProvider	S,C
+org.mozilla.javascript.tools.debugger.Main	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.tools.debugger.Main	org.mozilla.javascript.ContextFactory	S,C
+org.mozilla.javascript.tools.debugger.Main$IProxy	org.mozilla.javascript.Kit	C
+org.mozilla.javascript.tools.debugger.Main$IProxy	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.tools.debugger.Main$IProxy	org.mozilla.javascript.tools.debugger.ScopeProvider	C,S,P,O
+org.mozilla.javascript.tools.debugger.SwingGui	org.mozilla.javascript.SecurityUtilities	C
+org.mozilla.javascript.tools.debugger.SwingGui	org.mozilla.javascript.Kit	C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.serialize.ScriptableInputStream	C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.ScriptRuntime	C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.ScriptableObject	S,C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.RhinoException	C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.tools.shell.QuitAction	S,C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.TopLevel	S,C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.tools.shell.ShellLine	C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.Function	S,C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.ContextAction	C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.ConstProperties	S,C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.EvaluatorException	C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.ImporterTopLevel	S,C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.commonjs.module.ModuleScriptProvider	C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.IdFunctionCall	S,C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.serialize.ScriptableOutputStream	C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.IdScriptableObject	S,C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.commonjs.module.provider.ModuleSourceProvider	C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.NativeArray	S,C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.ErrorReporter	C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.ContextFactory	S,C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.Script	C
+org.mozilla.javascript.tools.shell.Global$1	org.mozilla.javascript.ContextAction	C,S,P,O
+org.mozilla.javascript.tools.shell.Global$1	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.tools.shell.JSConsole	org.mozilla.javascript.SecurityUtilities	C
+org.mozilla.javascript.tools.shell.JavaPolicySecurity	org.mozilla.javascript.Callable	S,C
+org.mozilla.javascript.tools.shell.JavaPolicySecurity	org.mozilla.javascript.SecurityController	C,S,O
+org.mozilla.javascript.tools.shell.JavaPolicySecurity	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.tools.shell.JavaPolicySecurity	org.mozilla.javascript.tools.shell.SecurityProxy	C,S,O
+org.mozilla.javascript.tools.shell.JavaPolicySecurity	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.tools.shell.JavaPolicySecurity$1	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.tools.shell.JavaPolicySecurity$1	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.tools.shell.JavaPolicySecurity$3	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.tools.shell.JavaPolicySecurity$3	org.mozilla.javascript.Callable	S,C
+org.mozilla.javascript.tools.shell.JavaPolicySecurity$3	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.tools.shell.Main	org.mozilla.javascript.Scriptable	S,C
+org.mozilla.javascript.tools.shell.Main	org.mozilla.javascript.NativeArray	C
+org.mozilla.javascript.tools.shell.Main	org.mozilla.javascript.ErrorReporter	C
+org.mozilla.javascript.tools.shell.Main	org.mozilla.javascript.RhinoException	C
+org.mozilla.javascript.tools.shell.Main	org.mozilla.javascript.ContextAction	C
+org.mozilla.javascript.tools.shell.Main	org.mozilla.javascript.tools.SourceReader	C
+org.mozilla.javascript.tools.shell.Main	org.mozilla.javascript.ContextFactory	C
+org.mozilla.javascript.tools.shell.Main	org.mozilla.javascript.Script	S,C
+org.mozilla.javascript.tools.shell.Main	org.mozilla.javascript.tools.shell.SecurityProxy	S,C
+org.mozilla.javascript.tools.shell.Main	org.mozilla.javascript.tools.shell.QuitAction	C
+org.mozilla.javascript.tools.shell.Main	org.mozilla.javascript.ScriptableObject	C
+org.mozilla.javascript.tools.shell.Main	org.mozilla.javascript.EvaluatorException	C
+org.mozilla.javascript.tools.shell.Main	org.mozilla.javascript.SecurityController	C
+org.mozilla.javascript.tools.shell.Main	org.mozilla.javascript.Function	C
+org.mozilla.javascript.tools.shell.Main	org.mozilla.javascript.Kit	C
+org.mozilla.javascript.tools.shell.Main	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.tools.shell.Main$IProxy	org.mozilla.javascript.Context	S,C
+org.mozilla.javascript.tools.shell.Main$IProxy	org.mozilla.javascript.ContextAction	C,S,P,O
+org.mozilla.javascript.tools.shell.Main$IProxy	org.mozilla.javascript.Scriptable	C
+org.mozilla.javascript.tools.shell.Main$IProxy	org.mozilla.javascript.Kit	C
+org.mozilla.javascript.tools.shell.Main$IProxy	org.mozilla.javascript.tools.shell.QuitAction	C,S,P,O
+org.mozilla.javascript.tools.shell.Main$IProxy	org.mozilla.javascript.Script	C
+org.mozilla.javascript.tools.shell.Main$ScriptCache	org.mozilla.javascript.Script	S,C
+org.mozilla.javascript.tools.shell.Main$ScriptReference	org.mozilla.javascript.Script	S,C
+org.mozilla.javascript.tools.shell.PipeThread	org.mozilla.javascript.Context	C
+***org.mozilla.javascript:3->org.mozilla.javascript:0
+org.mozilla.javascript.Synchronizer	org.mozilla.javascript.Wrapper	C
+org.mozilla.javascript.commonjs.module.provider.UrlModuleSourceProvider	org.mozilla.javascript.commonjs.module.provider.UrlConnectionSecurityDomainProvider	S,C
+org.mozilla.javascript.commonjs.module.provider.UrlModuleSourceProvider	org.mozilla.javascript.commonjs.module.provider.ParsedContentType	C
+org.mozilla.javascript.commonjs.module.provider.UrlModuleSourceProvider	org.mozilla.javascript.commonjs.module.provider.UrlConnectionExpiryCalculator	S,C
+org.mozilla.javascript.commonjs.module.provider.UrlModuleSourceProvider	org.mozilla.javascript.commonjs.module.provider.ModuleSource	S,C
+org.mozilla.javascript.commonjs.module.provider.UrlModuleSourceProvider$URLValidator	org.mozilla.javascript.commonjs.module.provider.UrlConnectionExpiryCalculator	S,C
+org.mozilla.javascript.jdk15.VMBridge_jdk15	org.mozilla.javascript.Wrapper	C
+org.mozilla.javascript.tools.debugger.ContextWindow	org.mozilla.javascript.tools.debugger.treetable.TreeTableModel	C
+org.mozilla.javascript.tools.debugger.Main	org.mozilla.javascript.tools.debugger.SourceProvider	S,C
+org.mozilla.javascript.tools.debugger.Main	org.mozilla.javascript.tools.debugger.JSInternalConsole	C
+org.mozilla.javascript.tools.debugger.RunProxy	org.mozilla.javascript.tools.debugger.MessageDialogWrapper	C
+org.mozilla.javascript.tools.debugger.SwingGui	org.mozilla.javascript.tools.debugger.MessageDialogWrapper	C
+org.mozilla.javascript.tools.debugger.SwingGui	org.mozilla.javascript.tools.shell.ConsoleTextArea	C
+org.mozilla.javascript.tools.debugger.SwingGui	org.mozilla.javascript.tools.debugger.JSInternalConsole	S,C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.Undefined	C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.Wrapper	C
+org.mozilla.javascript.tools.shell.JSConsole	org.mozilla.javascript.tools.shell.ConsoleTextArea	S,C
+org.mozilla.javascript.tools.shell.JavaPolicySecurity	org.mozilla.javascript.GeneratedClassLoader	S,C
+org.mozilla.javascript.tools.shell.JavaPolicySecurity$Loader	org.mozilla.javascript.GeneratedClassLoader	C,S,P,O
+org.mozilla.javascript.tools.shell.Main	org.mozilla.javascript.GeneratedClassLoader	C
+***org.mozilla.javascript:3->org.mozilla.javascript:2
+org.mozilla.javascript.Synchronizer	org.mozilla.javascript.Delegator	C,S,O
+org.mozilla.javascript.commonjs.module.provider.SoftCachingModuleScriptProvider	org.mozilla.javascript.commonjs.module.provider.CachingModuleScriptProviderBase	C,S,O
+org.mozilla.javascript.commonjs.module.provider.SoftCachingModuleScriptProvider	org.mozilla.javascript.commonjs.module.provider.CachingModuleScriptProviderBase$CachedModuleScript	S,C
+org.mozilla.javascript.commonjs.module.provider.SoftCachingModuleScriptProvider$ScriptReference	org.mozilla.javascript.commonjs.module.provider.CachingModuleScriptProviderBase$CachedModuleScript	S,C
+org.mozilla.javascript.commonjs.module.provider.SoftCachingModuleScriptProvider$ScriptReference	org.mozilla.javascript.commonjs.module.provider.CachingModuleScriptProviderBase	C
+org.mozilla.javascript.commonjs.module.provider.StrongCachingModuleScriptProvider	org.mozilla.javascript.commonjs.module.provider.CachingModuleScriptProviderBase	C,S,O
+org.mozilla.javascript.commonjs.module.provider.StrongCachingModuleScriptProvider	org.mozilla.javascript.commonjs.module.provider.CachingModuleScriptProviderBase$CachedModuleScript	S,C
+org.mozilla.javascript.commonjs.module.provider.UrlModuleSourceProvider	org.mozilla.javascript.commonjs.module.provider.ModuleSourceProviderBase	C,S,O
+org.mozilla.javascript.jdk15.VMBridge_jdk15	org.mozilla.javascript.jdk13.VMBridge_jdk13	C,S,O
+org.mozilla.javascript.tools.debugger.ContextWindow	org.mozilla.javascript.tools.debugger.Dim$ContextData	C
+org.mozilla.javascript.tools.debugger.ContextWindow	org.mozilla.javascript.tools.debugger.VariableModel	C
+org.mozilla.javascript.tools.debugger.ContextWindow	org.mozilla.javascript.tools.debugger.Dim	C
+org.mozilla.javascript.tools.debugger.ContextWindow	org.mozilla.javascript.tools.debugger.MyTreeTable	S,C
+org.mozilla.javascript.tools.debugger.ContextWindow	org.mozilla.javascript.tools.debugger.Dim$StackFrame	C
+org.mozilla.javascript.tools.debugger.EvalTextArea	org.mozilla.javascript.tools.debugger.Dim	C
+org.mozilla.javascript.tools.debugger.FileWindow	org.mozilla.javascript.tools.debugger.Dim$SourceInfo	S,C
+org.mozilla.javascript.tools.debugger.FileWindow	org.mozilla.javascript.tools.debugger.Dim	C
+org.mozilla.javascript.tools.debugger.FindFunction	org.mozilla.javascript.tools.debugger.Dim$FunctionSource	C
+org.mozilla.javascript.tools.debugger.FindFunction	org.mozilla.javascript.tools.debugger.Dim	C
+org.mozilla.javascript.tools.debugger.FindFunction	org.mozilla.javascript.tools.debugger.Dim$SourceInfo	C
+org.mozilla.javascript.tools.debugger.Main	org.mozilla.javascript.tools.debugger.Dim	S,C
+org.mozilla.javascript.tools.debugger.Main	org.mozilla.javascript.tools.shell.ShellContextFactory	C
+org.mozilla.javascript.tools.debugger.Menubar	org.mozilla.javascript.tools.debugger.Dim	C
+org.mozilla.javascript.tools.debugger.MyTableModel	org.mozilla.javascript.tools.debugger.Dim	C
+org.mozilla.javascript.tools.debugger.RunProxy	org.mozilla.javascript.tools.debugger.Dim	C
+org.mozilla.javascript.tools.debugger.RunProxy	org.mozilla.javascript.tools.debugger.Dim$StackFrame	S,C
+org.mozilla.javascript.tools.debugger.RunProxy	org.mozilla.javascript.tools.debugger.Dim$SourceInfo	S,C
+org.mozilla.javascript.tools.debugger.SwingGui	org.mozilla.javascript.tools.debugger.Dim$StackFrame	S,C
+org.mozilla.javascript.tools.debugger.SwingGui	org.mozilla.javascript.tools.debugger.Dim$ContextData	C
+org.mozilla.javascript.tools.debugger.SwingGui	org.mozilla.javascript.tools.debugger.Dim	S,C
+org.mozilla.javascript.tools.debugger.SwingGui	org.mozilla.javascript.tools.debugger.GuiCallback	C,S,P,O
+org.mozilla.javascript.tools.debugger.SwingGui	org.mozilla.javascript.tools.debugger.Dim$SourceInfo	S,C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.tools.shell.Environment	C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.tools.shell.Runner	C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.tools.ToolErrorReporter	C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.commonjs.module.Require	S,C
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.commonjs.module.RequireBuilder	C
+org.mozilla.javascript.tools.shell.Main	org.mozilla.javascript.tools.ToolErrorReporter	S,C
+org.mozilla.javascript.tools.shell.Main	org.mozilla.javascript.commonjs.module.Require	S,C
+org.mozilla.javascript.tools.shell.Main	org.mozilla.javascript.tools.shell.ShellContextFactory	S,C
+org.mozilla.javascript.tools.shell.Main$IProxy	org.mozilla.javascript.commonjs.module.Require	C
+***org.mozilla.javascript:3->org.mozilla.javascript.debug:0
+org.mozilla.javascript.tools.shell.Global	org.mozilla.javascript.debug.DebuggableObject	S,C
